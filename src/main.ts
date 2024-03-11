@@ -9,11 +9,13 @@ const iconUrl = (iconName: string) => {
 const initMap = () => {
   const mapSizePixels = 5248;
   const tileSize = 656;
+  const minZoom = 0;
+  const maxZoom = 3;
 
   const map = new Map('map', {
     crs: CRS.Simple,
-    minZoom: 0,
-    maxZoom: 3,
+    minZoom,
+    maxZoom,
   }).setView([-1/2*tileSize, 3/4*tileSize], 1); // Set initial view
 
   const bounds = new LatLngBounds(
@@ -25,8 +27,8 @@ const initMap = () => {
   new TileLayer('tiles/{z}/{x}_{y}.png', {
     attribution: 'WalkScape Interactive Map',
     tileSize,
-    minZoom: 0,
-    maxZoom: 3,
+    minZoom,
+    maxZoom,
     noWrap: true,
   }).addTo(map);
   
