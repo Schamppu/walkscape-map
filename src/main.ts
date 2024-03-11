@@ -1,9 +1,8 @@
 import 'leaflet/dist/leaflet.css';
-import L from 'leaflet';
-import { LatLngBounds } from 'leaflet';
+import { Map, LatLngBounds, CRS, TileLayer } from 'leaflet';
 import './style.css'
 
-function iconUrl(iconName: string) {
+const iconUrl = (iconName: string) => {
   return `/icons/${iconName}.png`;
 }
 
@@ -11,8 +10,8 @@ const initMap = () => {
   const mapSizePixels = 5248;
   const tileSize = 656;
 
-  const map = L.map('map', {
-    crs: L.CRS.Simple,
+  const map = new Map('map', {
+    crs: CRS.Simple,
     minZoom: 0,
     maxZoom: 3,
   }).setView([-1/2*tileSize, 3/4*tileSize], 1); // Set initial view
@@ -23,7 +22,7 @@ const initMap = () => {
   );
   map.setMaxBounds(bounds)
 
-  L.tileLayer('tiles/{z}/{x}_{y}.png', {
+  new TileLayer('tiles/{z}/{x}_{y}.png', {
     attribution: 'WalkScape Interactive Map',
     tileSize,
     minZoom: 0,
@@ -42,4 +41,6 @@ const initMap = () => {
   })
 };
 
-document.addEventListener('DOMContentLoaded', initMap);
+window.onload = async () => {
+  initMap()
+};
