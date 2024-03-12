@@ -26,7 +26,7 @@ window.onload = async () => {
     }
   }
 
-  const locations = fetch("markers/locations.json")
+  const locations = fetch("data/locations.json")
     .then((r) => r.json())
     .then(addJson);
   await Promise.allSettled([locations]);
