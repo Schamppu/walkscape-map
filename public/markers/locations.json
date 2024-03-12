@@ -74,6 +74,7 @@
     "name": "Locations",
     "layers": [
       {
+        "name": "Jarvonia",
         "minZoom": 1,
         "maxZoom": 3,
         "markers": [
@@ -178,6 +179,79 @@
             "id": "Noiseless Pass",
             "name": "Noiseless Pass",
             "icon": { "url": "plains_white.png" }
+          }
+        ]
+      },
+      {
+        "name": "Gdte",
+        "minZoom": 1,
+        "maxZoom": 3,
+        "markers": [
+          {
+            "coords": [-197, 913],
+            "id": "Mangrove_forest",
+            "name": "Mangrove Forest",
+            "icon": { "url": "forest_green.png" }
+          },
+          {
+            "coords": [-190, 970],
+            "id": "Salsfirth",
+            "name": "Salsfirth",
+            "icon": { "url": "city_green.png" }
+          },
+          {
+            "coords": [-377, 989],
+            "id": "Granfiddich",
+            "name": "Granfiddich",
+            "icon": { "url": "city_green.png" }
+          },
+          {
+            "coords": [-470, 1092],
+            "id": "Warrenfield",
+            "name": "Warrenfield",
+            "icon": { "url": "plains_green.png" }
+          },
+          {
+            "coords": [-456, 1175],
+            "id": "Old_arena_ruins",
+            "name": "Old Arena Ruins",
+            "icon": { "url": "arena_green.png" }
+          },
+          {
+            "coords": [-460, 1245],
+            "id": "Red_coast",
+            "name": "Red Coast",
+            "icon": { "url": "coast_green.png" }
+          },
+          {
+            "coords": [-395, 1230],
+            "id": "Blackspell_port",
+            "name": "Blackspell Port",
+            "icon": { "url": "port_green.png" }
+          },
+          {
+            "coords": [-215, 1274],
+            "id": "Bilgemont_port",
+            "name": "Bilgemont Port",
+            "icon": { "url": "port_green.png" }
+          },
+          {
+            "coords": [-149, 1145],
+            "id": "Everhaven",
+            "name": "Everhaven",
+            "icon": { "url": "castle_green.png" }
+          },
+          {
+            "coords": [-102, 948],
+            "id": "Farsand_coast",
+            "name": "Farsand Coast",
+            "icon": { "url": "coast_green.png" }
+          },
+          {
+            "coords": [-323, 1121],
+            "id": "Unknown",
+            "name": "Unknown",
+            "icon": { "url": "unknown_1.png" }
           }
         ]
       }
