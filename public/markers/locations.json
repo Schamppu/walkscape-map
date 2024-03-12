@@ -25,7 +25,7 @@
             "icon": { "url": "Wallisia.png", "width": 48, "height": 48 }
           },
           {
-            "coords": [-1153, 1188],
+            "coords": [-1135, 1220],
             "id": "Galeforge",
             "name": "Galeforge",
             "icon": { "url": "Galeforge.png", "width": 48, "height": 48 }
@@ -62,9 +62,9 @@
           },
           {
             "coords": [-823, 2203],
-            "id": "Big_raddak",
-            "name": "Big Raddak",
-            "icon": { "url": "Big_raddak.png", "width": 48, "height": 48 }
+            "id": "Rid_raddak",
+            "name": "Rid Raddak",
+            "icon": { "url": "Rid_raddak.png", "width": 48, "height": 48 }
           }
         ]
       }
