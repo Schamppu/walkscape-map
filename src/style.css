@@ -32,3 +32,26 @@ h1 {
   margin: 0 auto;
   text-align: center;
 }
+
+.marker-div-icon {
+
+}
+
+.marker-div-image {
+
+}
+
+.marker-div-span {
+  color: #111;
+  padding: 3px;
+  background: #fffef0;
+  box-shadow: 1px 2px 10px black, 0 0 60px #f0d29c inset;
+  white-space: nowrap;
+}
+
+#map .leaflet-div-icon {
+  width:0;
+  height:0;
+  border: 0;
+  padding: 0;
+}

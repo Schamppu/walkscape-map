@@ -1,5 +1,5 @@
 import * as Schema from "./JSONSchema";
-import { Marker, LatLngExpression, Icon } from "leaflet";
+import { Marker, LatLngExpression, DivIcon, Point } from "leaflet";
 import { Layer } from "./Layer";
 
 export class WSMarker extends Marker {
@@ -12,11 +12,18 @@ export class WSMarker extends Marker {
     coords: LatLngExpression,
     layer: Layer
   ) {
+    const name = json.name ?? layer.name;
     let icon;
     if (json.icon) {
-      icon = new Icon({
-        iconUrl: `icons/${json.icon.url}`,
-        iconSize: [json.icon.width ?? 32, json.icon.height ?? 32],
+      icon = new DivIcon({
+        className: "marker-div-icon",
+        iconSize: undefined,
+        iconAnchor: new Point(0, 24),
+        html:
+          `<img class="marker-div-image" src="icons/${json.icon.url}" width="${
+            json.icon.width ?? 32
+          }" height="${json.icon.height ?? 32}">` +
+          `<span class="marker-div-span">${name}</span>`,
       });
     } else {
       icon = layer.icon;
@@ -28,8 +35,8 @@ export class WSMarker extends Marker {
     });
 
     this.id = json.id;
-    this.name = json.name ?? layer.name;
     this.layer = layer;
+    this.name = name;
   }
 
   public show(): void {
