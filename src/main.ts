@@ -4,9 +4,11 @@ import { WSMap } from "./WSMap";
 import { Layer } from "./Layer";
 import * as Schema from "./JSONSchema";
 
+/*
 const iconUrl = (iconName: string) => {
   return `/icons/${iconName}.png`;
 };
+*/
 
 window.onload = async () => {
   const map = WSMap.create({
