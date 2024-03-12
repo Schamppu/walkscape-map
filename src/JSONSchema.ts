@@ -25,6 +25,7 @@ export interface Marker {
 
 export interface Activity {
   name: string;
+  id: string;
   skills: string[];
   requirements?: { [key: string]: number };
   icon?: { url: string; width: number; height: number };
@@ -32,10 +33,12 @@ export interface Activity {
 
 export interface Service {
   name: string;
+  id: string;
   icon?: { url: string; width: number; height: number };
 }
 
 export interface Building {
   name: string;
+  id: string;
   icon?: { url: string; width: number; height: number };
 }
