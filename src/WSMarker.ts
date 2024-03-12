@@ -1,13 +1,11 @@
 import * as Schema from "./JSONSchema";
-import { Marker, LatLngExpression, DivIcon, Point } from "leaflet";
+import { Marker, LatLngExpression, DivIcon, LatLngBounds } from "leaflet";
 import { Layer } from "./Layer";
-import { MarkerContainer } from "./MarkerContainer";
 
 export class WSMarker extends Marker {
   public id: string;
   public name: string;
   public layer: Layer;
-  public tileContainers = <MarkerContainer[]>[];
 
   private constructor(
     json: Schema.Marker,
@@ -40,10 +38,6 @@ export class WSMarker extends Marker {
     this.name = name;
   }
 
-  public addToTileContainer(container: MarkerContainer): void {
-    this.tileContainers.push(container);
-  }
-
   public show(): void {
     if (this.layer) {
       this.addTo(this.layer);
@@ -54,6 +48,15 @@ export class WSMarker extends Marker {
     if (this.layer) {
       this.layer.removeLayer(this);
     }
+  }
+
+  public isInBounds(bounds: LatLngBounds): boolean {
+    return bounds.contains(this.getLatLng());
+  }
+
+  public updateVisibility(bounds: LatLngBounds): void {
+    if (this.isInBounds(bounds)) this.show();
+    else this.hide();
   }
 
   public static fromJson(json: Schema.Marker, layer: Layer): WSMarker {

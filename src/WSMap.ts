@@ -51,7 +51,15 @@ export class WSMap extends Map {
     });
 
     map.on("zoomend", function () {
-      map.layers.forEach((l) => l.updateZoom(map.getZoom()));
+      map.layers.forEach((l) => {
+        l.updateZoom(map.getZoom());
+      });
+    });
+
+    map.on("move", () => {
+      map.layers.forEach((l) => {
+        l.updateMarkersVisibility();
+      });
     });
 
     return map;

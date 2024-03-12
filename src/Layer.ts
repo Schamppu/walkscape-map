@@ -1,5 +1,5 @@
 import * as Schema from "./JSONSchema";
-import { LayerGroup, Icon, Marker } from "leaflet";
+import { LayerGroup, Icon, LatLngBounds } from "leaflet";
 import { WSMarker } from "./WSMarker";
 
 export enum Visibility {
@@ -47,6 +47,10 @@ export class Layer extends LayerGroup {
 
   public forceHide(): void {
     this.setVisibility(Visibility.Off);
+  }
+
+  public updateMarkerVisibility(bounds: LatLngBounds): void {
+    this.markers.forEach((m) => m.updateVisibility(bounds));
   }
 
   private setVisibility(visibility: Visibility): void {
