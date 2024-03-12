@@ -16,7 +16,7 @@ export class WSMarker extends Marker {
     if (json.icon) {
       icon = new Icon({
         iconUrl: `icons/${json.icon.url}`,
-        iconSize: [json.icon.width, json.icon.height],
+        iconSize: [json.icon.width ?? 32, json.icon.height ?? 32],
       });
     } else {
       icon = layer.icon;

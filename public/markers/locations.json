@@ -10,61 +10,61 @@
             "coords": [-380, 546],
             "id": "Jarvonia",
             "name": "Jarvonia",
-            "icon": { "url": "Jarvonia.png", "width": 32, "height": 32 }
+            "icon": { "url": "Jarvonia.png", "width": 48, "height": 48 }
           },
           {
             "coords": [-316, 1083],
             "id": "Gdte",
             "name": "Gdte",
-            "icon": { "url": "Gdte.png", "width": 32, "height": 32 }
+            "icon": { "url": "Gdte.png", "width": 48, "height": 48 }
           },
           {
             "coords": [-820, 953],
             "id": "Wallisia",
             "name": "Wallisia",
-            "icon": { "url": "Wallisia.png", "width": 32, "height": 32 }
+            "icon": { "url": "Wallisia.png", "width": 48, "height": 48 }
           },
           {
             "coords": [-1153, 1188],
             "id": "Galeforge",
             "name": "Galeforge",
-            "icon": { "url": "Galeforge.png", "width": 32, "height": 32 }
+            "icon": { "url": "Galeforge.png", "width": 48, "height": 48 }
           },
           {
             "coords": [-1060, 576],
             "id": "Wrentmark",
             "name": "Wrentmark",
-            "icon": { "url": "Wrentmark.png", "width": 32, "height": 32 }
+            "icon": { "url": "Wrentmark.png", "width": 48, "height": 48 }
           },
           {
             "coords": [-854, 1442],
             "id": "Ethereal",
             "name": "Ethereal",
-            "icon": { "url": "Ethereal.png", "width": 32, "height": 32 }
+            "icon": { "url": "Ethereal.png", "width": 48, "height": 48 }
           },
           {
             "coords": [-900, 1783],
             "id": "Braemercia",
             "name": "Braemercia",
-            "icon": { "url": "Braemercia.png", "width": 32, "height": 32 }
+            "icon": { "url": "Braemercia.png", "width": 48, "height": 48 }
           },
           {
             "coords": [-464, 1615],
             "id": "Ewerethien",
             "name": "Ewerethien",
-            "icon": { "url": "Ewerethien.png", "width": 32, "height": 32 }
+            "icon": { "url": "Ewerethien.png", "width": 48, "height": 48 }
           },
           {
             "coords": [-302, 2061],
             "id": "Painful_islands",
             "name": "Painful Islands",
-            "icon": { "url": "Painful_islands.png", "width": 32, "height": 32 }
+            "icon": { "url": "Painful_islands.png", "width": 48, "height": 48 }
           },
           {
             "coords": [-823, 2203],
             "id": "Big_raddak",
             "name": "Big Raddak",
-            "icon": { "url": "Big_raddak.png", "width": 32, "height": 32 }
+            "icon": { "url": "Big_raddak.png", "width": 48, "height": 48 }
           }
         ]
       }
