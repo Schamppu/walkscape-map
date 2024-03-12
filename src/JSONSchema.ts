@@ -18,4 +18,24 @@ export interface Marker {
   id: string;
   name: string;
   icon?: { url: string; width: number; height: number };
+  activities?: string[];
+  buildings?: string[];
+  services?: string[];
+}
+
+export interface Activity {
+  name: string;
+  skills: string[];
+  requirements?: { [key: string]: number };
+  icon?: { url: string; width: number; height: number };
+}
+
+export interface Service {
+  name: string;
+  icon?: { url: string; width: number; height: number };
+}
+
+export interface Building {
+  name: string;
+  icon?: { url: string; width: number; height: number };
 }
