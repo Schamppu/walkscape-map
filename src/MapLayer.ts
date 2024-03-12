@@ -46,7 +46,6 @@ export class MapLayer extends LayerGroup {
 
   public addCategory(categoryName: string, layers: Layer[]): void {
     this.categories[categoryName] = layers;
-    console.log(layers);
     layers.forEach((l) => {
       l.forceShow();
       this.updateLayerVisibility(l);
@@ -68,7 +67,6 @@ export class MapLayer extends LayerGroup {
         this.currentZoom <= layer.maxZoom)
     ) {
       this.markerLayer.addLayer(layer);
-      console.log("add markerLayer");
     } else {
       this.markerLayer.removeLayer(layer);
     }
