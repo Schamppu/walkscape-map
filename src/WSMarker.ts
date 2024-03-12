@@ -20,7 +20,6 @@ export class WSMarker extends Marker {
       icon = new DivIcon({
         className: "marker-div-icon",
         iconSize: undefined,
-        iconAnchor: new Point(0, 24),
         html:
           `<img class="marker-div-image" src="icons/${json.icon.url}" width="${
             json.icon.width ?? 32

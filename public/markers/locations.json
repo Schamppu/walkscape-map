@@ -7,7 +7,7 @@
         "maxZoom": 1,
         "markers": [
           {
-            "coords": [-380, 546],
+            "coords": [-330, 535],
             "id": "Jarvonia",
             "name": "Jarvonia",
             "icon": { "url": "Jarvonia.png", "width": 48, "height": 48 }
@@ -65,6 +65,119 @@
             "id": "Rid_raddak",
             "name": "Rid Raddak",
             "icon": { "url": "Rid_raddak.png", "width": 48, "height": 48 }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Locations",
+    "layers": [
+      {
+        "minZoom": 1,
+        "maxZoom": 3,
+        "markers": [
+          {
+            "coords": [-202, 442],
+            "id": "Kallaheim",
+            "name": "Kallaheim",
+            "icon": { "url": "Castle_white.png" }
+          },
+          {
+            "coords": [-180, 400],
+            "id": "Disenchanted_forest",
+            "name": "Disenchanted Forest",
+            "icon": { "url": "Plains_white.png" }
+          },
+          {
+            "coords": [-205, 355],
+            "id": "Beach_of_woes",
+            "name": "Beach of Woes",
+            "icon": { "url": "Plains_white.png" }
+          },
+          {
+            "coords": [-98, 495],
+            "id": "Frostbite_mountain",
+            "name": "Frostbite Mountain",
+            "icon": { "url": "Plains_white.png" }
+          },
+          {
+            "coords": [-121, 555],
+            "id": "Norsack_plains",
+            "name": "Norsack Plains",
+            "icon": { "url": "Plains_white.png" }
+          },
+          {
+            "coords": [-63, 565],
+            "id": "Winter_waves_glacier",
+            "name": "Winter Waves Glacier",
+            "icon": { "url": "Plains_white.png" }
+          },
+          {
+            "coords": [-230, 607],
+            "id": "Frusenholm",
+            "name": "Frusenholm",
+            "icon": { "url": "Castle_white.png" }
+          },
+          {
+            "coords": [-347, 598],
+            "id": "Centaham",
+            "name": "Centaham",
+            "icon": { "url": "Castle_white.png" }
+          },
+          {
+            "coords": [-382, 540],
+            "id": "Casbrant_fields",
+            "name": "Casbrant Fields",
+            "icon": { "url": "Plains_white.png" }
+          },
+          {
+            "coords": [-400, 420],
+            "id": "Barbantok",
+            "name": "Barbantok",
+            "icon": { "url": "Castle_white.png" }
+          },
+          {
+            "coords": [-353, 372],
+            "id": "Nomad_woods",
+            "name": "Nomad Woods",
+            "icon": { "url": "Plains_white.png" }
+          },
+          {
+            "coords": [-515, 640],
+            "id": "Coldington",
+            "name": "Coldington",
+            "icon": { "url": "Castle_white.png" }
+          },
+          {
+            "coords": [-530, 550],
+            "id": "Azurazera",
+            "name": "Azurazera",
+            "icon": { "url": "Castle_white.png" }
+          },
+          {
+            "coords": [-470, 703],
+            "id": "Port Skildar",
+            "name": "Port Skildar",
+            "icon": { "url": "Castle_white.png" }
+          },
+          {
+            "coords": [-638, 588],
+            "id": "Sanguine Hills",
+            "name": "Sanguine Hills",
+            "icon": { "url": "Plains_white.png" }
+          },
+          {
+            "coords": [-287, 717],
+            "id": "Fort of Permafrost",
+            "name": "Fort of Permafrost",
+            "icon": { "url": "Castle_white.png" }
+          },
+          {
+            "coords": [-250, 810],
+            "id": "Noiseless Pass",
+            "name": "Noiseless Pass",
+            "icon": { "url": "Plains_white.png" }
           }
         ]
       }
