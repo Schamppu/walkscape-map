@@ -47,7 +47,6 @@ export class MapLayer extends LayerGroup {
   public addCategory(categoryName: string, layers: Layer[]): void {
     this.categories[categoryName] = layers;
     layers.forEach((l) => {
-      l.forceShow();
       this.updateLayerVisibility(l);
       l.markers.forEach((m) => {
         this.addMarker(m, this.map.project(m.getLatLng(), 0));
@@ -57,6 +56,15 @@ export class MapLayer extends LayerGroup {
 
   public addMarker(marker: WSMarker, point: Point) {
     marker.show();
+  }
+
+  public updateZoom(zoom: number): void {
+    this.currentZoom = zoom;
+    for (const category of Object.values(this.categories)) {
+      for (const layer of category) {
+        this.updateLayerVisibility(layer);
+      }
+    }
   }
 
   private updateLayerVisibility(layer: Layer): void {

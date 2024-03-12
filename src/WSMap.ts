@@ -50,6 +50,10 @@ export class WSMap extends Map {
       console.log(map.getCenter());
     });
 
+    map.on("zoomend", function () {
+      map.layers.forEach((l) => l.updateZoom(map.getZoom()));
+    });
+
     return map;
   }
 
