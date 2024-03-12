@@ -20,7 +20,7 @@ npm run dev
 
 ## Where is it hosted
 
-Main branch, which requests pull request reviews by code owners is hosted at:
+Main branch, which requires pull request reviews by code owners is hosted at:
 https://map.walkscape.app
 
 Development branch, which can take public commits, is hosted at:
