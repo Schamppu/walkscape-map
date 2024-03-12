@@ -1,599 +1,666 @@
 [
   {
+    "id": "spelunking",
     "name": "Spelunking",
-    "skills": [
-      "Agility",
-      "Mining"
-    ],
     "requirements": {
       "Agility": "50",
       "Mining": "50"
-    }
-  },
-  {
-    "name": "Glacier foraging",
+    },
     "skills": [
       "Agility",
-      "Foraging"
-    ],
+      "Mining"
+    ]
+  },
+  {
+    "id": "glacier_foraging",
+    "name": "Glacier foraging",
     "requirements": {
       "Agility": "30",
       "Foraging": "30"
-    }
-  },
-  {
-    "name": "Wine grape stomping",
+    },
     "skills": [
       "Agility",
-      "Cooking"
-    ],
+      "Foraging"
+    ]
+  },
+  {
+    "id": "wine_grape_stomping",
+    "name": "Wine grape stomping",
     "requirements": {
       "Agility": "30",
       "Cooking": "45"
-    }
-  },
-  {
-    "name": "Rooftop jumping (intermediate)",
-    "skills": [
-      "Agility"
-    ],
-    "requirements": {
-      "Agility": "45"
-    }
-  },
-  {
-    "name": "Swimming (intermediate)",
-    "skills": [
-      "Agility"
-    ],
-    "requirements": {
-      "Agility": "40"
-    }
-  },
-  {
-    "name": "Dumpster diving",
+    },
     "skills": [
       "Agility",
-      "Foraging"
-    ],
+      "Cooking"
+    ]
+  },
+  {
+    "id": "rooftop_jumping_intermediate",
+    "name": "Rooftop jumping (intermediate)",
+    "requirements": {
+      "Agility": "45"
+    },
+    "skills": [
+      "Agility"
+    ]
+  },
+  {
+    "id": "swimming_intermediate",
+    "name": "Swimming (intermediate)",
+    "requirements": {
+      "Agility": "40"
+    },
+    "skills": [
+      "Agility"
+    ]
+  },
+  {
+    "id": "dumpster_diving",
+    "name": "Dumpster diving",
     "requirements": {
       "Agility": "20",
       "Foraging": "35"
-    }
-  },
-  {
-    "name": "Butterfly catching",
+    },
     "skills": [
       "Agility",
       "Foraging"
-    ],
+    ]
+  },
+  {
+    "id": "butterfly_catching",
+    "name": "Butterfly catching",
     "requirements": {
       "Agility": "30",
       "Foraging": "40"
-    }
+    },
+    "skills": [
+      "Agility",
+      "Foraging"
+    ]
   },
   {
+    "id": "mountain_climbing_intermediate",
     "name": "Mountain climbing (intermediate)",
-    "skills": [
-      "Agility"
-    ],
     "requirements": {
       "Agility": "35"
-    }
-  },
-  {
-    "name": "Kayaking",
+    },
     "skills": [
       "Agility"
-    ],
-    "requirements": {
-      "Agility": "30"
-    }
+    ]
   },
   {
+    "id": "kayaking",
+    "name": "Kayaking",
+    "requirements": {
+      "Agility": "30"
+    },
+    "skills": [
+      "Agility"
+    ]
+  },
+  {
+    "id": "cliff_foraging",
     "name": "Cliff foraging",
+    "requirements": {
+      "Agility": "20",
+      "Foraging": "25"
+    },
     "skills": [
       "Foraging",
       "Agility"
-    ],
-    "requirements": {
-      "Foraging": "25",
-      "Agility": "20"
-    }
+    ]
   },
   {
+    "id": "swimming_beginner",
     "name": "Swimming (beginner)",
+    "requirements": {
+      "Agility": "20"
+    },
     "skills": [
       "Agility"
-    ],
-    "requirements": {
-      "Agility": "20"
-    }
+    ]
   },
   {
+    "id": "firewood_making",
     "name": "Firewood making",
+    "requirements": {
+      "Agility": "10",
+      "Woodcutting": "15"
+    },
     "skills": [
       "Woodcutting",
       "Agility"
-    ],
-    "requirements": {
-      "Woodcutting": "15",
-      "Agility": "10"
-    }
+    ]
   },
   {
+    "id": "rooftop_jumping_beginner",
     "name": "Rooftop jumping (beginner)",
-    "skills": [
-      "Agility"
-    ],
     "requirements": {
       "Agility": "25"
-    }
+    },
+    "skills": [
+      "Agility"
+    ]
   },
   {
+    "id": "frisbee_golfing_beginner",
     "name": "Frisbee golfing (beginner)",
-    "skills": [
-      "Agility"
-    ],
     "requirements": {
       "Agility": "10"
-    }
+    },
+    "skills": [
+      "Agility"
+    ]
   },
   {
+    "id": "mountain_climbing_beginner",
     "name": "Mountain climbing (beginner)",
-    "skills": [
-      "Agility"
-    ],
     "requirements": {
       "Agility": "10"
-    }
+    },
+    "skills": [
+      "Agility"
+    ]
   },
   {
+    "id": "forest_foraging",
     "name": "Forest Foraging"
   },
   {
+    "id": "frisbee_golfing_intermediate",
     "name": "Frisbee golfing (intermediate)",
-    "skills": [
-      "Agility"
-    ],
     "requirements": {
       "Agility": "25"
-    }
-  },
-  {
-    "name": "Cross-county skiing (beginner)",
+    },
     "skills": [
       "Agility"
-    ],
+    ]
+  },
+  {
+    "id": "cross-county_skiing_beginner",
+    "name": "Cross-county skiing (beginner)",
     "requirements": {
       "Agility": "5"
-    }
-  },
-  {
-    "name": "Cross-county skiing (intermediate)",
+    },
     "skills": [
       "Agility"
-    ],
-    "requirements": {
-      "Agility": "20"
-    }
+    ]
   },
   {
-    "name": "Ship repair (beginner)",
+    "id": "cross-county_skiing_intermediate",
+    "name": "Cross-county skiing (intermediate)",
+    "requirements": {
+      "Agility": "20"
+    },
     "skills": [
-      "Carpentry",
-      "Crafting"
-    ],
+      "Agility"
+    ]
+  },
+  {
+    "id": "ship_repair_beginner",
+    "name": "Ship repair (beginner)",
     "requirements": {
       "Carpentry": "20",
       "Crafting": "10"
-    }
-  },
-  {
-    "name": "Ship repair (intermediate)",
+    },
     "skills": [
       "Carpentry",
-      "Smithing"
-    ],
+      "Crafting"
+    ]
+  },
+  {
+    "id": "ship_repair_intermediate",
+    "name": "Ship repair (intermediate)",
     "requirements": {
       "Carpentry": "40",
       "Smithing": "30"
-    }
+    },
+    "skills": [
+      "Carpentry",
+      "Smithing"
+    ]
   },
   {
+    "id": "ice_sculpting",
     "name": "Ice sculpting",
+    "requirements": {
+      "Carpentry": "10",
+      "Crafting": "15"
+    },
     "skills": [
       "Crafting",
       "Carpentry"
-    ],
-    "requirements": {
-      "Crafting": "15",
-      "Carpentry": "10"
-    }
+    ]
   },
   {
+    "id": "wood_carving",
     "name": "Wood carving",
-    "skills": [
-      "Carpentry"
-    ],
     "requirements": {
       "Carpentry": "10"
-    }
-  },
-  {
-    "name": "Cut a mangrove plank",
+    },
     "skills": [
       "Carpentry"
-    ],
+    ]
+  },
+  {
+    "id": "cut_a_mangrove_plank",
+    "name": "Cut a mangrove plank",
     "requirements": {
       "Carpentry": "50"
-    }
+    },
+    "skills": [
+      "Carpentry"
+    ]
   },
   {
+    "id": "sandcastle_building",
     "name": "Sandcastle building"
   },
   {
+    "id": "wine_grape_stomping",
     "name": "Wine grape stomping",
+    "requirements": {
+      "Agility": "30",
+      "Cooking": "45"
+    },
     "skills": [
       "Cooking",
       "Agility"
-    ],
-    "requirements": {
-      "Cooking": "45",
-      "Agility": "30"
-    }
+    ]
   },
   {
+    "id": "soup_kitchen_volunteering",
     "name": "Soup kitchen volunteering",
-    "skills": [
-      "Cooking"
-    ],
     "requirements": {
       "Cooking": "10"
-    }
+    },
+    "skills": [
+      "Cooking"
+    ]
   },
   {
+    "id": "ship_repair_beginner",
     "name": "Ship repair (beginner)",
-    "skills": [
-      "Carpentry",
-      "Crafting"
-    ],
     "requirements": {
       "Carpentry": "20",
       "Crafting": "10"
-    }
+    },
+    "skills": [
+      "Carpentry",
+      "Crafting"
+    ]
   },
   {
+    "id": "ice_sculpting",
     "name": "Ice sculpting",
+    "requirements": {
+      "Carpentry": "10",
+      "Crafting": "15"
+    },
     "skills": [
       "Crafting",
       "Carpentry"
-    ],
-    "requirements": {
-      "Crafting": "15",
-      "Carpentry": "10"
-    }
+    ]
   },
   {
+    "id": "tinkering",
     "name": "Tinkering",
-    "skills": [
-      "Crafting"
-    ],
     "requirements": {
       "Crafting": "25"
-    }
-  },
-  {
-    "name": "Make a basic hatchet"
-  },
-  {
-    "name": "Make a basic hatchet"
-  },
-  {
-    "name": "Weave a small fishing net",
+    },
     "skills": [
       "Crafting"
-    ],
-    "requirements": {
-      "Crafting": "3"
-    }
+    ]
   },
   {
-    "name": "Magnet fishing",
+    "id": "make_a_basic_hatchet",
+    "name": "Make a basic hatchet"
+  },
+  {
+    "id": "make_a_basic_hatchet",
+    "name": "Make a basic hatchet"
+  },
+  {
+    "id": "weave_a_small_fishing_net",
+    "name": "Weave a small fishing net",
+    "requirements": {
+      "Crafting": "3"
+    },
     "skills": [
-      "Fishing",
-      "Foraging"
-    ],
+      "Crafting"
+    ]
+  },
+  {
+    "id": "magnet_fishing",
+    "name": "Magnet fishing",
     "requirements": {
       "Fishing": "40",
       "Foraging": "30"
-    }
+    },
+    "skills": [
+      "Fishing",
+      "Foraging"
+    ]
   },
   {
+    "id": "lake_fishing",
     "name": "Lake fishing",
-    "skills": [
-      "Fishing"
-    ],
     "requirements": {
       "Fishing": "5"
-    }
-  },
-  {
-    "name": "Sea fishing (rod)",
+    },
     "skills": [
       "Fishing"
-    ],
-    "requirements": {
-      "Fishing": "20"
-    }
+    ]
   },
   {
+    "id": "sea_fishing_rod",
+    "name": "Sea fishing (rod)",
+    "requirements": {
+      "Fishing": "20"
+    },
+    "skills": [
+      "Fishing"
+    ]
+  },
+  {
+    "id": "gold_panning",
     "name": "Gold panning",
+    "requirements": {
+      "Fishing": "5",
+      "Mining": "15"
+    },
     "skills": [
       "Mining",
       "Fishing"
-    ],
-    "requirements": {
-      "Mining": "15",
-      "Fishing": "5"
-    }
+    ]
   },
   {
+    "id": "sea_fishing_net",
     "name": "Sea fishing (net)"
   },
   {
+    "id": "glacier_foraging",
     "name": "Glacier foraging",
+    "requirements": {
+      "Agility": "30",
+      "Foraging": "30"
+    },
     "skills": [
       "Foraging",
       "Agility"
-    ],
-    "requirements": {
-      "Foraging": "30",
-      "Agility": "30"
-    }
+    ]
   },
   {
+    "id": "magnet_fishing",
     "name": "Magnet fishing",
+    "requirements": {
+      "Fishing": "40",
+      "Foraging": "30"
+    },
     "skills": [
       "Foraging",
       "Fishing"
-    ],
-    "requirements": {
-      "Foraging": "30",
-      "Fishing": "40"
-    }
+    ]
   },
   {
+    "id": "dumpster_diving",
     "name": "Dumpster diving",
+    "requirements": {
+      "Agility": "20",
+      "Foraging": "35"
+    },
     "skills": [
       "Foraging",
       "Agility"
-    ],
-    "requirements": {
-      "Foraging": "35",
-      "Agility": "20"
-    }
+    ]
   },
   {
+    "id": "butterfly_catching",
     "name": "Butterfly catching",
+    "requirements": {
+      "Agility": "30",
+      "Foraging": "40"
+    },
     "skills": [
       "Foraging",
       "Agility"
-    ],
-    "requirements": {
-      "Foraging": "40",
-      "Agility": "30"
-    }
+    ]
   },
   {
+    "id": "plains_foraging",
     "name": "Plains foraging",
-    "skills": [
-      "Foraging"
-    ],
     "requirements": {
       "Foraging": "10"
-    }
-  },
-  {
-    "name": "Seashell searching",
+    },
     "skills": [
       "Foraging"
-    ],
-    "requirements": {
-      "Foraging": "25"
-    }
+    ]
   },
   {
+    "id": "seashell_searching",
+    "name": "Seashell searching",
+    "requirements": {
+      "Foraging": "25"
+    },
+    "skills": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "cliff_foraging",
     "name": "Cliff foraging",
+    "requirements": {
+      "Agility": "20",
+      "Foraging": "25"
+    },
     "skills": [
       "Foraging",
       "Agility"
-    ],
-    "requirements": {
-      "Foraging": "25",
-      "Agility": "20"
-    }
+    ]
   },
   {
+    "id": "litter_looting",
     "name": "Litter looting",
-    "skills": [
-      "Foraging"
-    ],
     "requirements": {
       "Foraging": "8"
-    }
+    },
+    "skills": [
+      "Foraging"
+    ]
   },
   {
+    "id": "forest_foraging",
     "name": "Forest Foraging"
   },
   {
+    "id": "spelunking",
     "name": "Spelunking",
+    "requirements": {
+      "Agility": "50",
+      "Mining": "50"
+    },
     "skills": [
       "Mining",
       "Agility"
-    ],
-    "requirements": {
-      "Mining": "50",
-      "Agility": "50"
-    }
+    ]
   },
   {
+    "id": "mine_farganite_ore",
     "name": "Mine farganite ore",
-    "skills": [
-      "Mining"
-    ],
     "requirements": {
       "Mining": "50"
-    }
-  },
-  {
-    "name": "Mine coal",
+    },
     "skills": [
       "Mining"
-    ],
+    ]
+  },
+  {
+    "id": "mine_coal",
+    "name": "Mine coal",
     "requirements": {
       "Mining": "30"
-    }
-  },
-  {
-    "name": "Mine tarsilium ore",
+    },
     "skills": [
       "Mining"
-    ],
+    ]
+  },
+  {
+    "id": "mine_tarsilium_ore",
+    "name": "Mine tarsilium ore",
     "requirements": {
       "Mining": "40"
-    }
-  },
-  {
-    "name": "Mine iron ore",
+    },
     "skills": [
       "Mining"
-    ],
-    "requirements": {
-      "Mining": "20"
-    }
+    ]
   },
   {
+    "id": "mine_iron_ore",
+    "name": "Mine iron ore",
+    "requirements": {
+      "Mining": "20"
+    },
+    "skills": [
+      "Mining"
+    ]
+  },
+  {
+    "id": "gold_panning",
     "name": "Gold panning",
+    "requirements": {
+      "Fishing": "5",
+      "Mining": "15"
+    },
     "skills": [
       "Mining",
       "Fishing"
-    ],
-    "requirements": {
-      "Mining": "15",
-      "Fishing": "5"
-    }
+    ]
   },
   {
+    "id": "mine_tin_ore",
     "name": "Mine tin ore",
-    "skills": [
-      "Mining"
-    ],
     "requirements": {
       "Mining": "10"
-    }
+    },
+    "skills": [
+      "Mining"
+    ]
   },
   {
+    "id": "surface_salt_mining",
     "name": "Surface salt mining"
   },
   {
+    "id": "mine_copper_ore",
     "name": "Mine copper ore"
   },
   {
+    "id": "ship_repair_intermediate",
     "name": "Ship repair (intermediate)",
+    "requirements": {
+      "Carpentry": "40",
+      "Smithing": "30"
+    },
     "skills": [
       "Smithing",
       "Carpentry"
-    ],
-    "requirements": {
-      "Smithing": "30",
-      "Carpentry": "40"
-    }
+    ]
   },
   {
+    "id": "horseshoe_making",
     "name": "Horseshoe making",
-    "skills": [
-      "Smithing"
-    ],
     "requirements": {
       "Smithing": "20"
-    }
+    },
+    "skills": [
+      "Smithing"
+    ]
   },
   {
+    "id": "cut_mangrove_trees",
     "name": "Cut mangrove trees",
-    "skills": [
-      "Woodcutting"
-    ],
     "requirements": {
       "Woodcutting": "50"
-    }
+    },
+    "skills": [
+      "Woodcutting"
+    ]
   },
   {
+    "id": "cut_willow_trees",
     "name": "Cut willow trees",
-    "skills": [
-      "Woodcutting"
-    ],
     "requirements": {
       "Woodcutting": "40"
-    }
+    },
+    "skills": [
+      "Woodcutting"
+    ]
   },
   {
+    "id": "cut_teak_trees",
     "name": "Cut teak trees",
-    "skills": [
-      "Woodcutting"
-    ],
     "requirements": {
       "Woodcutting": "40"
-    }
-  },
-  {
-    "name": "Cut oak trees",
+    },
     "skills": [
       "Woodcutting"
-    ],
+    ]
+  },
+  {
+    "id": "cut_oak_trees",
+    "name": "Cut oak trees",
     "requirements": {
       "Woodcutting": "25"
-    }
-  },
-  {
-    "name": "Cut spruce trees",
+    },
     "skills": [
       "Woodcutting"
-    ],
-    "requirements": {
-      "Woodcutting": "20"
-    }
+    ]
   },
   {
+    "id": "cut_spruce_trees",
+    "name": "Cut spruce trees",
+    "requirements": {
+      "Woodcutting": "20"
+    },
+    "skills": [
+      "Woodcutting"
+    ]
+  },
+  {
+    "id": "firewood_making",
     "name": "Firewood Making",
+    "requirements": {
+      "Agility": "10",
+      "Woodcutting": "15"
+    },
     "skills": [
       "Woodcutting",
       "Agility"
-    ],
-    "requirements": {
-      "Woodcutting": "15",
-      "Agility": "10"
-    }
+    ]
   },
   {
+    "id": "cut_maple_trees",
     "name": "Cut maple trees",
-    "skills": [
-      "Woodcutting"
-    ],
     "requirements": {
       "Woodcutting": "30"
-    }
-  },
-  {
-    "name": "Cut pine trees",
+    },
     "skills": [
       "Woodcutting"
-    ],
-    "requirements": {
-      "Woodcutting": "10"
-    }
+    ]
   },
   {
+    "id": "cut_pine_trees",
+    "name": "Cut pine trees",
+    "requirements": {
+      "Woodcutting": "10"
+    },
+    "skills": [
+      "Woodcutting"
+    ]
+  },
+  {
+    "id": "cut_birch_trees",
     "name": "Cut birch trees"
   }
 ]
