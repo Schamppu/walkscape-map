@@ -1,13 +1,21 @@
-import { LatLngBounds, LayerGroup, TileLayer, Point } from "leaflet";
+import {
+  LatLngBounds,
+  LayerGroup,
+  TileLayer,
+  Point,
+  LeafletEvent,
+} from "leaflet";
 import { WSMap } from "./WSMap";
 import { WSMarker } from "./WSMarker";
+import { MarkerContainer } from "./MarkerContainer";
 import { Layer, Visibility } from "./Layer";
 
 export class MapLayer extends LayerGroup {
   public tileLayer: TileLayer;
   public markerLayer: LayerGroup;
   private categories: Record<string, Layer[]> = {};
-  private currentZoom = 2;
+  private tileMarkerContainers: MarkerContainer[][][] = [];
+  private currentZoom = 1;
 
   public constructor(
     private map: WSMap,
@@ -24,6 +32,31 @@ export class MapLayer extends LayerGroup {
       noWrap: true,
     });
     this.markerLayer = new LayerGroup();
+
+    for (let z = 0; z <= map.getMaxZoom(); ++z) {
+      this.tileMarkerContainers[z] = [];
+      for (let x = 0; x < Math.pow(2, z + 2); ++x) {
+        this.tileMarkerContainers[z][x] = [];
+        for (let y = 0; y < Math.pow(2, z + 1); ++y) {
+          this.tileMarkerContainers[z][x][y] = new MarkerContainer();
+        }
+      }
+    }
+
+    this.tileLayer.on("tileload", (e: LeafletEvent) => {
+      const te = <L.TileEvent>e;
+      const container =
+        this.tileMarkerContainers[te.coords.z][te.coords.x][te.coords.y];
+      container.show();
+      container.getMarkers().forEach(this.updateMarkerVisibility.bind(this));
+    });
+    this.tileLayer.on("tileunload", (e: LeafletEvent) => {
+      const te = <L.TileEvent>e;
+      const container =
+        this.tileMarkerContainers[te.coords.z][te.coords.x][te.coords.y];
+      container.hide();
+      container.getMarkers().forEach(this.updateMarkerVisibility.bind(this));
+    });
   }
 
   public show(): void {
@@ -55,7 +88,25 @@ export class MapLayer extends LayerGroup {
   }
 
   public addMarker(marker: WSMarker, point: Point) {
-    marker.show();
+    let isVisible = false;
+
+    // add to tile containers
+    for (let z = 0; z <= this.map.getMaxZoom(); ++z) {
+      const x = Math.floor((point.x * Math.pow(2, z)) / this.tileSize);
+      const y = Math.floor((point.y * Math.pow(2, z)) / this.tileSize);
+      this.tileMarkerContainers[z][x][y].addMarker(marker);
+
+      // marker is visible if tile container at ANY zoom level is visible
+      if (this.tileMarkerContainers[z][x][y].isVisible()) {
+        isVisible = true;
+      }
+
+      marker.addToTileContainer(this.tileMarkerContainers[z][x][y]);
+    }
+
+    if (isVisible) {
+      marker.show();
+    }
   }
 
   public updateZoom(zoom: number): void {
@@ -77,6 +128,14 @@ export class MapLayer extends LayerGroup {
       this.markerLayer.addLayer(layer);
     } else {
       this.markerLayer.removeLayer(layer);
+    }
+  }
+
+  private updateMarkerVisibility(marker: WSMarker): void {
+    if (marker.tileContainers.some((c) => c.isVisible())) {
+      marker.show();
+    } else {
+      marker.hide();
     }
   }
 }

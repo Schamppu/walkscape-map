@@ -1,11 +1,13 @@
 import * as Schema from "./JSONSchema";
 import { Marker, LatLngExpression, DivIcon, Point } from "leaflet";
 import { Layer } from "./Layer";
+import { MarkerContainer } from "./MarkerContainer";
 
 export class WSMarker extends Marker {
   public id: string;
   public name: string;
   public layer: Layer;
+  public tileContainers = <MarkerContainer[]>[];
 
   private constructor(
     json: Schema.Marker,
@@ -37,6 +39,10 @@ export class WSMarker extends Marker {
     this.id = json.id;
     this.layer = layer;
     this.name = name;
+  }
+
+  public addToTileContainer(container: MarkerContainer): void {
+    this.tileContainers.push(container);
   }
 
   public show(): void {
