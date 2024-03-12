@@ -6,10 +6,7 @@
       "Agility": "50",
       "Mining": "50"
     },
-    "skills": [
-      "Agility",
-      "Mining"
-    ]
+    "skills": ["Agility", "Mining"]
   },
   {
     "id": "glacier_foraging",
@@ -18,10 +15,7 @@
       "Agility": "30",
       "Foraging": "30"
     },
-    "skills": [
-      "Agility",
-      "Foraging"
-    ]
+    "skills": ["Agility", "Foraging"]
   },
   {
     "id": "wine_grape_stomping",
@@ -30,10 +24,7 @@
       "Agility": "30",
       "Cooking": "45"
     },
-    "skills": [
-      "Agility",
-      "Cooking"
-    ]
+    "skills": ["Agility", "Cooking"]
   },
   {
     "id": "rooftop_jumping_intermediate",
@@ -41,9 +32,7 @@
     "requirements": {
       "Agility": "45"
     },
-    "skills": [
-      "Agility"
-    ]
+    "skills": ["Agility"]
   },
   {
     "id": "swimming_intermediate",
@@ -51,9 +40,7 @@
     "requirements": {
       "Agility": "40"
     },
-    "skills": [
-      "Agility"
-    ]
+    "skills": ["Agility"]
   },
   {
     "id": "dumpster_diving",
@@ -62,10 +49,7 @@
       "Agility": "20",
       "Foraging": "35"
     },
-    "skills": [
-      "Agility",
-      "Foraging"
-    ]
+    "skills": ["Agility", "Foraging"]
   },
   {
     "id": "butterfly_catching",
@@ -74,10 +58,7 @@
       "Agility": "30",
       "Foraging": "40"
     },
-    "skills": [
-      "Agility",
-      "Foraging"
-    ]
+    "skills": ["Agility", "Foraging"]
   },
   {
     "id": "mountain_climbing_intermediate",
@@ -85,9 +66,7 @@
     "requirements": {
       "Agility": "35"
     },
-    "skills": [
-      "Agility"
-    ]
+    "skills": ["Agility"]
   },
   {
     "id": "kayaking",
@@ -95,9 +74,7 @@
     "requirements": {
       "Agility": "30"
     },
-    "skills": [
-      "Agility"
-    ]
+    "skills": ["Agility"]
   },
   {
     "id": "cliff_foraging",
@@ -106,10 +83,7 @@
       "Agility": "20",
       "Foraging": "25"
     },
-    "skills": [
-      "Foraging",
-      "Agility"
-    ]
+    "skills": ["Foraging", "Agility"]
   },
   {
     "id": "swimming_beginner",
@@ -117,9 +91,7 @@
     "requirements": {
       "Agility": "20"
     },
-    "skills": [
-      "Agility"
-    ]
+    "skills": ["Agility"]
   },
   {
     "id": "firewood_making",
@@ -128,10 +100,7 @@
       "Agility": "10",
       "Woodcutting": "15"
     },
-    "skills": [
-      "Woodcutting",
-      "Agility"
-    ]
+    "skills": ["Woodcutting", "Agility"]
   },
   {
     "id": "rooftop_jumping_beginner",
@@ -139,9 +108,7 @@
     "requirements": {
       "Agility": "25"
     },
-    "skills": [
-      "Agility"
-    ]
+    "skills": ["Agility"]
   },
   {
     "id": "frisbee_golfing_beginner",
@@ -149,9 +116,7 @@
     "requirements": {
       "Agility": "10"
     },
-    "skills": [
-      "Agility"
-    ]
+    "skills": ["Agility"]
   },
   {
     "id": "mountain_climbing_beginner",
@@ -159,13 +124,7 @@
     "requirements": {
       "Agility": "10"
     },
-    "skills": [
-      "Agility"
-    ]
-  },
-  {
-    "id": "forest_foraging",
-    "name": "Forest Foraging"
+    "skills": ["Agility"]
   },
   {
     "id": "frisbee_golfing_intermediate",
@@ -173,9 +132,7 @@
     "requirements": {
       "Agility": "25"
     },
-    "skills": [
-      "Agility"
-    ]
+    "skills": ["Agility"]
   },
   {
     "id": "cross-county_skiing_beginner",
@@ -183,9 +140,7 @@
     "requirements": {
       "Agility": "5"
     },
-    "skills": [
-      "Agility"
-    ]
+    "skills": ["Agility"]
   },
   {
     "id": "cross-county_skiing_intermediate",
@@ -193,9 +148,7 @@
     "requirements": {
       "Agility": "20"
     },
-    "skills": [
-      "Agility"
-    ]
+    "skills": ["Agility"]
   },
   {
     "id": "ship_repair_beginner",
@@ -204,10 +157,7 @@
       "Carpentry": "20",
       "Crafting": "10"
     },
-    "skills": [
-      "Carpentry",
-      "Crafting"
-    ]
+    "skills": ["Carpentry", "Crafting"]
   },
   {
     "id": "ship_repair_intermediate",
@@ -216,10 +166,7 @@
       "Carpentry": "40",
       "Smithing": "30"
     },
-    "skills": [
-      "Carpentry",
-      "Smithing"
-    ]
+    "skills": ["Carpentry", "Smithing"]
   },
   {
     "id": "ice_sculpting",
@@ -228,10 +175,7 @@
       "Carpentry": "10",
       "Crafting": "15"
     },
-    "skills": [
-      "Crafting",
-      "Carpentry"
-    ]
+    "skills": ["Crafting", "Carpentry"]
   },
   {
     "id": "wood_carving",
@@ -239,9 +183,7 @@
     "requirements": {
       "Carpentry": "10"
     },
-    "skills": [
-      "Carpentry"
-    ]
+    "skills": ["Carpentry"]
   },
   {
     "id": "cut_a_mangrove_plank",
@@ -249,25 +191,12 @@
     "requirements": {
       "Carpentry": "50"
     },
-    "skills": [
-      "Carpentry"
-    ]
+    "skills": ["Carpentry"]
   },
   {
     "id": "sandcastle_building",
-    "name": "Sandcastle building"
-  },
-  {
-    "id": "wine_grape_stomping",
-    "name": "Wine grape stomping",
-    "requirements": {
-      "Agility": "30",
-      "Cooking": "45"
-    },
-    "skills": [
-      "Cooking",
-      "Agility"
-    ]
+    "name": "Sandcastle building",
+    "skills": ["Carpentry"]
   },
   {
     "id": "soup_kitchen_volunteering",
@@ -275,33 +204,7 @@
     "requirements": {
       "Cooking": "10"
     },
-    "skills": [
-      "Cooking"
-    ]
-  },
-  {
-    "id": "ship_repair_beginner",
-    "name": "Ship repair (beginner)",
-    "requirements": {
-      "Carpentry": "20",
-      "Crafting": "10"
-    },
-    "skills": [
-      "Carpentry",
-      "Crafting"
-    ]
-  },
-  {
-    "id": "ice_sculpting",
-    "name": "Ice sculpting",
-    "requirements": {
-      "Carpentry": "10",
-      "Crafting": "15"
-    },
-    "skills": [
-      "Crafting",
-      "Carpentry"
-    ]
+    "skills": ["Cooking"]
   },
   {
     "id": "tinkering",
@@ -309,17 +212,7 @@
     "requirements": {
       "Crafting": "25"
     },
-    "skills": [
-      "Crafting"
-    ]
-  },
-  {
-    "id": "make_a_basic_hatchet",
-    "name": "Make a basic hatchet"
-  },
-  {
-    "id": "make_a_basic_hatchet",
-    "name": "Make a basic hatchet"
+    "skills": ["Crafting"]
   },
   {
     "id": "weave_a_small_fishing_net",
@@ -327,9 +220,7 @@
     "requirements": {
       "Crafting": "3"
     },
-    "skills": [
-      "Crafting"
-    ]
+    "skills": ["Crafting"]
   },
   {
     "id": "magnet_fishing",
@@ -338,10 +229,7 @@
       "Fishing": "40",
       "Foraging": "30"
     },
-    "skills": [
-      "Fishing",
-      "Foraging"
-    ]
+    "skills": ["Fishing", "Foraging"]
   },
   {
     "id": "lake_fishing",
@@ -349,9 +237,7 @@
     "requirements": {
       "Fishing": "5"
     },
-    "skills": [
-      "Fishing"
-    ]
+    "skills": ["Fishing"]
   },
   {
     "id": "sea_fishing_rod",
@@ -359,9 +245,7 @@
     "requirements": {
       "Fishing": "20"
     },
-    "skills": [
-      "Fishing"
-    ]
+    "skills": ["Fishing"]
   },
   {
     "id": "gold_panning",
@@ -370,62 +254,12 @@
       "Fishing": "5",
       "Mining": "15"
     },
-    "skills": [
-      "Mining",
-      "Fishing"
-    ]
+    "skills": ["Mining", "Fishing"]
   },
   {
     "id": "sea_fishing_net",
-    "name": "Sea fishing (net)"
-  },
-  {
-    "id": "glacier_foraging",
-    "name": "Glacier foraging",
-    "requirements": {
-      "Agility": "30",
-      "Foraging": "30"
-    },
-    "skills": [
-      "Foraging",
-      "Agility"
-    ]
-  },
-  {
-    "id": "magnet_fishing",
-    "name": "Magnet fishing",
-    "requirements": {
-      "Fishing": "40",
-      "Foraging": "30"
-    },
-    "skills": [
-      "Foraging",
-      "Fishing"
-    ]
-  },
-  {
-    "id": "dumpster_diving",
-    "name": "Dumpster diving",
-    "requirements": {
-      "Agility": "20",
-      "Foraging": "35"
-    },
-    "skills": [
-      "Foraging",
-      "Agility"
-    ]
-  },
-  {
-    "id": "butterfly_catching",
-    "name": "Butterfly catching",
-    "requirements": {
-      "Agility": "30",
-      "Foraging": "40"
-    },
-    "skills": [
-      "Foraging",
-      "Agility"
-    ]
+    "name": "Sea fishing (net)",
+    "skills": ["Fishing"]
   },
   {
     "id": "plains_foraging",
@@ -433,9 +267,7 @@
     "requirements": {
       "Foraging": "10"
     },
-    "skills": [
-      "Foraging"
-    ]
+    "skills": ["Foraging"]
   },
   {
     "id": "seashell_searching",
@@ -443,21 +275,7 @@
     "requirements": {
       "Foraging": "25"
     },
-    "skills": [
-      "Foraging"
-    ]
-  },
-  {
-    "id": "cliff_foraging",
-    "name": "Cliff foraging",
-    "requirements": {
-      "Agility": "20",
-      "Foraging": "25"
-    },
-    "skills": [
-      "Foraging",
-      "Agility"
-    ]
+    "skills": ["Foraging"]
   },
   {
     "id": "litter_looting",
@@ -465,25 +283,12 @@
     "requirements": {
       "Foraging": "8"
     },
-    "skills": [
-      "Foraging"
-    ]
+    "skills": ["Foraging"]
   },
   {
     "id": "forest_foraging",
-    "name": "Forest Foraging"
-  },
-  {
-    "id": "spelunking",
-    "name": "Spelunking",
-    "requirements": {
-      "Agility": "50",
-      "Mining": "50"
-    },
-    "skills": [
-      "Mining",
-      "Agility"
-    ]
+    "name": "Forest Foraging",
+    "skills": ["Foraging"]
   },
   {
     "id": "mine_farganite_ore",
@@ -491,9 +296,7 @@
     "requirements": {
       "Mining": "50"
     },
-    "skills": [
-      "Mining"
-    ]
+    "skills": ["Mining"]
   },
   {
     "id": "mine_coal",
@@ -501,9 +304,7 @@
     "requirements": {
       "Mining": "30"
     },
-    "skills": [
-      "Mining"
-    ]
+    "skills": ["Mining"]
   },
   {
     "id": "mine_tarsilium_ore",
@@ -511,9 +312,7 @@
     "requirements": {
       "Mining": "40"
     },
-    "skills": [
-      "Mining"
-    ]
+    "skills": ["Mining"]
   },
   {
     "id": "mine_iron_ore",
@@ -521,21 +320,7 @@
     "requirements": {
       "Mining": "20"
     },
-    "skills": [
-      "Mining"
-    ]
-  },
-  {
-    "id": "gold_panning",
-    "name": "Gold panning",
-    "requirements": {
-      "Fishing": "5",
-      "Mining": "15"
-    },
-    "skills": [
-      "Mining",
-      "Fishing"
-    ]
+    "skills": ["Mining"]
   },
   {
     "id": "mine_tin_ore",
@@ -543,29 +328,17 @@
     "requirements": {
       "Mining": "10"
     },
-    "skills": [
-      "Mining"
-    ]
+    "skills": ["Mining"]
   },
   {
     "id": "surface_salt_mining",
-    "name": "Surface salt mining"
+    "name": "Surface salt mining",
+    "skills": ["Mining"]
   },
   {
     "id": "mine_copper_ore",
-    "name": "Mine copper ore"
-  },
-  {
-    "id": "ship_repair_intermediate",
-    "name": "Ship repair (intermediate)",
-    "requirements": {
-      "Carpentry": "40",
-      "Smithing": "30"
-    },
-    "skills": [
-      "Smithing",
-      "Carpentry"
-    ]
+    "name": "Mine copper ore",
+    "skills": ["Mining"]
   },
   {
     "id": "horseshoe_making",
@@ -573,9 +346,7 @@
     "requirements": {
       "Smithing": "20"
     },
-    "skills": [
-      "Smithing"
-    ]
+    "skills": ["Smithing"]
   },
   {
     "id": "cut_mangrove_trees",
@@ -583,9 +354,7 @@
     "requirements": {
       "Woodcutting": "50"
     },
-    "skills": [
-      "Woodcutting"
-    ]
+    "skills": ["Woodcutting"]
   },
   {
     "id": "cut_willow_trees",
@@ -593,9 +362,7 @@
     "requirements": {
       "Woodcutting": "40"
     },
-    "skills": [
-      "Woodcutting"
-    ]
+    "skills": ["Woodcutting"]
   },
   {
     "id": "cut_teak_trees",
@@ -603,9 +370,7 @@
     "requirements": {
       "Woodcutting": "40"
     },
-    "skills": [
-      "Woodcutting"
-    ]
+    "skills": ["Woodcutting"]
   },
   {
     "id": "cut_oak_trees",
@@ -613,9 +378,7 @@
     "requirements": {
       "Woodcutting": "25"
     },
-    "skills": [
-      "Woodcutting"
-    ]
+    "skills": ["Woodcutting"]
   },
   {
     "id": "cut_spruce_trees",
@@ -623,9 +386,7 @@
     "requirements": {
       "Woodcutting": "20"
     },
-    "skills": [
-      "Woodcutting"
-    ]
+    "skills": ["Woodcutting"]
   },
   {
     "id": "firewood_making",
@@ -634,10 +395,7 @@
       "Agility": "10",
       "Woodcutting": "15"
     },
-    "skills": [
-      "Woodcutting",
-      "Agility"
-    ]
+    "skills": ["Woodcutting", "Agility"]
   },
   {
     "id": "cut_maple_trees",
@@ -645,9 +403,7 @@
     "requirements": {
       "Woodcutting": "30"
     },
-    "skills": [
-      "Woodcutting"
-    ]
+    "skills": ["Woodcutting"]
   },
   {
     "id": "cut_pine_trees",
@@ -655,12 +411,11 @@
     "requirements": {
       "Woodcutting": "10"
     },
-    "skills": [
-      "Woodcutting"
-    ]
+    "skills": ["Woodcutting"]
   },
   {
     "id": "cut_birch_trees",
-    "name": "Cut birch trees"
+    "name": "Cut birch trees",
+    "skills": ["Woodcutting"]
   }
 ]
