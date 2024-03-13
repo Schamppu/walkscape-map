@@ -43,12 +43,14 @@ export class WSMarker extends Marker {
       // calculate element width for correct anchor position
       const content = document.createElement("div");
       const image = new Image(width, height);
-      image.src = `icons/${json.icon.url}`;
+      image.src = json.hidden
+        ? "icons/locations/unknown_1.png"
+        : `icons/${json.icon.url}`;
       image.className = "marker-div-image";
       content.appendChild(image);
 
       const label = document.createElement("span");
-      label.textContent = name;
+      label.textContent = json.hidden ? "Unknown" : name;
       label.className = "marker-div-span";
       content.appendChild(label);
 
