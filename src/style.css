@@ -33,19 +33,20 @@ h1 {
   text-align: center;
 }
 
-.marker-div-icon {
-
+.marker-label-div {
+  display: flex;
 }
 
-.marker-div-image {
-
+.marker-label-edge-end {
+  transform: scaleX(-1);
 }
 
 .marker-div-span {
   color: #111;
-  padding: 3px;
-  background: #fffef0;
-  box-shadow: 1px 2px 10px black, 0 0 60px #f0d29c inset;
+  padding: 5px 0px 3px;
+  background-image: url("icons/label_center.png");
+  background-repeat: repeat-x;
+  vertical-align: 100%;
   white-space: nowrap;
 }
 
