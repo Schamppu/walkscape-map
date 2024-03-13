@@ -74,184 +74,211 @@
     "name": "Locations",
     "layers": [
       {
-        "name": "Jarvonia",
         "minZoom": 1,
         "maxZoom": 3,
         "markers": [
           {
-            "coords": [-202, 442],
-            "id": "Kallaheim",
+            "coords": [408.0, 619.0],
+            "icon": { "url": "castle_white.png" },
+            "id": "kallaheim",
             "name": "Kallaheim",
-            "icon": { "url": "castle_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-180, 400],
-            "id": "Disenchanted_forest",
+            "coords": [369.0, 537.0],
+            "icon": { "url": "forest_white.png" },
+            "id": "disenchanted_forest",
             "name": "Disenchanted Forest",
-            "icon": { "url": "forest_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-205, 355],
-            "id": "Beach_of_woes",
+            "coords": [405.543212890625, 451.25],
+            "icon": { "url": "coast_white.png" },
+            "id": "beach_of_woes",
             "name": "Beach of Woes",
-            "icon": { "url": "coast_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-98, 495],
-            "id": "Frostbite_mountain",
+            "coords": [202.0, 729.0],
+            "icon": { "url": "mountains.png" },
+            "id": "frostbite_mountain",
             "name": "Frostbite Mountain",
-            "icon": { "url": "mountains.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-121, 555],
-            "id": "Norsack_plains",
+            "coords": [247.0, 851.0],
+            "icon": { "url": "plains_white.png" },
+            "id": "norsack_plains",
             "name": "Norsack Plains",
-            "icon": { "url": "plains_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-63, 565],
-            "id": "Winter_waves_glacier",
+            "coords": [131.33333333303992, 879.5341621359416],
+            "icon": { "url": "glacier.png" },
+            "id": "winter_waves_glacier",
             "name": "Winter Waves Glacier",
-            "icon": { "url": "glacier.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-230, 607],
-            "id": "Frusenholm",
+            "coords": [463.0, 954.0],
+            "icon": { "url": "town_white.png" },
+            "id": "frusenholm",
             "name": "Frusenholm",
-            "icon": { "url": "town_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-347, 598],
-            "id": "Centaham",
+            "coords": [678.0, 928.0],
+            "icon": { "url": "city_white.png" },
+            "id": "centaham",
             "name": "Centaham",
-            "icon": { "url": "city_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-382, 540],
-            "id": "Casbrant_fields",
+            "coords": [752.0, 821.0],
+            "icon": { "url": "plains_white.png" },
+            "id": "casbrant_fields",
             "name": "Casbrant Fields",
-            "icon": { "url": "plains_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-400, 420],
-            "id": "Barbantok",
+            "coords": [795.0, 592.0],
+            "icon": { "url": "town_white.png" },
+            "id": "barbantok",
             "name": "Barbantok",
-            "icon": { "url": "town_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-353, 372],
-            "id": "Nomad_woods",
+            "coords": [712.0, 480.0],
+            "icon": { "url": "forest_white.png" },
+            "id": "nomad_woods",
             "name": "Nomad Woods",
-            "icon": { "url": "forest_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-515, 640],
-            "id": "Coldington",
+            "coords": [1003.0, 1013.0],
+            "icon": { "url": "city_white.png" },
+            "id": "coldington",
             "name": "Coldington",
-            "icon": { "url": "city_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-530, 550],
-            "id": "Azurazera",
+            "coords": [1065.0, 827.0],
+            "icon": { "url": "castle_white.png" },
+            "id": "azurazera",
             "name": "Azurazera",
-            "icon": { "url": "castle_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-470, 703],
-            "id": "Port Skildar",
+            "coords": [946.0, 1135.0],
+            "icon": { "url": "port_white.png" },
+            "id": "port_skildar",
             "name": "Port Skildar",
-            "icon": { "url": "port_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-638, 588],
-            "id": "Sanguine Hills",
+            "coords": [1278.0, 906.0],
+            "icon": { "url": "mountains.png" },
+            "id": "sanguine_hills",
             "name": "Sanguine Hills",
-            "icon": { "url": "mountains.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-287, 717],
-            "id": "Fort of Permafrost",
+            "coords": [578.3, 1167.5932288753793],
+            "icon": { "url": "castle_white.png" },
+            "id": "fort_of_permafrost",
             "name": "Fort of Permafrost",
-            "icon": { "url": "castle_white.png" }
+            "realm": "jarvonia"
           },
           {
-            "coords": [-250, 810],
-            "id": "Noiseless Pass",
+            "coords": [499.0, 1347.0],
+            "icon": { "url": "plains_white.png" },
+            "id": "noiseless_pass",
             "name": "Noiseless Pass",
-            "icon": { "url": "plains_white.png" }
-          }
-        ]
-      },
-      {
-        "name": "Gdte",
-        "minZoom": 1,
-        "maxZoom": 3,
-        "markers": [
+            "realm": "jarvonia"
+          },
           {
-            "coords": [-197, 913],
-            "id": "Mangrove_forest",
+            "coords": [1500.0, 353.0],
+            "icon": { "url": "coast_white.png" },
+            "id": "solitude_rock",
+            "name": "Solitude Rock",
+            "realm": "jarvonia"
+          },
+          {
+            "coords": [398.0, 1563.0],
+            "icon": { "url": "forest_green.png" },
+            "id": "mangrove_forest",
             "name": "Mangrove Forest",
-            "icon": { "url": "forest_green.png" }
+            "realm": "gdte"
           },
           {
-            "coords": [-190, 970],
-            "id": "Salsfirth",
+            "coords": [369.0, 1670.0],
+            "icon": { "url": "city_green.png" },
+            "id": "salsfirth",
             "name": "Salsfirth",
-            "icon": { "url": "city_green.png" }
+            "realm": "gdte"
           },
           {
-            "coords": [-377, 989],
-            "id": "Granfiddich",
+            "coords": [753.0, 1718.0],
+            "icon": { "url": "city_green.png" },
+            "id": "granfiddich",
             "name": "Granfiddich",
-            "icon": { "url": "city_green.png" }
+            "realm": "gdte"
           },
           {
-            "coords": [-470, 1092],
-            "id": "Warrenfield",
+            "coords": [939.0, 1916.0],
+            "icon": { "url": "plains_green.png" },
+            "id": "warrenfield",
             "name": "Warrenfield",
-            "icon": { "url": "plains_green.png" }
+            "realm": "gdte"
           },
           {
-            "coords": [-456, 1175],
-            "id": "Old_arena_ruins",
+            "coords": [913.0, 2086.0],
+            "icon": { "url": "arena_green.png" },
+            "id": "old_arena_ruins",
             "name": "Old Arena Ruins",
-            "icon": { "url": "arena_green.png" }
+            "realm": "gdte"
           },
           {
-            "coords": [-460, 1245],
-            "id": "Red_coast",
+            "coords": [912.0, 2228.0],
+            "icon": { "url": "coast_green.png" },
+            "id": "red_coast",
             "name": "Red Coast",
-            "icon": { "url": "coast_green.png" }
+            "realm": "gdte"
           },
           {
-            "coords": [-395, 1230],
-            "id": "Blackspell_port",
+            "coords": [786.0, 2199.0],
+            "icon": { "url": "port_green.png" },
+            "id": "blackspell_port",
             "name": "Blackspell Port",
-            "icon": { "url": "port_green.png" }
+            "realm": "gdte"
           },
           {
-            "coords": [-215, 1274],
-            "id": "Bilgemont_port",
+            "coords": [437.0, 2286.0],
+            "icon": { "url": "port_green.png" },
+            "id": "bilgemont_port",
             "name": "Bilgemont Port",
-            "icon": { "url": "port_green.png" }
+            "realm": "gdte"
           },
           {
-            "coords": [-149, 1145],
-            "id": "Everhaven",
+            "coords": [306.0, 2024.0],
+            "icon": { "url": "castle_green.png" },
+            "id": "everhaven",
             "name": "Everhaven",
-            "icon": { "url": "castle_green.png" }
+            "realm": "gdte"
           },
           {
-            "coords": [-102, 948],
-            "id": "Farsand_coast",
+            "coords": [210.0, 1631.0],
+            "icon": { "url": "coast_green.png" },
+            "id": "farsand_coast",
             "name": "Farsand Coast",
-            "icon": { "url": "coast_green.png" }
+            "realm": "gdte"
           },
           {
-            "coords": [-323, 1121],
-            "id": "Unknown",
-            "name": "Unknown",
-            "icon": { "url": "unknown_1.png" }
+            "coords": [641.0, 1981.0],
+            "icon": { "url": "marsh_green.png" },
+            "id": "halfling_campgrounds",
+            "name": "Halfling Campgrounds",
+            "realm": "gdte"
           }
         ]
       }
