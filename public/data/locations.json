@@ -1,68 +1,68 @@
 [
   {
-    "name": "Region",
+    "name": "Realms",
     "layers": [
       {
         "minZoom": 0,
         "maxZoom": 1,
         "markers": [
           {
-            "coords": [-330, 535],
-            "id": "Jarvonia",
+            "coords": [630, 750],
+            "id": "jarvonia",
             "name": "Jarvonia",
             "icon": { "url": "Jarvonia.png", "width": 48, "height": 48 }
           },
           {
-            "coords": [-316, 1083],
-            "id": "Gdte",
+            "coords": [540, 1840],
+            "id": "gdte",
             "name": "Gdte",
             "icon": { "url": "Gdte.png", "width": 48, "height": 48 }
           },
           {
-            "coords": [-820, 953],
-            "id": "Wallisia",
+            "coords": [1320, 1700],
+            "id": "wallisia",
             "name": "Wallisia",
             "icon": { "url": "Wallisia.png", "width": 48, "height": 48 }
           },
           {
-            "coords": [-1135, 1220],
-            "id": "Galeforge",
+            "coords": [2265, 2175],
+            "id": "galeforge",
             "name": "Galeforge",
             "icon": { "url": "Galeforge.png", "width": 48, "height": 48 }
           },
           {
-            "coords": [-1060, 576],
-            "id": "Wrentmark",
+            "coords": [2120, 890],
+            "id": "wrentmark",
             "name": "Wrentmark",
             "icon": { "url": "Wrentmark.png", "width": 48, "height": 48 }
           },
           {
-            "coords": [-854, 1442],
-            "id": "Ethereal",
+            "coords": [1770, 2580],
+            "id": "ethereal",
             "name": "Ethereal",
             "icon": { "url": "Ethereal.png", "width": 48, "height": 48 }
           },
           {
-            "coords": [-900, 1783],
-            "id": "Braemercia",
+            "coords": [1800, 3270],
+            "id": "braemercia",
             "name": "Braemercia",
             "icon": { "url": "Braemercia.png", "width": 48, "height": 48 }
           },
           {
-            "coords": [-464, 1615],
-            "id": "Ewerethien",
+            "coords": [860, 2910],
+            "id": "ewerethien",
             "name": "Ewerethien",
             "icon": { "url": "Ewerethien.png", "width": 48, "height": 48 }
           },
           {
-            "coords": [-302, 2061],
-            "id": "Painful_islands",
+            "coords": [555, 3915],
+            "id": "painful_islands",
             "name": "Painful Islands",
             "icon": { "url": "Painful_islands.png", "width": 48, "height": 48 }
           },
           {
-            "coords": [-823, 2203],
-            "id": "Rid_raddak",
+            "coords": [1625, 4120],
+            "id": "rid_raddak",
             "name": "Rid Raddak",
             "icon": { "url": "Rid_raddak.png", "width": 48, "height": 48 }
           }
