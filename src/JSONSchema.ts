@@ -18,6 +18,7 @@ export interface Marker {
   id: string;
   name: string;
   icon?: { url: string; width: number; height: number };
+  realm?: string[];
   activities?: string[];
   buildings?: string[];
   services?: string[];
