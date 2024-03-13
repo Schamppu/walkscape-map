@@ -9,14 +9,14 @@ export interface Layer {
   name?: string;
   minZoom?: number;
   maxZoom: number;
-  icon?: { url: string; width: number; height: number };
+  icon?: { url: string; width?: number; height?: number };
   markers: Marker[];
 }
 
 export interface Marker {
   coords: LatLngTuple;
   hidden?: boolean;
-  icon?: { url: string; width: number; height: number };
+  icon?: { url: string; width?: number; height?: number };
   id: string;
   name: string;
   realm?: string[];
