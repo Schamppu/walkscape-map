@@ -25,7 +25,7 @@ export class Layer extends LayerGroup {
     if (json.icon) {
       layer.icon = new Icon({
         iconUrl: `icons/${json.icon.url}`,
-        iconSize: [json.icon.width, json.icon.height],
+        iconSize: [json.icon.width ?? 32, json.icon.height ?? 32],
       });
     }
 
