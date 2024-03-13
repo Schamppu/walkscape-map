@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'Notototo';
+  src: url('fonts/notototo/NotoSerifToto-SemiBold.ttf') format('truetype');
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Notototo', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -35,6 +40,7 @@ h1 {
 
 .marker-label-div {
   display: flex;
+  margin-top: -13px;
 }
 
 .marker-label-edge-end {
@@ -42,7 +48,8 @@ h1 {
 }
 
 .marker-div-span {
-  color: #111;
+  font-family: 'Notototo';
+  color: #4b361a;
   padding: 5px 0px 3px;
   background-image: url("icons/label_center.png");
   background-repeat: repeat-x;
