@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Notototo";
-  src: url("fonts/notototo/NotoSerifToto-SemiBold.ttf") format("truetype");
+  src: url("/fonts/notototo/NotoSerifToto-SemiBold.ttf") format("truetype");
 }
 
 :root {
@@ -52,7 +52,7 @@ h1 {
   font-family: "Notototo";
   color: #4b361a;
   padding: 5px 0px 3px;
-  background-image: url("icons/label_center.png");
+  background-image: url("/icons/label_center.png");
   background-repeat: repeat-x;
   vertical-align: 100%;
   white-space: nowrap;
