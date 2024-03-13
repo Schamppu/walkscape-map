@@ -1,6 +1,28 @@
 import * as Schema from "./JSONSchema";
-import { Marker, LatLngExpression, DivIcon, LatLngBounds } from "leaflet";
+import {
+  Marker,
+  LatLngExpression,
+  DivIcon,
+  LatLngBounds,
+  Point,
+} from "leaflet";
 import { Layer } from "./Layer";
+
+const measureWidth = (el: HTMLElement) => {
+  var pV = el.style.visibility,
+    pP = el.style.position;
+
+  el.style.visibility = "hidden";
+  el.style.position = "absolute";
+
+  document.body.appendChild(el);
+  var result = el.offsetHeight;
+  if (el.parentNode) el.parentNode.removeChild(el);
+
+  el.style.visibility = pV;
+  el.style.position = pP;
+  return result;
+};
 
 export class WSMarker extends Marker {
   public id: string;
@@ -15,14 +37,28 @@ export class WSMarker extends Marker {
     const name = json.name ?? layer.name;
     let icon;
     if (json.icon) {
+      const width = json.icon.width ?? 32;
+      const height = json.icon.height ?? 32;
+
+      // calculate element width for correct anchor position
+      const content = document.createElement("div");
+      const image = new Image(width, height);
+      image.src = `icons/${json.icon.url}`;
+      image.className = "marker-div-image";
+      content.appendChild(image);
+
+      const label = document.createElement("span");
+      label.textContent = name;
+      label.className = "marker-div-span";
+      content.appendChild(label);
+
+      const elementWidth = measureWidth(content);
+
       icon = new DivIcon({
         className: "marker-div-icon",
         iconSize: undefined,
-        html:
-          `<img class="marker-div-image" src="icons/${json.icon.url}" width="${
-            json.icon.width ?? 32
-          }" height="${json.icon.height ?? 32}">` +
-          `<span class="marker-div-span">${name}</span>`,
+        iconAnchor: new Point(elementWidth, height),
+        html: content,
       });
     } else {
       icon = layer.icon;
