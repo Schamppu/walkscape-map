@@ -39,6 +39,14 @@ h1 {
   text-align: center;
 }
 
+.marker-content-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 50%;
+  margin-left: -50%
+}
+
 .marker-label-div {
   display: flex;
   margin-top: -13px;

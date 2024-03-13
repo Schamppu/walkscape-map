@@ -1,22 +1,6 @@
 import * as Schema from "./JSONSchema";
 import { DivIcon, Point } from "leaflet";
 
-const measureWidth = (el: HTMLElement) => {
-  var pV = el.style.visibility,
-    pP = el.style.position;
-
-  el.style.visibility = "hidden";
-  el.style.position = "absolute";
-
-  document.body.appendChild(el);
-  var result = el.offsetHeight;
-  if (el.parentNode) el.parentNode.removeChild(el);
-
-  el.style.visibility = pV;
-  el.style.position = pP;
-  return result;
-};
-
 export function create(name: string, json: Schema.Marker): DivIcon {
   if (!json.icon) {
     json.icon = { url: "locations/unknown_1.png" };
@@ -27,6 +11,7 @@ export function create(name: string, json: Schema.Marker): DivIcon {
 
   // calculate element width for correct anchor position
   const content = document.createElement("div");
+  content.className = "marker-content-div";
   const image = new Image(width, height);
   image.src = json.hidden
     ? "icons/locations/unknown_1.png"
@@ -51,12 +36,10 @@ export function create(name: string, json: Schema.Marker): DivIcon {
 
   content.appendChild(labelDiv);
 
-  const elementWidth = measureWidth(content) + 32;
-
   const icon = new DivIcon({
     className: "marker-div-icon",
     iconSize: undefined,
-    iconAnchor: new Point(elementWidth, height),
+    iconAnchor: new Point(0, height),
     html: content,
   });
 
