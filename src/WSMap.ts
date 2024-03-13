@@ -1,4 +1,5 @@
-import { Map, LatLngBounds, CRS, MapOptions, Point } from "leaflet";
+import { Map, LatLngBounds, MapOptions, Point } from "leaflet";
+import { create } from "./WSCRS";
 import { MapLayer } from "./MapLayer";
 
 export interface WSMapOptions extends MapOptions {
@@ -20,7 +21,7 @@ export class WSMap extends Map {
 
   public static create(options: WSMapOptions): WSMap {
     const { tileSize, mapSizePixels } = options;
-    const crs = CRS.Simple;
+    const crs = create(mapSizePixels, tileSize);
     options.crs = crs;
 
     const maxZoom = Math.round(Math.log(mapSizePixels / tileSize) * Math.LOG2E);
@@ -41,7 +42,6 @@ export class WSMap extends Map {
       [(-1 / 2) * tileSize, (3 / 4) * tileSize],
       1
     );
-
     // Enable dragging and zooming
     map.dragging.enable();
     map.scrollWheelZoom.enable();
