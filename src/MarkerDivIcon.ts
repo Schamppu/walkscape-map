@@ -54,7 +54,7 @@ export function create(name: string, json: Schema.Marker): DivIcon {
   const elementWidth = measureWidth(content) + 32;
 
   const icon = new DivIcon({
-    className: 'marker-div-icon',
+    className: "marker-div-icon",
     iconSize: undefined,
     iconAnchor: new Point(elementWidth, height),
     html: content,
