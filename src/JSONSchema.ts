@@ -28,11 +28,12 @@ export interface Location extends Marker {
 }
 
 export interface Activity {
-  name: string;
   id: string;
-  skills: string[];
-  requirements?: { [key: string]: number };
+  name: string;
   icon: { url: string; width?: number; height?: number };
+  skills: string[];
+  levelRequirements?: { [key: string]: number };
+  requiredKeywords: string[];
 }
 
 export interface Service {
