@@ -1,0 +1,32 @@
+[
+  {
+    "id": "forge",
+    "name": "Basic Forge",
+    "icon": "services/forge.png",
+    "skills": ["smithing"]
+  },
+  {
+    "id": "forge_frozen",
+    "name": "Frozen Forge",
+    "icon": "services/forge_frozen.png",
+    "skills": ["smithing"]
+  },
+  {
+    "id": "kitchen",
+    "name": "Basic Kitch",
+    "icon": "services/kitchen.png",
+    "skills": ["cooking"]
+  },
+  {
+    "id": "sawmill",
+    "name": "Basic Sawmill",
+    "icon": "services/sawmill.png",
+    "skills": ["carpentry"]
+  },
+  {
+    "id": "workshop",
+    "name": "Basic Workshop",
+    "icon": "services/workshop.png",
+    "skills": ["crafting"]
+  }
+]
