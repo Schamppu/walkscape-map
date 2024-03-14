@@ -21,7 +21,7 @@ export interface Marker {
 
 export interface Location extends Marker {
   hidden: boolean;
-  realm: string[];
+  realm: string;
   activities: string[];
   buildings: string[];
   services: string[];
@@ -32,17 +32,17 @@ export interface Activity {
   id: string;
   skills: string[];
   requirements?: { [key: string]: number };
-  icon?: { url: string; width: number; height: number };
+  icon: { url: string; width?: number; height?: number };
 }
 
 export interface Service {
   name: string;
   id: string;
-  icon?: { url: string; width: number; height: number };
+  icon: { url: string; width?: number; height?: number };
 }
 
 export interface Building {
   name: string;
   id: string;
-  icon?: { url: string; width: number; height: number };
+  icon: { url: string; width?: number; height?: number };
 }
