@@ -283,7 +283,11 @@
               "url": "locations/plains_white.png"
             },
             "hidden": false,
-            "activities": ["plains_foraging", "cut_spruce_trees", "cross"],
+            "activities": [
+              "plains_foraging",
+              "cut_spruce_trees",
+              "cross-country_skiing_(beginner)"
+            ],
             "services": [],
             "buildings": []
           },
@@ -342,7 +346,11 @@
               "url": "locations/plains_white.png"
             },
             "hidden": false,
-            "activities": ["cut_spruce_trees", "cut_oak_trees", "cross"],
+            "activities": [
+              "cut_spruce_trees",
+              "cut_oak_trees",
+              "cross-country_skiing_(intermediate)"
+            ],
             "services": [],
             "buildings": []
           },
