@@ -53,9 +53,8 @@ export class WSMarker extends Marker {
   }
 
   public static isLocation(
-    marker: Schema.Marker | Schema.Location,
-    layer: Layer
+    marker: Schema.Marker | Schema.Location
   ): marker is Schema.Location {
-    return layer.name === "Locations";
+    return Object.keys(marker).includes("realm");
   }
 }

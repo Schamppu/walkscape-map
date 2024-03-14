@@ -30,7 +30,7 @@ export class Layer extends LayerGroup {
     }
 
     layer.markers = json.markers.map((m) =>
-      WSMarker.isLocation(m, layer)
+      WSMarker.isLocation(m)
         ? WSLocationMarker.fromJson(m, layer)
         : WSMarker.fromJson(m, layer)
     );
