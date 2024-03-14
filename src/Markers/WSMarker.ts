@@ -1,7 +1,7 @@
-import * as Schema from "./JSONSchema";
+import * as Schema from "../JSONSchema";
 import { Marker, LatLngExpression, LatLngBounds } from "leaflet";
-import { Layer } from "./Layer";
-import { create } from "./MarkerDivIcon";
+import { Layer } from "../Layer";
+import { MarkerDivIcon } from "./MarkerDivIcon";
 
 export class WSMarker extends Marker {
   public id: string;
@@ -13,17 +13,12 @@ export class WSMarker extends Marker {
     coords: LatLngExpression,
     layer: Layer
   ) {
-    const name = json.name ?? layer.name;
-    let icon;
-    if (json.icon) {
-      icon = create(name, json);
-    } else {
-      icon = layer.icon;
-    }
+    const icon = MarkerDivIcon.create(json);
+    const name = icon.name;
 
     super(coords, {
-      title: json.name ?? layer.name,
-      icon,
+      title: icon.name,
+      icon: icon.divIcon,
     });
 
     this.id = json.id;

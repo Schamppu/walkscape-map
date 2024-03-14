@@ -1,7 +1,7 @@
 import * as Schema from "./JSONSchema";
 import { LayerGroup, LatLngBounds } from "leaflet";
-import { WSMarker } from "./WSMarker";
-import { WSLocationMarker } from "./WSLocationMarker";
+import { WSMarker } from "./Markers/WSMarker";
+import { WSLocationMarker } from "./Markers/WSLocationMarker";
 
 export enum Visibility {
   Off,

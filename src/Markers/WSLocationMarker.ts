@@ -1,6 +1,6 @@
-import * as Schema from "./JSONSchema";
+import * as Schema from "../JSONSchema";
 import { WSMarker } from "./WSMarker";
-import { Layer } from "./Layer";
+import { Layer } from "../Layer";
 import { LatLngExpression } from "leaflet";
 
 export class WSLocationMarker extends WSMarker {
