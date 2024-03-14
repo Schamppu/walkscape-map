@@ -10,61 +10,101 @@
             "coords": [630, 750],
             "id": "jarvonia",
             "name": "Jarvonia",
-            "icon": { "url": "coatofarms/jarvonia.png", "width": 48, "height": 48 }
+            "icon": {
+              "url": "coatofarms/jarvonia.png",
+              "width": 48,
+              "height": 48
+            }
           },
           {
             "coords": [540, 1840],
             "id": "gdte",
             "name": "GDTE",
-            "icon": { "url": "coatofarms/gdte.png", "width": 48, "height": 48 }
+            "icon": {
+              "url": "coatofarms/gdte.png",
+              "width": 48,
+              "height": 48
+            }
           },
           {
             "coords": [1320, 1700],
             "id": "wallisia",
             "name": "Wallisia",
-            "icon": { "url": "coatofarms/wallisia.png", "width": 48, "height": 48 }
+            "icon": {
+              "url": "coatofarms/wallisia.png",
+              "width": 48,
+              "height": 48
+            }
           },
           {
             "coords": [2265, 2175],
             "id": "galeforge",
             "name": "Galeforge",
-            "icon": { "url": "coatofarms/galeforge.png", "width": 48, "height": 48 }
+            "icon": {
+              "url": "coatofarms/galeforge.png",
+              "width": 48,
+              "height": 48
+            }
           },
           {
             "coords": [2120, 890],
             "id": "wrentmark",
             "name": "Wrentmark",
-            "icon": { "url": "coatofarms/wrentmark.png", "width": 48, "height": 48 }
+            "icon": {
+              "url": "coatofarms/wrentmark.png",
+              "width": 48,
+              "height": 48
+            }
           },
           {
             "coords": [1770, 2580],
             "id": "ethereal",
             "name": "Ethereal",
-            "icon": { "url": "coatofarms/ethereal.png", "width": 48, "height": 48 }
+            "icon": {
+              "url": "coatofarms/ethereal.png",
+              "width": 48,
+              "height": 48
+            }
           },
           {
             "coords": [1800, 3270],
             "id": "braemercia",
             "name": "Braemercia",
-            "icon": { "url": "coatofarms/braemercia.png", "width": 48, "height": 48 }
+            "icon": {
+              "url": "coatofarms/braemercia.png",
+              "width": 48,
+              "height": 48
+            }
           },
           {
             "coords": [860, 2910],
             "id": "ewerethien",
             "name": "Ewerethien",
-            "icon": { "url": "coatofarms/ewerethien.png", "width": 48, "height": 48 }
+            "icon": {
+              "url": "coatofarms/ewerethien.png",
+              "width": 48,
+              "height": 48
+            }
           },
           {
             "coords": [555, 3915],
             "id": "painful_islands",
             "name": "Painful Islands",
-            "icon": { "url": "coatofarms/painful_islands.png", "width": 48, "height": 48 }
+            "icon": {
+              "url": "coatofarms/painful_islands.png",
+              "width": 48,
+              "height": 48
+            }
           },
           {
             "coords": [1625, 4120],
             "id": "rid_raddak",
             "name": "Rid Raddak",
-            "icon": { "url": "coatofarms/rid_raddak.png", "width": 48, "height": 48 }
+            "icon": {
+              "url": "coatofarms/rid_raddak.png",
+              "width": 48,
+              "height": 48
+            }
           }
         ]
       }
@@ -78,209 +118,437 @@
         "maxZoom": 3,
         "markers": [
           {
-            "coords": [408.0, 619.0],
-            "icon": { "url": "locations/castle_white.png" },
-            "id": "kallaheim",
-            "name": "Kallaheim",
-            "realm": "jarvonia"
-          },
-          {
-            "coords": [369.0, 537.0],
-            "icon": { "url": "locations/forest_white.png" },
             "id": "disenchanted_forest",
-            "name": "Disenchanted Forest",
-            "realm": "jarvonia"
+            "name": "Disenchanted forest",
+            "realm": "jarvonia",
+            "coords": [369.0, 537.0],
+            "icon": {
+              "url": "locations/forest_white.png"
+            },
+            "hidden": false,
+            "activities": [
+              "cut_pine_trees",
+              "cut_birch_trees",
+              "dobby_is..._free"
+            ],
+            "services": [],
+            "buildings": ["helpful_herbert's_hut"]
           },
           {
-            "coords": [405.543212890625, 451.25],
-            "icon": { "url": "locations/coast_white.png" },
-            "id": "beach_of_woes",
-            "name": "Beach of Woes",
-            "realm": "jarvonia"
-          },
-          {
-            "coords": [202.0, 729.0],
-            "icon": { "url": "locations/mountains.png" },
-            "id": "frostbite_mountain",
-            "name": "Frostbite Mountain",
-            "realm": "jarvonia"
-          },
-          {
-            "coords": [247.0, 851.0],
-            "icon": { "url": "locations/plains_white.png" },
-            "id": "norsack_plains",
-            "name": "Norsack Plains",
-            "realm": "jarvonia"
-          },
-          {
-            "coords": [131.33333333303992, 879.5341621359416],
-            "icon": { "url": "locations/glacier.png" },
-            "id": "winter_waves_glacier",
-            "name": "Winter Waves Glacier",
-            "realm": "jarvonia"
-          },
-          {
-            "coords": [463.0, 954.0],
-            "icon": { "url": "locations/town_white.png" },
-            "id": "frusenholm",
-            "name": "Frusenholm",
-            "realm": "jarvonia"
-          },
-          {
-            "coords": [678.0, 928.0],
-            "icon": { "url": "locations/city_white.png" },
-            "id": "centaham",
-            "name": "Centaham",
-            "realm": "jarvonia"
-          },
-          {
-            "coords": [752.0, 821.0],
-            "icon": { "url": "locations/plains_white.png" },
-            "id": "casbrant_fields",
-            "name": "Casbrant Fields",
-            "realm": "jarvonia"
-          },
-          {
-            "coords": [795.0, 592.0],
-            "icon": { "url": "locations/town_white.png" },
-            "id": "barbantok",
-            "name": "Barbantok",
-            "realm": "jarvonia"
-          },
-          {
-            "coords": [712.0, 480.0],
-            "icon": { "url": "locations/forest_white.png" },
-            "id": "nomad_woods",
-            "name": "Nomad Woods",
-            "realm": "jarvonia"
-          },
-          {
-            "coords": [1003.0, 1013.0],
-            "icon": { "url": "locations/city_white.png" },
-            "id": "coldington",
-            "name": "Coldington",
-            "realm": "jarvonia"
-          },
-          {
-            "coords": [1065.0, 827.0],
-            "icon": { "url": "locations/castle_white.png" },
             "id": "azurazera",
             "name": "Azurazera",
-            "realm": "jarvonia"
+            "realm": "jarvonia",
+            "coords": [1065.0, 827.0],
+            "icon": {
+              "url": "locations/castle_white.png"
+            },
+            "hidden": false,
+            "activities": ["lake_fishing", "soup_kitchen_volunteering"],
+            "services": [],
+            "buildings": ["temple_of_azurazera"]
           },
           {
-            "coords": [946.0, 1135.0],
-            "icon": { "url": "locations/port_white.png" },
+            "id": "kallaheim",
+            "name": "Kallaheim",
+            "realm": "jarvonia",
+            "coords": [408.0, 619.0],
+            "icon": {
+              "url": "locations/castle_white.png"
+            },
+            "hidden": false,
+            "activities": ["litter_looting"],
+            "services": ["basic_forge", "basic_kitchen", "basic_sawmill"],
+            "buildings": [
+              "the_icy_goblet",
+              "kallaheim's_frosty_finds",
+              "frozen_capital_bank"
+            ]
+          },
+          {
+            "id": "frusenholm",
+            "name": "Frusenholm",
+            "realm": "jarvonia",
+            "coords": [463.0, 954.0],
+            "icon": {
+              "url": "locations/town_white.png"
+            },
+            "hidden": false,
+            "activities": ["lake_fishing", "ice_sculpting"],
+            "services": ["basic_workshop"],
+            "buildings": ["jarvojoy"]
+          },
+          {
+            "id": "barbantok",
+            "name": "Barbantok",
+            "realm": "jarvonia",
+            "coords": [795.0, 592.0],
+            "icon": {
+              "url": "locations/town_white.png"
+            },
+            "hidden": false,
+            "activities": [
+              "frisbee_golfing_(beginner)",
+              "wood_carving",
+              "tinkering"
+            ],
+            "services": ["basic_sawmill"],
+            "buildings": []
+          },
+          {
+            "id": "centaham",
+            "name": "Centaham",
+            "realm": "jarvonia",
+            "coords": [678.0, 928.0],
+            "icon": {
+              "url": "locations/city_white.png"
+            },
+            "hidden": false,
+            "activities": [],
+            "services": ["basic_kitchen"],
+            "buildings": ["northstar_mercantile"]
+          },
+          {
             "id": "port_skildar",
-            "name": "Port Skildar",
-            "realm": "jarvonia"
+            "name": "Port skildar",
+            "realm": "jarvonia",
+            "coords": [946.0, 1135.0],
+            "icon": {
+              "url": "locations/port_white.png"
+            },
+            "hidden": false,
+            "activities": [
+              "sea_fishing_(rod)",
+              "horseshoe_making",
+              "ship_repair_(beginner)"
+            ],
+            "services": [],
+            "buildings": ["frosthook_emporium"]
           },
           {
-            "coords": [1278.0, 906.0],
-            "icon": { "url": "locations/mountains.png" },
+            "id": "coldington",
+            "name": "Coldington",
+            "realm": "jarvonia",
+            "coords": [1003.0, 1013.0],
+            "icon": {
+              "url": "locations/city_white.png"
+            },
+            "hidden": false,
+            "activities": ["firewood_making", "rooftop_jumping"],
+            "services": ["basic_kitchen"],
+            "buildings": []
+          },
+          {
             "id": "sanguine_hills",
-            "name": "Sanguine Hills",
-            "realm": "jarvonia"
+            "name": "Sanguine hills",
+            "realm": "jarvonia",
+            "coords": [1278.0, 906.0],
+            "icon": {
+              "url": "locations/hills_white.png"
+            },
+            "hidden": false,
+            "activities": [
+              "cliff_foraging",
+              "mine_coal",
+              "mine_tarsilium_ore",
+              "mine_farganite_ore",
+              "spelunking",
+              "mountain_climbing_(intermediate)"
+            ],
+            "services": [],
+            "buildings": []
           },
           {
-            "coords": [578.3, 1167.5932288753793],
-            "icon": { "url": "locations/castle_white.png" },
-            "id": "fort_of_permafrost",
-            "name": "Fort of Permafrost",
-            "realm": "jarvonia"
+            "id": "nomad_woods",
+            "name": "Nomad woods",
+            "realm": "jarvonia",
+            "coords": [712.0, 480.0],
+            "icon": {
+              "url": "locations/forest_white.png"
+            },
+            "hidden": false,
+            "activities": [
+              "cut_birch_trees",
+              "cut_spruce_trees",
+              "cut_oak_trees"
+            ],
+            "services": [],
+            "buildings": ["woodcutter's_cabin"]
           },
           {
-            "coords": [499.0, 1347.0],
-            "icon": { "url": "locations/plains_white.png" },
-            "id": "noiseless_pass",
-            "name": "Noiseless Pass",
-            "realm": "jarvonia"
+            "id": "casbrant_fields",
+            "name": "Casbrant fields",
+            "realm": "jarvonia",
+            "coords": [752.0, 821.0],
+            "icon": {
+              "url": "locations/plains_white.png"
+            },
+            "hidden": false,
+            "activities": ["plains_foraging", "cut_spruce_trees", "cross"],
+            "services": [],
+            "buildings": []
           },
           {
-            "coords": [1500.0, 353.0],
-            "hidden": true,
-            "icon": { "url": "locations/coast_white.png" },
             "id": "solitude_rock",
-            "name": "Solitude Rock",
-            "realm": "jarvonia"
+            "name": "Solitude rock",
+            "realm": "jarvonia",
+            "coords": [1500.0, 353.0],
+            "icon": {
+              "url": "locations/coast_white.png"
+            },
+            "hidden": true,
+            "activities": [],
+            "services": [],
+            "buildings": []
           },
           {
-            "coords": [398.0, 1563.0],
-            "icon": { "url": "locations/forest_green.png" },
-            "id": "mangrove_forest",
-            "name": "Mangrove Forest",
-            "realm": "gdte"
+            "id": "norsack_plains",
+            "name": "Norsack plains",
+            "realm": "jarvonia",
+            "coords": [247.0, 851.0],
+            "icon": {
+              "url": "locations/plains_white.png"
+            },
+            "hidden": false,
+            "activities": ["plains_foraging", "gold_panning"],
+            "services": [],
+            "buildings": []
           },
           {
-            "coords": [369.0, 1670.0],
-            "icon": { "url": "locations/city_green.png" },
+            "id": "frostbite_mountain",
+            "name": "Frostbite mountain",
+            "realm": "jarvonia",
+            "coords": [202.0, 729.0],
+            "icon": {
+              "url": "locations/mountains.png"
+            },
+            "hidden": false,
+            "activities": [
+              "mine_copper_ore",
+              "mine_tin_ore",
+              "mine_iron_ore",
+              "cliff_foraging",
+              "mine_coal",
+              "mountain_climbing_(beginner)"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "noiseless_pass",
+            "name": "Noiseless pass",
+            "realm": "jarvonia",
+            "coords": [499.0, 1347.0],
+            "icon": {
+              "url": "locations/plains_white.png"
+            },
+            "hidden": false,
+            "activities": ["cut_spruce_trees", "cut_oak_trees", "cross"],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "fort_of_permafrost",
+            "name": "Fort of permafrost",
+            "realm": "jarvonia",
+            "coords": [578.3, 1167.5932288753793],
+            "icon": {
+              "url": "locations/castle_white.png"
+            },
+            "hidden": false,
+            "activities": [],
+            "services": [],
+            "buildings": ["fort_of_permafrost"]
+          },
+          {
+            "id": "farsand_coast",
+            "name": "Farsand coast",
+            "realm": "gdte",
+            "coords": [210.0, 1631.0],
+            "icon": {
+              "url": "locations/coast_green.png"
+            },
+            "hidden": false,
+            "activities": [
+              "teak_logs",
+              "seashell_searching",
+              "swimming_(beginner)"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
             "id": "salsfirth",
             "name": "Salsfirth",
-            "realm": "gdte"
+            "realm": "gdte",
+            "coords": [369.0, 1670.0],
+            "icon": {
+              "url": "locations/city_green.png"
+            },
+            "hidden": false,
+            "activities": [],
+            "services": ["basic_kitchen", "basic_workshop"],
+            "buildings": ["bogside_bank_of_prosperity", "paws_are_us"]
           },
           {
-            "coords": [753.0, 1718.0],
-            "icon": { "url": "locations/city_green.png" },
-            "id": "granfiddich",
-            "name": "Granfiddich",
-            "realm": "gdte"
-          },
-          {
-            "coords": [939.0, 1916.0],
-            "icon": { "url": "locations/plains_green.png" },
-            "id": "warrenfield",
-            "name": "Warrenfield",
-            "realm": "gdte"
-          },
-          {
-            "coords": [913.0, 2086.0],
-            "icon": { "url": "locations/arena_green.png" },
-            "id": "old_arena_ruins",
-            "name": "Old Arena Ruins",
-            "realm": "gdte"
-          },
-          {
-            "coords": [912.0, 2228.0],
-            "icon": { "url": "locations/coast_green.png" },
-            "id": "red_coast",
-            "name": "Red Coast",
-            "realm": "gdte"
-          },
-          {
-            "coords": [786.0, 2199.0],
-            "icon": { "url": "locations/port_green.png" },
-            "id": "blackspell_port",
-            "name": "Blackspell Port",
-            "realm": "gdte"
-          },
-          {
-            "coords": [437.0, 2286.0],
-            "icon": { "url": "locations/port_green.png" },
-            "id": "bilgemont_port",
-            "name": "Bilgemont Port",
-            "realm": "gdte"
-          },
-          {
-            "coords": [306.0, 2024.0],
-            "icon": { "url": "locations/castle_green.png" },
             "id": "everhaven",
             "name": "Everhaven",
-            "realm": "gdte"
+            "realm": "gdte",
+            "coords": [306.0, 2024.0],
+            "icon": {
+              "url": "locations/castle_green.png"
+            },
+            "hidden": false,
+            "activities": ["rooftop_jumping_(intermediate)"],
+            "services": ["basic_sawmill", "basic_kitchen"],
+            "buildings": ["mossy_merchant's_breeze_mart"]
           },
           {
-            "coords": [210.0, 1631.0],
-            "icon": { "url": "locations/coast_green.png" },
-            "id": "farsand_coast",
-            "name": "Farsand Coast",
-            "realm": "gdte"
+            "id": "bilgemont_port",
+            "name": "Bilgemont port",
+            "realm": "gdte",
+            "coords": [437.0, 2286.0],
+            "icon": {
+              "url": "locations/port_green.png"
+            },
+            "hidden": false,
+            "activities": ["frisbee_golfing_(intermediate)"],
+            "services": ["basic_forge"],
+            "buildings": ["bilgemont_castle", "maritime_fortune_bank"]
           },
           {
-            "coords": [641.0, 1981.0],
-            "hidden": true,
-            "icon": { "url": "locations/marsh_green.png" },
+            "id": "granfiddich",
+            "name": "Granfiddich",
+            "realm": "gdte",
+            "coords": [753.0, 1718.0],
+            "icon": {
+              "url": "locations/city_green.png"
+            },
+            "hidden": false,
+            "activities": [
+              "litter_looting",
+              "soup_kitchen_volunteering",
+              "wine_grape_stomping",
+              "dumpster_diving"
+            ],
+            "services": ["basic_forge"],
+            "buildings": [
+              "fish_market_stall",
+              "food_market_stall",
+              "tool_market_stall"
+            ]
+          },
+          {
+            "id": "blackspell_port",
+            "name": "Blackspell port",
+            "realm": "gdte",
+            "coords": [786.0, 2199.0],
+            "icon": {
+              "url": "locations/port_green.png"
+            },
+            "hidden": false,
+            "activities": ["dumpster_diving", "ship_repair_(intermediate)"],
+            "services": ["basic_kitchen"],
+            "buildings": []
+          },
+          {
+            "id": "old_arena_ruins",
+            "name": "Old arena ruins",
+            "realm": "gdte",
+            "coords": [913.0, 2086.0],
+            "icon": {
+              "url": "locations/arena_green.png"
+            },
+            "hidden": false,
+            "activities": ["magnet_fishing", "kayaking"],
+            "services": [],
+            "buildings": []
+          },
+          {
             "id": "halfling_campgrounds",
-            "name": "Halfling Campgrounds",
-            "realm": "gdte"
+            "name": "Halfling campgrounds",
+            "realm": "gdte",
+            "coords": [641.0, 1981.0],
+            "icon": {
+              "url": "locations/marsh_green.png"
+            },
+            "hidden": true,
+            "activities": ["cut_mangrove_trees"],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "mangrove_forest",
+            "name": "Mangrove forest",
+            "realm": "gdte",
+            "coords": [398.0, 1563.0],
+            "icon": {
+              "url": "locations/forest_green.png"
+            },
+            "hidden": false,
+            "activities": [
+              "cut_maple_trees",
+              "cut_mangrove_trees",
+              "cut_willow_trees"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "red_coast",
+            "name": "Red coast",
+            "realm": "gdte",
+            "coords": [912.0, 2228.0],
+            "icon": {
+              "url": "locations/coast_green.png"
+            },
+            "hidden": false,
+            "activities": ["swimming_(intermediate)"],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "warrenfield",
+            "name": "Warren field",
+            "realm": "gdte",
+            "coords": [939.0, 1916.0],
+            "icon": {
+              "url": "locations/plains_green.png"
+            },
+            "hidden": false,
+            "activities": ["cut_willow_trees", "butterfly_catching"],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "beach_of_woes",
+            "name": "Beach of woes",
+            "realm": "jarvonia",
+            "coords": [405.543212890625, 451.25],
+            "icon": {
+              "url": "locations/coast_white.png"
+            },
+            "hidden": false,
+            "activities": [
+              "sea_fishing",
+              "sandcastle_building",
+              "seashell_searching",
+              "surface_salt_mining"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "winter_waves_glacier",
+            "name": "Winter waves glacier",
+            "realm": "jarvonia",
+            "coords": [131.33333333303992, 879.5341621359416],
+            "icon": {
+              "url": "locations/glacier.png"
+            },
+            "hidden": false,
+            "activities": ["glacier_foraging"],
+            "services": ["frozen_forge"],
+            "buildings": []
           }
         ]
       }
