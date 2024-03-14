@@ -8,7 +8,7 @@ export class WSMarker extends Marker {
   public name: string;
   public layer: Layer;
 
-  private constructor(
+  protected constructor(
     json: Schema.Marker,
     coords: LatLngExpression,
     layer: Layer
@@ -55,5 +55,12 @@ export class WSMarker extends Marker {
   public static fromJson(json: Schema.Marker, layer: Layer): WSMarker {
     const marker = new WSMarker(json, json.coords, layer);
     return marker;
+  }
+
+  public static isLocation(
+    marker: Schema.Marker | Schema.Location,
+    layer: Layer
+  ): marker is Schema.Location {
+    return layer.name === "Locations";
   }
 }

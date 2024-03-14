@@ -1,6 +1,7 @@
 import * as Schema from "./JSONSchema";
 import { LayerGroup, Icon, LatLngBounds } from "leaflet";
 import { WSMarker } from "./WSMarker";
+import { WSLocationMarker } from "./WSLocationMarker";
 
 export enum Visibility {
   Off,
@@ -36,7 +37,11 @@ export class Layer extends LayerGroup {
       layer.maxZoom = json.maxZoom;
     }
 
-    layer.markers = json.markers.map((m) => WSMarker.fromJson(m, layer));
+    layer.markers = json.markers.map((m) =>
+      WSMarker.isLocation(m, layer)
+        ? WSLocationMarker.fromJson(m, layer)
+        : WSMarker.fromJson(m, layer)
+    );
 
     return layer;
   }
