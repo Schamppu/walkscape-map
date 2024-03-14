@@ -10,7 +10,8 @@ def write_json(filepath, data):
         json.dump(data, jf, ensure_ascii=False, indent=2)
     
 def get_id(string):
-    return string.split('-')[1]
+    split = string.split('-')
+    return '-'.join(split[1:len(split) - 5])
 
 def get_name(official_location):
     name_data = official_location['name'].split('.')[-2]
