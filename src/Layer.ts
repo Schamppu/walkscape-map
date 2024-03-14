@@ -1,5 +1,5 @@
 import * as Schema from "./JSONSchema";
-import { LayerGroup, Icon, LatLngBounds } from "leaflet";
+import { LayerGroup, LatLngBounds } from "leaflet";
 import { WSMarker } from "./WSMarker";
 import { WSLocationMarker } from "./WSLocationMarker";
 
@@ -10,7 +10,6 @@ export enum Visibility {
 }
 
 export class Layer extends LayerGroup {
-  public icon?: L.Icon;
   public minZoom = 0;
   public maxZoom = Number.MAX_VALUE;
   public visibility = Visibility.Default;
@@ -22,13 +21,6 @@ export class Layer extends LayerGroup {
 
   public static fromJson(json: Schema.Layer, categoryName: string): Layer {
     const layer = new Layer(json.name ?? categoryName);
-
-    if (json.icon) {
-      layer.icon = new Icon({
-        iconUrl: `icons/${json.icon.url}`,
-        iconSize: [json.icon.width ?? 32, json.icon.height ?? 32],
-      });
-    }
 
     if (json.minZoom != undefined) {
       layer.minZoom = json.minZoom;

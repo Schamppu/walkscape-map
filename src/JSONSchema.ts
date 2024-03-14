@@ -9,13 +9,12 @@ export interface Layer {
   name?: string;
   minZoom?: number;
   maxZoom: number;
-  icon?: { url: string; width?: number; height?: number };
   markers: Marker[] | Location[];
 }
 
 export interface Marker {
   coords: LatLngTuple;
-  icon?: { url: string; width?: number; height?: number };
+  icon: { url: string; width?: number; height?: number };
   id: string;
   name: string;
 }
