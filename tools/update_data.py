@@ -20,7 +20,7 @@ def get_name(official_location):
 def find(list, id):
     return [i for i in list if i['id'] == id]
 
-def main():
+def update_locations():
     locations_path = '../public/data/locations.json'
     src_path = './locations_official.json'
 
@@ -33,9 +33,10 @@ def main():
     for off_location in official_data:
         id = get_id(off_location['id'])
         old_loc = find(locations, id)
-        existing = len(old_loc) > 1
+        exists = len(old_loc)
 
-        name = old_loc[0]['name'] if existing else get_name(off_location)
+        # keep fixed capitalizations from old data if it exists
+        name = old_loc[0]['name'] if exists else get_name(off_location)
         icon_path = off_location['locationIcon'].replace('assets/icons/', '')
         hidden = False if 'hidden' not in old_loc[0] else old_loc[0]['hidden']
 
@@ -54,6 +55,41 @@ def main():
 
     location_json_full[1]['layers'][0]['markers'] = new_locations
     write_json(locations_path, location_json_full)
+
+def update_activities():
+    activities_path = '../public/data/activities.json'
+    src_path = './activities_official.json'
+    
+    activities_data = read_json(activities_path)
+    official_data = read_json(src_path)
+
+    activities = []
+    for off_activity in official_data:
+        id = get_id(off_activity['id'])
+        old_activity = find(activities_data, id)
+        exists = len(old_activity)
+
+        # keep fixed capitalizations from old data if it exists
+        name = old_activity[0]['name'] if exists else get_name(off_activity)
+        icon_path = off_activity['activityIcon'].replace('assets/icons/', '')
+        level_requirements = off_activity['levelRequirementsMap']
+        skills = [i for i in level_requirements.keys()]
+        required_keywords = [obj['keyword'] for obj in off_activity['requiredKeywords']]
+
+        activity = {
+            'id': id,
+            'name': name,
+            'icon': icon_path,
+            'skills': skills,
+            'levelRequirements': level_requirements,
+            'requiredKeywords': required_keywords,
+        }
+        activities.append(activity)
+    write_json(activities_path, activities)
+
+def main():
+    #update_locations()
+    update_activities()
 
 if __name__ == '__main__':
     main()
