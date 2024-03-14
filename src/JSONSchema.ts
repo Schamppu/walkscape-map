@@ -37,13 +37,16 @@ export interface Activity {
 }
 
 export interface Service {
-  name: string;
   id: string;
+  name: string;
   icon: { url: string; width?: number; height?: number };
+  skills: string[];
 }
 
 export interface Building {
-  name: string;
   id: string;
+  name: string;
   icon: { url: string; width?: number; height?: number };
+  type: string;
+  shop: string;
 }
