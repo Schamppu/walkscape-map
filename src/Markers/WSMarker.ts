@@ -13,17 +13,16 @@ export class WSMarker extends Marker {
     coords: LatLngExpression,
     layer: Layer
   ) {
-    const icon = MarkerDivIcon.create(json);
-    const name = icon.name;
+    const { title, divIcon: icon } = MarkerDivIcon.create(json);
 
     super(coords, {
-      title: icon.name,
-      icon: icon.divIcon,
+      title,
+      icon,
     });
 
     this.id = json.id;
     this.layer = layer;
-    this.name = name;
+    this.name = title;
   }
 
   public show(): void {

@@ -2,15 +2,15 @@ import * as Schema from "../JSONSchema";
 import { DivIcon, Point } from "leaflet";
 
 export interface NamedDivIcon {
-  name: string;
+  title: string;
   divIcon: DivIcon;
 }
 
 export class MarkerDivIcon {
   public static create(json: Schema.Marker): NamedDivIcon;
   public static create(json: Schema.Location): NamedDivIcon {
-    let name = json.name;
-    if (json.hidden) name = "Unknown";
+    let title = json.name;
+    if (json.hidden) title = "Unknown";
 
     const width = json.icon.width ?? 32;
     const height = json.icon.height ?? 32;
@@ -33,7 +33,7 @@ export class MarkerDivIcon {
     labelDiv.appendChild(labelStart);
     labelDiv.className = "marker-label-div";
     const label = document.createElement("span");
-    label.textContent = json.hidden ? "Unknown" : name;
+    label.textContent = title
     label.className = "marker-div-span";
     labelDiv.appendChild(label);
     labelDiv.appendChild(labelEnd);
@@ -48,6 +48,6 @@ export class MarkerDivIcon {
       html: content,
     });
 
-    return { name, divIcon: icon };
+    return { title, divIcon: icon };
   }
 }
