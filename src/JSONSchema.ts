@@ -10,19 +10,22 @@ export interface Layer {
   minZoom?: number;
   maxZoom: number;
   icon?: { url: string; width?: number; height?: number };
-  markers: Marker[];
+  markers: Marker[] | Location[];
 }
 
 export interface Marker {
   coords: LatLngTuple;
-  hidden?: boolean;
   icon?: { url: string; width?: number; height?: number };
   id: string;
   name: string;
-  realm?: string[];
-  activities?: string[];
-  buildings?: string[];
-  services?: string[];
+}
+
+export interface Location extends Marker {
+  hidden: boolean;
+  realm: string[];
+  activities: string[];
+  buildings: string[];
+  services: string[];
 }
 
 export interface Activity {
