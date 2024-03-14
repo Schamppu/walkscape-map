@@ -3,6 +3,11 @@
   src: url("/fonts/notototo/NotoSerifToto-SemiBold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/worksans/WorkSans-SemiBold.ttf") format("truetype");
+}
+
 :root {
   font-family: "Notototo", Inter, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
@@ -44,7 +49,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   padding-right: 50%;
-  margin-left: -50%
+  margin-left: -50%;
 }
 
 .marker-label-div {
@@ -64,6 +69,98 @@ h1 {
   background-repeat: repeat-x;
   vertical-align: 100%;
   white-space: nowrap;
+}
+
+.ws-location-popup {
+  background-color: #0f1e25;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.jarvonia-color {
+  color: #bbdff9;
+}
+
+.gdte-color {
+  color: #cbe4cb;
+}
+
+.ws-location-popup__title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.ws-location-popup__title-divider {
+  display: table;
+  height: 2px;
+}
+
+.ws-location-popup__title-divider span {
+  display: table-cell;
+  position: relative;
+}
+
+.ws-location-popup__title-divider span:first-child,
+.ws-location-popup__title-divider span:last-child {
+  width: 50%;
+  /* top: 13px; adjust vertical align */
+  background-size: 100% 2px; /* line width */
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+}
+
+.ws-location-popup__title-divider.jarvonia-bg span:first-child {
+  /* color changes in here */
+  background-image: linear-gradient(90deg, transparent, #bfddf5);
+}
+.ws-location-popup__title-divider.gdte-bg span:first-child {
+  /* color changes in here */
+  background-image: linear-gradient(90deg, transparent, #cbe4cb);
+}
+
+.ws-location-popup__title-divider.jarvonia-bg span:last-child {
+  /* color changes in here */
+  background-image: linear-gradient(90deg, #bfddf5, transparent);
+}
+.ws-location-popup__title-divider.gdte-bg span:last-child {
+  /* color changes in here */
+  background-image: linear-gradient(90deg, #cbe4cb, transparent);
+}
+
+.ws-location-popup__title {
+  font-family: "Notototo";
+  margin: 0px;
+}
+
+.ws-location-popup__title-icon {
+  padding-bottom: 4px;
+}
+
+.ws-location-popup__subdiv {
+  padding: 5px 0px;
+}
+
+.ws-location-popup__subdiv + .ws-location-popup__subdiv {
+  border-top: solid 2px #21333d;
+}
+
+.ws-location-popup__subheader {
+  font-family: "WorkSans";
+  color: #ded1c0;
+  text-shadow: 2px 2px #080d10;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #0f1e25;
+  border: 1px solid #a5a198;
+  margin-bottom: 24px;
+}
+
+.leaflet-popup-tip {
+  display: none;
 }
 
 #map .leaflet-div-icon {
