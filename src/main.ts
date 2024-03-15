@@ -21,15 +21,13 @@ window.onload = async () => {
       .then(returnValue)
   );
   const [activities, buildings, services] = await Promise.all(promises);
+  const data = [activities, buildings, services];
 
   const map = WSMap.create({
     mapSizePixels: 5248,
     tileSize: 656,
     minZoom: 0,
     maxZoom: 3,
-    activities,
-    buildings,
-    services,
   });
   const mapLayer = map.addMapLayer();
 
@@ -37,7 +35,7 @@ window.onload = async () => {
     for (const category of categories) {
       mapLayer.addCategory(
         category.name,
-        category.layers.map((l) => Layer.fromJson(l, category.name))
+        category.layers.map((l) => Layer.fromJson(l, category.name, data))
       );
     }
   }
