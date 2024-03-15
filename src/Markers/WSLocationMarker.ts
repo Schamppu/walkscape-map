@@ -8,7 +8,7 @@ export class WSLocationMarker extends WSMarker {
   private popup: LocationPopup;
 
   protected constructor(
-    json: Schema.Location,
+    json: Schema.MappedLocation,
     coords: LatLngExpression,
     layer: Layer
   ) {
@@ -18,16 +18,21 @@ export class WSLocationMarker extends WSMarker {
       name: this.name,
       realm: json.realm,
       icon: json.icon,
-      activities: [],
-      buildings: [],
-      services: [],
+      activities: json.activities,
+      buildings: json.buildings,
+      services: json.services,
     });
     this.popup = popup;
     this.bindPopup(this.popup);
+
+    this.on('click', () => {
+      const popupContent = this.popup.getPopupContent()
+      this.setPopupContent(popupContent).openPopup()
+    })
   }
 
   public static fromJson(
-    json: Schema.Location,
+    json: Schema.MappedLocation,
     layer: Layer
   ): WSLocationMarker {
     const marker = new WSLocationMarker(json, json.coords, layer);
