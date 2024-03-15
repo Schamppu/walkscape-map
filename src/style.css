@@ -187,6 +187,47 @@ h1 {
   gap: 8px;
 }
 
+.ws-location-popup__activity-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ws-location-popup__requirements-info {
+  display: flex;
+}
+
+.ws-location-popup__info-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.ws-location-popup__requirements-keywords p {
+  font-size: 10px;
+}
+
+.ws-location-popup__requirements-skills {
+  display: flex;
+  align-items: end;
+  gap: 4px;
+}
+
+.ws-location-popup__skill-div {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid #21333d;
+  padding: 3px 6px;
+  gap: 8px;
+  width: 40px;
+  height: 16px;
+}
+
+.ws-location-popup__subcontent.activities,
+.ws-location-popup__subcontent.activities .ws-location-popup__subdiv-content {
+  width: 100%;
+}
+
 .ws-location-popup__subcontent.buildings .ws-location-popup__subdiv-content {
   width: 135px;
 }

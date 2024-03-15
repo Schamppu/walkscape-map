@@ -27,6 +27,8 @@ export class LocationPopup extends Popup {
   private activities: Schema.Activity[];
   private buildings: Schema.Building[];
   private services: Schema.Service[];
+  private skillIconPaths: { [key: string]: string };
+  private pluralKeywords: string[];
 
   private constructor(options: LocationPopupOptions) {
     super(options);
@@ -36,6 +38,19 @@ export class LocationPopup extends Popup {
     this.activities = options.activities;
     this.buildings = options.buildings;
     this.services = options.services;
+
+    this.skillIconPaths = {
+      agility: "icons/activities/activity_sprites/agility/dasboot3.png",
+      carpentry: "icons/activities/activity_sprites/carpentry/full.png",
+      cooking: "icons/activities/activity_sprites/cooking/full.png",
+      crafting: "icons/activities/activity_sprites/crafting/full.png",
+      fishing: "icons/activities/activity_sprites/fishing/full.png",
+      foraging: "icons/activities/activity_sprites/foraging/full.png",
+      mining: "icons/activities/activity_sprites/mining/pickaxe.png",
+      smithing: "icons/activities/activity_sprites/smithing/full.png",
+      woodcutting: "icons/activities/activity_sprites/woodcutting/axe.png",
+    };
+    this.pluralKeywords = ["skis"];
 
     this.container = DomUtil.create("div", "ws-location-popup");
     this.setContent(this.container);
@@ -107,12 +122,83 @@ export class LocationPopup extends Popup {
       return subContentDiv;
     });
 
+    const createActivityContent = (
+      parent: HTMLElement,
+      data: Schema.Activity[]
+    ) => {
+      const splitWords = (str: string) => {
+        const result = str.replace(/([A-Z])/g, " $1");
+        const finalResult = result.charAt(0).toUpperCase() + result.slice(1);
+        return finalResult.toLowerCase();
+      };
+
+      data.forEach((d) => {
+        const dataDiv = DomUtil.create(
+          "div",
+          "ws-location-popup__subdiv-content",
+          parent
+        );
+        const img = new Image(d.icon.width ?? 32, d.icon.height ?? 32);
+        img.src = `icons/${d.icon.url}`;
+        dataDiv.appendChild(img);
+
+        const infoDiv = DomUtil.create(
+          "div",
+          "ws-location-popup__activity-info",
+          dataDiv
+        );
+        const textsDiv = DomUtil.create(
+          "div",
+          "ws-location-popup__info-texts",
+          infoDiv
+        );
+        const text = DomUtil.create("p", "", textsDiv);
+        text.innerText = d.name;
+
+        const keywordRequirementsDiv = DomUtil.create(
+          "div",
+          "ws-location-popup__requirements-keywords",
+          textsDiv
+        );
+        const skillRequirementDiv = DomUtil.create(
+          "div",
+          "ws-location-popup__requirements-skills",
+          infoDiv
+        );
+
+        d.requiredKeywords.forEach((kw) => {
+          const keyword = DomUtil.create("p", "", keywordRequirementsDiv);
+          const kwText = this.pluralKeywords.includes(kw)
+            ? `• requires ${splitWords(kw)}`
+            : `• requires a ${splitWords(kw)}`;
+          keyword.innerText = kwText;
+        });
+
+        for (const [skill, level] of Object.entries(d.levelRequirements)) {
+          const skillDiv = DomUtil.create(
+            "div",
+            `ws-location-popup__skill-div ${skill}`,
+            skillRequirementDiv
+          );
+          const img = new Image(d.icon.width ?? 16, d.icon.height ?? 16);
+          img.src = this.skillIconPaths[skill];
+          skillDiv.appendChild(img);
+          const levelText = DomUtil.create("p", "", skillDiv);
+          levelText.innerText = `${level}`;
+        }
+      });
+    };
+
     const createSubContent = (
       parent: HTMLElement,
       data: Schema.DataPoint[]
     ) => {
       data.forEach((d) => {
-        const dataDiv = DomUtil.create("div", "ws-location-popup__subdiv-content", parent);
+        const dataDiv = DomUtil.create(
+          "div",
+          "ws-location-popup__subdiv-content",
+          parent
+        );
         const img = new Image(d.icon.width ?? 32, d.icon.height ?? 32);
         img.src = `icons/${d.icon.url}`;
         dataDiv.appendChild(img);
@@ -122,7 +208,7 @@ export class LocationPopup extends Popup {
       });
     };
 
-    createSubContent(subContentDivs[0], this.activities);
+    createActivityContent(subContentDivs[0], this.activities);
     createSubContent(subContentDivs[1], this.services);
     createSubContent(subContentDivs[2], this.buildings);
   }
