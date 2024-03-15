@@ -79,7 +79,7 @@ def update_activities(filename):
         activity = {
             'id': id,
             'name': name,
-            'icon': icon_path,
+            'icon': { 'url': icon_path },
             'skills': skills,
             'levelRequirements': level_requirements,
             'requiredKeywords': required_keywords,
@@ -98,12 +98,11 @@ def update_buildings(filename):
         building = {
             'id': id,
             'name': name,
-            'icon': icon_path,
+            'icon': { 'url': icon_path },
             'type': src_building['type'],
             'shop': get_id(src_building['shop'])
         }
         buildings.append(building)
-        print(building)
     write_json(data_path, buildings)
 
 def main():
