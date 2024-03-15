@@ -27,26 +27,24 @@ export interface Location extends Marker {
   services: string[];
 }
 
-export interface Activity {
+export interface DataPoint {
   id: string;
   name: string;
   icon: { url: string; width?: number; height?: number };
+}
+
+export interface Activity extends DataPoint {
   skills: string[];
-  levelRequirements?: { [key: string]: number };
+  levelRequirements: { [key: string]: number };
   requiredKeywords: string[];
 }
 
-export interface Service {
-  id: string;
-  name: string;
-  icon: { url: string; width?: number; height?: number };
-  skills: string[];
-}
-
-export interface Building {
-  id: string;
-  name: string;
-  icon: { url: string; width?: number; height?: number };
+export interface Building extends DataPoint {
   type: string;
   shop: string;
 }
+
+export interface Service extends DataPoint {
+  skills: string[];
+}
+
