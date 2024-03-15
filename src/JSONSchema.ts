@@ -27,6 +27,14 @@ export interface Location extends Marker {
   services: string[];
 }
 
+export interface MappedLocation extends Marker {
+  hidden: boolean;
+  realm: string;
+  activities: Activity[];
+  buildings: Building[];
+  services: Service[];
+}
+
 export interface DataPoint {
   id: string;
   name: string;
