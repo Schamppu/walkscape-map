@@ -1,7 +1,6 @@
 import { Map, LatLngBounds, MapOptions, Point } from "leaflet";
 import { create } from "./WSCRS";
 import { MapLayer } from "./MapLayer";
-import * as Schema from "./JSONSchema";
 
 export interface WSMapOptions extends MapOptions {
   mapSizePixels: number;
