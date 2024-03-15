@@ -1,0 +1,142 @@
+[
+  {
+    "id": "temple_of_azurazera",
+    "name": "Temple of azurazera",
+    "icon": "buildings/temple_of_azurazera.png",
+    "type": "temple",
+    "shop": null
+  },
+  {
+    "id": "frosthook_emporium",
+    "name": "Frosthook emporium",
+    "icon": "buildings/fishing_shop.png",
+    "type": "fishingStore",
+    "shop": "frosthook_emporium"
+  },
+  {
+    "id": "kallaheim's_frosty_finds",
+    "name": "Frosty finds",
+    "icon": "buildings/general_store.png",
+    "type": "generalStore",
+    "shop": "kallaheim_general_store"
+  },
+  {
+    "id": "frozen_capital_bank",
+    "name": "Frozen capital",
+    "icon": "buildings/bank.png",
+    "type": "bank",
+    "shop": null
+  },
+  {
+    "id": "the_icy_goblet",
+    "name": "Icy goblet",
+    "icon": "buildings/tavern.png",
+    "type": "tavern",
+    "shop": "kallaheim_tavern"
+  },
+  {
+    "id": "helpful_herbert's_hut",
+    "name": "Tutorial cabin",
+    "icon": "buildings/cabin.png",
+    "type": "house",
+    "shop": "tutorial_cabin"
+  },
+  {
+    "id": "woodcutter's_cabin",
+    "name": "Woodcutters cabin",
+    "icon": "buildings/cabin.png",
+    "type": "house",
+    "shop": "woodcutters_cabin"
+  },
+  {
+    "id": "northstar_mercantile",
+    "name": "Northstar mercantile",
+    "icon": "buildings/general_store.png",
+    "type": "generalStore",
+    "shop": "northstar_mercantile"
+  },
+  {
+    "id": "jarvojoy",
+    "name": "Jarvo joy",
+    "icon": "buildings/general_store.png",
+    "type": "activityShop",
+    "shop": "jarvojoy"
+  },
+  {
+    "id": "fort_of_permafrost",
+    "name": "Fortof permafrost",
+    "icon": "buildings/castle.png",
+    "type": "castle",
+    "shop": "fort_of_permafrost"
+  },
+  {
+    "id": "bilgemont_castle",
+    "name": "Bilgemont castle",
+    "icon": "buildings/castle.png",
+    "type": "castle",
+    "shop": null
+  },
+  {
+    "id": "bureau_of_moss",
+    "name": "Bureau of moss",
+    "icon": "buildings/tavern.png",
+    "type": "tavern",
+    "shop": null
+  },
+  {
+    "id": "paws_are_us",
+    "name": "Animal shelter",
+    "icon": "buildings/animal_shelter.png",
+    "type": "animalShelter",
+    "shop": "animal_shelter"
+  },
+  {
+    "id": "fish_market_stall",
+    "name": "Fish market stall",
+    "icon": "buildings/market_stall.png",
+    "type": "marketStall",
+    "shop": "granfiddich_fish_stall"
+  },
+  {
+    "id": "food_market_stall",
+    "name": "Food market stall",
+    "icon": "buildings/market_stall.png",
+    "type": "marketStall",
+    "shop": "granfiddich_food_stall"
+  },
+  {
+    "id": "tool_market_stall",
+    "name": "Tool market stall",
+    "icon": "buildings/market_stall.png",
+    "type": "marketStall",
+    "shop": "granfiddich_tool_stall"
+  },
+  {
+    "id": "mossy_merchant's_breeze_mart",
+    "name": "Mossy merchants breeze mart",
+    "icon": "buildings/general_store.png",
+    "type": "generalStore",
+    "shop": "mossy_merchants_breeze_mart"
+  },
+  {
+    "id": "bogside_bank_of_prosperity",
+    "name": "Bogside bank of prosperity",
+    "icon": "buildings/bank.png",
+    "type": "bank",
+    "shop": null
+  },
+  {
+    "id": "maritime_fortune_bank",
+    "name": "Maritime fortune bank",
+    "icon": "buildings/bank.png",
+    "type": "bank",
+    "shop": null
+  },
+  {
+    "id": "bigloo",
+    "name": "Bigloo",
+    "icon": "buildings/igloo.png",
+    "type": "generalStore",
+    "shop": "bigloo"
+  }
+]
