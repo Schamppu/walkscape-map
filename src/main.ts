@@ -11,11 +11,25 @@ const iconUrl = (iconName: string) => {
 */
 
 window.onload = async () => {
+  function returnValue(arr: Schema.DataPoint[]) {
+    return arr;
+  }
+
+  const promises = ["activities", "buildings", "services"].map((name) =>
+    fetch(`data/${name}.json`)
+      .then((r) => r.json())
+      .then(returnValue)
+  );
+  const [activities, buildings, services] = await Promise.all(promises);
+
   const map = WSMap.create({
     mapSizePixels: 5248,
     tileSize: 656,
     minZoom: 0,
     maxZoom: 3,
+    activities,
+    buildings,
+    services,
   });
   const mapLayer = map.addMapLayer();
 
@@ -31,5 +45,6 @@ window.onload = async () => {
   const locations = fetch("data/locations.json")
     .then((r) => r.json())
     .then(addJson);
+
   await Promise.allSettled([locations]);
 };
