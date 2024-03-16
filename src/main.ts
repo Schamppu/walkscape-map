@@ -24,10 +24,10 @@ window.onload = async () => {
   const data = [activities, buildings, services];
 
   const map = WSMap.create({
-    mapSizePixels: 5248,
-    tileSize: 656,
+    mapSizePixels: 4096,
+    tileSize: 512,
     minZoom: 0,
-    maxZoom: 3,
+    maxZoom: 4,
   });
   const mapLayer = map.addMapLayer();
 

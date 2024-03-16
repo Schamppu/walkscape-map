@@ -7,7 +7,7 @@ export class MapLayer extends LayerGroup {
   public tileLayer: TileLayer;
   public markerLayer: LayerGroup;
   private categories: Record<string, Layer[]> = {};
-  private currentZoom = 1;
+  private currentZoom = 2;
 
   public constructor(
     private map: WSMap,

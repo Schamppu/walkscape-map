@@ -29,19 +29,25 @@ export class WSMap extends Map {
       options.maxZoom = maxZoom;
     }
     if (options.minZoom == undefined) {
-      options.minZoom = maxZoom - 3;
+      options.minZoom = maxZoom - 4;
     }
 
-    const bounds = new LatLngBounds(
-      crs.pointToLatLng(new Point(0, 2 * mapSizePixels), options.maxZoom),
-      crs.pointToLatLng(new Point(4 * mapSizePixels, 0), options.maxZoom)
+    const SW = crs.pointToLatLng(
+      new Point(0, 4 * mapSizePixels),
+      options.maxZoom
     );
+    const NE = crs.pointToLatLng(
+      new Point(6 * mapSizePixels, 0),
+      options.maxZoom
+    );
+    const bounds = new LatLngBounds(SW, NE);
     options.maxBounds = bounds;
 
     const map = new WSMap("map", options.tileSize, bounds, options).setView(
-      [tileSize, (7 / 6) * tileSize],
-      1
+      [tileSize, (3 / 2) * tileSize],
+      2
     );
+
     // Enable dragging and zooming
     map.dragging.enable();
     map.scrollWheelZoom.enable();
