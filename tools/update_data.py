@@ -17,8 +17,9 @@ def get_id(string):
 
 def get_name(official_location):
     name_data = official_location['name'].split('.')[-2]
-    name = re.sub(r'((?<=[a-z])[A-Z]|(?<!\A)[A-Z](?=[a-z]))', r' \1', name_data)
-    return name.capitalize()
+    name = re.sub(r'(\w)([A-Z])', r'\1 \2', name_data)
+    name.replace(" Of ", " of ")
+    return name.title()
 
 def find(list, id):
     return [i for i in list if i['id'] == id]
@@ -105,10 +106,29 @@ def update_buildings(filename):
         buildings.append(building)
     write_json(data_path, buildings)
 
+def update_services(filename):
+    data_path = f'../public/data/{filename}'
+    data, src_data = read_data(data_path, f'./{filename}')
+    
+    services = []
+    for src_service in src_data:
+        id, name, icon_path, _ = get_common_info(src_service, data, 'serviceIcon')
+        skills = src_service['relatedSkills']
+
+        service = {
+            'id': id,
+            'name': name,
+            'icon': { 'url': icon_path },
+            'skills': skills,
+        }
+        services.append(service)
+    write_json(data_path, services)
+
 def main():
     update_locations('locations.json')
     update_activities('activities.json')
     update_buildings('buildings.json')
+    update_services('services.json')
 
 if __name__ == '__main__':
     main()
