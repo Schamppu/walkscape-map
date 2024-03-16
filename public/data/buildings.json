@@ -1,7 +1,7 @@
 [
   {
     "id": "temple_of_azurazera",
-    "name": "Temple of azurazera",
+    "name": "Temple of Azurazera",
     "icon": {
       "url": "buildings/temple_of_azurazera.png"
     },
@@ -10,7 +10,7 @@
   },
   {
     "id": "frosthook_emporium",
-    "name": "Frosthook emporium",
+    "name": "Frosthook Emporium",
     "icon": {
       "url": "buildings/fishing_shop.png"
     },
@@ -46,7 +46,7 @@
   },
   {
     "id": "helpful_herbert's_hut",
-    "name": "Tutorial cabin",
+    "name": "Tutorial Cabin",
     "icon": {
       "url": "buildings/cabin.png"
     },
@@ -55,7 +55,7 @@
   },
   {
     "id": "woodcutter's_cabin",
-    "name": "Woodcutters cabin",
+    "name": "Woodcutters Cabin",
     "icon": {
       "url": "buildings/cabin.png"
     },
@@ -64,7 +64,7 @@
   },
   {
     "id": "northstar_mercantile",
-    "name": "Northstar mercantile",
+    "name": "Northstar Mercantile",
     "icon": {
       "url": "buildings/general_store.png"
     },
@@ -73,7 +73,7 @@
   },
   {
     "id": "jarvojoy",
-    "name": "Jarvo joy",
+    "name": "Jarvo Joy",
     "icon": {
       "url": "buildings/general_store.png"
     },
@@ -82,7 +82,7 @@
   },
   {
     "id": "fort_of_permafrost",
-    "name": "Fortof permafrost",
+    "name": "Fort of Permafrost",
     "icon": {
       "url": "buildings/castle.png"
     },
@@ -91,7 +91,7 @@
   },
   {
     "id": "bilgemont_castle",
-    "name": "Bilgemont castle",
+    "name": "Bilgemont Castle",
     "icon": {
       "url": "buildings/castle.png"
     },
@@ -100,7 +100,7 @@
   },
   {
     "id": "bureau_of_moss",
-    "name": "Bureau of moss",
+    "name": "Bureau of Moss",
     "icon": {
       "url": "buildings/tavern.png"
     },
@@ -109,7 +109,7 @@
   },
   {
     "id": "paws_are_us",
-    "name": "Animal shelter",
+    "name": "Paws are Us",
     "icon": {
       "url": "buildings/animal_shelter.png"
     },
@@ -127,7 +127,7 @@
   },
   {
     "id": "food_market_stall",
-    "name": "Food market stall",
+    "name": "Food Market Stall",
     "icon": {
       "url": "buildings/market_stall.png"
     },
@@ -136,7 +136,7 @@
   },
   {
     "id": "tool_market_stall",
-    "name": "Tool market stall",
+    "name": "Tool Market Stall",
     "icon": {
       "url": "buildings/market_stall.png"
     },
@@ -145,7 +145,7 @@
   },
   {
     "id": "mossy_merchant's_breeze_mart",
-    "name": "Mossy merchants breeze mart",
+    "name": "Mossy Merchants Breeze Mart",
     "icon": {
       "url": "buildings/general_store.png"
     },
@@ -154,7 +154,7 @@
   },
   {
     "id": "bogside_bank_of_prosperity",
-    "name": "Bogside bank of prosperity",
+    "name": "Bogside Bank of Prosperity",
     "icon": {
       "url": "buildings/bank.png"
     },
@@ -163,7 +163,7 @@
   },
   {
     "id": "maritime_fortune_bank",
-    "name": "Maritime fortune bank",
+    "name": "Maritime Fortune Bank",
     "icon": {
       "url": "buildings/bank.png"
     },

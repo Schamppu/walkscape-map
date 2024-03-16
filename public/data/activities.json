@@ -1,7 +1,7 @@
 [
   {
     "id": "cut_pine_trees",
-    "name": "Cut pine trees",
+    "name": "Cut Pine Trees",
     "icon": {
       "url": "activities/woodcutting/pine.png"
     },
@@ -13,7 +13,7 @@
   },
   {
     "id": "dobby_is..._free",
-    "name": "Forest foraging",
+    "name": "Forest Foraging",
     "icon": {
       "url": "activities/foraging/winter_foraging_forest.png"
     },
@@ -25,7 +25,7 @@
   },
   {
     "id": "cut_birch_trees",
-    "name": "Cut birch trees",
+    "name": "Cut Birch Trees",
     "icon": {
       "url": "activities/woodcutting/birch.png"
     },
@@ -37,7 +37,7 @@
   },
   {
     "id": "litter_looting",
-    "name": "Litter looting",
+    "name": "Litter Looting",
     "icon": {
       "url": "activities/foraging/litter_looting.png"
     },
@@ -49,7 +49,7 @@
   },
   {
     "id": "cut_spruce_trees",
-    "name": "Cut spruce trees",
+    "name": "Cut Spruce Trees",
     "icon": {
       "url": "activities/woodcutting/spruce.png"
     },
@@ -61,7 +61,7 @@
   },
   {
     "id": "mine_copper_ore",
-    "name": "Mine copper ore",
+    "name": "Mine Copper Ore",
     "icon": {
       "url": "activities/mining/copper.png"
     },
@@ -73,7 +73,7 @@
   },
   {
     "id": "mine_tin_ore",
-    "name": "Mine tin ore",
+    "name": "Mine Tin Ore",
     "icon": {
       "url": "activities/mining/tin.png"
     },
@@ -85,7 +85,7 @@
   },
   {
     "id": "mine_iron_ore",
-    "name": "Mine iron ore",
+    "name": "Mine Iron Ore",
     "icon": {
       "url": "activities/mining/iron.png"
     },
@@ -97,7 +97,7 @@
   },
   {
     "id": "mine_coal",
-    "name": "Mine coal",
+    "name": "Mine Coal",
     "icon": {
       "url": "activities/mining/coal.png"
     },
@@ -109,7 +109,7 @@
   },
   {
     "id": "cliff_foraging",
-    "name": "Cliff foraging",
+    "name": "Cliff Foraging",
     "icon": {
       "url": "activities/foraging/winter_foraging_mountains.png"
     },
@@ -122,7 +122,7 @@
   },
   {
     "id": "pond_fishing",
-    "name": "Pond fishing",
+    "name": "Pond Fishing",
     "icon": {
       "url": "activities/fishing/winter_fishing_pond.png"
     },
@@ -134,7 +134,7 @@
   },
   {
     "id": "sea_fishing",
-    "name": "Sea fishing net",
+    "name": "Sea Fishing (net)",
     "icon": {
       "url": "activities/fishing/winter_fishing_sea.png"
     },
@@ -146,7 +146,7 @@
   },
   {
     "id": "plains_foraging",
-    "name": "Plains foraging",
+    "name": "Plains Foraging",
     "icon": {
       "url": "activities/foraging/winter_foraging_plains.png"
     },
@@ -158,7 +158,7 @@
   },
   {
     "id": "lake_fishing",
-    "name": "Lake fishing",
+    "name": "Lake Fishing",
     "icon": {
       "url": "activities/fishing/winter_fishing_lake.png"
     },
@@ -170,7 +170,7 @@
   },
   {
     "id": "sandcastle_building",
-    "name": "Sandcastle building",
+    "name": "Sandcastle Building",
     "icon": {
       "url": "activities/carpentry/sandcastle_building.png"
     },
@@ -182,7 +182,7 @@
   },
   {
     "id": "cut_oak_trees",
-    "name": "Cut oak trees",
+    "name": "Cut Oak Trees",
     "icon": {
       "url": "activities/woodcutting/oak.png"
     },
@@ -194,7 +194,7 @@
   },
   {
     "id": "cut_maple_trees",
-    "name": "Cut maple trees",
+    "name": "Cut Maple Trees",
     "icon": {
       "url": "activities/woodcutting/maple.png"
     },
@@ -206,7 +206,7 @@
   },
   {
     "id": "teak_logs",
-    "name": "Teak logs",
+    "name": "Teak Logs",
     "icon": {
       "url": "activities/woodcutting/teak.png"
     },
@@ -218,7 +218,7 @@
   },
   {
     "id": "cut_willow_trees",
-    "name": "Cut willow trees",
+    "name": "Cut Willow Trees",
     "icon": {
       "url": "activities/woodcutting/willow.png"
     },
@@ -230,7 +230,7 @@
   },
   {
     "id": "cut_mangrove_trees",
-    "name": "Cut mangrove trees",
+    "name": "Cut Mangrove Trees",
     "icon": {
       "url": "activities/woodcutting/mangrove.png"
     },
@@ -242,7 +242,7 @@
   },
   {
     "id": "seashell_searching",
-    "name": "Seashell searching",
+    "name": "Seashell Searching",
     "icon": {
       "url": "activities/foraging/winter_foraging_coast.png"
     },
@@ -254,7 +254,7 @@
   },
   {
     "id": "mine_tarsilium_ore",
-    "name": "Mine tarsilium ore",
+    "name": "Mine Tarsilium Ore",
     "icon": {
       "url": "activities/mining/tarsilium.png"
     },
@@ -266,7 +266,7 @@
   },
   {
     "id": "mine_farganite_ore",
-    "name": "Mine farganite ore",
+    "name": "Mine Farganite Ore",
     "icon": {
       "url": "activities/mining/farganite.png"
     },
@@ -278,7 +278,7 @@
   },
   {
     "id": "sea_fishing_(rod)",
-    "name": "Sea fishing rod",
+    "name": "Sea Fishing (rod)",
     "icon": {
       "url": "activities/fishing/winter_fishing_sea.png"
     },
@@ -290,7 +290,7 @@
   },
   {
     "id": "frisbee_golfing_(beginner)",
-    "name": "Frisbee golfing beginner",
+    "name": "Frisbee Golfing (Beginner)",
     "icon": {
       "url": "activities/agility/frisbee.png"
     },
@@ -302,7 +302,7 @@
   },
   {
     "id": "frisbee_golfing_(intermediate)",
-    "name": "Frisbee golfing intermediate",
+    "name": "Frisbee Golfing (intermediate)",
     "icon": {
       "url": "activities/agility/frisbee.png"
     },
@@ -314,7 +314,7 @@
   },
   {
     "id": "cross-country_skiing_(beginner)",
-    "name": "Cross country skiing beginner",
+    "name": "Cross-Country Skiing (beginner)",
     "icon": {
       "url": "activities/agility/coss_country_skiing.png"
     },
@@ -326,7 +326,7 @@
   },
   {
     "id": "cross-country_skiing_(intermediate)",
-    "name": "Cross country skiing intermediate",
+    "name": "Cross-Country Skiing (intermediate)",
     "icon": {
       "url": "activities/agility/coss_country_skiing.png"
     },
@@ -338,7 +338,7 @@
   },
   {
     "id": "soup_kitchen_volunteering",
-    "name": "Soup kitchen volunteering",
+    "name": "Soup Kitchen Volunteering",
     "icon": {
       "url": "activities/cooking/soup_kitchen_work.png"
     },
@@ -350,7 +350,7 @@
   },
   {
     "id": "wine_grape_stomping",
-    "name": "Wine grape stomping",
+    "name": "Wine Grape Stomping",
     "icon": {
       "url": "activities/cooking/wine_grape_stomping.png"
     },
@@ -363,7 +363,7 @@
   },
   {
     "id": "gold_panning",
-    "name": "Gold panning",
+    "name": "Gold Panning",
     "icon": {
       "url": "activities/mining/gold_panning.png"
     },
@@ -389,7 +389,7 @@
   },
   {
     "id": "surface_salt_mining",
-    "name": "Surface salt mining",
+    "name": "Surface Salt Mining",
     "icon": {
       "url": "activities/mining/salt.png"
     },
@@ -401,7 +401,7 @@
   },
   {
     "id": "magnet_fishing",
-    "name": "Magnet fishing",
+    "name": "Magnet Fishing",
     "icon": {
       "url": "activities/fishing/magnet_fishing.png"
     },
@@ -414,7 +414,7 @@
   },
   {
     "id": "glacier_foraging",
-    "name": "Glacier foraging",
+    "name": "Glacier Foraging",
     "icon": {
       "url": "activities/foraging/glacier_foraging.png"
     },
@@ -427,7 +427,7 @@
   },
   {
     "id": "butterfly_catching",
-    "name": "Butterfly catching",
+    "name": "Butterfly Catching",
     "icon": {
       "url": "activities/foraging/butterfly_catching.png"
     },
@@ -440,7 +440,7 @@
   },
   {
     "id": "dumpster_diving",
-    "name": "Dumpster diving",
+    "name": "Dumpster Diving",
     "icon": {
       "url": "activities/foraging/dumpster_diving.png"
     },
@@ -453,7 +453,7 @@
   },
   {
     "id": "dumpster_diving",
-    "name": "Dumpster diving",
+    "name": "Dumpster Diving",
     "icon": {
       "url": "activities/foraging/dumpster_diving.png"
     },
@@ -466,7 +466,7 @@
   },
   {
     "id": "firewood_making",
-    "name": "Firewood making",
+    "name": "Firewood Making",
     "icon": {
       "url": "activities/woodcutting/firewood_making.png"
     },
@@ -479,7 +479,7 @@
   },
   {
     "id": "horseshoe_making",
-    "name": "Horseshoe making",
+    "name": "Horseshoe Making",
     "icon": {
       "url": "activities/smithing/horseshoe_making.png"
     },
@@ -491,7 +491,7 @@
   },
   {
     "id": "mountain_climbing_(beginner)",
-    "name": "Mountain climbing beginner",
+    "name": "Mountain Climbing (Beginner)",
     "icon": {
       "url": "activities/agility/mountain_climbing_beginner.png"
     },
@@ -503,7 +503,7 @@
   },
   {
     "id": "mountain_climbing_(intermediate)",
-    "name": "Mountain climbing intermediate",
+    "name": "Mountain Climbing (intermediate)",
     "icon": {
       "url": "activities/agility/mountain_climbing_intermediater.png"
     },
@@ -527,7 +527,7 @@
   },
   {
     "id": "rooftop_jumping",
-    "name": "Rooftop jumping beginner",
+    "name": "Rooftop Jumping (beginner)",
     "icon": {
       "url": "activities/agility/rooftop_jumping_beginner.png"
     },
@@ -539,7 +539,7 @@
   },
   {
     "id": "rooftop_jumping_(intermediate)",
-    "name": "Rooftop jumping intermediate",
+    "name": "Rooftop Jumping (intermediate)",
     "icon": {
       "url": "activities/agility/rooftop_jumping_intermediate.png"
     },
@@ -551,7 +551,7 @@
   },
   {
     "id": "swimming_(beginner)",
-    "name": "Swimming beginner",
+    "name": "Swimming (beginner)",
     "icon": {
       "url": "activities/agility/swimming.png"
     },
@@ -575,7 +575,7 @@
   },
   {
     "id": "ship_repair_(beginner)",
-    "name": "Ship repair beginner",
+    "name": "Ship Repair (beginner)",
     "icon": {
       "url": "activities/carpentry/ship_repair_beginner.png"
     },
@@ -588,7 +588,7 @@
   },
   {
     "id": "ship_repair_(intermediate)",
-    "name": "Ship repair intermediate",
+    "name": "Ship Repair (intermediate)",
     "icon": {
       "url": "activities/carpentry/ship_repair_intermediate.png"
     },
@@ -601,7 +601,7 @@
   },
   {
     "id": "wood_carving",
-    "name": "Wood carving",
+    "name": "Wood Carving",
     "icon": {
       "url": "activities/carpentry/wood_carving.png"
     },
@@ -613,7 +613,7 @@
   },
   {
     "id": "ice_sculpting",
-    "name": "Ice sculpting",
+    "name": "Ice Sculpting",
     "icon": {
       "url": "activities/crafting/ice_sculpting.png"
     },

@@ -119,7 +119,7 @@
         "markers": [
           {
             "id": "disenchanted_forest",
-            "name": "Disenchanted forest",
+            "name": "Disenchanted Forest",
             "realm": "jarvonia",
             "coords": [369.0, 537.0],
             "icon": {
@@ -209,7 +209,7 @@
           },
           {
             "id": "port_skildar",
-            "name": "Port skildar",
+            "name": "Port Skildar",
             "realm": "jarvonia",
             "coords": [946.0, 1135.0],
             "icon": {
@@ -239,7 +239,7 @@
           },
           {
             "id": "sanguine_hills",
-            "name": "Sanguine hills",
+            "name": "Sanguine Hills",
             "realm": "jarvonia",
             "coords": [1278.0, 906.0],
             "icon": {
@@ -259,7 +259,7 @@
           },
           {
             "id": "nomad_woods",
-            "name": "Nomad woods",
+            "name": "Nomad Woods",
             "realm": "jarvonia",
             "coords": [712.0, 480.0],
             "icon": {
@@ -276,7 +276,7 @@
           },
           {
             "id": "casbrant_fields",
-            "name": "Casbrant fields",
+            "name": "Casbrant Fields",
             "realm": "jarvonia",
             "coords": [752.0, 821.0],
             "icon": {
@@ -293,7 +293,7 @@
           },
           {
             "id": "solitude_rock",
-            "name": "Solitude rock",
+            "name": "Solitude Rock",
             "realm": "jarvonia",
             "coords": [1500.0, 353.0],
             "icon": {
@@ -306,7 +306,7 @@
           },
           {
             "id": "norsack_plains",
-            "name": "Norsack plains",
+            "name": "Norsack Plains",
             "realm": "jarvonia",
             "coords": [247.0, 851.0],
             "icon": {
@@ -319,7 +319,7 @@
           },
           {
             "id": "frostbite_mountain",
-            "name": "Frostbite mountain",
+            "name": "Frostbite Mountain",
             "realm": "jarvonia",
             "coords": [202.0, 729.0],
             "icon": {
@@ -339,7 +339,7 @@
           },
           {
             "id": "noiseless_pass",
-            "name": "Noiseless pass",
+            "name": "Noiseless Pass",
             "realm": "jarvonia",
             "coords": [499.0, 1347.0],
             "icon": {
@@ -356,7 +356,7 @@
           },
           {
             "id": "fort_of_permafrost",
-            "name": "Fort of permafrost",
+            "name": "Fort of Permafrost",
             "realm": "jarvonia",
             "coords": [578.3, 1167.5932288753793],
             "icon": {
@@ -369,7 +369,7 @@
           },
           {
             "id": "farsand_coast",
-            "name": "Farsand coast",
+            "name": "Farsand Coast",
             "realm": "gdte",
             "coords": [210.0, 1631.0],
             "icon": {
@@ -412,7 +412,7 @@
           },
           {
             "id": "bilgemont_port",
-            "name": "Bilgemont port",
+            "name": "Bilgemont Port",
             "realm": "gdte",
             "coords": [437.0, 2286.0],
             "icon": {
@@ -447,7 +447,7 @@
           },
           {
             "id": "blackspell_port",
-            "name": "Blackspell port",
+            "name": "Blackspell Port",
             "realm": "gdte",
             "coords": [786.0, 2199.0],
             "icon": {
@@ -460,7 +460,7 @@
           },
           {
             "id": "old_arena_ruins",
-            "name": "Old arena ruins",
+            "name": "Old Arena Ruins",
             "realm": "gdte",
             "coords": [913.0, 2086.0],
             "icon": {
@@ -473,7 +473,7 @@
           },
           {
             "id": "halfling_campgrounds",
-            "name": "Halfling campgrounds",
+            "name": "Halfling Campgrounds",
             "realm": "gdte",
             "coords": [641.0, 1981.0],
             "icon": {
@@ -486,7 +486,7 @@
           },
           {
             "id": "mangrove_forest",
-            "name": "Mangrove forest",
+            "name": "Mangrove Forest",
             "realm": "gdte",
             "coords": [398.0, 1563.0],
             "icon": {
@@ -503,7 +503,7 @@
           },
           {
             "id": "red_coast",
-            "name": "Red coast",
+            "name": "Red Coast",
             "realm": "gdte",
             "coords": [912.0, 2228.0],
             "icon": {
@@ -516,7 +516,7 @@
           },
           {
             "id": "warrenfield",
-            "name": "Warren field",
+            "name": "Warren Field",
             "realm": "gdte",
             "coords": [939.0, 1916.0],
             "icon": {
@@ -529,7 +529,7 @@
           },
           {
             "id": "beach_of_woes",
-            "name": "Beach of woes",
+            "name": "Beach of Woes",
             "realm": "jarvonia",
             "coords": [405.543212890625, 451.25],
             "icon": {
@@ -547,7 +547,7 @@
           },
           {
             "id": "winter_waves_glacier",
-            "name": "Winter waves glacier",
+            "name": "Winter Waves Glacier",
             "realm": "jarvonia",
             "coords": [131.33333333303992, 879.5341621359416],
             "icon": {
