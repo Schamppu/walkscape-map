@@ -2,31 +2,91 @@
   {
     "id": "basic_forge",
     "name": "Basic Forge",
-    "icon": { "url": "services/forge.png"},
-    "skills": ["smithing"]
+    "icon": {
+      "url": "services/forge.png"
+    },
+    "skills": [
+      "smithing"
+    ]
   },
   {
-    "id": "frozen_forge",
-    "name": "Frozen Forge",
-    "icon": { "url": "services/forge_frozen.png" },
-    "skills": ["smithing"]
+    "id": "advanced_forge",
+    "name": "Advanced Forge",
+    "icon": {
+      "url": "services/forge_advanced.png"
+    },
+    "skills": [
+      "smithing"
+    ]
   },
   {
     "id": "basic_kitchen",
     "name": "Basic Kitchen",
-    "icon": { "url": "services/kitchen.png" },
-    "skills": ["cooking"]
+    "icon": {
+      "url": "services/kitchen.png"
+    },
+    "skills": [
+      "cooking"
+    ]
   },
   {
-    "id": "basic_sawmill",
-    "name": "Basic Sawmill",
-    "icon": { "url": "services/sawmill.png" },
-    "skills": ["carpentry"]
+    "id": "advanced_kitchen",
+    "name": "Advanced Kitchen",
+    "icon": {
+      "url": "services/kitchen_advanced.png"
+    },
+    "skills": [
+      "cooking"
+    ]
   },
   {
     "id": "basic_workshop",
     "name": "Basic Workshop",
-    "icon": { "url": "services/workshop.png" },
-    "skills": ["crafting"]
+    "icon": {
+      "url": "services/workshop.png"
+    },
+    "skills": [
+      "crafting"
+    ]
+  },
+  {
+    "id": "advanced_workshop",
+    "name": "Advanced Workshop",
+    "icon": {
+      "url": "services/workshop_advanced.png"
+    },
+    "skills": [
+      "crafting"
+    ]
+  },
+  {
+    "id": "basic_sawmill",
+    "name": "Basic Sawmill",
+    "icon": {
+      "url": "services/sawmill.png"
+    },
+    "skills": [
+      "carpentry"
+    ]
+  },
+  {
+    "id": "advanced_sawmill",
+    "name": "Advanced Sawmill",
+    "icon": {
+      "url": "services/sawmill_advanced.png"
+    },
+    "skills": [
+      "carpentry"
+    ]
+  },
+  {
+    "id": "frozen_forge",
+    "name": "Frozen Forge",
+    "icon": {
+      "url": "services/forge_frozen.png"
+    },
+    "skills": [
+      "smithing"
+    ]
   }
 ]
