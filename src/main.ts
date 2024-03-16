@@ -30,6 +30,7 @@ window.onload = async () => {
     maxZoom: 4,
   });
   const mapLayer = map.addMapLayer();
+  map.addControls();
 
   function addJson(categories: Schema.Category[]): void {
     for (const category of categories) {

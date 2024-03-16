@@ -1,6 +1,7 @@
 import { Map, LatLngBounds, MapOptions, Point } from "leaflet";
 import { create } from "./WSCRS";
 import { MapLayer } from "./MapLayer";
+import { ControlDock } from "./controls/ControlDock";
 
 export interface WSMapOptions extends MapOptions {
   mapSizePixels: number;
@@ -77,6 +78,11 @@ export class WSMap extends Map {
     this.layers.push(layer);
     layer.show();
     return layer;
+  }
+
+  public addControls(): void {
+    const controls = new ControlDock();
+    controls.addTo(this);
   }
 
   public findMarker() {
