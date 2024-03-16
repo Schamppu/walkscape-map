@@ -276,6 +276,16 @@ h1 {
   display: none;
 }
 
+.ws-controls {
+  display: flex;
+  font-family: "Notototo";
+}
+
+.ws-controls__dock {
+  background: black;
+  display: flex;
+}
+
 /* SKILL COLORS */
 
 .border-woodcutting {
