@@ -256,3 +256,33 @@ h1 {
   border: 0;
   padding: 0;
 }
+
+.border-woodcutting {
+  border: 2px solid rgb(95, 241, 107);
+}
+.border-agility {
+  border: 2px solid rgb(241, 95, 192);
+}
+
+.border-cooking {
+  border: 2px solid rgb(241, 173, 95);
+}
+
+.border-fishing {
+  border: 2px solid rgb(95, 219, 241);
+}
+.border-carpentry {
+  border: 2px solid rgb(241, 141, 95);
+}
+.border-mining {
+  border: 2px solid rgb(140, 165, 211);
+}
+.border-foraging {
+  border: 2px solid rgb(170, 211, 160);
+}
+.border-crafting {
+  border: 2px solid rgb(233, 71, 125);
+}
+.border-smithing {
+  border: 2px solid rgb(226, 167, 167);
+}

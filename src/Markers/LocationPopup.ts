@@ -177,7 +177,7 @@ export class LocationPopup extends Popup {
         for (const [skill, level] of Object.entries(d.levelRequirements)) {
           const skillDiv = DomUtil.create(
             "div",
-            `ws-location-popup__skill-div ${skill}`,
+            `ws-location-popup__skill-div border-${skill}`,
             skillRequirementDiv
           );
           const img = new Image(d.icon.width ?? 16, d.icon.height ?? 16);
