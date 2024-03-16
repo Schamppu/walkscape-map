@@ -257,6 +257,14 @@ h1 {
   padding: 0;
 }
 
+/* CONTROLS */
+
+.leaflet-bottom.leaflet-right {
+  display: none;
+}
+
+/* SKILL COLORS */
+
 .border-woodcutting {
   border: 2px solid rgb(95, 241, 107);
 }
