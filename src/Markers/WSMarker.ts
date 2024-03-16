@@ -10,7 +10,7 @@ export class WSMarker extends Marker {
 
   protected constructor(
     json: Schema.Marker,
-    coords: LatLngExpression,
+    public coords: LatLngExpression,
     layer: Layer
   ) {
     const { title, divIcon: icon } = MarkerDivIcon.create(json);

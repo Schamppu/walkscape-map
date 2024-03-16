@@ -1,6 +1,7 @@
 import { LatLngBounds, LayerGroup, TileLayer } from "leaflet";
 import { WSMap } from "./WSMap";
 import { Layer, Visibility } from "./Layer";
+import { WSMarker } from "./Markers/WSMarker";
 
 export class MapLayer extends LayerGroup {
   public tileLayer: TileLayer;
@@ -89,6 +90,24 @@ export class MapLayer extends LayerGroup {
       this.markerLayer.addLayer(layer);
     } else {
       this.markerLayer.removeLayer(layer);
+    }
+  }
+
+  public findLocationMarker(locationId: string) {
+    let location: WSMarker | undefined;
+    for (const [_, layers] of Object.entries(this.categories)) {
+      for (const layer of layers) {
+        layer.markers.forEach((marker) => {
+          if (marker.id === locationId) {
+            location = marker;
+          }
+        });
+        if (location) break;
+      }
+    }
+    if (location) {
+      this.map.setView(location.coords, 2);
+      location.openPopup();
     }
   }
 }

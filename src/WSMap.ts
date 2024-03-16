@@ -20,8 +20,7 @@ export class WSMap extends Map {
   }
 
   public static create(options: WSMapOptions): WSMap {
-    const { tileSize, mapSizePixels } =
-      options;
+    const { tileSize, mapSizePixels } = options;
     const crs = create(mapSizePixels, tileSize);
     options.crs = crs;
 
@@ -39,12 +38,10 @@ export class WSMap extends Map {
     );
     options.maxBounds = bounds;
 
-    const map = new WSMap(
-      "map",
-      options.tileSize,
-      bounds,
-      options
-    ).setView([(-1 / 2) * tileSize, (3 / 4) * tileSize], 1);
+    const map = new WSMap("map", options.tileSize, bounds, options).setView(
+      [tileSize, (7 / 6) * tileSize],
+      1
+    );
     // Enable dragging and zooming
     map.dragging.enable();
     map.scrollWheelZoom.enable();
@@ -74,5 +71,17 @@ export class WSMap extends Map {
     this.layers.push(layer);
     layer.show();
     return layer;
+  }
+
+  public findMarker() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const location = urlParams.get("l");
+    if (!location) {
+      return;
+    }
+
+    this.layers.forEach((l) => {
+      l.findLocationMarker(location);
+    });
   }
 }

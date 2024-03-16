@@ -45,4 +45,5 @@ window.onload = async () => {
     .then(addJson);
 
   await Promise.allSettled([locations]);
+  map.findMarker();
 };

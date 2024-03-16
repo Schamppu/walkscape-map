@@ -1,0 +1,669 @@
+[
+  {
+    "id": "location-disenchanted_forest-bbaede29-74fb-4536-9c08-0693ffb0267d",
+    "name": "locations.singulars.jarvonia.disenchantedForest.name",
+    "desc": "locations.singulars.jarvonia.disenchantedForest.desc",
+    "save": true,
+    "unlocked": true,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-cut_pine_trees-53a11a23-24d6-4d5c-9dc8-28c702189a29",
+      "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+      "activity-dobby_is..._free-7a57ddaf-4970-4f88-bcb2-09d4a7fca50f"
+    ],
+    "serviceList": [],
+    "buildingList": [
+      "building-helpful_herbert's_hut-0ed43eaa-cf25-4452-b915-c07e4f4eac86"
+    ],
+    "locationPosition": [
+      537.0,
+      369.0
+    ],
+    "locationIcon": "assets/icons/locations/forest_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/northern_forest/pfp_bg.png",
+    "parallax": "parallax-disenchantedforest-67ca3d46-7207-44e2-9770-606d00ae4cb3"
+  },
+  {
+    "id": "location-azurazera-698f223b-498f-4cc6-9998-59840aaaa31c",
+    "name": "locations.singulars.jarvonia.azurazera.name",
+    "desc": "locations.singulars.jarvonia.azurazera.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743",
+      "activity-soup_kitchen_volunteering-013f92cc-ee30-42c5-9f57-436bb57cb76a"
+    ],
+    "serviceList": [],
+    "buildingList": [
+      "building-temple_of_azurazera-127f2eba-0e5b-4622-aea6-396ae6c1ecf7"
+    ],
+    "locationPosition": [
+      827.0,
+      1065.0
+    ],
+    "locationIcon": "assets/icons/locations/castle_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/azurazera/pfp_bg.png",
+    "parallax": "parallax-azurazera-6d938a67-8488-4ea0-b5fb-522506e5eb3e"
+  },
+  {
+    "id": "location-kallaheim-094c9ec8-fdd2-4471-bacc-fabb71e6d654",
+    "name": "locations.singulars.jarvonia.kallaheim.name",
+    "desc": "locations.singulars.jarvonia.kallaheim.desc",
+    "save": true,
+    "unlocked": true,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156"
+    ],
+    "serviceList": [
+      "service-basic_forge-0eeda0aa-614d-4ce9-a5b4-0e5c4ea17d33",
+      "service-basic_kitchen-084de2eb-c5ce-4c05-8958-9817def4975c",
+      "service-basic_sawmill-55763e83-972b-4964-a169-8b53beb8b507"
+    ],
+    "buildingList": [
+      "building-the_icy_goblet-7d3ca75d-e0b5-44b3-a7f4-f0b17cea8dad",
+      "building-kallaheim's_frosty_finds-71388909-1af6-47dc-8558-86236d0d03b8",
+      "building-frozen_capital_bank-4e697937-2df0-4fab-b09d-9512240e3d63"
+    ],
+    "locationPosition": [
+      619.0,
+      408.0
+    ],
+    "locationIcon": "assets/icons/locations/castle_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/kallaheim/pfp_bg.png",
+    "parallax": "parallax-kallaheim-03e21ef1-d847-42a9-b377-f5378406ebfb"
+  },
+  {
+    "id": "location-frusenholm-5ddb0735-4582-4858-80a0-7489f1b043a2",
+    "name": "locations.singulars.jarvonia.frusenholm.name",
+    "desc": "locations.singulars.jarvonia.frusenholm.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743",
+      "activity-ice_sculpting-2b0be0f5-69d5-4205-922d-c5a02c056cab"
+    ],
+    "serviceList": [
+      "service-basic_workshop-56b7523f-2fa3-48e4-9ec9-3906baca7125"
+    ],
+    "buildingList": [
+      "building-jarvojoy-7046d172-c527-453e-ab11-15c831c7d158"
+    ],
+    "locationPosition": [
+      954.0,
+      463.0
+    ],
+    "locationIcon": "assets/icons/locations/town_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/frusenholm/pfp_bg.png",
+    "parallax": "parallax-frusenholm-e5a6aec1-e845-4734-9797-3f5633acd871"
+  },
+  {
+    "id": "location-barbantok-018aaeeb-5b51-4043-94b7-28fa7dcb7b7a",
+    "name": "locations.singulars.jarvonia.barbantok.name",
+    "desc": "locations.singulars.jarvonia.barbantok.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-frisbee_golfing_(beginner)-0fb41f4d-f46b-4a6d-acdf-f2525654c714",
+      "activity-wood_carving-af675674-c972-4e2e-80fe-1501b972e353",
+      "activity-tinkering-cb2a8773-06d0-4661-9708-2bef5768119e"
+    ],
+    "serviceList": [
+      "service-basic_sawmill-55763e83-972b-4964-a169-8b53beb8b507"
+    ],
+    "buildingList": [],
+    "locationPosition": [
+      592.0,
+      795.0
+    ],
+    "locationIcon": "assets/icons/locations/town_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/barbantok/pfp_bg.png",
+    "parallax": "parallax-barbantok-10ef5d87-eb77-4c45-b769-4ad79c21a0cc"
+  },
+  {
+    "id": "location-centaham-a8ab1866-41bc-4dc0-9294-c7c0e3928fc8",
+    "name": "locations.singulars.jarvonia.centaham.name",
+    "desc": "locations.singulars.jarvonia.centaham.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [],
+    "serviceList": [
+      "service-basic_kitchen-084de2eb-c5ce-4c05-8958-9817def4975c"
+    ],
+    "buildingList": [
+      "building-northstar_mercantile-e8b93e0c-50d9-4a57-9882-6cc53899e156"
+    ],
+    "locationPosition": [
+      928.0,
+      678.0
+    ],
+    "locationIcon": "assets/icons/locations/city_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/centaham/pfp_bg.png",
+    "parallax": "parallax-centaham-0aa8a209-bcf0-455b-9cf5-b67ba2636a13"
+  },
+  {
+    "id": "location-port_skildar-2b12283e-6309-45af-8332-fb470267f510",
+    "name": "locations.singulars.jarvonia.portSkildar.name",
+    "desc": "locations.singulars.jarvonia.portSkildar.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-sea_fishing_(rod)-e6b9acb3-6450-499d-80ac-3a8153351ac6",
+      "activity-horseshoe_making-c4b0dda4-2f2a-4aea-989a-144d0b738f10",
+      "activity-ship_repair_(beginner)-0870997e-fee1-465b-ab4a-a9f668bd16b0"
+    ],
+    "serviceList": [],
+    "buildingList": [
+      "building-frosthook_emporium-01ead99d-4e1e-4a12-b6ff-bcf8fc54ff67"
+    ],
+    "locationPosition": [
+      1135.0,
+      946.0
+    ],
+    "locationIcon": "assets/icons/locations/port_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/port_skildar/pfp_bg.png",
+    "parallax": "parallax-portskildar-8a0e4d8d-efa3-41b2-b0c3-ab991435ed64"
+  },
+  {
+    "id": "location-coldington-71a5ef7d-1d2e-4cec-89f2-cef5f72614e8",
+    "name": "locations.singulars.jarvonia.coldington.name",
+    "desc": "locations.singulars.jarvonia.coldington.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-firewood_making-407263a4-4ee1-4383-a624-2a7ed70c4b10",
+      "activity-rooftop_jumping-ebf1dd67-a070-40ad-87cf-608a1857fabc"
+    ],
+    "serviceList": [
+      "service-basic_kitchen-084de2eb-c5ce-4c05-8958-9817def4975c"
+    ],
+    "buildingList": [],
+    "locationPosition": [
+      1013.0,
+      1003.0
+    ],
+    "locationIcon": "assets/icons/locations/city_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/coldington/pfp_bg.png",
+    "parallax": "parallax-coldington-c4978fcd-d8d4-4c2b-a70f-a4a46d5abd33"
+  },
+  {
+    "id": "location-sanguine_hills-94af86cb-3542-4054-b759-be3dae7fc9e9",
+    "name": "locations.singulars.jarvonia.sanguineHills.name",
+    "desc": "locations.singulars.jarvonia.sanguineHills.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34",
+      "activity-mine_coal-766ceeb7-30f2-4e41-b487-a89345273413",
+      "activity-mine_tarsilium_ore-03bf04ba-e66c-4f80-9068-0cfa24533ca6",
+      "activity-mine_farganite_ore-a41979f2-c46f-4b84-ad50-01a5f90d38de",
+      "activity-spelunking-45b8d041-f27e-434e-8bdc-bbd6d5c9eec8",
+      "activity-mountain_climbing_(intermediate)-812aa739-645f-4ff3-ac6e-61b0153b9351"
+    ],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      906.0,
+      1278.0
+    ],
+    "locationIcon": "assets/icons/locations/hills_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/northern_mountains/pfp_bg.png",
+    "parallax": "parallax-jarvoniaplains-0e934823-ff0c-4a51-a682-80ad9524b692"
+  },
+  {
+    "id": "location-nomad_woods-83e51420-654a-41f7-be07-476f7de266f1",
+    "name": "locations.singulars.jarvonia.nomadWoods.name",
+    "desc": "locations.singulars.jarvonia.nomadWoods.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+      "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+      "activity-cut_oak_trees-5dc3bb43-4600-45ed-ad5f-a99f8a68248b"
+    ],
+    "serviceList": [],
+    "buildingList": [
+      "building-woodcutter's_cabin-fee965c9-41d4-458a-9e06-09813a610ee4"
+    ],
+    "locationPosition": [
+      480.0,
+      712.0
+    ],
+    "locationIcon": "assets/icons/locations/forest_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/nomad_woods/pfp_bg.png",
+    "parallax": "parallax-nomadwoods-7488d8d1-6465-49ce-81fc-3a93ddcdc7d6"
+  },
+  {
+    "id": "location-casbrant_fields-6f038903-6682-4113-b4e8-dbb7be8e3c60",
+    "name": "locations.singulars.jarvonia.casbrantFields.name",
+    "desc": "locations.singulars.jarvonia.casbrantFields.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c",
+      "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+      "activity-cross-country_skiing_(beginner)-fc421940-d63a-402f-aa50-26cc2efea4d3"
+    ],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      821.0,
+      752.0
+    ],
+    "locationIcon": "assets/icons/locations/plains_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/casbrant_fields/pfp_bg.png",
+    "parallax": "parallax-casbrantfields-f043707e-27ff-4b2e-a315-acff90c8ac83"
+  },
+  {
+    "id": "location-solitude_rock-2da269f4-cd26-40c7-8a4f-4218239bf9a0",
+    "name": "locations.singulars.jarvonia.solitudeRock.name",
+    "desc": "locations.singulars.jarvonia.solitudeRock.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      353.0,
+      1500.0
+    ],
+    "locationIcon": "assets/icons/locations/coast_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/northern_coast/pfp_bg.png",
+    "parallax": "parallax-jarvoniabeach-b4910daf-3277-4127-abf3-67a036332724"
+  },
+  {
+    "id": "location-norsack_plains-2d865c4b-425e-4a6f-9c40-0539b5e62b06",
+    "name": "locations.singulars.jarvonia.norsackPlains.name",
+    "desc": "locations.singulars.jarvonia.norsackPlains.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c",
+      "activity-gold_panning-86072e6b-4e46-413f-9407-caf0ca8b077f"
+    ],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      851.0,
+      247.0
+    ],
+    "locationIcon": "assets/icons/locations/plains_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/norsack_plains/pfp_bg.png",
+    "parallax": "parallax-norsackplains-3effd8cb-a6fd-4e42-af59-60caadc4d3a3"
+  },
+  {
+    "id": "location-frostbite_mountain-0dc3b06f-c24c-4c5a-98d8-bb58606d9c8b",
+    "name": "locations.singulars.jarvonia.frostbiteMountain.name",
+    "desc": "locations.singulars.jarvonia.frostbiteMountain.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-mine_copper_ore-cc886e82-54a0-4b04-b822-3ce79f00ae2d",
+      "activity-mine_tin_ore-2e1a6c3e-f46e-4fdf-97d8-be6eec6944a8",
+      "activity-mine_iron_ore-60e5869c-dfde-448b-8ec7-b546dfd9b3be",
+      "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34",
+      "activity-mine_coal-766ceeb7-30f2-4e41-b487-a89345273413",
+      "activity-mountain_climbing_(beginner)-2020f2b7-5365-4f5c-8b17-3d8164a13643"
+    ],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      729.0,
+      202.0
+    ],
+    "locationIcon": "assets/icons/locations/mountains.png",
+    "locationDynamicBackgroundPath": "assets/locations/northern_mountains/pfp_bg.png",
+    "parallax": "parallax-jarvoniamountains-4a797937-fd34-4869-b045-687d1a23e323"
+  },
+  {
+    "id": "location-noiseless_pass-e081df71-97eb-4708-90b0-f33e61b2a0c7",
+    "name": "locations.singulars.jarvonia.noiselessPass.name",
+    "desc": "locations.singulars.jarvonia.noiselessPass.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+      "activity-cut_oak_trees-5dc3bb43-4600-45ed-ad5f-a99f8a68248b",
+      "activity-cross-country_skiing_(intermediate)-42788047-6cc3-4711-88be-999e9504fc2a"
+    ],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      1347.0,
+      499.0
+    ],
+    "locationIcon": "assets/icons/locations/plains_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/noiseless_pass/pfp_bg.png",
+    "parallax": "parallax-noiselesspass-532e3760-0784-4893-a7c9-ed4607fab919"
+  },
+  {
+    "id": "location-fort_of_permafrost-f3f04128-5635-45c0-b415-69dd03feac39",
+    "name": "locations.singulars.jarvonia.fortOfPermafrost.name",
+    "desc": "locations.singulars.jarvonia.fortOfPermafrost.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [],
+    "serviceList": [],
+    "buildingList": [
+      "building-fort_of_permafrost-d17d446e-c176-442b-ac47-a5490bfa0f26"
+    ],
+    "locationPosition": [
+      1167.5932288753793,
+      578.3
+    ],
+    "locationIcon": "assets/icons/locations/castle_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/fort_of_permafrost/pfp_bg.png",
+    "parallax": "parallax-fortofpermafrost-4ab60731-4cd9-4860-a2bc-8028c3d0269d"
+  },
+  {
+    "id": "location-farsand_coast-319361a9-602e-46ef-beb2-529a5a514c23",
+    "name": "locations.singulars.gdte.farsandCoast.name",
+    "desc": "locations.singulars.gdte.farsandCoast.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "gdte",
+    "activityList": [
+      "activity-teak_logs-a8011147-3b4b-4e3f-ae4e-5a12db5d92b4",
+      "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79",
+      "activity-swimming_(beginner)-1ccee641-01d9-4bcb-8dd7-9df9c61142f2"
+    ],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      1631.0,
+      210.0
+    ],
+    "locationIcon": "assets/icons/locations/coast_green.png",
+    "locationDynamicBackgroundPath": "assets/locations/farsand_coast/pfp_bg.png",
+    "parallax": "parallax-farsandcoast-b82264bc-5ece-4935-a744-8906d8ffeb4e"
+  },
+  {
+    "id": "location-salsfirth-f8333fe2-6fc1-4c15-ade8-5869ffd35051",
+    "name": "locations.singulars.gdte.salsfirth.name",
+    "desc": "locations.singulars.gdte.salsfirth.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "gdte",
+    "activityList": [],
+    "serviceList": [
+      "service-basic_kitchen-084de2eb-c5ce-4c05-8958-9817def4975c",
+      "service-basic_workshop-56b7523f-2fa3-48e4-9ec9-3906baca7125"
+    ],
+    "buildingList": [
+      "building-bogside_bank_of_prosperity-e18e2916-d399-4054-a7e8-e9838e53834c",
+      "building-paws_are_us-61e1d784-d7a7-4684-a195-0fe608288018"
+    ],
+    "locationPosition": [
+      1670.0,
+      369.0
+    ],
+    "locationIcon": "assets/icons/locations/city_green.png",
+    "locationDynamicBackgroundPath": "assets/locations/salsfirth/pfp_bg.png",
+    "parallax": "parallax-salsfirth-1af9ef8e-7caa-4f93-a8b1-95dd1b3683f2"
+  },
+  {
+    "id": "location-everhaven-609377ac-b6b6-4c63-95c2-6abc2f9a19af",
+    "name": "locations.singulars.gdte.everhaven.name",
+    "desc": "locations.singulars.gdte.everhaven.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "gdte",
+    "activityList": [
+      "activity-rooftop_jumping_(intermediate)-d0178a77-1163-4ae1-af09-c5314ef3427d"
+    ],
+    "serviceList": [
+      "service-basic_sawmill-55763e83-972b-4964-a169-8b53beb8b507",
+      "service-basic_kitchen-084de2eb-c5ce-4c05-8958-9817def4975c"
+    ],
+    "buildingList": [
+      "building-mossy_merchant's_breeze_mart-4357aac1-9fd0-4a0b-96a7-d65bbb70e00c"
+    ],
+    "locationPosition": [
+      2024.0,
+      306.0
+    ],
+    "locationIcon": "assets/icons/locations/castle_green.png",
+    "locationDynamicBackgroundPath": "assets/locations/everhaven/pfp_bg.png",
+    "parallax": "parallax-everhaven-d4bb879e-8cfe-4762-b207-fb82c989330e"
+  },
+  {
+    "id": "location-bilgemont_port-3487fbca-62e3-4a6c-8f91-ceacdc6ea382",
+    "name": "locations.singulars.gdte.bilgemontPort.name",
+    "desc": "locations.singulars.gdte.bilgemontPort.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "gdte",
+    "activityList": [
+      "activity-frisbee_golfing_(intermediate)-ecbf8887-6555-4d43-b044-e8e05eac556c"
+    ],
+    "serviceList": [
+      "service-basic_forge-0eeda0aa-614d-4ce9-a5b4-0e5c4ea17d33"
+    ],
+    "buildingList": [
+      "building-bilgemont_castle-0eab0540-f6fd-4c46-86f5-f02f92b377f3",
+      "building-maritime_fortune_bank-40ecf29a-039f-4338-a420-20b79f65a289"
+    ],
+    "locationPosition": [
+      2286.0,
+      437.0
+    ],
+    "locationIcon": "assets/icons/locations/port_green.png",
+    "locationDynamicBackgroundPath": "assets/locations/bilgemont_port/pfp_bg.png",
+    "parallax": "parallax-bilgemont-976ddeeb-06c7-49b9-ab50-07f34856218d"
+  },
+  {
+    "id": "location-granfiddich-d5d6c8bd-b38c-404a-bd75-b7432de3c0a3",
+    "name": "locations.singulars.gdte.granfiddich.name",
+    "desc": "locations.singulars.gdte.granfiddich.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "gdte",
+    "activityList": [
+      "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156",
+      "activity-soup_kitchen_volunteering-013f92cc-ee30-42c5-9f57-436bb57cb76a",
+      "activity-wine_grape_stomping-d86f36a3-e612-48b8-825d-17a885e9b3f1",
+      "activity-dumpster_diving-d087c88a-d857-4d91-83ac-fc77e3956886"
+    ],
+    "serviceList": [
+      "service-basic_forge-0eeda0aa-614d-4ce9-a5b4-0e5c4ea17d33"
+    ],
+    "buildingList": [
+      "building-fish_market_stall-a566cbe4-a93a-4ae5-aaa2-40dadecea8eb",
+      "building-food_market_stall-38b7f92b-4236-4cc2-8f4c-70c0caafb83a",
+      "building-tool_market_stall-b269d7bb-1c71-4406-b926-cbf4f3825dbe"
+    ],
+    "locationPosition": [
+      1718.0,
+      753.0
+    ],
+    "locationIcon": "assets/icons/locations/city_green.png",
+    "locationDynamicBackgroundPath": "assets/locations/granfiddich/pfp_bg.png",
+    "parallax": "parallax-granfiddich-b9268982-3dc6-4d52-9c1a-5e8c7015e68b"
+  },
+  {
+    "id": "location-blackspell_port-c03285fc-37a1-4b06-ba76-45e91948b3aa",
+    "name": "locations.singulars.gdte.blackspellPort.name",
+    "desc": "locations.singulars.gdte.blackspellPort.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "gdte",
+    "activityList": [
+      "activity-dumpster_diving-ec967851-8cee-44a6-bf25-1e70be61fda7",
+      "activity-ship_repair_(intermediate)-44f2f2e7-bef1-437f-ac35-bf64b97cc249"
+    ],
+    "serviceList": [
+      "service-basic_kitchen-084de2eb-c5ce-4c05-8958-9817def4975c"
+    ],
+    "buildingList": [],
+    "locationPosition": [
+      2199.0,
+      786.0
+    ],
+    "locationIcon": "assets/icons/locations/port_green.png",
+    "locationDynamicBackgroundPath": "assets/locations/blackspell_port/pfp_bg.png",
+    "parallax": "parallax-blackspell-ed6ffd16-1570-452c-9746-9940afb7935b"
+  },
+  {
+    "id": "location-old_arena_ruins-0f86b9e3-d5b9-4255-b541-b4db5fa93af2",
+    "name": "locations.singulars.gdte.oldArenaRuins.name",
+    "desc": "locations.singulars.gdte.oldArenaRuins.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "gdte",
+    "activityList": [
+      "activity-magnet_fishing-abeba70d-d8f6-48cc-8161-f9dea7a49d44",
+      "activity-kayaking-72c1d122-8796-40c0-bbbb-32fdd741e528"
+    ],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      2086.0,
+      913.0
+    ],
+    "locationIcon": "assets/icons/locations/arena_green.png",
+    "locationDynamicBackgroundPath": "assets/locations/old_arena_ruins/pfp_bg.png",
+    "parallax": "parallax-oldarena-3c954326-48ab-4fc6-868c-2f1d72185602"
+  },
+  {
+    "id": "location-halfling_campgrounds-ead9e557-9db2-4ca5-8762-ab24326e10ee",
+    "name": "locations.singulars.gdte.halflingCampgrounds.name",
+    "desc": "locations.singulars.gdte.halflingCampgrounds.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "gdte",
+    "activityList": [
+      "activity-cut_mangrove_trees-8a4cf464-0574-408b-9263-43df9cb0fefc"
+    ],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      1981.0,
+      641.0
+    ],
+    "locationIcon": "assets/icons/locations/marsh_green.png",
+    "locationDynamicBackgroundPath": "assets/locations/marshes_marshlands/pfp_bg.png",
+    "parallax": "parallax-gdtemarshes-9bdd5bc3-e2aa-4021-ad7b-209af04dacc9"
+  },
+  {
+    "id": "location-mangrove_forest-4a794a97-2174-4933-8b23-4be670b8791f",
+    "name": "locations.singulars.gdte.mangroveForest.name",
+    "desc": "locations.singulars.gdte.mangroveForest.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "gdte",
+    "activityList": [
+      "activity-cut_maple_trees-de7a517e-98e7-4ddc-8a05-aa841ec7e67e",
+      "activity-cut_mangrove_trees-8a4cf464-0574-408b-9263-43df9cb0fefc",
+      "activity-cut_willow_trees-0e66e2f0-fd3d-40d8-9050-b4e5c1b24357"
+    ],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      1563.0,
+      398.0
+    ],
+    "locationIcon": "assets/icons/locations/forest_green.png",
+    "locationDynamicBackgroundPath": "assets/locations/mangrove_forest/pfp_bg.png",
+    "parallax": "parallax-mangroveforest-1fca9193-722e-42b2-a161-60c8292ce950"
+  },
+  {
+    "id": "location-red_coast-2e988edb-141d-4f3e-b06f-0eb7a88aef4b",
+    "name": "locations.singulars.gdte.redCoast.name",
+    "desc": "locations.singulars.gdte.redCoast.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "gdte",
+    "activityList": [
+      "activity-swimming_(intermediate)-37f761f4-f6fd-49a5-8389-5816388e0cf9"
+    ],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      2228.0,
+      912.0
+    ],
+    "locationIcon": "assets/icons/locations/coast_green.png",
+    "locationDynamicBackgroundPath": "assets/locations/marshes_coast/pfp_bg.png",
+    "parallax": "parallax-gdtecoast-b621b9f7-955f-4697-8457-a457a2fe9d80"
+  },
+  {
+    "id": "location-warrenfield-74631484-e2ab-472c-8697-d3d4a1d91b8e",
+    "name": "locations.singulars.gdte.warrenField.name",
+    "desc": "locations.singulars.gdte.warrenField.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "gdte",
+    "activityList": [
+      "activity-cut_willow_trees-0e66e2f0-fd3d-40d8-9050-b4e5c1b24357",
+      "activity-butterfly_catching-ddef8fc5-a61e-4689-bacb-e49ee89f09c8"
+    ],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      1916.0,
+      939.0
+    ],
+    "locationIcon": "assets/icons/locations/plains_green.png",
+    "locationDynamicBackgroundPath": "assets/locations/marshes_marshlands/pfp_bg.png",
+    "parallax": "parallax-gdtemarshes-9bdd5bc3-e2aa-4021-ad7b-209af04dacc9"
+  },
+  {
+    "id": "location-beach_of_woes-f579ee16-e016-4c73-bf54-81947ff034ee",
+    "name": "locations.singulars.jarvonia.beachOfWoes.name",
+    "desc": "locations.singulars.jarvonia.beachOfWoes.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-sea_fishing-3a8d6c40-e6f0-4127-a4df-a4d4ff148d50",
+      "activity-sandcastle_building-3273bc4a-f394-423f-96f9-3fcc93d1f44d",
+      "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79",
+      "activity-surface_salt_mining-2210ab8b-4c54-47ed-a7a4-ae0d62328c30"
+    ],
+    "serviceList": [],
+    "buildingList": [],
+    "locationPosition": [
+      451.25,
+      405.543212890625
+    ],
+    "locationIcon": "assets/icons/locations/coast_white.png",
+    "locationDynamicBackgroundPath": "assets/locations/beach_of_woes/pfp_bg.png",
+    "parallax": "parallax-beachofwoes-c6080b56-c26e-41b3-a327-f5611827d36d"
+  },
+  {
+    "id": "location-winter_waves_glacier-6ad1bf37-ca87-4e51-8340-19c6c31303a1",
+    "name": "locations.singulars.jarvonia.winterWavesGlacier.name",
+    "desc": "locations.singulars.jarvonia.winterWavesGlacier.desc",
+    "save": true,
+    "unlocked": false,
+    "realm": "jarvonia",
+    "activityList": [
+      "activity-glacier_foraging-dfdd59cc-e38b-48fc-9a0e-439163abac12"
+    ],
+    "serviceList": [
+      "service-frozen_forge-2d87bb03-7676-4317-97e5-a52a046f04a0"
+    ],
+    "buildingList": [],
+    "locationPosition": [
+      879.5341621359416,
+      131.33333333303992
+    ],
+    "locationIcon": "assets/icons/locations/glacier.png",
+    "locationDynamicBackgroundPath": "assets/locations/winter_waves_glacier/pfp_bg.png",
+    "parallax": "parallax-nomadwoods-8770d564-b944-45c9-8ef5-c01338b6c5a0"
+  }
+]

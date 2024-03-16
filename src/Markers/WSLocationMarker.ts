@@ -25,10 +25,15 @@ export class WSLocationMarker extends WSMarker {
     this.popup = popup;
     this.bindPopup(this.popup);
 
-    this.on('click', () => {
-      const popupContent = this.popup.getPopupContent()
-      this.setPopupContent(popupContent).openPopup()
-    })
+    this.on("popupopen", () => {
+      const popupContent = this.popup.getPopupContent();
+      this.setPopupContent(popupContent).openPopup();
+      this.updateUrl(true);
+    });
+
+    this.on("popupclose", () => {
+      this.updateUrl(false);
+    });
   }
 
   public static fromJson(
@@ -37,5 +42,12 @@ export class WSLocationMarker extends WSMarker {
   ): WSLocationMarker {
     const marker = new WSLocationMarker(json, json.coords, layer);
     return marker;
+  }
+
+  private updateUrl(enable: boolean): void {
+    const url = new URL(window.location.toString());
+    if (enable) url.searchParams.set("l", this.id);
+    else url.searchParams.delete("l");
+    history.pushState({}, "", url);
   }
 }

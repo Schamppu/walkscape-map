@@ -33,7 +33,7 @@ export class MarkerDivIcon {
     labelDiv.appendChild(labelStart);
     labelDiv.className = "marker-label-div";
     const label = document.createElement("span");
-    label.textContent = title
+    label.textContent = title;
     label.className = "marker-div-span";
     labelDiv.appendChild(label);
     labelDiv.appendChild(labelEnd);
