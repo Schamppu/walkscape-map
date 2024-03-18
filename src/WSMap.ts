@@ -1,7 +1,8 @@
 import { Map, LatLngBounds, MapOptions, Point } from "leaflet";
 import { create } from "./WSCRS";
 import { MapLayer } from "./MapLayer";
-import { ControlDock } from "./controls/ControlDock";
+import { ControlDock } from "./Controls/ControlDock";
+import { ZoomControl } from "./Controls/ZoomControl";
 
 export interface WSMapOptions extends MapOptions {
   mapSizePixels: number;
@@ -44,6 +45,8 @@ export class WSMap extends Map {
     const bounds = new LatLngBounds(SW, NE);
     options.maxBounds = bounds;
 
+    options.zoomControl = false; // using a custom zoom control instead
+
     const map = new WSMap("map", options.tileSize, bounds, options).setView(
       [tileSize, (3 / 2) * tileSize],
       2
@@ -82,6 +85,20 @@ export class WSMap extends Map {
 
   public addControls(): void {
     const controls = new ControlDock();
+
+    // Zoom
+    const zoomControl = new ZoomControl({
+      minZoom: this.getMinZoom(),
+      maxZoom: this.getMaxZoom(),
+      initialZoom: this.getZoom(),
+      zoomIn: () => this.zoomIn(),
+      zoomOut: () => this.zoomOut(),
+    });
+    controls.addZoom(zoomControl);
+    this.on("zoomend zoomlevelschange", (_) => {
+      zoomControl.setZoom(this.getZoom());
+    });
+
     controls.addTo(this);
   }
 

@@ -259,6 +259,7 @@ h1 {
 
 /* CONTROLS */
 
+/* Hide leaflet icon */
 .leaflet-bottom.leaflet-right {
   display: none;
 }
@@ -268,9 +269,193 @@ h1 {
   font-family: "Notototo";
 }
 
+.leaflet-left .ws-controls {
+  margin-left: 0;
+}
+
+.leaflet-right .ws-controls {
+  margin-right: 0;
+}
+
+.leaflet-bottom .ws-controls {
+  margin-bottom: 0;
+}
+
 .ws-controls__dock {
-  background: black;
+  background: #0f1e25;
   display: flex;
+}
+
+.ws-controls__dock__group {
+  display: flex;
+  flex: 1;
+}
+
+.ws-controls__dock__group:nth-child(2) {
+  justify-content: center;
+}
+
+.ws-controls__dock__group:nth-child(3) {
+  justify-content: end;
+}
+
+.ws-control__button-group {
+  display: flex;
+  width: 100%;
+}
+
+.ws-control__button {
+  margin: 5px;
+  line-height: 30px;
+  font-size: 22px;
+  text-align: center;
+  color: #dbd2c3;
+  border-radius: 8px;
+  border: 2px solid #21333d;
+  background-color: #1a1f23;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.ws-control__button:active {
+  background-color: #21333d;
+}
+
+.ws-control__button-text {
+  margin: 0px;
+}
+
+.ws-controls__pane-container {
+  overflow: hidden;
+  background: rgba(33, 51, 61, 0.8);
+}
+
+.ws-control__pane {
+  display: none;
+  margin: 5px;
+  color: #dbd2c3;
+}
+
+.ws-control__pane.visible {
+  display: flex;
+  flex-direction: column;
+}
+
+.ws-control__pane h3 {
+  font-size: 14px;
+}
+
+@media (orientation: landscape) {
+  .ws-controls {
+    height: 100dvh;
+  }
+
+  .ws-controls__dock {
+    height: 100dvh;
+    width: 50px;
+    flex-direction: column;
+  }
+
+  .ws-controls__dock__group {
+    flex-direction: column;
+  }
+
+  .ws-control__button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ws-control__button {
+    width: 30px;
+    padding: 4px;
+  }
+
+  .ws-control__button.selected {
+    border-right: 5px solid #dbd2c3;
+  }
+
+  .ws-controls__pane-container {
+    width: 0;
+    height: 100%;
+    transition: width 0.2s;
+  }
+
+  .ws-controls__pane-container.visible {
+    width: calc(100vw - 40px);
+  }
+
+  .ws-control__pane {
+    width: calc(100vw - 50px);
+    height: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .ws-controls__pane-container.visible {
+      width: 330px;
+    }
+
+    .ws-control__pane {
+      width: 320px;
+    }
+  }
+}
+
+@media (orientation: portrait) {
+  .ws-controls {
+    flex-direction: column-reverse;
+    width: 100dvw;
+  }
+
+  .ws-controls__dock {
+    height: 50px;
+    width: 100dvw;
+    flex-direction: row;
+  }
+
+  .ws-controls__dock__group {
+    flex-direction: row;
+  }
+
+  .ws-control__button-group {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .ws-control__button.zoom {
+    width: 100%;
+  }
+
+  .ws-control__button.selected {
+    margin-top: 0;
+    border-top: 5px solid #dbd2c3;
+  }
+
+  .ws-controls__pane-container {
+    width: 100%;
+    height: 0;
+    transition: height 0.2s;
+  }
+
+  .ws-controls__pane-container.visible {
+    height: calc(100dvh - 40px);
+  }
+
+  .ws-control__pane {
+    width: 100%;
+    height: calc(100dvh - 50px);
+  }
+
+  @media (min-height: 600px) {
+    .ws-controls__pane-container.visible {
+      height: calc(50dvh - 40px);
+    }
+
+    .ws-control__pane {
+      height: calc(50dvh - 50px);
+    }
+  }
 }
 
 /* SKILL COLORS */

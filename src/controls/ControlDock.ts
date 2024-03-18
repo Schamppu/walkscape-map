@@ -1,5 +1,6 @@
 import { Control, ControlPosition, DomUtil, DomEvent } from "leaflet";
 import { ControlPane } from "./ControlPane";
+import { ZoomControl } from "./ZoomControl";
 
 export class ControlDock extends Control {
   private container: HTMLElement;
@@ -35,6 +36,10 @@ export class ControlDock extends Control {
 
   public onRemove(_map: L.Map): void {
     // doesn't happen
+  }
+  
+  public addZoom(zoom: ZoomControl): void {
+    this.group2.appendChild(zoom.getButtons());
   }
 
   public setPosition(position: ControlPosition): this {
