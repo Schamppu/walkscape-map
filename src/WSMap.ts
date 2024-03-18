@@ -4,6 +4,7 @@ import { MapLayer } from "./MapLayer";
 import { ControlDock } from "./Controls/ControlDock";
 import { ZoomControl } from "./Controls/ZoomControl";
 import { FilterControl } from "./Controls/FilterControl";
+import { FilterCategory } from "./FilterCategory";
 
 export interface WSMapOptions extends MapOptions {
   mapSizePixels: number;
@@ -107,6 +108,8 @@ export class WSMap extends Map {
 
     controls.addTo(this);
   }
+
+  public addFilterGroup(filters: FilterCategory[] = [], group: string): void {}
 
   public findMarker() {
     const urlParams = new URLSearchParams(window.location.search);

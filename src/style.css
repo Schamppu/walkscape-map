@@ -478,6 +478,40 @@ h1 {
   }
 }
 
+/* FILTER/OBJECTS CONTROLS */
+
+.ws-tabs {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.ws-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 0;
+  flex-grow: 1;
+  height: 35px;
+}
+
+.ws-tab--button.selected {
+  border-bottom: 5px solid #dbd2c3;
+}
+
+.selectable {
+  cursor: pointer;
+  color: rgba(219, 210, 195, 0.7);
+}
+
+.selected {
+  color: #dbd2c3 !important;
+  text-decoration: underline;
+}
+
 /* SKILL COLORS */
 
 .border-woodcutting {

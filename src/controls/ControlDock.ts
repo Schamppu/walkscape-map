@@ -52,6 +52,9 @@ export class ControlDock extends Control {
         this.showControl(control);
       }
     });
+
+    // Add content pane
+    this.paneContainer.appendChild(control.getPane());
   }
 
   public addZoom(zoom: ZoomControl): void {
