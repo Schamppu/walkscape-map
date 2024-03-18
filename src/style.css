@@ -376,7 +376,7 @@ h1 {
   }
 
   .ws-control__button-group {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
