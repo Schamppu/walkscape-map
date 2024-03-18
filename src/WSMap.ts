@@ -109,7 +109,11 @@ export class WSMap extends Map {
     controls.addTo(this);
   }
 
-  public addFilterGroup(filters: FilterCategory[] = [], group: string): void {}
+  public addFilterGroup(filters: FilterCategory[] = [], group: string): void {
+    for (const category of filters) {
+      this.filterControl?.addCategory(category, group);
+    }
+  }
 
   public findMarker() {
     const urlParams = new URLSearchParams(window.location.search);
