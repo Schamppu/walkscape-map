@@ -87,7 +87,7 @@ export class FilterControl extends ControlPane {
     const groupBody = DomUtil.create("ul", "ws-legend-group__body", groupDiv);
     DomUtil.addClass(groupBody, "visible");
 
-    const groupItem = { name, li: groupBody }
+    const groupItem = { name, li: groupBody };
     this.groupList.push(groupItem);
 
     //Add click event to group for dropdown functionality
@@ -115,17 +115,48 @@ export class FilterControl extends ControlPane {
     }
     let groupLi = groupItem.li;
 
-    const div = DomUtil.create("li", "ws-legend__category-div", groupLi);
-    const icon = DomUtil.create("img", "selectable", div);
+    const li = DomUtil.create(
+      "li",
+      "ws-legend__category-div selectable",
+      groupLi
+    );
+    const icon = DomUtil.create("img", "", li);
 
-    const li = DomUtil.create("div", "ws-legend__category selectable", div);
-    li.innerText = category.name;
+    const div = DomUtil.create("div", "ws-legend__category", li);
+    div.innerText = category.name;
     icon.src = category.iconUrl;
     const iconSize = 32;
     icon.style.width = iconSize + "px";
     icon.style.height = iconSize + "px";
 
     this.categories.push({ category, li });
+
+    DomUtil.addClass(li, "selected");
+    DomEvent.addListener(li, "click", () => {
+      if (DomUtil.hasClass(li, "selected")) {
+        DomUtil.removeClass(li, "selected");
+        // this.mapLayers.forEach((l) => l.hideCategory(category.name));
+
+        // select "None" if no others are selected
+        if (this.categories.every((c) => !DomUtil.hasClass(c.li, "selected"))) {
+          DomUtil.addClass(this.none, "selected");
+        }
+      } else {
+        DomUtil.addClass(li, "selected");
+        // this.mapLayers.forEach((l) => l.showCategory(category.name));
+
+        // hide the others
+        if (DomUtil.hasClass(this.all, "selected")) {
+          DomUtil.removeClass(this.all, "selected");
+          // this.categories.forEach((c) => {
+          //   if (!DomUtil.hasClass(c.li, "selected")) {
+          //     this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
+          //   }
+          // });
+        }
+        DomUtil.removeClass(this.none, "selected");
+      }
+    });
   }
 
   public reset(): void {
