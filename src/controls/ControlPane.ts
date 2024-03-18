@@ -6,7 +6,7 @@ export interface Options {
 }
 
 /**
- * A pane that's attached to the control dock. Also defines the control's icon.
+ * A pane that's attached to the control dock.
  */
 
 export class ControlPane {
@@ -15,7 +15,11 @@ export class ControlPane {
 
   protected constructor(options: Options) {
     this.button = DomUtil.create("div", "ws-control__button");
+    const img = new Image(24, 24);
+    img.src = `icons/${options.icon}.png`;
+    this.button.appendChild(img);
 
+    this.button.title = options.title;
     DomEvent.disableClickPropagation(this.button);
     DomEvent.disableScrollPropagation(this.button);
 

@@ -37,7 +37,23 @@ export class ControlDock extends Control {
   public onRemove(_map: L.Map): void {
     // doesn't happen
   }
-  
+
+  public addControl(control: ControlPane, initShow = false): void {
+    this.controls.push(control);
+
+    // add button
+    const button = control.getButton();
+    this.group1.appendChild(button);
+    DomEvent.addListener(button, "click", () => {
+      if (DomUtil.hasClass(button, "selected")) {
+        control.close();
+        DomUtil.removeClass(this.paneContainer, "visible");
+      } else {
+        this.showControl(control);
+      }
+    });
+  }
+
   public addZoom(zoom: ZoomControl): void {
     this.group2.appendChild(zoom.getButtons());
   }

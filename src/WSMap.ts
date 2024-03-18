@@ -3,6 +3,7 @@ import { create } from "./WSCRS";
 import { MapLayer } from "./MapLayer";
 import { ControlDock } from "./Controls/ControlDock";
 import { ZoomControl } from "./Controls/ZoomControl";
+import { FilterControl } from "./Controls/FilterControl";
 
 export interface WSMapOptions extends MapOptions {
   mapSizePixels: number;
@@ -11,6 +12,7 @@ export interface WSMapOptions extends MapOptions {
 
 export class WSMap extends Map {
   private layers = <MapLayer[]>[];
+  private filterControl?: FilterControl;
 
   private constructor(
     element: string | HTMLElement,
@@ -98,6 +100,10 @@ export class WSMap extends Map {
     this.on("zoomend zoomlevelschange", (_) => {
       zoomControl.setZoom(this.getZoom());
     });
+
+    // Filter
+    this.filterControl = new FilterControl(this.layers);
+    controls.addControl(this.filterControl, true);
 
     controls.addTo(this);
   }
