@@ -87,7 +87,8 @@ export class FilterControl extends ControlPane {
     const groupBody = DomUtil.create("ul", "ws-legend-group__body", groupDiv);
     DomUtil.addClass(groupBody, "visible");
 
-    this.groupList.push({ name, li: groupLi });
+    const groupItem = { name, li: groupBody }
+    this.groupList.push(groupItem);
 
     //Add click event to group for dropdown functionality
     DomEvent.addListener(groupHeader, "click", () => {
@@ -104,12 +105,27 @@ export class FilterControl extends ControlPane {
         DomUtil.addClass(groupBody, "visible");
       }
     });
+    return groupItem;
   }
 
   public addCategory(category: FilterCategory, group: string) {
-    if (!this.groupList.some((g) => g.name === group)) {
-      this.addGroup(group);
+    let groupItem = this.groupList.find((g) => g.name === group);
+    if (groupItem === undefined) {
+      groupItem = this.addGroup(group);
     }
+    let groupLi = groupItem.li;
+
+    const div = DomUtil.create("li", "ws-legend__category-div", groupLi);
+    const icon = DomUtil.create("img", "selectable", div);
+
+    const li = DomUtil.create("div", "ws-legend__category selectable", div);
+    li.innerText = category.name;
+    icon.src = category.iconUrl;
+    const iconSize = 32;
+    icon.style.width = iconSize + "px";
+    icon.style.height = iconSize + "px";
+
+    this.categories.push({ category, li });
   }
 
   public reset(): void {
