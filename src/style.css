@@ -226,6 +226,7 @@ h1 {
 
 .ws-location-popup__skill-div {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   border-radius: 8px;
   border: 2px solid #21333d;
