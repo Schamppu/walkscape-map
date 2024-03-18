@@ -59,7 +59,7 @@ export class LocationPopup extends Popup {
   public static create(options: LocationPopupOptions): LocationPopup {
     return new LocationPopup({
       ...options,
-      minWidth: 350,
+      minWidth: undefined,
     });
   }
 
