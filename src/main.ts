@@ -2,7 +2,6 @@ import "leaflet/dist/leaflet.css";
 import "./style.css";
 import { WSMap } from "./WSMap";
 import { Layer } from "./Layer";
-import { FilterCategory } from "./FilterCategory";
 import * as Schema from "./JSONSchema";
 
 window.onload = async () => {
@@ -35,52 +34,52 @@ window.onload = async () => {
       {
         name: "Agility",
         values: ["agility"],
-        iconUrl: iconUrl("activity_sprites/agility/dasboot3"),
+        iconUrl: iconUrl("activities/activity_sprites/agility/dasboot3"),
       },
       {
         name: "Carpentry",
         values: ["carpentry"],
-        iconUrl: iconUrl("activity_sprites/carpentry/full"),
+        iconUrl: iconUrl("activities/activity_sprites/carpentry/full"),
       },
       {
         name: "Cooking",
         values: ["cooking"],
-        iconUrl: iconUrl("activity_sprites/cooking/full"),
+        iconUrl: iconUrl("activities/activity_sprites/cooking/full"),
       },
       {
         name: "Crafting",
         values: ["crafting"],
-        iconUrl: iconUrl("activity_sprites/crafting/full"),
+        iconUrl: iconUrl("activities/activity_sprites/crafting/full"),
       },
       {
         name: "Fishing",
         values: ["fishing"],
-        iconUrl: iconUrl("activity_sprites/fishing/full"),
+        iconUrl: iconUrl("activities/activity_sprites/fishing/full"),
       },
       {
         name: "Carpentry",
         values: ["carpentry"],
-        iconUrl: iconUrl("activity_sprites/full"),
+        iconUrl: iconUrl("activities/activity_sprites/carpentry/full"),
       },
       {
         name: "Foraging",
         values: ["foraging"],
-        iconUrl: iconUrl("activity_sprites/foraging/full"),
+        iconUrl: iconUrl("activities/activity_sprites/foraging/full"),
       },
       {
         name: "Mining",
         values: ["mining"],
-        iconUrl: iconUrl("activity_sprites/mining/pickaxe"),
+        iconUrl: iconUrl("activities/activity_sprites/mining/pickaxe"),
       },
       {
         name: "Smithing",
         values: ["smithing"],
-        iconUrl: iconUrl("activity_sprites/smithing/full"),
+        iconUrl: iconUrl("activities/activity_sprites/smithing/full"),
       },
       {
-        name: "Mining",
-        values: ["mining"],
-        iconUrl: iconUrl("activity_sprites/woodcutting/axe"),
+        name: "Woodcutting",
+        values: ["woodcutting"],
+        iconUrl: iconUrl("activities/activity_sprites/woodcutting/axe"),
       },
     ],
     "Skills"
@@ -99,14 +98,14 @@ window.onload = async () => {
         iconUrl: iconUrl("buildings/general_store"),
       },
       {
-        name: "Bank",
-        values: ["bank"],
-        iconUrl: iconUrl("buildings/bank"),
-      },
-      {
         name: "Other",
         values: ["temple", "tavern", "house", "castle"],
         iconUrl: iconUrl("buildings/cabin"),
+      },
+      {
+        name: "Bank",
+        values: ["bank"],
+        iconUrl: iconUrl("buildings/bank"),
       },
     ],
     "Buildings"
@@ -116,22 +115,22 @@ window.onload = async () => {
       {
         name: "Forge",
         values: ["basic_forge", "advanced_forge", "frozen_forge"],
-        iconUrl: "services/forge",
+        iconUrl: iconUrl("services/forge"),
       },
       {
         name: "Kitchen",
         values: ["basic_kitchen", "advanced_kitchen"],
-        iconUrl: "services/kitchen",
+        iconUrl: iconUrl("services/kitchen"),
       },
       {
         name: "Sawmill",
         values: ["basic_sawmill", "advanced_sawmill"],
-        iconUrl: "services/sawmill",
+        iconUrl: iconUrl("services/sawmill"),
       },
       {
         name: "Workshop",
         values: ["basic_workshop", "advanced_workshop"],
-        iconUrl: "services/workshop",
+        iconUrl: iconUrl("services/workshop"),
       },
     ],
     "Services"
