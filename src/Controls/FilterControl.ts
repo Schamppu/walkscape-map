@@ -23,6 +23,7 @@ export class FilterControl extends ControlPane {
   private categoryList: HTMLElement;
   private categories = <LegendItem[]>[];
   private groupList = <GroupItem[]>[];
+  private shownValues: string[] = [];
 
   public constructor(private mapLayers: MapLayer[]) {
     super({
@@ -130,12 +131,14 @@ export class FilterControl extends ControlPane {
     icon.style.height = iconSize + "px";
 
     this.categories.push({ category, li });
+    this.shownValues.push(...category.values);
 
-    DomUtil.addClass(li, "selected");
     DomEvent.addListener(li, "click", () => {
       if (DomUtil.hasClass(li, "selected")) {
         DomUtil.removeClass(li, "selected");
-        // this.mapLayers.forEach((l) => l.hideCategory(category.name));
+        this.shownValues = this.shownValues.filter(
+          (el) => !category.values.includes(el)
+        );
 
         // select "None" if no others are selected
         if (this.categories.every((c) => !DomUtil.hasClass(c.li, "selected"))) {
@@ -143,19 +146,16 @@ export class FilterControl extends ControlPane {
         }
       } else {
         DomUtil.addClass(li, "selected");
-        // this.mapLayers.forEach((l) => l.showCategory(category.name));
+        this.shownValues.push(...category.values);
 
         // hide the others
         if (DomUtil.hasClass(this.all, "selected")) {
           DomUtil.removeClass(this.all, "selected");
-          // this.categories.forEach((c) => {
-          //   if (!DomUtil.hasClass(c.li, "selected")) {
-          //     this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
-          //   }
-          // });
+          this.shownValues = category.values;
         }
         DomUtil.removeClass(this.none, "selected");
       }
+      this.mapLayers.forEach((l) => l.filterLocations(this.shownValues));
     });
   }
 
@@ -167,23 +167,27 @@ export class FilterControl extends ControlPane {
     if (!DomUtil.hasClass(this.all, "selected")) {
       DomUtil.addClass(this.all, "selected");
       DomUtil.removeClass(this.none, "selected");
-      //   this.categories.forEach((c) => {
-      //     DomUtil.removeClass(c.li, "selected");
-      //     this.mapLayers.forEach((l) =>
-      //       l.resetCategoryVisibility(c.category.name)
-      //     );
-      //   });
+      this.categories.forEach((c) => {
+        this.shownValues.push(...c.category.values);
+        DomUtil.removeClass(c.li, "selected");
+        // this.mapLayers.forEach((l) =>
+        //   l.resetCategoryVisibility(c.category.name)
+        // );
+      });
     }
+    this.mapLayers.forEach((l) => l.filterLocations(this.shownValues));
   }
 
   private showNone(): void {
     if (!DomUtil.hasClass(this.none, "selected")) {
       DomUtil.addClass(this.none, "selected");
       DomUtil.removeClass(this.all, "selected");
-      //   this.categories.forEach((c) => {
-      //     DomUtil.removeClass(c.li, "selected");
-      //     this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
-      //   });
+      this.shownValues = [];
+      this.categories.forEach((c) => {
+        DomUtil.removeClass(c.li, "selected");
+        // this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
+      });
     }
+    this.mapLayers.forEach((l) => l.filterLocations(this.shownValues));
   }
 }

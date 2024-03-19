@@ -2,6 +2,7 @@ import * as Schema from "../JSONSchema";
 import { Marker, LatLngExpression, LatLngBounds } from "leaflet";
 import { Layer } from "../Layer";
 import { MarkerDivIcon } from "./MarkerDivIcon";
+import { WSLocationMarker } from "./WSLocationMarker";
 
 export class WSMarker extends Marker {
   public id: string;
@@ -51,9 +52,13 @@ export class WSMarker extends Marker {
     return marker;
   }
 
-  public static isLocation(
+  public static isLocationJson(
     marker: Schema.Marker | Schema.Location
   ): marker is Schema.Location {
+    return Object.keys(marker).includes("realm");
+  }
+
+  public static isLocation(marker: WSMarker): marker is WSLocationMarker {
     return Object.keys(marker).includes("realm");
   }
 }

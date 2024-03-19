@@ -33,6 +33,7 @@ export interface MappedLocation extends Marker {
   activities: Activity[];
   buildings: Building[];
   services: Service[];
+  keywords: string[];
 }
 
 export interface DataPoint {
@@ -55,4 +56,3 @@ export interface Building extends DataPoint {
 export interface Service extends DataPoint {
   skills: string[];
 }
-

@@ -34,39 +34,48 @@ export class Layer extends LayerGroup {
       ? data[2]
       : [];
 
+    const aj = json["activities"];
+    const bj = json["buildings"];
+    const sj = json["services"];
+
     const mapped: Schema.MappedLocation = {
       ...json,
       activities: [],
       buildings: [],
       services: [],
+      keywords: [],
     };
 
     try {
-      mapped["activities"] = json["activities"].map((v) => {
+      aj.forEach((v) => {
         const activity = activities.find((d) => d.id === v);
         if (activity === undefined) {
           throw new TypeError(`unable to find matching activity for ${v}`);
         }
-        return activity;
+        mapped["activities"].push(activity);
+        mapped["keywords"] = mapped["keywords"].concat(activity["skills"]);
       });
-      mapped["buildings"] = json["buildings"].map((v) => {
+      bj.forEach((v) => {
         const building = buildings.find((d) => d.id === v);
         if (building === undefined) {
           throw new TypeError(`unable to find matching buildings for ${v}`);
         }
-        return building;
+        mapped["buildings"].push(building);
+        mapped["keywords"].push(building["type"]);
       });
-      mapped["services"] = json["services"].map((v) => {
+      sj.forEach((v) => {
         const service = services.find((d) => d.id === v);
         if (service === undefined) {
           throw new TypeError(`unable to find matching services for ${v}`);
         }
-        return service;
+        mapped["services"].push(service);
+        mapped["keywords"].push(service["id"]);
       });
     } catch (e) {
       console.log(e);
     }
 
+    mapped["keywords"] = [...new Set(mapped["keywords"])];
     return mapped;
   }
 
@@ -85,7 +94,7 @@ export class Layer extends LayerGroup {
     }
 
     layer.markers = json.markers.map((m) => {
-      return WSMarker.isLocation(m)
+      return WSMarker.isLocationJson(m)
         ? WSLocationMarker.fromJson(this.matchDataPointsToJson(m, data), layer)
         : WSMarker.fromJson(m, layer);
     });

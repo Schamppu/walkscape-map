@@ -53,6 +53,25 @@ export class MapLayer extends LayerGroup {
     });
   }
 
+  public filterLocations(shownValues: string[]) {
+    for (const category of Object.values(this.categories)) {
+      for (const layer of category) {
+        if (layer.name !== "Locations") continue;
+        for (const m of layer.markers) {
+          if (!WSMarker.isLocation(m)) continue;
+          const filteredArray = shownValues.filter((value) =>
+            m.getKeywords().includes(value)
+          );
+          if (filteredArray.length > 0) {
+            m.show();
+          } else {
+            m.hide();
+          }
+        }
+      }
+    }
+  }
+
   public updateZoom(zoom: number): void {
     this.currentZoom = zoom;
     const bounds = this.map.getBounds().pad(0.2);
