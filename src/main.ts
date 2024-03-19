@@ -89,12 +89,15 @@ window.onload = async () => {
           "activityShop",
           "animalShelter",
           "marketStall",
+          "tavern",
+          "house",
+          "castle",
         ],
         iconUrl: iconUrl("buildings/general_store"),
       },
       {
         name: "Other",
-        values: ["temple", "tavern", "house", "castle"],
+        values: ["temple"],
         iconUrl: iconUrl("buildings/cabin"),
       },
       {
