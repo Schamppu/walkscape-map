@@ -498,6 +498,10 @@ h1 {
   height: 35px;
 }
 
+.ws-tab.selected {
+  text-decoration: underline;
+}
+
 .ws-tab--button.selected {
   border-bottom: 5px solid #dbd2c3;
 }
