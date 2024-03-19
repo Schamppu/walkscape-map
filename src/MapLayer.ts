@@ -53,23 +53,33 @@ export class MapLayer extends LayerGroup {
     });
   }
 
-  public filterLocations(shownValues: string[]) {
+  private getLocations() {
+    const locations = [];
     for (const category of Object.values(this.categories)) {
       for (const layer of category) {
         if (layer.name !== "Locations") continue;
         for (const m of layer.markers) {
           if (!WSMarker.isLocation(m)) continue;
-          const filteredArray = shownValues.filter((value) =>
-            m.getKeywords().includes(value)
-          );
-          if (filteredArray.length > 0) {
-            m.show();
-          } else {
-            m.hide();
-          }
+          locations.push(m);
         }
       }
     }
+    return locations;
+  }
+
+  public filterLocations(shownValues: string[]) {
+    const locations = this.getLocations();
+    for (const loc of locations) {
+      const filteredArray = shownValues.filter((value) =>
+        loc.getKeywords().includes(value)
+      );
+      if (filteredArray.length > 0) {
+        loc.forceShow();
+      } else {
+        loc.forceHide();
+      }
+    }
+    this.updateMarkersVisibility();
   }
 
   public updateZoom(zoom: number): void {
@@ -80,6 +90,13 @@ export class MapLayer extends LayerGroup {
         this.updateLayerVisibility(layer);
         this.updateLayerMarkerVisibility(layer, bounds);
       }
+    }
+  }
+
+  public resetMarkerVisibility(): void {
+    const locations = this.getLocations();
+    for (const loc of locations) {
+      loc.resetVisibility();
     }
   }
 

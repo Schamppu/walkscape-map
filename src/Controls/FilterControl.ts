@@ -170,12 +170,12 @@ export class FilterControl extends ControlPane {
       this.categories.forEach((c) => {
         this.shownValues.push(...c.category.values);
         DomUtil.removeClass(c.li, "selected");
-        // this.mapLayers.forEach((l) =>
-        //   l.resetCategoryVisibility(c.category.name)
-        // );
       });
     }
-    this.mapLayers.forEach((l) => l.filterLocations(this.shownValues));
+    this.mapLayers.forEach((l) => {
+      l.filterLocations(this.shownValues);
+      l.resetMarkerVisibility();
+    });
   }
 
   private showNone(): void {
@@ -185,7 +185,6 @@ export class FilterControl extends ControlPane {
       this.shownValues = [];
       this.categories.forEach((c) => {
         DomUtil.removeClass(c.li, "selected");
-        // this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
       });
     }
     this.mapLayers.forEach((l) => l.filterLocations(this.shownValues));

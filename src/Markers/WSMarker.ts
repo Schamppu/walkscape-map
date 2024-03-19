@@ -1,6 +1,6 @@
 import * as Schema from "../JSONSchema";
 import { Marker, LatLngExpression, LatLngBounds } from "leaflet";
-import { Layer } from "../Layer";
+import { Layer, Visibility } from "../Layer";
 import { MarkerDivIcon } from "./MarkerDivIcon";
 import { WSLocationMarker } from "./WSLocationMarker";
 
@@ -8,6 +8,7 @@ export class WSMarker extends Marker {
   public id: string;
   public name: string;
   public layer: Layer;
+  public visibility = Visibility.Default;
 
   protected constructor(
     json: Schema.Marker,
@@ -38,12 +39,32 @@ export class WSMarker extends Marker {
     }
   }
 
+  public forceShow(): void {
+    this.setVisibility(Visibility.On);
+  }
+
+  public forceHide(): void {
+    this.setVisibility(Visibility.Off);
+  }
+
+  public resetVisibility(): void {
+    this.setVisibility(Visibility.Default);
+  }
+
+  private setVisibility(visibility: Visibility): void {
+    this.visibility = visibility;
+  }
+
   public isInBounds(bounds: LatLngBounds): boolean {
     return bounds.contains(this.getLatLng());
   }
 
   public updateVisibility(bounds: LatLngBounds): void {
-    if (this.isInBounds(bounds)) this.show();
+    if (
+      this.visibility === Visibility.On ||
+      (this.visibility === Visibility.Default && this.isInBounds(bounds))
+    )
+      this.show();
     else this.hide();
   }
 
