@@ -51,7 +51,7 @@ export class WSMarker extends Marker {
     this.setVisibility(Visibility.Default);
   }
 
-  private setVisibility(visibility: Visibility): void {
+  protected setVisibility(visibility: Visibility): void {
     this.visibility = visibility;
   }
 

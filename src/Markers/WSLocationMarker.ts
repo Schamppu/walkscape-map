@@ -1,6 +1,6 @@
 import * as Schema from "../JSONSchema";
 import { WSMarker } from "./WSMarker";
-import { Layer } from "../Layer";
+import { Layer, Visibility } from "../Layer";
 import { LocationPopup } from "./LocationPopup";
 import { LatLngExpression } from "leaflet";
 
@@ -9,12 +9,13 @@ export class WSLocationMarker extends WSMarker {
 
   protected constructor(
     json: Schema.MappedLocation,
+    public hidden: boolean,
     private keywords: string[],
     coords: LatLngExpression,
     layer: Layer
   ) {
     super(json, coords, layer);
-    if (!json.hidden) {
+    if (!this.hidden) {
       const popup = LocationPopup.create({
         id: this.id,
         name: this.name,
@@ -47,6 +48,7 @@ export class WSLocationMarker extends WSMarker {
   ): WSLocationMarker {
     const marker = new WSLocationMarker(
       json,
+      json.hidden,
       json.keywords,
       json.coords,
       layer
@@ -63,5 +65,12 @@ export class WSLocationMarker extends WSMarker {
     if (enable) url.searchParams.set("l", this.id);
     else url.searchParams.delete("l");
     history.pushState({}, "", url);
+  }
+
+  public forceShow(): void {
+    this.setVisibility(Visibility.On);
+    if (this.hidden) {
+      this.setVisibility(Visibility.Off);
+    }
   }
 }
