@@ -389,9 +389,6 @@ h1 {
     align-items: center;
   }
 
-  .ws-control__button {
-  }
-
   .ws-control__button.selected {
     border-right: 5px solid #dbd2c3;
   }
