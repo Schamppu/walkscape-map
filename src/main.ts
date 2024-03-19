@@ -57,11 +57,6 @@ window.onload = async () => {
         iconUrl: iconUrl("activities/activity_sprites/fishing/full"),
       },
       {
-        name: "Carpentry",
-        values: ["carpentry"],
-        iconUrl: iconUrl("activities/activity_sprites/carpentry/full"),
-      },
-      {
         name: "Foraging",
         values: ["foraging"],
         iconUrl: iconUrl("activities/activity_sprites/foraging/full"),
