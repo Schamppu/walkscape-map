@@ -8,8 +8,7 @@ export class WSLocationMarker extends WSMarker {
   private popup?: LocationPopup;
 
   protected constructor(
-    private json: Schema.MappedLocation,
-    private realm: string,
+    json: Schema.MappedLocation,
     private keywords: string[],
     coords: LatLngExpression,
     layer: Layer
@@ -48,7 +47,6 @@ export class WSLocationMarker extends WSMarker {
   ): WSLocationMarker {
     const marker = new WSLocationMarker(
       json,
-      json.realm,
       json.keywords,
       json.coords,
       layer

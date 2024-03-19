@@ -80,6 +80,6 @@ export class WSMarker extends Marker {
   }
 
   public static isLocation(marker: WSMarker): marker is WSLocationMarker {
-    return Object.keys(marker).includes("realm");
+    return Object.keys(marker).includes("keywords");
   }
 }
