@@ -24,12 +24,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
 body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
@@ -38,8 +39,8 @@ h1 {
 }
 
 #map {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -91,6 +92,7 @@ h1 {
 @media (orientation: portrait) {
   .leaflet-popup-content {
     width: 85vw;
+    max-width: 400px;
   }
 }
 
