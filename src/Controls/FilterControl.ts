@@ -140,9 +140,9 @@ export class FilterControl extends ControlPane {
           (el) => !category.values.includes(el)
         );
 
-        // select "None" if no others are selected
+        // select "All" if no others are selected
         if (this.categories.every((c) => !DomUtil.hasClass(c.li, "selected"))) {
-          DomUtil.addClass(this.none, "selected");
+          this.showAll();
         }
       } else {
         DomUtil.addClass(li, "selected");
