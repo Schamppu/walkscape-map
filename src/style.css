@@ -256,7 +256,7 @@ h1 {
 .leaflet-popup-content-wrapper {
   background-color: #0f1e25;
   border: 1px solid #a5a198;
-  margin-bottom: 24px;
+  transform: translateY(-24px);
 }
 
 .leaflet-popup-tip {
@@ -279,6 +279,10 @@ h1 {
 /* Hide leaflet icon */
 .leaflet-bottom.leaflet-right {
   display: none;
+}
+
+.leaflet-bottom {
+  bottom: env(safe-area-inset-bottom);
 }
 
 .ws-controls {
