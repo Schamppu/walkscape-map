@@ -1,12 +1,14 @@
 import { LatLngBounds, LayerGroup, TileLayer } from "leaflet";
 import { WSMap } from "./WSMap";
 import { Layer, Visibility } from "./Layer";
+import { WSMarker } from "./Markers/WSMarker";
+import { WSLocationMarker } from "./Markers/WSLocationMarker";
 
 export class MapLayer extends LayerGroup {
   public tileLayer: TileLayer;
   public markerLayer: LayerGroup;
   private categories: Record<string, Layer[]> = {};
-  private currentZoom = 1;
+  private currentZoom = 2;
 
   public constructor(
     private map: WSMap,
@@ -52,6 +54,35 @@ export class MapLayer extends LayerGroup {
     });
   }
 
+  private getLocations() {
+    const locations: WSLocationMarker[] = [];
+    for (const category of Object.values(this.categories)) {
+      for (const layer of category) {
+        if (layer.name !== "Locations") continue;
+        for (const m of layer.markers) {
+          if (!WSMarker.isLocation(m)) continue;
+          locations.push(m);
+        }
+      }
+    }
+    return locations;
+  }
+
+  public filterLocations(shownValues: string[]) {
+    const locations = this.getLocations();
+    for (const loc of locations) {
+      const filteredArray = shownValues.filter((value) =>
+        loc.getKeywords().includes(value)
+      );
+      if (filteredArray.length > 0) {
+        loc.forceShow();
+      } else {
+        loc.forceHide();
+      }
+    }
+    this.updateMarkersVisibility();
+  }
+
   public updateZoom(zoom: number): void {
     this.currentZoom = zoom;
     const bounds = this.map.getBounds().pad(0.2);
@@ -61,6 +92,14 @@ export class MapLayer extends LayerGroup {
         this.updateLayerMarkerVisibility(layer, bounds);
       }
     }
+  }
+
+  public resetMarkerVisibility(): void {
+    const locations = this.getLocations();
+    for (const loc of locations) {
+      loc.resetVisibility();
+    }
+    this.updateMarkersVisibility();
   }
 
   public updateMarkersVisibility(): void {
@@ -80,6 +119,12 @@ export class MapLayer extends LayerGroup {
   }
 
   private updateLayerVisibility(layer: Layer): void {
+    if (this.currentZoom >= layer.labelMinZoom) {
+      layer.showLabels();
+    } else {
+      layer.hideLabels();
+    }
+
     if (
       layer.visibility === Visibility.On ||
       (layer.visibility === Visibility.Default &&
@@ -89,6 +134,24 @@ export class MapLayer extends LayerGroup {
       this.markerLayer.addLayer(layer);
     } else {
       this.markerLayer.removeLayer(layer);
+    }
+  }
+
+  public findLocationMarker(locationId: string) {
+    let location: WSMarker | undefined;
+    for (const [, layers] of Object.entries(this.categories)) {
+      for (const layer of layers) {
+        layer.markers.forEach((marker) => {
+          if (marker.id === locationId) {
+            location = marker;
+          }
+        });
+        if (location) break;
+      }
+    }
+    if (location) {
+      this.map.setView(location.coords, 3);
+      location.openPopup();
     }
   }
 }

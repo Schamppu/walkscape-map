@@ -1,5 +1,10 @@
-import { Map, LatLngBounds, CRS, MapOptions, Point } from "leaflet";
+import { Map, LatLngBounds, MapOptions, Point } from "leaflet";
+import { create } from "./WSCRS";
 import { MapLayer } from "./MapLayer";
+import { ControlDock } from "./Controls/ControlDock";
+import { ZoomControl } from "./Controls/ZoomControl";
+import { FilterControl } from "./Controls/FilterControl";
+import { FilterCategory } from "./FilterCategory";
 
 export interface WSMapOptions extends MapOptions {
   mapSizePixels: number;
@@ -8,6 +13,7 @@ export interface WSMapOptions extends MapOptions {
 
 export class WSMap extends Map {
   private layers = <MapLayer[]>[];
+  private filterControl?: FilterControl;
 
   private constructor(
     element: string | HTMLElement,
@@ -20,7 +26,7 @@ export class WSMap extends Map {
 
   public static create(options: WSMapOptions): WSMap {
     const { tileSize, mapSizePixels } = options;
-    const crs = CRS.Simple;
+    const crs = create(mapSizePixels, tileSize);
     options.crs = crs;
 
     const maxZoom = Math.round(Math.log(mapSizePixels / tileSize) * Math.LOG2E);
@@ -28,18 +34,25 @@ export class WSMap extends Map {
       options.maxZoom = maxZoom;
     }
     if (options.minZoom == undefined) {
-      options.minZoom = maxZoom - 3;
+      options.minZoom = maxZoom - 4;
     }
 
-    const bounds = new LatLngBounds(
-      crs.pointToLatLng(new Point(0, 2 * mapSizePixels), options.maxZoom),
-      crs.pointToLatLng(new Point(4 * mapSizePixels, 0), options.maxZoom)
+    const SW = crs.pointToLatLng(
+      new Point(0, 4 * mapSizePixels),
+      options.maxZoom
     );
+    const NE = crs.pointToLatLng(
+      new Point(6 * mapSizePixels, 0),
+      options.maxZoom
+    );
+    const bounds = new LatLngBounds(SW, NE);
     options.maxBounds = bounds;
 
+    options.zoomControl = false; // using a custom zoom control instead
+
     const map = new WSMap("map", options.tileSize, bounds, options).setView(
-      [(-1 / 2) * tileSize, (3 / 4) * tileSize],
-      1
+      [tileSize, (3 / 2) * tileSize],
+      2
     );
 
     // Enable dragging and zooming
@@ -71,5 +84,46 @@ export class WSMap extends Map {
     this.layers.push(layer);
     layer.show();
     return layer;
+  }
+
+  public addControls(): void {
+    const controls = new ControlDock();
+
+    // Zoom
+    const zoomControl = new ZoomControl({
+      minZoom: this.getMinZoom(),
+      maxZoom: this.getMaxZoom(),
+      initialZoom: this.getZoom(),
+      zoomIn: () => this.zoomIn(),
+      zoomOut: () => this.zoomOut(),
+    });
+    controls.addZoom(zoomControl);
+    this.on("zoomend zoomlevelschange", () => {
+      zoomControl.setZoom(this.getZoom());
+    });
+
+    // Filter
+    this.filterControl = new FilterControl(this.layers);
+    controls.addControl(this.filterControl);
+
+    controls.addTo(this);
+  }
+
+  public addFilterGroup(filters: FilterCategory[] = [], group: string): void {
+    for (const category of filters) {
+      this.filterControl?.addCategory(category, group);
+    }
+  }
+
+  public findMarker() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const location = urlParams.get("l");
+    if (!location) {
+      return;
+    }
+
+    this.layers.forEach((l) => {
+      l.findLocationMarker(location);
+    });
   }
 }

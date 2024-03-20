@@ -9,36 +9,51 @@ export interface Layer {
   name?: string;
   minZoom?: number;
   maxZoom: number;
-  icon?: { url: string; width: number; height: number };
-  markers: Marker[];
+  labelMinZoom: number;
+  markers: Marker[] | Location[];
 }
 
 export interface Marker {
   coords: LatLngTuple;
+  icon: { url: string; width?: number; height?: number };
   id: string;
   name: string;
-  icon?: { url: string; width: number; height: number };
-  activities?: string[];
-  buildings?: string[];
-  services?: string[];
 }
 
-export interface Activity {
-  name: string;
+export interface Location extends Marker {
+  hidden: boolean;
+  realm: string;
+  activities: string[];
+  buildings: string[];
+  services: string[];
+}
+
+export interface MappedLocation extends Marker {
+  hidden: boolean;
+  realm: string;
+  activities: Activity[];
+  buildings: Building[];
+  services: Service[];
+  keywords: string[];
+}
+
+export interface DataPoint {
   id: string;
+  name: string;
+  icon: { url: string; width?: number; height?: number };
+}
+
+export interface Activity extends DataPoint {
   skills: string[];
-  requirements?: { [key: string]: number };
-  icon?: { url: string; width: number; height: number };
+  levelRequirements: { [key: string]: number };
+  requiredKeywords: string[];
 }
 
-export interface Service {
-  name: string;
-  id: string;
-  icon?: { url: string; width: number; height: number };
+export interface Building extends DataPoint {
+  type: string;
+  shop: string;
 }
 
-export interface Building {
-  name: string;
-  id: string;
-  icon?: { url: string; width: number; height: number };
+export interface Service extends DataPoint {
+  skills: string[];
 }
