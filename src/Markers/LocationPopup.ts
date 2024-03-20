@@ -118,7 +118,7 @@ export class LocationPopup extends Popup {
     const body = DomUtil.create("div", "", this.container);
 
     const subContentDivs = ["activities", "services", "buildings"].map((v) => {
-      const [_, subContentDiv] = createSubDiv(v, body);
+      const [, subContentDiv] = createSubDiv(v, body);
       return subContentDiv;
     });
 

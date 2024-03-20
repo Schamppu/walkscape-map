@@ -16,7 +16,7 @@ export class Layer extends LayerGroup {
   public visibility = Visibility.Default;
   public markers!: WSMarker[];
 
-  private constructor(public name: String) {
+  private constructor(public name: string) {
     super();
   }
 

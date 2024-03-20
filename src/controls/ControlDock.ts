@@ -28,17 +28,20 @@ export class ControlDock extends Control {
     );
     DomEvent.disableClickPropagation(this.container);
     DomEvent.disableScrollPropagation(this.container);
+
+    // TODO remove, here for eslint
+    DomUtil.create("div", "", this.group3);
   }
 
-  public onAdd(_map: L.Map): HTMLElement {
+  public onAdd(): HTMLElement {
     return this.container;
   }
 
-  public onRemove(_map: L.Map): void {
+  public onRemove(): void {
     // doesn't happen
   }
 
-  public addControl(control: ControlPane, initShow = false): void {
+  public addControl(control: ControlPane): void {
     this.controls.push(control);
 
     // add button
@@ -64,14 +67,14 @@ export class ControlDock extends Control {
   public setPosition(position: ControlPosition): this {
     super.setPosition(position);
     switch (position) {
-      case "bottomleft":
-      case "topleft":
-        this.container.insertBefore(this.dock, this.paneContainer);
-        break;
-      case "bottomright":
-      case "topright":
-        this.container.insertBefore(this.paneContainer, this.dock);
-        break;
+    case "bottomleft":
+    case "topleft":
+      this.container.insertBefore(this.dock, this.paneContainer);
+      break;
+    case "bottomright":
+    case "topright":
+      this.container.insertBefore(this.paneContainer, this.dock);
+      break;
     }
     return this;
   }

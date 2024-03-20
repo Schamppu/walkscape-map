@@ -98,13 +98,13 @@ export class WSMap extends Map {
       zoomOut: () => this.zoomOut(),
     });
     controls.addZoom(zoomControl);
-    this.on("zoomend zoomlevelschange", (_) => {
+    this.on("zoomend zoomlevelschange", () => {
       zoomControl.setZoom(this.getZoom());
     });
 
     // Filter
     this.filterControl = new FilterControl(this.layers);
-    controls.addControl(this.filterControl, true);
+    controls.addControl(this.filterControl);
 
     controls.addTo(this);
   }

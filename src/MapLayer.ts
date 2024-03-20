@@ -133,7 +133,7 @@ export class MapLayer extends LayerGroup {
 
   public findLocationMarker(locationId: string) {
     let location: WSMarker | undefined;
-    for (const [_, layers] of Object.entries(this.categories)) {
+    for (const [, layers] of Object.entries(this.categories)) {
       for (const layer of layers) {
         layer.markers.forEach((marker) => {
           if (marker.id === locationId) {

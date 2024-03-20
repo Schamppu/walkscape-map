@@ -114,7 +114,7 @@ export class FilterControl extends ControlPane {
     if (groupItem === undefined) {
       groupItem = this.addGroup(group);
     }
-    let groupLi = groupItem.li;
+    const groupLi = groupItem.li;
 
     const li = DomUtil.create(
       "li",
