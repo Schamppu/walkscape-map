@@ -44,12 +44,16 @@ h1 {
   text-align: center;
 }
 
+.leaflet-marker-icon.marker-div-icon.leaflet-interactive {
+  pointer-events: none;
+}
+
 .marker-content-div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 50%;
-  margin-left: -50%;
+  transform: translateX(-50%);
+  pointer-events: all;
 }
 
 .marker-label-div {
