@@ -1,5 +1,5 @@
 import * as Schema from "../JSONSchema";
-import { Marker, LatLngExpression, LatLngBounds } from "leaflet";
+import { Marker, LatLngExpression, LatLngBounds, DomUtil } from "leaflet";
 import { Layer, Visibility } from "../Layer";
 import { MarkerDivIcon } from "./MarkerDivIcon";
 import { WSLocationMarker } from "./WSLocationMarker";
@@ -9,13 +9,14 @@ export class WSMarker extends Marker {
   public name: string;
   public layer: Layer;
   public visibility = Visibility.Default;
+  private labelDiv: HTMLElement;
 
   protected constructor(
     json: Schema.Marker,
     public coords: LatLngExpression,
     layer: Layer
   ) {
-    const { title, divIcon: icon } = MarkerDivIcon.create(json);
+    const { title, divIcon: icon, labelDiv } = MarkerDivIcon.create(json);
 
     super(coords, {
       title,
@@ -25,6 +26,7 @@ export class WSMarker extends Marker {
     this.id = json.id;
     this.layer = layer;
     this.name = title;
+    this.labelDiv = labelDiv;
   }
 
   public show(): void {
@@ -53,6 +55,18 @@ export class WSMarker extends Marker {
 
   protected setVisibility(visibility: Visibility): void {
     this.visibility = visibility;
+  }
+
+  public showLabel(): void {
+    if (DomUtil.hasClass(this.labelDiv, "hidden"))
+      DomUtil.removeClass(this.labelDiv, "hidden");
+    DomUtil.addClass(this.labelDiv, "visible");
+  }
+
+  public hideLabel(): void {
+    if (DomUtil.hasClass(this.labelDiv, "visible"))
+      DomUtil.removeClass(this.labelDiv, "visible");
+    DomUtil.addClass(this.labelDiv, "hidden");
   }
 
   public isInBounds(bounds: LatLngBounds): boolean {

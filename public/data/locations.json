@@ -4,7 +4,7 @@
     "layers": [
       {
         "minZoom": 0,
-        "maxZoom": 1,
+        "maxZoom": 0,
         "markers": [
           {
             "coords": [630, 750],
@@ -114,8 +114,9 @@
     "name": "Locations",
     "layers": [
       {
-        "minZoom": 2,
+        "minZoom": 1,
         "maxZoom": 4,
+        "labelMinZoom": 2,
         "markers": [
           {
             "id": "disenchanted_forest",

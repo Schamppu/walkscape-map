@@ -9,6 +9,7 @@ export interface Layer {
   name?: string;
   minZoom?: number;
   maxZoom: number;
+  labelMinZoom: number;
   markers: Marker[] | Location[];
 }
 

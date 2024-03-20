@@ -522,6 +522,14 @@ h1 {
   color: #dbd2c3 !important;
 }
 
+.visible {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
 .ws-legend__categories {
   list-style: none;
   margin: 0;

@@ -1,9 +1,10 @@
 import * as Schema from "../JSONSchema";
-import { DivIcon, Point } from "leaflet";
+import { DivIcon, Point, DomUtil } from "leaflet";
 
 export interface NamedDivIcon {
   title: string;
   divIcon: DivIcon;
+  labelDiv: HTMLElement;
 }
 
 export class MarkerDivIcon {
@@ -15,8 +16,7 @@ export class MarkerDivIcon {
     const width = json.icon.width ?? 32;
     const height = json.icon.height ?? 32;
 
-    const content = document.createElement("div");
-    content.className = "marker-content-div";
+    const content = DomUtil.create("div", "marker-content-div");
     const image = new Image(width, height);
     image.src = json.hidden
       ? "icons/locations/unknown_1.png"
@@ -24,7 +24,7 @@ export class MarkerDivIcon {
     image.className = "marker-div-image";
     content.appendChild(image);
 
-    const labelDiv = document.createElement("div");
+    const labelDiv = DomUtil.create("div", "visible", content);
     const labelStart = new Image();
     const labelEnd = new Image();
     labelStart.src = "icons/label_edge.png";
@@ -32,14 +32,10 @@ export class MarkerDivIcon {
 
     labelDiv.appendChild(labelStart);
     labelDiv.className = "marker-label-div";
-    const label = document.createElement("span");
+    const label = DomUtil.create("span", "marker-div-span", labelDiv);
     label.textContent = title;
-    label.className = "marker-div-span";
-    labelDiv.appendChild(label);
     labelDiv.appendChild(labelEnd);
     labelEnd.className = "marker-label-edge-end";
-
-    content.appendChild(labelDiv);
 
     const icon = new DivIcon({
       className: "marker-div-icon",
@@ -48,6 +44,6 @@ export class MarkerDivIcon {
       html: content,
     });
 
-    return { title, divIcon: icon };
+    return { title, divIcon: icon, labelDiv };
   }
 }

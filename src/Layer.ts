@@ -13,6 +13,7 @@ export enum Visibility {
 export class Layer extends LayerGroup {
   public minZoom = 0;
   public maxZoom = Number.MAX_VALUE;
+  public labelMinZoom = 0;
   public visibility = Visibility.Default;
   public markers!: WSMarker[];
 
@@ -92,6 +93,8 @@ export class Layer extends LayerGroup {
     if (json.maxZoom != undefined) {
       layer.maxZoom = json.maxZoom;
     }
+    layer.labelMinZoom =
+      json.labelMinZoom != undefined ? json.labelMinZoom : layer.minZoom;
 
     layer.markers = json.markers.map((m) => {
       return WSMarker.isLocationJson(m)
@@ -108,6 +111,14 @@ export class Layer extends LayerGroup {
 
   public forceHide(): void {
     this.setVisibility(Visibility.Off);
+  }
+
+  public showLabels(): void {
+    this.markers.forEach((m) => m.showLabel());
+  }
+
+  public hideLabels(): void {
+    this.markers.forEach((m) => m.hideLabel());
   }
 
   public updateMarkerVisibility(bounds: LatLngBounds): void {

@@ -119,6 +119,12 @@ export class MapLayer extends LayerGroup {
   }
 
   private updateLayerVisibility(layer: Layer): void {
+    if (this.currentZoom >= layer.labelMinZoom) {
+      layer.showLabels();
+    } else {
+      layer.hideLabels();
+    }
+
     if (
       layer.visibility === Visibility.On ||
       (layer.visibility === Visibility.Default &&
