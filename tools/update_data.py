@@ -124,11 +124,34 @@ def update_services(filename):
         services.append(service)
     write_json(data_path, services)
 
+def update_routes(filename):
+    data_path = f'../public/data/{filename}'
+    data, src_data = read_data(data_path, f'./{filename}')
+
+    routes = []
+    for src_route in src_data:
+        pathpoints = [[src_route[f'pathPoints/{i}/1'], src_route[f'pathPoints/{i}/0']] for i in range(14)]
+        pathpoints = list(filter(lambda x: x[0], pathpoints))
+
+        route = {
+            'id': get_id(src_route['id']),
+            'distance': src_route['distance'],
+            'distanceModifier': src_route['distanceModifier'],
+            'location0': get_id(src_route['locations/0']),
+            'location1': get_id(src_route['locations/1']),
+            'pathpoints': pathpoints,
+            'terrainModifiers': get_id(src_route['terrainModifiers/0']),
+        }
+        routes.append(route)
+    write_json(data_path, routes)
+
+
 def main():
     update_locations('locations.json')
     update_activities('activities.json')
     update_buildings('buildings.json')
     update_services('services.json')
+    update_routes('routes.json')
 
 if __name__ == '__main__':
     main()
