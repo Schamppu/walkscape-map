@@ -57,3 +57,13 @@ export interface Building extends DataPoint {
 export interface Service extends DataPoint {
   skills: string[];
 }
+
+export interface route {
+  id: string;
+  distance: string;
+  distanceModifier: number;
+  location0: string;
+  location1: string;
+  pathpoints: number[][];
+  terrainModifiers: string;
+}
