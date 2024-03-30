@@ -1,0 +1,1168 @@
+[
+  {
+    "id": "disenchanted_forest-kallaheim",
+    "distance": "veryShort",
+    "distanceModifier": 1.0,
+    "location0": "disenchanted_forest",
+    "location1": "kallaheim",
+    "pathpoints": [
+      [
+        421.5943171,
+        543.5410983
+      ],
+      [
+        425.0918285,
+        575.1226971
+      ],
+      [
+        441.2341589,
+        599.0429915
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "disenchanted_forest-beach_of_woes",
+    "distance": "extremelyNear",
+    "distanceModifier": 1.0,
+    "location0": "disenchanted_forest",
+    "location1": "beach_of_woes",
+    "pathpoints": [
+      [
+        422.2817643,
+        532.0887854
+      ],
+      [
+        423.0718848,
+        502.5887854
+      ],
+      [
+        410.9129835,
+        477.130305
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "kallaheim-frusenholm",
+    "distance": "moderate",
+    "distanceModifier": 1.05,
+    "location0": "kallaheim",
+    "location1": "frusenholm",
+    "pathpoints": [
+      [
+        438.6357721,
+        641.2171802
+      ],
+      [
+        394.6331243,
+        681.4595376
+      ],
+      [
+        392.4229474,
+        744.8428399
+      ],
+      [
+        343.7990281,
+        801.2329996
+      ],
+      [
+        345.6073559,
+        818.6522823
+      ],
+      [
+        369.1156173,
+        839.1231181
+      ],
+      [
+        401.6630216,
+        840.3302293
+      ],
+      [
+        431.3999646,
+        871.2907792
+      ],
+      [
+        449.6841707,
+        871.4815013
+      ],
+      [
+        462.7443179,
+        887.1842853
+      ],
+      [
+        472.5896551,
+        888.3286178
+      ],
+      [
+        473.1924322,
+        934.4197855
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "kallaheim-norsack_plains",
+    "distance": "moderateHigh",
+    "distanceModifier": 0.87,
+    "location0": "kallaheim",
+    "location1": "norsack_plains",
+    "pathpoints": [
+      [
+        423.5062879,
+        655.5840942
+      ],
+      [
+        393.8766492,
+        681.3340942
+      ],
+      [
+        392.2963948,
+        752.8340942
+      ],
+      [
+        344.0988714,
+        800.9545239
+      ],
+      [
+        344.4939316,
+        817.7045239
+      ],
+      [
+        292.7408392,
+        833.2045239
+      ],
+      [
+        292.345779,
+        878.9545239
+      ],
+      [
+        274.9630682,
+        886.0795239
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "frusenholm-norsack_plains",
+    "distance": "moderate",
+    "distanceModifier": 1.09,
+    "location0": "frusenholm",
+    "location1": "norsack_plains",
+    "pathpoints": [
+      [
+        393.1141633,
+        967.061136
+      ],
+      [
+        326.3487282,
+        960.811136
+      ],
+      [
+        305.0153949,
+        899.561136
+      ],
+      [
+        272.2252677,
+        884.186136
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "norsack_plains-frostbite_mountain",
+    "distance": "lowModerate",
+    "distanceModifier": 1.0,
+    "location0": "norsack_plains",
+    "location1": "frostbite_mountain",
+    "pathpoints": [
+      [
+        230.6363256,
+        806.1812131
+      ],
+      [
+        236.1671822,
+        768.1812131
+      ],
+      [
+        241.3029922,
+        733.9312131
+      ],
+      [
+        236.1671822,
+        718.5562131
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "frusenholm-centaham",
+    "distance": "lowModerate",
+    "distanceModifier": 0.95,
+    "location0": "frusenholm",
+    "location1": "centaham",
+    "pathpoints": [
+      [
+        472.1244444,
+        889.1147422
+      ],
+      [
+        559.2932177,
+        807.2964783
+      ],
+      [
+        578.2561761,
+        807.2964783
+      ],
+      [
+        590.5030972,
+        792.6714783
+      ],
+      [
+        640.6759488,
+        791.7964783
+      ],
+      [
+        680.5771803,
+        829.5464783
+      ],
+      [
+        682.9475552,
+        866.4214783
+      ],
+      [
+        727.9845832,
+        910.9214783
+      ],
+      [
+        728.7747037,
+        920.1714783
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "centaham-casbrant_fields",
+    "distance": "veryNear",
+    "distanceModifier": 1.0,
+    "location0": "centaham",
+    "location1": "casbrant_fields",
+    "pathpoints": [
+      [
+        759.2855018,
+        918.3147773
+      ],
+      [
+        805.1126774,
+        866.9397773
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "casbrant_fields-barbantok",
+    "distance": "near",
+    "distanceModifier": 0.92,
+    "location0": "casbrant_fields",
+    "location1": "barbantok",
+    "pathpoints": [
+      [
+        791.2642492,
+        775.8100402
+      ],
+      [
+        793.6346106,
+        753.4350402
+      ],
+      [
+        837.4864579,
+        706.5600402
+      ],
+      [
+        838.228327,
+        636.9506887
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "barbantok-nomad_woods",
+    "distance": "veryNear",
+    "distanceModifier": 1.22,
+    "location0": "barbantok",
+    "location1": "nomad_woods",
+    "pathpoints": [
+      [
+        779.8366139,
+        565.0822043
+      ],
+      [
+        793.6637895,
+        540.3322043
+      ],
+      [
+        767.9847801,
+        524.3322043
+      ],
+      [
+        768.7749006,
+        487.9572043
+      ],
+      [
+        751.7872432,
+        477.0822043
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "centaham-port_skildar",
+    "distance": "short",
+    "distanceModifier": 1.0,
+    "location0": "centaham",
+    "location1": "port_skildar",
+    "pathpoints": [
+      [
+        766.0564146,
+        920.3424496
+      ],
+      [
+        855.1903521,
+        921.0945172
+      ],
+      [
+        857.5672682,
+        959.073928
+      ],
+      [
+        888.467015,
+        991.4128322
+      ],
+      [
+        888.467015,
+        1039.169121
+      ],
+      [
+        907.4822626,
+        1071.508025
+      ],
+      [
+        939.5704777,
+        1092.001866
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "centaham-fort_of_permafrost",
+    "distance": "lowModerate",
+    "distanceModifier": 1.07,
+    "location0": "centaham",
+    "location1": "fort_of_permafrost",
+    "pathpoints": [
+      [
+        721.9434059,
+        934.5459603
+      ],
+      [
+        648.4619199,
+        1007.67096
+      ],
+      [
+        648.0668597,
+        1042.42096
+      ],
+      [
+        615.6717994,
+        1071.67096
+      ],
+      [
+        615.1272434,
+        1089.894584
+      ],
+      [
+        600.1149007,
+        1103.519584
+      ],
+      [
+        600.5099609,
+        1137.519584
+      ],
+      [
+        585.1025445,
+        1151.019584
+      ],
+      [
+        584.3124241,
+        1169.894584
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "port_skildar-coldington",
+    "distance": "near",
+    "distanceModifier": 0.91,
+    "location0": "port_skildar",
+    "location1": "coldington",
+    "pathpoints": [
+      [
+        986.7016693,
+        1134.494337
+      ],
+      [
+        1007.249635,
+        1118.078032
+      ],
+      [
+        1039.099012,
+        1112.551751
+      ],
+      [
+        998.5167616,
+        1069.154191
+      ],
+      [
+        992.352358,
+        1040.547559
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "coldington-azurazera",
+    "distance": "near",
+    "distanceModifier": 0.95,
+    "location0": "coldington",
+    "location1": "azurazera",
+    "pathpoints": [
+      [
+        999.1264214,
+        990.6289334
+      ],
+      [
+        984.9041992,
+        973.2539334
+      ],
+      [
+        983.7190049,
+        943.5039334
+      ],
+      [
+        952.1140652,
+        910.1289334
+      ],
+      [
+        952.9041992,
+        891.5039334
+      ],
+      [
+        1009.002968,
+        888.1289334
+      ],
+      [
+        1023.620264,
+        903.7539334
+      ],
+      [
+        1065.101736,
+        903.7539334
+      ],
+      [
+        1063.521495,
+        880.7539334
+      ],
+      [
+        1078.928898,
+        864.5039334
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "centaham-azurazera",
+    "distance": "moderate",
+    "distanceModifier": 1.0,
+    "location0": "centaham",
+    "location1": "azurazera",
+    "pathpoints": [
+      [
+        855.9756321,
+        920.7530091
+      ],
+      [
+        882.3818922,
+        903.1144525
+      ],
+      [
+        950.4513449,
+        905.1568117
+      ],
+      [
+        961.3500944,
+        887.2066648
+      ],
+      [
+        1009.266713,
+        888.2555471
+      ],
+      [
+        1025.54029,
+        903.7027223
+      ],
+      [
+        1064.11467,
+        903.1306047
+      ],
+      [
+        1065.018764,
+        878.243489
+      ],
+      [
+        1079.28514,
+        865.8216886
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "centaham-coldington",
+    "distance": "lowModerate",
+    "distanceModifier": 1.0,
+    "location0": "centaham",
+    "location1": "coldington",
+    "pathpoints": [
+      [
+        865.8924519,
+        920.6728223
+      ],
+      [
+        882.0899888,
+        904.2978223
+      ],
+      [
+        952.0159057,
+        905.6728223
+      ],
+      [
+        984.1307942,
+        945.8185223
+      ],
+      [
+        984.5258545,
+        976.6935223
+      ],
+      [
+        1001.908586,
+        990.1935223
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "coldington-sanguine_hills",
+    "distance": "moderateHigh",
+    "distanceModifier": 0.95,
+    "location0": "coldington",
+    "location1": "sanguine_hills",
+    "pathpoints": [
+      [
+        1039.706346,
+        1019.528142
+      ],
+      [
+        1056.69399,
+        1043.153142
+      ],
+      [
+        1085.533508,
+        1038.403142
+      ],
+      [
+        1103.706346,
+        1017.403142
+      ],
+      [
+        1115.70001,
+        980.4099719
+      ],
+      [
+        1142.564213,
+        984.1599719
+      ],
+      [
+        1168.243223,
+        984.6599719
+      ],
+      [
+        1172.983959,
+        948.6599719
+      ],
+      [
+        1208.896278,
+        931.6629877
+      ],
+      [
+        1231.019731,
+        932.1629877
+      ],
+      [
+        1234.575287,
+        897.6629877
+      ],
+      [
+        1262.624664,
+        916.2879877
+      ]
+    ],
+    "terrainModifiers": "difficult_mountain_terrain"
+  },
+  {
+    "id": "fort_of_permafrost-noiseless_pass",
+    "distance": "veryNear",
+    "distanceModifier": 0.82,
+    "location0": "fort_of_permafrost",
+    "location1": "noiseless_pass",
+    "pathpoints": [
+      [
+        535.6124645,
+        1220.49032
+      ],
+      [
+        536.0663293,
+        1295.739981
+      ],
+      [
+        522.3057463,
+        1308.687904
+      ],
+      [
+        519.8094819,
+        1330.444247
+      ]
+    ],
+    "terrainModifiers": "jarvonian_border_check"
+  },
+  {
+    "id": "noiseless_pass-mangrove_forest",
+    "distance": "lowModerate",
+    "distanceModifier": 0.9,
+    "location0": "noiseless_pass",
+    "location1": "mangrove_forest",
+    "pathpoints": [
+      [
+        487.4672565,
+        1426.21275
+      ],
+      [
+        456.7000501,
+        1455.113349
+      ],
+      [
+        455.3516915,
+        1528.274793
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "mangrove_forest-granfiddich",
+    "distance": "moderateHigh",
+    "distanceModifier": 0.91,
+    "location0": "mangrove_forest",
+    "location1": "granfiddich",
+    "pathpoints": [
+      [
+        455.994764,
+        1554.530186
+      ],
+      [
+        455.994764,
+        1528.203446
+      ],
+      [
+        584.1991614,
+        1645.733535
+      ],
+      [
+        584.1991614,
+        1678.9106
+      ],
+      [
+        592.6895298,
+        1686.969806
+      ],
+      [
+        675.045992,
+        1685.760925
+      ],
+      [
+        698.3944722,
+        1656.210503
+      ],
+      [
+        728.110725,
+        1656.613463
+      ],
+      [
+        732.3559019,
+        1669.642513
+      ],
+      [
+        744.6669163,
+        1679.716521
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "salsfirth-mangrove_forest",
+    "distance": "near",
+    "distanceModifier": 0.77,
+    "location0": "salsfirth",
+    "location1": "mangrove_forest",
+    "pathpoints": [
+      [
+        432.9818821,
+        1656.124684
+      ],
+      [
+        453.9201552,
+        1634.999684
+      ],
+      [
+        455.1053494,
+        1573.249684
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "salsfirth-farsand_coast",
+    "distance": "veryShort",
+    "distanceModifier": 1.0,
+    "location0": "salsfirth",
+    "location1": "farsand_coast",
+    "pathpoints": [
+      [
+        375.9229494,
+        1693.259617
+      ],
+      [
+        314.4505876,
+        1689.985815
+      ],
+      [
+        294.3655639,
+        1666.491468
+      ],
+      [
+        261.5639665,
+        1637.221544
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "salsfirth-everhaven",
+    "distance": "moderate",
+    "distanceModifier": 1.16,
+    "location0": "salsfirth",
+    "location1": "everhaven",
+    "pathpoints": [
+      [
+        377.6784119,
+        1733.865239
+      ],
+      [
+        328.690741,
+        1774.990239
+      ],
+      [
+        328.4033366,
+        1840.926083
+      ],
+      [
+        382.1317302,
+        1894.301083
+      ],
+      [
+        472.0713087,
+        1897.74884
+      ],
+      [
+        472.0713087,
+        1938.87384
+      ],
+      [
+        456.6638923,
+        1951.49884
+      ],
+      [
+        455.4787116,
+        1985.37384
+      ],
+      [
+        434.5404385,
+        2007.37384
+      ],
+      [
+        349.2071052,
+        2006.49884
+      ],
+      [
+        336.2103778,
+        1991.878733
+      ],
+      [
+        286.8276602,
+        1992.628733
+      ],
+      [
+        274.1856857,
+        2008.878733
+      ],
+      [
+        286.037533,
+        2024.378733
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "everhaven-bilgemont_port",
+    "distance": "lowModerate",
+    "distanceModifier": 1.13,
+    "location0": "everhaven",
+    "location1": "bilgemont_port",
+    "pathpoints": [
+      [
+        367.1185657,
+        2070.683813
+      ],
+      [
+        400.4528932,
+        2071.855723
+      ],
+      [
+        409.0951216,
+        2081.621639
+      ],
+      [
+        408.1072686,
+        2193.932128
+      ],
+      [
+        392.4689453,
+        2205.521016
+      ],
+      [
+        391.6458786,
+        2240.157465
+      ],
+      [
+        414.6918303,
+        2264.116513
+      ],
+      [
+        434.4455011,
+        2264.116513
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "bilgemont_port-blackspell_port",
+    "distance": "moderateHigh",
+    "distanceModifier": 1.06,
+    "location0": "bilgemont_port",
+    "location1": "blackspell_port",
+    "pathpoints": [
+      [
+        497.6368663,
+        2278.971789
+      ],
+      [
+        513.5797246,
+        2262.303273
+      ],
+      [
+        527.6741271,
+        2263.326779
+      ],
+      [
+        561.6393387,
+        2230.720823
+      ],
+      [
+        593.5250593,
+        2231.67122
+      ],
+      [
+        641.5846813,
+        2182.396749
+      ],
+      [
+        735.6244244,
+        2182.908502
+      ],
+      [
+        775.8050365,
+        2183.800502
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "blackspell_port-red_coast",
+    "distance": "veryShort",
+    "distanceModifier": 1.0,
+    "location0": "blackspell_port",
+    "location1": "red_coast",
+    "pathpoints": [
+      [
+        802.418934,
+        2167.883281
+      ],
+      [
+        817.4490261,
+        2166.746069
+      ],
+      [
+        850.4498808,
+        2136.041334
+      ],
+      [
+        888.0251278,
+        2136.041334
+      ],
+      [
+        888.6786077,
+        2159.819412
+      ],
+      [
+        908.6098209,
+        2182.253511
+      ],
+      [
+        930.1747225,
+        2183.804255
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "old_arena_ruins-red_coast",
+    "distance": "near",
+    "distanceModifier": 1.0,
+    "location0": "old_arena_ruins",
+    "location1": "red_coast",
+    "pathpoints": [
+      [
+        935.1712597,
+        2112.350842
+      ],
+      [
+        910.6742237,
+        2135.898228
+      ],
+      [
+        889.5881646,
+        2135.21143
+      ],
+      [
+        891.448713,
+        2163.468293
+      ],
+      [
+        911.8570869,
+        2183.782174
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "blackspell_port-old_arena_ruins",
+    "distance": "short",
+    "distanceModifier": 1.0,
+    "location0": "blackspell_port",
+    "location1": "old_arena_ruins",
+    "pathpoints": [
+      [
+        794.4218831,
+        2173.742849
+      ],
+      [
+        817.9397331,
+        2165.71419
+      ],
+      [
+        849.812621,
+        2134.578659
+      ],
+      [
+        913.8678305,
+        2135.264032
+      ],
+      [
+        934.2912377,
+        2112.25507
+      ],
+      [
+        936.4573583,
+        2087.385809
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "old_arena_ruins-warrenfield",
+    "distance": "near",
+    "distanceModifier": 1.0,
+    "location0": "old_arena_ruins",
+    "location1": "warrenfield",
+    "pathpoints": [
+      [
+        935.8913575,
+        2064.187948
+      ],
+      [
+        906.3352355,
+        2031.830887
+      ],
+      [
+        908.1085776,
+        1959.074259
+      ],
+      [
+        940.6203647,
+        1959.822399
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "granfiddich-warrenfield",
+    "distance": "moderate",
+    "distanceModifier": 1.18,
+    "location0": "granfiddich",
+    "location1": "warrenfield",
+    "pathpoints": [
+      [
+        743.0138918,
+        1678.012845
+      ],
+      [
+        727.1151811,
+        1657.321556
+      ],
+      [
+        697.4175917,
+        1655.233444
+      ],
+      [
+        670.7197575,
+        1686.460206
+      ],
+      [
+        647.3216585,
+        1688.358489
+      ],
+      [
+        648.9149418,
+        1728.88903
+      ],
+      [
+        631.8163279,
+        1744.644783
+      ],
+      [
+        633.3162056,
+        1778.054571
+      ],
+      [
+        654.6144832,
+        1799.315345
+      ],
+      [
+        768.7508635,
+        1800.172543
+      ],
+      [
+        856.0437798,
+        1886.449525
+      ],
+      [
+        856.4891003,
+        1919.615956
+      ],
+      [
+        894.5860094,
+        1959.100251
+      ],
+      [
+        945.8818458,
+        1960.144307
+      ]
+    ],
+    "terrainModifiers": null
+  },
+  {
+    "id": "kallaheim-frostbite_mountain",
+    "distance": "moderateHigh",
+    "distanceModifier": 0.89,
+    "location0": "kallaheim",
+    "location1": "frostbite_mountain",
+    "pathpoints": [
+      [
+        373.7830293,
+        627.1699902
+      ],
+      [
+        366.6163626,
+        627.8366569
+      ],
+      [
+        349.1163626,
+        641.5866569
+      ],
+      [
+        332.8663626,
+        649.0866569
+      ],
+      [
+        315.6163626,
+        649.0866569
+      ],
+      [
+        300.8663626,
+        647.3366569
+      ],
+      [
+        297.8663626,
+        657.8366569
+      ],
+      [
+        273.1163626,
+        658.0866569
+      ],
+      [
+        270.1163626,
+        675.5866569
+      ],
+      [
+        274.6163626,
+        705.5866569
+      ],
+      [
+        272.3663626,
+        722.8366569
+      ],
+      [
+        271.6163626,
+        729.8366569
+      ]
+    ],
+    "terrainModifiers": "challenging_wilderness_terrain"
+  }
+]
