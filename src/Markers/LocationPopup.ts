@@ -1,4 +1,4 @@
-import * as Schema from "../JSONSchema";
+import * as Schema from "../Interfaces/JSONSchema";
 import { Popup, PopupOptions, DomUtil } from "leaflet";
 
 export interface LocationPopupOptions extends PopupOptions {

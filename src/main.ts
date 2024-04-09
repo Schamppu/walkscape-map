@@ -2,7 +2,7 @@ import "leaflet/dist/leaflet.css";
 import "./style.css";
 import { WSMap } from "./WSMap";
 import { Layer } from "./Layer";
-import * as Schema from "./JSONSchema";
+import * as Schema from "./Interfaces/JSONSchema";
 
 window.onload = async () => {
   const iconUrl = (iconName: string) => {

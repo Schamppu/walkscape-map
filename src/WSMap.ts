@@ -4,7 +4,7 @@ import { MapLayer } from "./MapLayer";
 import { ControlDock } from "./Controls/ControlDock";
 import { ZoomControl } from "./Controls/ZoomControl";
 import { FilterControl } from "./Controls/FilterControl";
-import { FilterCategory } from "./FilterCategory";
+import { FilterCategory } from "./Interfaces/FilterCategory";
 
 export interface WSMapOptions extends MapOptions {
   mapSizePixels: number;

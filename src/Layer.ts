@@ -1,8 +1,8 @@
-import * as Schema from "./JSONSchema";
+import * as Schema from "./Interfaces/JSONSchema";
 import { LayerGroup, LatLngBounds } from "leaflet";
 import { WSMarker } from "./Markers/WSMarker";
 import { WSLocationMarker } from "./Markers/WSLocationMarker";
-import { DataPoint } from "./DataPoint";
+import { DataPoint } from "./Interfaces/DataPoint";
 
 export enum Visibility {
   Off,
