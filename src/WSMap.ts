@@ -126,4 +126,8 @@ export class WSMap extends Map {
       l.findLocationMarker(location);
     });
   }
+
+  public resolveFilters() {
+    this.filterControl?.resolveUrl();
+  }
 }
