@@ -128,6 +128,6 @@ export class WSMap extends Map {
   }
 
   public resolveFilters() {
-    this.filterControl?.resolveUrl();
+    if (this.filterControl) this.filterControl.resolveUrl();
   }
 }
