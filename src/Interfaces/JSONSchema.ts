@@ -58,12 +58,12 @@ export interface Service extends DataPoint {
   skills: string[];
 }
 
-export interface route {
+export interface Route {
   id: string;
   distance: string;
   distanceModifier: number;
   location0: string;
   location1: string;
-  pathpoints: number[][];
+  pathpoints: LatLngTuple[];
   terrainModifiers: string;
 }

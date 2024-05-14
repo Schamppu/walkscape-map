@@ -3,6 +3,7 @@ import { LayerGroup, LatLngBounds } from "leaflet";
 import { WSMarker } from "./Markers/WSMarker";
 import { WSLocationMarker } from "./Markers/WSLocationMarker";
 import { DataPoint } from "./Interfaces/DataPoint";
+import { WSRouteMarker } from "./Markers/WSRouteMarker";
 
 export enum Visibility {
   Off,
@@ -101,6 +102,17 @@ export class Layer extends LayerGroup {
         ? WSLocationMarker.fromJson(this.matchDataPointsToJson(m, data), layer)
         : WSMarker.fromJson(m, layer);
     });
+
+    return layer;
+  }
+
+  public static fromRouteJson(routes: Schema.Route[]) {
+    const layer = new Layer("routes")
+
+    layer.minZoom = 0;
+    layer.maxZoom = 4;
+    layer.labelMinZoom = layer.minZoom;
+    layer.markers = routes.map(r => WSRouteMarker.fromJson(r, layer))
 
     return layer;
   }

@@ -31,7 +31,8 @@ window.onload = async () => {
     map.addFilterGroup(filters, group);
   }
 
-  function addJson(categories: Schema.Category[]): void {
+  function addLocationJson(categories: Schema.Category[]): void {
+    console.log(categories);
     for (const category of categories) {
       mapLayer.addCategory(
         category.name,
@@ -40,11 +41,20 @@ window.onload = async () => {
     }
   }
 
+  function addRouteJson(routes: Schema.Route[]): void {
+    mapLayer.addCategory("routes", [Layer.fromRouteJson(routes)]);
+    console.log(routes);
+  }
+
   const locations = fetch("data/locations.json")
     .then((r) => r.json())
-    .then(addJson);
+    .then(addLocationJson)
+    
+  const routes = fetch("data/routes.json")
+    .then((r) => r.json())
+    .then(addRouteJson);
 
-  await Promise.allSettled([locations]);
+  await Promise.allSettled([locations, routes]);
   map.findMarker();
   map.resolveFilters();
 };
