@@ -135,25 +135,9 @@ export class FilterControl extends ControlPane {
 
     DomEvent.addListener(li, "click", () => {
       if (DomUtil.hasClass(li, "selected")) {
-        DomUtil.removeClass(li, "selected");
-        this.shownValues = this.shownValues.filter(
-          (el) => !category.values.includes(el)
-        );
-
-        // select "All" if no others are selected
-        if (this.categories.every((c) => !DomUtil.hasClass(c.li, "selected"))) {
-          this.showAll();
-        }
+        this.disableFilter({ category, li });
       } else {
-        DomUtil.addClass(li, "selected");
-        this.shownValues.push(...category.values);
-
-        // hide the others
-        if (DomUtil.hasClass(this.all, "selected")) {
-          DomUtil.removeClass(this.all, "selected");
-          this.shownValues = category.values;
-        }
-        DomUtil.removeClass(this.none, "selected");
+        this.enableFilter({ category, li });
       }
       this.mapLayers.forEach((l) => l.filterLocations(this.shownValues));
     });
@@ -161,6 +145,34 @@ export class FilterControl extends ControlPane {
 
   public reset(): void {
     this.showAll();
+  }
+
+  private disableFilter(item: LegendItem) {
+    const { category, li } = item;
+    DomUtil.removeClass(li, "selected");
+    this.shownValues = this.shownValues.filter(
+      (el) => !category.values.includes(el)
+    );
+    this.updateUrl(category.name, false);
+
+    // select "All" if no others are selected
+    if (this.categories.every((c) => !DomUtil.hasClass(c.li, "selected"))) {
+      this.showAll();
+    }
+  }
+
+  private enableFilter(item: LegendItem) {
+    const { category, li } = item;
+    DomUtil.addClass(li, "selected");
+    this.shownValues.push(...category.values);
+    this.updateUrl(category.name, true);
+
+    // hide the others
+    if (DomUtil.hasClass(this.all, "selected")) {
+      DomUtil.removeClass(this.all, "selected");
+      this.shownValues = category.values;
+    }
+    DomUtil.removeClass(this.none, "selected");
   }
 
   private showAll(): void {
@@ -176,6 +188,7 @@ export class FilterControl extends ControlPane {
       l.filterLocations(this.shownValues);
       l.resetMarkerVisibility();
     });
+    this.updateUrl("All", true);
   }
 
   private showNone(): void {
@@ -188,5 +201,33 @@ export class FilterControl extends ControlPane {
       });
     }
     this.mapLayers.forEach((l) => l.filterLocations(this.shownValues));
+    this.updateUrl("None", true);
+  }
+
+  private updateUrl(categoryName: string, enable: boolean): void {
+    const url = new URL(window.location.toString());
+    if (categoryName == "None") url.searchParams.set("f", categoryName);
+    else {
+      url.searchParams.delete("f", "None");
+      if (categoryName == "All") url.searchParams.delete("f");
+      else if (enable) url.searchParams.append("f", categoryName);
+      else url.searchParams.delete("f", categoryName);
+    }
+    history.pushState({}, "", url);
+  }
+
+  public resolveUrl(): void {
+    const url = new URL(window.location.toString());
+    const categoryNames = url.searchParams.getAll("f");
+
+    if (categoryNames.includes("None")) {
+      this.showNone();
+      return;
+    }
+
+    const categories = this.categories.filter(({ category }) =>
+      categoryNames.includes(category.name)
+    );
+    categories.forEach((c) => this.enableFilter(c));
   }
 }

@@ -149,4 +149,5 @@ window.onload = async () => {
 
   await Promise.allSettled([locations]);
   map.findMarker();
+  map.resolveFilters();
 };
