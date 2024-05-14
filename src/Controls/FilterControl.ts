@@ -139,7 +139,7 @@ export class FilterControl extends ControlPane {
       } else {
         this.enableFilter({ category, li });
       }
-      this.mapLayers.forEach((l) => l.filterLocations(this.shownValues));
+      this.filterLocations();
     });
   }
 
@@ -159,20 +159,26 @@ export class FilterControl extends ControlPane {
     if (this.categories.every((c) => !DomUtil.hasClass(c.li, "selected"))) {
       this.showAll();
     }
+    this.filterLocations();
   }
 
-  private enableFilter(item: LegendItem) {
+  private enableFilter(item: LegendItem, urlUpdate = true) {
     const { category, li } = item;
     DomUtil.addClass(li, "selected");
     this.shownValues.push(...category.values);
-    this.updateUrl(category.name, true);
+    if (urlUpdate) this.updateUrl(category.name, true);
 
     // hide the others
     if (DomUtil.hasClass(this.all, "selected")) {
       DomUtil.removeClass(this.all, "selected");
-      this.shownValues = category.values;
+      this.shownValues = [...category.values];
     }
     DomUtil.removeClass(this.none, "selected");
+    this.filterLocations();
+  }
+
+  private filterLocations(): void {
+    this.mapLayers.forEach((l) => l.filterLocations(this.shownValues));
   }
 
   private showAll(): void {
@@ -228,6 +234,6 @@ export class FilterControl extends ControlPane {
     const categories = this.categories.filter(({ category }) =>
       categoryNames.includes(category.name)
     );
-    categories.forEach((c) => this.enableFilter(c));
+    categories.forEach((c) => this.enableFilter(c, false));
   }
 }
