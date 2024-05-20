@@ -1,5 +1,12 @@
 import json
 import re
+import os
+from urllib.request import urlopen
+
+
+def json_files(data_folder):
+    folder = os.path.join(os.path.dirname(os.path.realpath(__file__)), data_folder)
+    return [os.path.join(data_folder, filename) for filename in os.listdir(folder) if filename.endswith('.json')]
 
 def read_json(filepath):
     with open(filepath, 'r') as jf:
@@ -39,6 +46,9 @@ def get_common_info(official_obj, old_data, icon_key):
     icon_path = official_obj[icon_key].replace('assets/icons/', '')
     return id, name, icon_path, old_obj
 
+def get_wiki_url(name):
+    return f"https://wiki.walkscape.app/wiki/{name.replace(' ', '_')}"
+
 def update_locations(filename):
     data_path = f'../public/data/{filename}'
     data_full, src_data = read_data(data_path, f'./{filename}')
@@ -53,6 +63,7 @@ def update_locations(filename):
             'id': id,
             'name': name,
             'realm': src_location['realm'],
+            'wikiUrl': get_wiki_url(name),
             'coords': src_location['locationPosition'][::-1],
             'icon': { 'url': icon_path },
             'hidden': hidden,
@@ -80,6 +91,7 @@ def update_activities(filename):
         activity = {
             'id': id,
             'name': name,
+            'wikiUrl': get_wiki_url(name),
             'icon': { 'url': icon_path },
             'skills': skills,
             'levelRequirements': level_requirements,
@@ -99,6 +111,7 @@ def update_buildings(filename):
         building = {
             'id': id,
             'name': name,
+            'wikiUrl': get_wiki_url(name),
             'icon': { 'url': icon_path },
             'type': src_building['type'],
             'shop': get_id(src_building['shop'])
@@ -118,6 +131,7 @@ def update_services(filename):
         service = {
             'id': id,
             'name': name,
+            'wikiUrl': get_wiki_url(name),
             'icon': { 'url': icon_path },
             'skills': skills,
         }
