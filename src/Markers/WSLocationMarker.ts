@@ -21,6 +21,7 @@ export class WSLocationMarker extends WSMarker {
         name: this.name,
         realm: json.realm,
         icon: json.icon,
+        wikiUrl: json.wikiUrl,
         activities: json.activities,
         buildings: json.buildings,
         services: json.services,

@@ -5,6 +5,7 @@ export interface LocationPopupOptions extends PopupOptions {
   id: string;
   name: string;
   realm: string;
+  wikiUrl: string;
   icon: {
     url: string;
     width?: number | undefined;
@@ -18,6 +19,7 @@ export interface LocationPopupOptions extends PopupOptions {
 export class LocationPopup extends Popup {
   private container: HTMLElement;
   private name: string;
+  private wikiUrl: string;
   private icon: {
     url: string;
     width?: number | undefined;
@@ -38,6 +40,7 @@ export class LocationPopup extends Popup {
     this.activities = options.activities;
     this.buildings = options.buildings;
     this.services = options.services;
+    this.wikiUrl = options.wikiUrl;
 
     this.skillIconPaths = {
       agility: "icons/activities/activity_sprites/agility/dasboot3.png",
@@ -84,10 +87,17 @@ export class LocationPopup extends Popup {
 
     const title = DomUtil.create(
       "h2",
-      `ws-location-popup__title ${this.realm}-color`,
+      "ws-location-popup__title",
       titleDiv
     );
-    title.innerText = this.name;
+    const titleLink = DomUtil.create(
+      "a",
+      `${this.realm}-color`,
+      title,
+    );
+    titleLink.innerText = this.name;
+    titleLink.href = this.wikiUrl;
+    titleLink.target= "_blank";
 
     const divider = DomUtil.create(
       "div",
@@ -153,7 +163,10 @@ export class LocationPopup extends Popup {
           infoDiv
         );
         const text = DomUtil.create("p", "", textsDiv);
-        text.innerText = d.name;
+        const link = DomUtil.create("a", "", text);
+        link.innerText = d.name;
+        link.href = d.wikiUrl;
+        link.target= "_blank";
 
         const keywordRequirementsDiv = DomUtil.create(
           "div",
@@ -204,7 +217,10 @@ export class LocationPopup extends Popup {
         dataDiv.appendChild(img);
 
         const text = DomUtil.create("p", "", dataDiv);
-        text.innerText = d.name;
+        const link = DomUtil.create("a", "", text);
+        link.innerText = d.name;
+        link.href = d.wikiUrl;
+        link.target= "_blank";
       });
     };
 
