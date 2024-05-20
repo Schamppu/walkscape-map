@@ -122,6 +122,7 @@
             "id": "disenchanted_forest",
             "name": "Disenchanted Forest",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Disenchanted_Forest",
             "coords": [369.0, 537.0],
             "icon": {
               "url": "locations/forest_white.png"
@@ -139,6 +140,7 @@
             "id": "azurazera",
             "name": "Azurazera",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Azurazera",
             "coords": [1065.0, 827.0],
             "icon": {
               "url": "locations/castle_white.png"
@@ -152,6 +154,7 @@
             "id": "kallaheim",
             "name": "Kallaheim",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Kallaheim",
             "coords": [408.0, 619.0],
             "icon": {
               "url": "locations/castle_white.png"
@@ -169,6 +172,7 @@
             "id": "frusenholm",
             "name": "Frusenholm",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Frusenholm",
             "coords": [463.0, 954.0],
             "icon": {
               "url": "locations/town_white.png"
@@ -182,6 +186,7 @@
             "id": "barbantok",
             "name": "Barbantok",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Barbantok",
             "coords": [795.0, 592.0],
             "icon": {
               "url": "locations/town_white.png"
@@ -199,6 +204,7 @@
             "id": "centaham",
             "name": "Centaham",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Centaham",
             "coords": [678.0, 928.0],
             "icon": {
               "url": "locations/city_white.png"
@@ -212,6 +218,7 @@
             "id": "port_skildar",
             "name": "Port Skildar",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Port_Skildar",
             "coords": [946.0, 1135.0],
             "icon": {
               "url": "locations/port_white.png"
@@ -229,6 +236,7 @@
             "id": "coldington",
             "name": "Coldington",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Coldington",
             "coords": [1003.0, 1013.0],
             "icon": {
               "url": "locations/city_white.png"
@@ -242,6 +250,7 @@
             "id": "sanguine_hills",
             "name": "Sanguine Hills",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Sanguine_Hills",
             "coords": [1278.0, 906.0],
             "icon": {
               "url": "locations/hills_white.png"
@@ -262,6 +271,7 @@
             "id": "nomad_woods",
             "name": "Nomad Woods",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Nomad_Woods",
             "coords": [712.0, 480.0],
             "icon": {
               "url": "locations/forest_white.png"
@@ -279,6 +289,7 @@
             "id": "casbrant_fields",
             "name": "Casbrant Fields",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Casbrant_Fields",
             "coords": [752.0, 821.0],
             "icon": {
               "url": "locations/plains_white.png"
@@ -296,6 +307,7 @@
             "id": "solitude_rock",
             "name": "Solitude Rock",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Solitude_Rock",
             "coords": [1500.0, 353.0],
             "icon": {
               "url": "locations/coast_white.png"
@@ -309,6 +321,7 @@
             "id": "norsack_plains",
             "name": "Norsack Plains",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Norsack_Plains",
             "coords": [247.0, 851.0],
             "icon": {
               "url": "locations/plains_white.png"
@@ -322,6 +335,7 @@
             "id": "frostbite_mountain",
             "name": "Frostbite Mountain",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Frostbite_Mountain",
             "coords": [202.0, 729.0],
             "icon": {
               "url": "locations/mountains.png"
@@ -342,6 +356,7 @@
             "id": "noiseless_pass",
             "name": "Noiseless Pass",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Noiseless_Pass",
             "coords": [499.0, 1347.0],
             "icon": {
               "url": "locations/plains_white.png"
@@ -359,6 +374,7 @@
             "id": "fort_of_permafrost",
             "name": "Fort of Permafrost",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Fort_of_Permafrost",
             "coords": [578.3, 1167.5932288753793],
             "icon": {
               "url": "locations/castle_white.png"
@@ -372,6 +388,7 @@
             "id": "farsand_coast",
             "name": "Farsand Coast",
             "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Farsand_Coast",
             "coords": [210.0, 1631.0],
             "icon": {
               "url": "locations/coast_green.png"
@@ -389,6 +406,7 @@
             "id": "salsfirth",
             "name": "Salsfirth",
             "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Salsfirth",
             "coords": [369.0, 1670.0],
             "icon": {
               "url": "locations/city_green.png"
@@ -402,6 +420,7 @@
             "id": "everhaven",
             "name": "Everhaven",
             "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Everhaven",
             "coords": [306.0, 2024.0],
             "icon": {
               "url": "locations/castle_green.png"
@@ -415,6 +434,7 @@
             "id": "bilgemont_port",
             "name": "Bilgemont Port",
             "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Bilgemont_Port",
             "coords": [437.0, 2286.0],
             "icon": {
               "url": "locations/port_green.png"
@@ -428,6 +448,7 @@
             "id": "granfiddich",
             "name": "Granfiddich",
             "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Granfiddich",
             "coords": [753.0, 1718.0],
             "icon": {
               "url": "locations/city_green.png"
@@ -450,6 +471,7 @@
             "id": "blackspell_port",
             "name": "Blackspell Port",
             "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Blackspell_Port",
             "coords": [786.0, 2199.0],
             "icon": {
               "url": "locations/port_green.png"
@@ -463,6 +485,7 @@
             "id": "old_arena_ruins",
             "name": "Old Arena Ruins",
             "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Old_Arena_Ruins",
             "coords": [913.0, 2086.0],
             "icon": {
               "url": "locations/arena_green.png"
@@ -476,6 +499,7 @@
             "id": "halfling_campgrounds",
             "name": "Halfling Campgrounds",
             "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Halfling_Campgrounds",
             "coords": [641.0, 1981.0],
             "icon": {
               "url": "locations/marsh_green.png"
@@ -489,6 +513,7 @@
             "id": "mangrove_forest",
             "name": "Mangrove Forest",
             "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Mangrove_Forest",
             "coords": [398.0, 1563.0],
             "icon": {
               "url": "locations/forest_green.png"
@@ -506,6 +531,7 @@
             "id": "red_coast",
             "name": "Red Coast",
             "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Red_Coast",
             "coords": [912.0, 2228.0],
             "icon": {
               "url": "locations/coast_green.png"
@@ -519,6 +545,7 @@
             "id": "warrenfield",
             "name": "Warrenfield",
             "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Warrenfield",
             "coords": [939.0, 1916.0],
             "icon": {
               "url": "locations/plains_green.png"
@@ -532,6 +559,7 @@
             "id": "beach_of_woes",
             "name": "Beach of Woes",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Beach_of_Woes",
             "coords": [405.543212890625, 451.25],
             "icon": {
               "url": "locations/coast_white.png"
@@ -550,6 +578,7 @@
             "id": "winter_waves_glacier",
             "name": "Winter Waves Glacier",
             "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Winter_Waves_Glacier",
             "coords": [131.33333333303992, 879.5341621359416],
             "icon": {
               "url": "locations/glacier.png"

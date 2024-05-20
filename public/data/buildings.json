@@ -2,6 +2,7 @@
   {
     "id": "temple_of_azurazera",
     "name": "Temple of Azurazera",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Temple_of_Azurazera",
     "icon": {
       "url": "buildings/temple_of_azurazera.png"
     },
@@ -11,6 +12,7 @@
   {
     "id": "frosthook_emporium",
     "name": "Frosthook Emporium",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Frosthook_Emporium",
     "icon": {
       "url": "buildings/fishing_shop.png"
     },
@@ -20,6 +22,7 @@
   {
     "id": "kallaheim's_frosty_finds",
     "name": "Kallaheim's Frosty Finds",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Kallaheim's_Frosty_Finds",
     "icon": {
       "url": "buildings/general_store.png"
     },
@@ -29,6 +32,7 @@
   {
     "id": "frozen_capital_bank",
     "name": "Frozen Capital Bank",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Frozen_Capital_Bank",
     "icon": {
       "url": "buildings/bank.png"
     },
@@ -38,6 +42,7 @@
   {
     "id": "the_icy_goblet",
     "name": "The Icy Goblet",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/The_Icy_Goblet",
     "icon": {
       "url": "buildings/tavern.png"
     },
@@ -47,6 +52,7 @@
   {
     "id": "helpful_herbert's_hut",
     "name": "Tutorial Cabin",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Tutorial_Cabin",
     "icon": {
       "url": "buildings/cabin.png"
     },
@@ -55,7 +61,8 @@
   },
   {
     "id": "woodcutter's_cabin",
-    "name": "Woodcutters Cabin",
+    "name": "Woodcutter's Cabin",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Woodcutter's_Cabin",
     "icon": {
       "url": "buildings/cabin.png"
     },
@@ -65,6 +72,7 @@
   {
     "id": "northstar_mercantile",
     "name": "Northstar Mercantile",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Northstar_Mercantile",
     "icon": {
       "url": "buildings/general_store.png"
     },
@@ -73,7 +81,8 @@
   },
   {
     "id": "jarvojoy",
-    "name": "Jarvo Joy",
+    "name": "JarvoJoy",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/JarvoJoy",
     "icon": {
       "url": "buildings/general_store.png"
     },
@@ -83,6 +92,7 @@
   {
     "id": "fort_of_permafrost",
     "name": "Fort of Permafrost",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Fort_of_Permafrost",
     "icon": {
       "url": "buildings/castle.png"
     },
@@ -92,6 +102,7 @@
   {
     "id": "bilgemont_castle",
     "name": "Bilgemont Castle",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Bilgemont_Castle",
     "icon": {
       "url": "buildings/castle.png"
     },
@@ -101,6 +112,7 @@
   {
     "id": "bureau_of_moss",
     "name": "Bureau of Moss",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Bureau_of_Moss",
     "icon": {
       "url": "buildings/tavern.png"
     },
@@ -110,6 +122,7 @@
   {
     "id": "paws_are_us",
     "name": "Paws are Us",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Paws_are_Us",
     "icon": {
       "url": "buildings/animal_shelter.png"
     },
@@ -119,6 +132,7 @@
   {
     "id": "fish_market_stall",
     "name": "Fish market stall",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Fish_market_stall",
     "icon": {
       "url": "buildings/market_stall.png"
     },
@@ -128,6 +142,7 @@
   {
     "id": "food_market_stall",
     "name": "Food Market Stall",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Food_Market_Stall",
     "icon": {
       "url": "buildings/market_stall.png"
     },
@@ -137,6 +152,7 @@
   {
     "id": "tool_market_stall",
     "name": "Tool Market Stall",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Tool_Market_Stall",
     "icon": {
       "url": "buildings/market_stall.png"
     },
@@ -145,7 +161,8 @@
   },
   {
     "id": "mossy_merchant's_breeze_mart",
-    "name": "Mossy Merchants Breeze Mart",
+    "name": "Mossy Merchant's Breeze Mart",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mossy_Merchant's_Breeze_Mart",
     "icon": {
       "url": "buildings/general_store.png"
     },
@@ -155,6 +172,7 @@
   {
     "id": "bogside_bank_of_prosperity",
     "name": "Bogside Bank of Prosperity",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Bogside_Bank_of_Prosperity",
     "icon": {
       "url": "buildings/bank.png"
     },
@@ -164,6 +182,7 @@
   {
     "id": "maritime_fortune_bank",
     "name": "Maritime Fortune Bank",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Maritime_Fortune_Bank",
     "icon": {
       "url": "buildings/bank.png"
     },
@@ -173,6 +192,7 @@
   {
     "id": "bigloo",
     "name": "Bigloo",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Bigloo",
     "icon": {
       "url": "buildings/igloo.png"
     },
