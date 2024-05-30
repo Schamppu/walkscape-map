@@ -51,7 +51,7 @@ def get_wiki_url(name):
 
 def update_locations(filename):
     data_path = f'../public/data/{filename}'
-    data_full, src_data = read_data(data_path, f'./{filename}')
+    data_full, src_data = read_data(data_path, f'./data/{filename}')
     data = data_full[1]['layers'][0]['markers']
 
     locations = []
@@ -78,7 +78,7 @@ def update_locations(filename):
 
 def update_activities(filename):
     data_path = f'../public/data/{filename}'
-    data, src_data = read_data(data_path, f'./{filename}')
+    data, src_data = read_data(data_path, f'./data/{filename}')
 
     activities = []
     for src_activity in src_data:
@@ -102,7 +102,7 @@ def update_activities(filename):
 
 def update_buildings(filename):
     data_path = f'../public/data/{filename}'
-    data, src_data = read_data(data_path, f'./{filename}')
+    data, src_data = read_data(data_path, f'./data/{filename}')
     
     buildings = []
     for src_building in src_data:
@@ -121,7 +121,7 @@ def update_buildings(filename):
 
 def update_services(filename):
     data_path = f'../public/data/{filename}'
-    data, src_data = read_data(data_path, f'./{filename}')
+    data, src_data = read_data(data_path, f'./data/{filename}')
     
     services = []
     for src_service in src_data:
