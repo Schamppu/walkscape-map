@@ -13,7 +13,7 @@
   {
     "id": "advanced_forge",
     "name": "Advanced Forge",
-    "wikiUrl": "",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Advanced_Forge",
     "icon": {
       "url": "services/forge_advanced.png"
     },
@@ -57,7 +57,7 @@
   {
     "id": "advanced_workshop",
     "name": "Advanced Workshop",
-    "wikiUrl": "",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Advanced_Workshop",
     "icon": {
       "url": "services/workshop_advanced.png"
     },

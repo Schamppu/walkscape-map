@@ -6,11 +6,15 @@
     "icon": {
       "url": "activities/woodcutting/pine.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 10
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "dobby_is..._free",
@@ -19,7 +23,9 @@
     "icon": {
       "url": "activities/foraging/winter_foraging_forest.png"
     },
-    "skills": ["foraging"],
+    "skills": [
+      "foraging"
+    ],
     "levelRequirements": {
       "foraging": 1
     },
@@ -32,11 +38,15 @@
     "icon": {
       "url": "activities/woodcutting/birch.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 1
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "litter_looting",
@@ -45,7 +55,9 @@
     "icon": {
       "url": "activities/foraging/litter_looting.png"
     },
-    "skills": ["foraging"],
+    "skills": [
+      "foraging"
+    ],
     "levelRequirements": {
       "foraging": 8
     },
@@ -58,11 +70,15 @@
     "icon": {
       "url": "activities/woodcutting/spruce.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 20
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "mine_copper_ore",
@@ -71,11 +87,15 @@
     "icon": {
       "url": "activities/mining/copper.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 1
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "mine_tin_ore",
@@ -84,11 +104,15 @@
     "icon": {
       "url": "activities/mining/tin.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 10
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "mine_iron_ore",
@@ -97,11 +121,15 @@
     "icon": {
       "url": "activities/mining/iron.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 20
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "mine_coal",
@@ -110,11 +138,15 @@
     "icon": {
       "url": "activities/mining/coal.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 30
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "cliff_foraging",
@@ -123,7 +155,10 @@
     "icon": {
       "url": "activities/foraging/winter_foraging_mountains.png"
     },
-    "skills": ["foraging", "agility"],
+    "skills": [
+      "foraging",
+      "agility"
+    ],
     "levelRequirements": {
       "foraging": 25,
       "agility": 20
@@ -137,11 +172,15 @@
     "icon": {
       "url": "activities/fishing/winter_fishing_pond.png"
     },
-    "skills": ["fishing"],
+    "skills": [
+      "fishing"
+    ],
     "levelRequirements": {
       "fishing": 1
     },
-    "requiredKeywords": ["fishingRod"]
+    "requiredKeywords": [
+      "fishingRod"
+    ]
   },
   {
     "id": "sea_fishing",
@@ -150,11 +189,15 @@
     "icon": {
       "url": "activities/fishing/winter_fishing_sea.png"
     },
-    "skills": ["fishing"],
+    "skills": [
+      "fishing"
+    ],
     "levelRequirements": {
       "fishing": 1
     },
-    "requiredKeywords": ["fishingNet"]
+    "requiredKeywords": [
+      "fishingNet"
+    ]
   },
   {
     "id": "plains_foraging",
@@ -163,7 +206,9 @@
     "icon": {
       "url": "activities/foraging/winter_foraging_plains.png"
     },
-    "skills": ["foraging"],
+    "skills": [
+      "foraging"
+    ],
     "levelRequirements": {
       "foraging": 10
     },
@@ -176,11 +221,15 @@
     "icon": {
       "url": "activities/fishing/winter_fishing_lake.png"
     },
-    "skills": ["fishing"],
+    "skills": [
+      "fishing"
+    ],
     "levelRequirements": {
       "fishing": 5
     },
-    "requiredKeywords": ["fishingRod"]
+    "requiredKeywords": [
+      "fishingRod"
+    ]
   },
   {
     "id": "sandcastle_building",
@@ -189,7 +238,9 @@
     "icon": {
       "url": "activities/carpentry/sandcastle_building.png"
     },
-    "skills": ["carpentry"],
+    "skills": [
+      "carpentry"
+    ],
     "levelRequirements": {
       "carpentry": 1
     },
@@ -202,11 +253,15 @@
     "icon": {
       "url": "activities/woodcutting/oak.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 25
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "cut_maple_trees",
@@ -215,11 +270,15 @@
     "icon": {
       "url": "activities/woodcutting/maple.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 30
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "teak_logs",
@@ -228,11 +287,15 @@
     "icon": {
       "url": "activities/woodcutting/teak.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 40
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "cut_willow_trees",
@@ -241,11 +304,15 @@
     "icon": {
       "url": "activities/woodcutting/willow.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 40
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "cut_mangrove_trees",
@@ -254,11 +321,15 @@
     "icon": {
       "url": "activities/woodcutting/mangrove.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 50
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "seashell_searching",
@@ -267,7 +338,9 @@
     "icon": {
       "url": "activities/foraging/winter_foraging_coast.png"
     },
-    "skills": ["foraging"],
+    "skills": [
+      "foraging"
+    ],
     "levelRequirements": {
       "foraging": 25
     },
@@ -280,11 +353,15 @@
     "icon": {
       "url": "activities/mining/tarsilium.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 40
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "mine_farganite_ore",
@@ -293,11 +370,15 @@
     "icon": {
       "url": "activities/mining/farganite.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 50
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "sea_fishing_(rod)",
@@ -306,11 +387,15 @@
     "icon": {
       "url": "activities/fishing/winter_fishing_sea.png"
     },
-    "skills": ["fishing"],
+    "skills": [
+      "fishing"
+    ],
     "levelRequirements": {
       "fishing": 20
     },
-    "requiredKeywords": ["fishingRod"]
+    "requiredKeywords": [
+      "fishingRod"
+    ]
   },
   {
     "id": "frisbee_golfing_(beginner)",
@@ -319,11 +404,15 @@
     "icon": {
       "url": "activities/agility/frisbee.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 10
     },
-    "requiredKeywords": ["frisbee"]
+    "requiredKeywords": [
+      "frisbee"
+    ]
   },
   {
     "id": "frisbee_golfing_(intermediate)",
@@ -332,11 +421,15 @@
     "icon": {
       "url": "activities/agility/frisbee.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 25
     },
-    "requiredKeywords": ["frisbee"]
+    "requiredKeywords": [
+      "frisbee"
+    ]
   },
   {
     "id": "cross-country_skiing_(beginner)",
@@ -345,11 +438,15 @@
     "icon": {
       "url": "activities/agility/coss_country_skiing.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 5
     },
-    "requiredKeywords": ["skis"]
+    "requiredKeywords": [
+      "skis"
+    ]
   },
   {
     "id": "cross-country_skiing_(intermediate)",
@@ -358,11 +455,15 @@
     "icon": {
       "url": "activities/agility/coss_country_skiing.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 20
     },
-    "requiredKeywords": ["skis"]
+    "requiredKeywords": [
+      "skis"
+    ]
   },
   {
     "id": "soup_kitchen_volunteering",
@@ -371,7 +472,9 @@
     "icon": {
       "url": "activities/cooking/soup_kitchen_work.png"
     },
-    "skills": ["cooking"],
+    "skills": [
+      "cooking"
+    ],
     "levelRequirements": {
       "cooking": 10
     },
@@ -384,7 +487,10 @@
     "icon": {
       "url": "activities/cooking/wine_grape_stomping.png"
     },
-    "skills": ["cooking", "agility"],
+    "skills": [
+      "cooking",
+      "agility"
+    ],
     "levelRequirements": {
       "cooking": 45,
       "agility": 30
@@ -398,12 +504,17 @@
     "icon": {
       "url": "activities/mining/gold_panning.png"
     },
-    "skills": ["mining", "fishing"],
+    "skills": [
+      "mining",
+      "fishing"
+    ],
     "levelRequirements": {
       "mining": 15,
       "fishing": 5
     },
-    "requiredKeywords": ["goldPan"]
+    "requiredKeywords": [
+      "goldPan"
+    ]
   },
   {
     "id": "spelunking",
@@ -412,12 +523,18 @@
     "icon": {
       "url": "activities/mining/spelunking.png"
     },
-    "skills": ["mining", "agility"],
+    "skills": [
+      "mining",
+      "agility"
+    ],
     "levelRequirements": {
       "mining": 50,
       "agility": 50
     },
-    "requiredKeywords": ["lightSource", "climbingTool"]
+    "requiredKeywords": [
+      "lightSource",
+      "climbingTool"
+    ]
   },
   {
     "id": "surface_salt_mining",
@@ -426,11 +543,15 @@
     "icon": {
       "url": "activities/mining/salt.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 1
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "magnet_fishing",
@@ -439,12 +560,17 @@
     "icon": {
       "url": "activities/fishing/magnet_fishing.png"
     },
-    "skills": ["fishing", "foraging"],
+    "skills": [
+      "fishing",
+      "foraging"
+    ],
     "levelRequirements": {
       "fishing": 40,
       "foraging": 30
     },
-    "requiredKeywords": ["magnetic"]
+    "requiredKeywords": [
+      "magnetic"
+    ]
   },
   {
     "id": "glacier_foraging",
@@ -453,7 +579,10 @@
     "icon": {
       "url": "activities/foraging/glacier_foraging.png"
     },
-    "skills": ["foraging", "agility"],
+    "skills": [
+      "foraging",
+      "agility"
+    ],
     "levelRequirements": {
       "foraging": 30,
       "agility": 30
@@ -467,12 +596,17 @@
     "icon": {
       "url": "activities/foraging/butterfly_catching.png"
     },
-    "skills": ["foraging", "agility"],
+    "skills": [
+      "foraging",
+      "agility"
+    ],
     "levelRequirements": {
       "foraging": 40,
       "agility": 30
     },
-    "requiredKeywords": ["bugCatchingNet"]
+    "requiredKeywords": [
+      "bugCatchingNet"
+    ]
   },
   {
     "id": "dumpster_diving",
@@ -481,7 +615,10 @@
     "icon": {
       "url": "activities/foraging/dumpster_diving.png"
     },
-    "skills": ["foraging", "agility"],
+    "skills": [
+      "foraging",
+      "agility"
+    ],
     "levelRequirements": {
       "foraging": 35,
       "agility": 20
@@ -495,7 +632,10 @@
     "icon": {
       "url": "activities/foraging/dumpster_diving.png"
     },
-    "skills": ["foraging", "agility"],
+    "skills": [
+      "foraging",
+      "agility"
+    ],
     "levelRequirements": {
       "foraging": 35,
       "agility": 20
@@ -509,12 +649,17 @@
     "icon": {
       "url": "activities/woodcutting/firewood_making.png"
     },
-    "skills": ["woodcutting", "agility"],
+    "skills": [
+      "woodcutting",
+      "agility"
+    ],
     "levelRequirements": {
       "woodcutting": 15,
       "agility": 10
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "horseshoe_making",
@@ -523,11 +668,15 @@
     "icon": {
       "url": "activities/smithing/horseshoe_making.png"
     },
-    "skills": ["smithing"],
+    "skills": [
+      "smithing"
+    ],
     "levelRequirements": {
       "smithing": 20
     },
-    "requiredKeywords": ["smithingHammer"]
+    "requiredKeywords": [
+      "smithingHammer"
+    ]
   },
   {
     "id": "mountain_climbing_(beginner)",
@@ -536,11 +685,15 @@
     "icon": {
       "url": "activities/agility/mountain_climbing_beginner.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 10
     },
-    "requiredKeywords": ["climbingTool"]
+    "requiredKeywords": [
+      "climbingTool"
+    ]
   },
   {
     "id": "mountain_climbing_(intermediate)",
@@ -549,11 +702,15 @@
     "icon": {
       "url": "activities/agility/mountain_climbing_intermediater.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 35
     },
-    "requiredKeywords": ["climbingTool"]
+    "requiredKeywords": [
+      "climbingTool"
+    ]
   },
   {
     "id": "kayaking",
@@ -562,11 +719,15 @@
     "icon": {
       "url": "activities/agility/kayaking.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 30
     },
-    "requiredKeywords": ["lifevest"]
+    "requiredKeywords": [
+      "lifevest"
+    ]
   },
   {
     "id": "rooftop_jumping",
@@ -575,7 +736,9 @@
     "icon": {
       "url": "activities/agility/rooftop_jumping_beginner.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 25
     },
@@ -588,7 +751,9 @@
     "icon": {
       "url": "activities/agility/rooftop_jumping_intermediate.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 45
     },
@@ -601,7 +766,9 @@
     "icon": {
       "url": "activities/agility/swimming.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 20
     },
@@ -614,7 +781,9 @@
     "icon": {
       "url": "activities/agility/swimming.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 40
     },
@@ -627,12 +796,17 @@
     "icon": {
       "url": "activities/carpentry/ship_repair_beginner.png"
     },
-    "skills": ["carpentry", "smithing"],
+    "skills": [
+      "carpentry",
+      "smithing"
+    ],
     "levelRequirements": {
       "carpentry": 20,
       "smithing": 10
     },
-    "requiredKeywords": ["carpentryTool"]
+    "requiredKeywords": [
+      "carpentryTool"
+    ]
   },
   {
     "id": "ship_repair_(intermediate)",
@@ -641,12 +815,17 @@
     "icon": {
       "url": "activities/carpentry/ship_repair_intermediate.png"
     },
-    "skills": ["carpentry", "smithing"],
+    "skills": [
+      "carpentry",
+      "smithing"
+    ],
     "levelRequirements": {
       "carpentry": 40,
       "smithing": 30
     },
-    "requiredKeywords": ["carpentryTool"]
+    "requiredKeywords": [
+      "carpentryTool"
+    ]
   },
   {
     "id": "wood_carving",
@@ -655,11 +834,15 @@
     "icon": {
       "url": "activities/carpentry/wood_carving.png"
     },
-    "skills": ["carpentry"],
+    "skills": [
+      "carpentry"
+    ],
     "levelRequirements": {
       "carpentry": 10
     },
-    "requiredKeywords": ["carpentryTool"]
+    "requiredKeywords": [
+      "carpentryTool"
+    ]
   },
   {
     "id": "ice_sculpting",
@@ -668,12 +851,17 @@
     "icon": {
       "url": "activities/crafting/ice_sculpting.png"
     },
-    "skills": ["crafting", "carpentry"],
+    "skills": [
+      "crafting",
+      "carpentry"
+    ],
     "levelRequirements": {
       "crafting": 15,
       "carpentry": 10
     },
-    "requiredKeywords": ["craftingTool"]
+    "requiredKeywords": [
+      "craftingTool"
+    ]
   },
   {
     "id": "tinkering",
@@ -682,10 +870,14 @@
     "icon": {
       "url": "activities/crafting/tinkering.png"
     },
-    "skills": ["crafting"],
+    "skills": [
+      "crafting"
+    ],
     "levelRequirements": {
       "crafting": 25
     },
-    "requiredKeywords": ["craftingTool"]
+    "requiredKeywords": [
+      "craftingTool"
+    ]
   }
 ]
