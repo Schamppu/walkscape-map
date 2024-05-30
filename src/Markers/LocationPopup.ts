@@ -85,19 +85,20 @@ export class LocationPopup extends Popup {
     icon.className = "ws-location-popup__title-icon";
     titleDiv.appendChild(icon);
 
-    const title = DomUtil.create(
-      "h2",
-      "ws-location-popup__title",
-      titleDiv
-    );
-    const titleLink = DomUtil.create(
-      "a",
-      `${this.realm}-color`,
-      title,
-    );
-    titleLink.innerText = this.name;
-    titleLink.href = this.wikiUrl;
-    titleLink.target= "_blank";
+    if (this.wikiUrl.length) {
+      const title = DomUtil.create("h2", "ws-location-popup__title", titleDiv);
+      const titleLink = DomUtil.create("a", `${this.realm}-color`, title);
+      titleLink.innerText = this.name;
+      titleLink.href = this.wikiUrl;
+      titleLink.target = "_blank";
+    } else {
+      const title = DomUtil.create(
+        "h2",
+        `ws-location-popup__title ${this.realm}-color`,
+        titleDiv
+      );
+      title.innerText = this.name;
+    }
 
     const divider = DomUtil.create(
       "div",
@@ -163,10 +164,14 @@ export class LocationPopup extends Popup {
           infoDiv
         );
         const text = DomUtil.create("p", "", textsDiv);
-        const link = DomUtil.create("a", "", text);
-        link.innerText = d.name;
-        link.href = d.wikiUrl;
-        link.target= "_blank";
+        if (d.wikiUrl.length) {
+          const link = DomUtil.create("a", "", text);
+          link.innerText = d.name;
+          link.href = d.wikiUrl;
+          link.target = "_blank";
+        } else {
+          text.innerText = d.name;
+        }
 
         const keywordRequirementsDiv = DomUtil.create(
           "div",
@@ -217,10 +222,14 @@ export class LocationPopup extends Popup {
         dataDiv.appendChild(img);
 
         const text = DomUtil.create("p", "", dataDiv);
-        const link = DomUtil.create("a", "", text);
-        link.innerText = d.name;
-        link.href = d.wikiUrl;
-        link.target= "_blank";
+        if (d.wikiUrl.length) {
+          const link = DomUtil.create("a", "", text);
+          link.innerText = d.name;
+          link.href = d.wikiUrl;
+          link.target = "_blank";
+        } else {
+          text.innerText = d.name;
+        }
       });
     };
 
