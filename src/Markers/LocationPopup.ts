@@ -86,8 +86,16 @@ export class LocationPopup extends Popup {
     titleDiv.appendChild(icon);
 
     if (this.wikiUrl.length) {
-      const title = DomUtil.create("h2", "ws-location-popup__title", titleDiv);
-      const titleLink = DomUtil.create("a", `${this.realm}-color`, title);
+      const title = DomUtil.create(
+        "h2",
+        "ws-location-popup__title",
+        titleDiv
+      );
+      const titleLink = DomUtil.create(
+        "a",
+        `${this.realm}-color`,
+        title,
+      );
       titleLink.innerText = this.name;
       titleLink.href = this.wikiUrl;
       titleLink.target = "_blank";
