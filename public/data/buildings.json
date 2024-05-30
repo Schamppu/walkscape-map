@@ -52,7 +52,7 @@
   {
     "id": "helpful_herbert's_hut",
     "name": "Tutorial Cabin",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Tutorial_Cabin",
+    "wikiUrl": "",
     "icon": {
       "url": "buildings/cabin.png"
     },
@@ -112,7 +112,7 @@
   {
     "id": "bureau_of_moss",
     "name": "Bureau of Moss",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Bureau_of_Moss",
+    "wikiUrl": "",
     "icon": {
       "url": "buildings/tavern.png"
     },
@@ -192,7 +192,7 @@
   {
     "id": "bigloo",
     "name": "Bigloo",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Bigloo",
+    "wikiUrl": "",
     "icon": {
       "url": "buildings/igloo.png"
     },
