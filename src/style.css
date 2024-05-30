@@ -97,11 +97,11 @@ h1 {
 }
 
 .jarvonia-color {
-  color: #bbdff9;
+  color: #bbdff9 !important;
 }
 
 .gdte-color {
-  color: #cbe4cb;
+  color: #cbe4cb !important;
 }
 
 .ws-location-popup__title-wrapper {
@@ -188,6 +188,10 @@ h1 {
 
 .ws-location-popup__subcontent p {
   color: #dbd2c3;
+}
+
+.ws-location-popup__subcontent p a {
+  color: #dbd2c3 !important;
 }
 
 .ws-location-popup__subheader::first-letter {

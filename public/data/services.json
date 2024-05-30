@@ -2,6 +2,7 @@
   {
     "id": "basic_forge",
     "name": "Basic Forge",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Basic_Forge",
     "icon": {
       "url": "services/forge.png"
     },
@@ -12,6 +13,7 @@
   {
     "id": "advanced_forge",
     "name": "Advanced Forge",
+    "wikiUrl": "",
     "icon": {
       "url": "services/forge_advanced.png"
     },
@@ -22,6 +24,7 @@
   {
     "id": "basic_kitchen",
     "name": "Basic Kitchen",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Basic_Kitchen",
     "icon": {
       "url": "services/kitchen.png"
     },
@@ -32,6 +35,7 @@
   {
     "id": "advanced_kitchen",
     "name": "Advanced Kitchen",
+    "wikiUrl": "",
     "icon": {
       "url": "services/kitchen_advanced.png"
     },
@@ -42,6 +46,7 @@
   {
     "id": "basic_workshop",
     "name": "Basic Workshop",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Basic_Workshop",
     "icon": {
       "url": "services/workshop.png"
     },
@@ -52,6 +57,7 @@
   {
     "id": "advanced_workshop",
     "name": "Advanced Workshop",
+    "wikiUrl": "",
     "icon": {
       "url": "services/workshop_advanced.png"
     },
@@ -62,6 +68,7 @@
   {
     "id": "basic_sawmill",
     "name": "Basic Sawmill",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Basic_Sawmill",
     "icon": {
       "url": "services/sawmill.png"
     },
@@ -72,6 +79,7 @@
   {
     "id": "advanced_sawmill",
     "name": "Advanced Sawmill",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Advanced_Sawmill",
     "icon": {
       "url": "services/sawmill_advanced.png"
     },
@@ -82,6 +90,7 @@
   {
     "id": "frozen_forge",
     "name": "Frozen Forge",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Frozen_Forge",
     "icon": {
       "url": "services/forge_frozen.png"
     },
