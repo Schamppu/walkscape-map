@@ -2,22 +2,30 @@
   {
     "id": "cut_pine_trees",
     "name": "Cut Pine Trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Pine_Trees",
     "icon": {
       "url": "activities/woodcutting/pine.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 10
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "dobby_is..._free",
     "name": "Forest Foraging",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Forest_Foraging",
     "icon": {
       "url": "activities/foraging/winter_foraging_forest.png"
     },
-    "skills": ["foraging"],
+    "skills": [
+      "foraging"
+    ],
     "levelRequirements": {
       "foraging": 1
     },
@@ -26,22 +34,30 @@
   {
     "id": "cut_birch_trees",
     "name": "Cut Birch Trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Birch_Trees",
     "icon": {
       "url": "activities/woodcutting/birch.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 1
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "litter_looting",
     "name": "Litter Looting",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Litter_Looting",
     "icon": {
       "url": "activities/foraging/litter_looting.png"
     },
-    "skills": ["foraging"],
+    "skills": [
+      "foraging"
+    ],
     "levelRequirements": {
       "foraging": 8
     },
@@ -50,70 +66,99 @@
   {
     "id": "cut_spruce_trees",
     "name": "Cut Spruce Trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Spruce_Trees",
     "icon": {
       "url": "activities/woodcutting/spruce.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 20
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "mine_copper_ore",
     "name": "Mine Copper Ore",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_Copper_Ore",
     "icon": {
       "url": "activities/mining/copper.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 1
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "mine_tin_ore",
     "name": "Mine Tin Ore",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_Tin_Ore",
     "icon": {
       "url": "activities/mining/tin.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 10
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "mine_iron_ore",
     "name": "Mine Iron Ore",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_Iron_Ore",
     "icon": {
       "url": "activities/mining/iron.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 20
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "mine_coal",
     "name": "Mine Coal",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_Coal",
     "icon": {
       "url": "activities/mining/coal.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 30
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "cliff_foraging",
     "name": "Cliff Foraging",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cliff_Foraging",
     "icon": {
       "url": "activities/foraging/winter_foraging_mountains.png"
     },
-    "skills": ["foraging", "agility"],
+    "skills": [
+      "foraging",
+      "agility"
+    ],
     "levelRequirements": {
       "foraging": 25,
       "agility": 20
@@ -123,34 +168,47 @@
   {
     "id": "pond_fishing",
     "name": "Pond Fishing",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Pond_Fishing",
     "icon": {
       "url": "activities/fishing/winter_fishing_pond.png"
     },
-    "skills": ["fishing"],
+    "skills": [
+      "fishing"
+    ],
     "levelRequirements": {
       "fishing": 1
     },
-    "requiredKeywords": ["fishingRod"]
+    "requiredKeywords": [
+      "fishingRod"
+    ]
   },
   {
     "id": "sea_fishing",
     "name": "Sea Fishing (net)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_Fishing_(net)",
     "icon": {
       "url": "activities/fishing/winter_fishing_sea.png"
     },
-    "skills": ["fishing"],
+    "skills": [
+      "fishing"
+    ],
     "levelRequirements": {
       "fishing": 1
     },
-    "requiredKeywords": ["fishingNet"]
+    "requiredKeywords": [
+      "fishingNet"
+    ]
   },
   {
     "id": "plains_foraging",
     "name": "Plains Foraging",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Plains_Foraging",
     "icon": {
       "url": "activities/foraging/winter_foraging_plains.png"
     },
-    "skills": ["foraging"],
+    "skills": [
+      "foraging"
+    ],
     "levelRequirements": {
       "foraging": 10
     },
@@ -159,22 +217,30 @@
   {
     "id": "lake_fishing",
     "name": "Lake Fishing",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Lake_Fishing",
     "icon": {
       "url": "activities/fishing/winter_fishing_lake.png"
     },
-    "skills": ["fishing"],
+    "skills": [
+      "fishing"
+    ],
     "levelRequirements": {
       "fishing": 5
     },
-    "requiredKeywords": ["fishingRod"]
+    "requiredKeywords": [
+      "fishingRod"
+    ]
   },
   {
     "id": "sandcastle_building",
     "name": "Sandcastle Building",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sandcastle_Building",
     "icon": {
       "url": "activities/carpentry/sandcastle_building.png"
     },
-    "skills": ["carpentry"],
+    "skills": [
+      "carpentry"
+    ],
     "levelRequirements": {
       "carpentry": 1
     },
@@ -183,70 +249,98 @@
   {
     "id": "cut_oak_trees",
     "name": "Cut Oak Trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Oak_Trees",
     "icon": {
       "url": "activities/woodcutting/oak.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 25
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "cut_maple_trees",
     "name": "Cut Maple Trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Maple_Trees",
     "icon": {
       "url": "activities/woodcutting/maple.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 30
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "teak_logs",
     "name": "Teak Logs",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Teak_Logs",
     "icon": {
       "url": "activities/woodcutting/teak.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 40
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "cut_willow_trees",
     "name": "Cut Willow Trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Willow_Trees",
     "icon": {
       "url": "activities/woodcutting/willow.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 40
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "cut_mangrove_trees",
     "name": "Cut Mangrove Trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Mangrove_Trees",
     "icon": {
       "url": "activities/woodcutting/mangrove.png"
     },
-    "skills": ["woodcutting"],
+    "skills": [
+      "woodcutting"
+    ],
     "levelRequirements": {
       "woodcutting": 50
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "seashell_searching",
     "name": "Seashell Searching",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Seashell_Searching",
     "icon": {
       "url": "activities/foraging/winter_foraging_coast.png"
     },
-    "skills": ["foraging"],
+    "skills": [
+      "foraging"
+    ],
     "levelRequirements": {
       "foraging": 25
     },
@@ -255,94 +349,132 @@
   {
     "id": "mine_tarsilium_ore",
     "name": "Mine Tarsilium Ore",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_Tarsilium_Ore",
     "icon": {
       "url": "activities/mining/tarsilium.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 40
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "mine_farganite_ore",
     "name": "Mine Farganite Ore",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_Farganite_Ore",
     "icon": {
       "url": "activities/mining/farganite.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 50
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "sea_fishing_(rod)",
     "name": "Sea Fishing (rod)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_Fishing_(rod)",
     "icon": {
       "url": "activities/fishing/winter_fishing_sea.png"
     },
-    "skills": ["fishing"],
+    "skills": [
+      "fishing"
+    ],
     "levelRequirements": {
       "fishing": 20
     },
-    "requiredKeywords": ["fishingRod"]
+    "requiredKeywords": [
+      "fishingRod"
+    ]
   },
   {
     "id": "frisbee_golfing_(beginner)",
     "name": "Frisbee Golfing (Beginner)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Frisbee_Golfing_(Beginner)",
     "icon": {
       "url": "activities/agility/frisbee.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 10
     },
-    "requiredKeywords": ["frisbee"]
+    "requiredKeywords": [
+      "frisbee"
+    ]
   },
   {
     "id": "frisbee_golfing_(intermediate)",
     "name": "Frisbee Golfing (intermediate)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Frisbee_Golfing_(intermediate)",
     "icon": {
       "url": "activities/agility/frisbee.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 25
     },
-    "requiredKeywords": ["frisbee"]
+    "requiredKeywords": [
+      "frisbee"
+    ]
   },
   {
     "id": "cross-country_skiing_(beginner)",
     "name": "Cross-Country Skiing (beginner)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cross-Country_Skiing_(beginner)",
     "icon": {
       "url": "activities/agility/coss_country_skiing.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 5
     },
-    "requiredKeywords": ["skis"]
+    "requiredKeywords": [
+      "skis"
+    ]
   },
   {
     "id": "cross-country_skiing_(intermediate)",
     "name": "Cross-Country Skiing (intermediate)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cross-Country_Skiing_(intermediate)",
     "icon": {
       "url": "activities/agility/coss_country_skiing.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 20
     },
-    "requiredKeywords": ["skis"]
+    "requiredKeywords": [
+      "skis"
+    ]
   },
   {
     "id": "soup_kitchen_volunteering",
     "name": "Soup Kitchen Volunteering",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Soup_Kitchen_Volunteering",
     "icon": {
       "url": "activities/cooking/soup_kitchen_work.png"
     },
-    "skills": ["cooking"],
+    "skills": [
+      "cooking"
+    ],
     "levelRequirements": {
       "cooking": 10
     },
@@ -351,10 +483,14 @@
   {
     "id": "wine_grape_stomping",
     "name": "Wine Grape Stomping",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Wine_Grape_Stomping",
     "icon": {
       "url": "activities/cooking/wine_grape_stomping.png"
     },
-    "skills": ["cooking", "agility"],
+    "skills": [
+      "cooking",
+      "agility"
+    ],
     "levelRequirements": {
       "cooking": 45,
       "agility": 30
@@ -364,61 +500,89 @@
   {
     "id": "gold_panning",
     "name": "Gold Panning",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Gold_Panning",
     "icon": {
       "url": "activities/mining/gold_panning.png"
     },
-    "skills": ["mining", "fishing"],
+    "skills": [
+      "mining",
+      "fishing"
+    ],
     "levelRequirements": {
       "mining": 15,
       "fishing": 5
     },
-    "requiredKeywords": ["goldPan"]
+    "requiredKeywords": [
+      "goldPan"
+    ]
   },
   {
     "id": "spelunking",
     "name": "Spelunking",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Spelunking",
     "icon": {
       "url": "activities/mining/spelunking.png"
     },
-    "skills": ["mining", "agility"],
+    "skills": [
+      "mining",
+      "agility"
+    ],
     "levelRequirements": {
       "mining": 50,
       "agility": 50
     },
-    "requiredKeywords": ["lightSource", "climbingTool"]
+    "requiredKeywords": [
+      "lightSource",
+      "climbingTool"
+    ]
   },
   {
     "id": "surface_salt_mining",
     "name": "Surface Salt Mining",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Surface_Salt_Mining",
     "icon": {
       "url": "activities/mining/salt.png"
     },
-    "skills": ["mining"],
+    "skills": [
+      "mining"
+    ],
     "levelRequirements": {
       "mining": 1
     },
-    "requiredKeywords": ["pickaxe"]
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   },
   {
     "id": "magnet_fishing",
     "name": "Magnet Fishing",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Magnet_Fishing",
     "icon": {
       "url": "activities/fishing/magnet_fishing.png"
     },
-    "skills": ["fishing", "foraging"],
+    "skills": [
+      "fishing",
+      "foraging"
+    ],
     "levelRequirements": {
       "fishing": 40,
       "foraging": 30
     },
-    "requiredKeywords": ["magnetic"]
+    "requiredKeywords": [
+      "magnetic"
+    ]
   },
   {
     "id": "glacier_foraging",
     "name": "Glacier Foraging",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Glacier_Foraging",
     "icon": {
       "url": "activities/foraging/glacier_foraging.png"
     },
-    "skills": ["foraging", "agility"],
+    "skills": [
+      "foraging",
+      "agility"
+    ],
     "levelRequirements": {
       "foraging": 30,
       "agility": 30
@@ -428,23 +592,33 @@
   {
     "id": "butterfly_catching",
     "name": "Butterfly Catching",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Butterfly_Catching",
     "icon": {
       "url": "activities/foraging/butterfly_catching.png"
     },
-    "skills": ["foraging", "agility"],
+    "skills": [
+      "foraging",
+      "agility"
+    ],
     "levelRequirements": {
       "foraging": 40,
       "agility": 30
     },
-    "requiredKeywords": ["bugCatchingNet"]
+    "requiredKeywords": [
+      "bugCatchingNet"
+    ]
   },
   {
     "id": "dumpster_diving",
     "name": "Dumpster Diving",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Dumpster_Diving",
     "icon": {
       "url": "activities/foraging/dumpster_diving.png"
     },
-    "skills": ["foraging", "agility"],
+    "skills": [
+      "foraging",
+      "agility"
+    ],
     "levelRequirements": {
       "foraging": 35,
       "agility": 20
@@ -454,10 +628,14 @@
   {
     "id": "dumpster_diving",
     "name": "Dumpster Diving",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Dumpster_Diving",
     "icon": {
       "url": "activities/foraging/dumpster_diving.png"
     },
-    "skills": ["foraging", "agility"],
+    "skills": [
+      "foraging",
+      "agility"
+    ],
     "levelRequirements": {
       "foraging": 35,
       "agility": 20
@@ -467,71 +645,100 @@
   {
     "id": "firewood_making",
     "name": "Firewood Making",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Firewood_Making",
     "icon": {
       "url": "activities/woodcutting/firewood_making.png"
     },
-    "skills": ["woodcutting", "agility"],
+    "skills": [
+      "woodcutting",
+      "agility"
+    ],
     "levelRequirements": {
       "woodcutting": 15,
       "agility": 10
     },
-    "requiredKeywords": ["woodcuttingHatchet"]
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
   },
   {
     "id": "horseshoe_making",
     "name": "Horseshoe Making",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Horseshoe_Making",
     "icon": {
       "url": "activities/smithing/horseshoe_making.png"
     },
-    "skills": ["smithing"],
+    "skills": [
+      "smithing"
+    ],
     "levelRequirements": {
       "smithing": 20
     },
-    "requiredKeywords": ["smithingHammer"]
+    "requiredKeywords": [
+      "smithingHammer"
+    ]
   },
   {
     "id": "mountain_climbing_(beginner)",
     "name": "Mountain Climbing (Beginner)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mountain_Climbing_(Beginner)",
     "icon": {
       "url": "activities/agility/mountain_climbing_beginner.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 10
     },
-    "requiredKeywords": ["climbingTool"]
+    "requiredKeywords": [
+      "climbingTool"
+    ]
   },
   {
     "id": "mountain_climbing_(intermediate)",
     "name": "Mountain Climbing (intermediate)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mountain_Climbing_(intermediate)",
     "icon": {
       "url": "activities/agility/mountain_climbing_intermediater.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 35
     },
-    "requiredKeywords": ["climbingTool"]
+    "requiredKeywords": [
+      "climbingTool"
+    ]
   },
   {
     "id": "kayaking",
     "name": "Kayaking",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Kayaking",
     "icon": {
       "url": "activities/agility/kayaking.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 30
     },
-    "requiredKeywords": ["lifevest"]
+    "requiredKeywords": [
+      "lifevest"
+    ]
   },
   {
     "id": "rooftop_jumping",
     "name": "Rooftop Jumping (beginner)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Rooftop_Jumping_(beginner)",
     "icon": {
       "url": "activities/agility/rooftop_jumping_beginner.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 25
     },
@@ -540,10 +747,13 @@
   {
     "id": "rooftop_jumping_(intermediate)",
     "name": "Rooftop Jumping (intermediate)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Rooftop_Jumping_(intermediate)",
     "icon": {
       "url": "activities/agility/rooftop_jumping_intermediate.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 45
     },
@@ -552,10 +762,13 @@
   {
     "id": "swimming_(beginner)",
     "name": "Swimming (beginner)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Swimming_(beginner)",
     "icon": {
       "url": "activities/agility/swimming.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 20
     },
@@ -563,11 +776,14 @@
   },
   {
     "id": "swimming_(intermediate)",
-    "name": "Swimming intermediate",
+    "name": "Swimming (intermediate)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Swimming_(intermediate)",
     "icon": {
       "url": "activities/agility/swimming.png"
     },
-    "skills": ["agility"],
+    "skills": [
+      "agility"
+    ],
     "levelRequirements": {
       "agility": 40
     },
@@ -576,64 +792,92 @@
   {
     "id": "ship_repair_(beginner)",
     "name": "Ship Repair (beginner)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Ship_Repair_(beginner)",
     "icon": {
       "url": "activities/carpentry/ship_repair_beginner.png"
     },
-    "skills": ["carpentry", "smithing"],
+    "skills": [
+      "carpentry",
+      "smithing"
+    ],
     "levelRequirements": {
       "carpentry": 20,
       "smithing": 10
     },
-    "requiredKeywords": ["carpentryTool"]
+    "requiredKeywords": [
+      "carpentryTool"
+    ]
   },
   {
     "id": "ship_repair_(intermediate)",
     "name": "Ship Repair (intermediate)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Ship_Repair_(intermediate)",
     "icon": {
       "url": "activities/carpentry/ship_repair_intermediate.png"
     },
-    "skills": ["carpentry", "smithing"],
+    "skills": [
+      "carpentry",
+      "smithing"
+    ],
     "levelRequirements": {
       "carpentry": 40,
       "smithing": 30
     },
-    "requiredKeywords": ["carpentryTool"]
+    "requiredKeywords": [
+      "carpentryTool"
+    ]
   },
   {
     "id": "wood_carving",
     "name": "Wood Carving",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Wood_Carving",
     "icon": {
       "url": "activities/carpentry/wood_carving.png"
     },
-    "skills": ["carpentry"],
+    "skills": [
+      "carpentry"
+    ],
     "levelRequirements": {
       "carpentry": 10
     },
-    "requiredKeywords": ["carpentryTool"]
+    "requiredKeywords": [
+      "carpentryTool"
+    ]
   },
   {
     "id": "ice_sculpting",
     "name": "Ice Sculpting",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Ice_Sculpting",
     "icon": {
       "url": "activities/crafting/ice_sculpting.png"
     },
-    "skills": ["crafting", "carpentry"],
+    "skills": [
+      "crafting",
+      "carpentry"
+    ],
     "levelRequirements": {
       "crafting": 15,
       "carpentry": 10
     },
-    "requiredKeywords": ["craftingTool"]
+    "requiredKeywords": [
+      "craftingTool"
+    ]
   },
   {
     "id": "tinkering",
     "name": "Tinkering",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Tinkering",
     "icon": {
       "url": "activities/crafting/tinkering.png"
     },
-    "skills": ["crafting"],
+    "skills": [
+      "crafting"
+    ],
     "levelRequirements": {
       "crafting": 25
     },
-    "requiredKeywords": ["craftingTool"]
+    "requiredKeywords": [
+      "craftingTool"
+    ]
   }
 ]

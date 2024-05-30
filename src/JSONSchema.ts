@@ -23,6 +23,7 @@ export interface Marker {
 export interface Location extends Marker {
   hidden: boolean;
   realm: string;
+  wikiUrl: string;
   activities: string[];
   buildings: string[];
   services: string[];
@@ -31,6 +32,7 @@ export interface Location extends Marker {
 export interface MappedLocation extends Marker {
   hidden: boolean;
   realm: string;
+  wikiUrl: string;
   activities: Activity[];
   buildings: Building[];
   services: Service[];
@@ -40,6 +42,7 @@ export interface MappedLocation extends Marker {
 export interface DataPoint {
   id: string;
   name: string;
+  wikiUrl: string,
   icon: { url: string; width?: number; height?: number };
 }
 

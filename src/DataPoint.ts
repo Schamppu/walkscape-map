@@ -4,10 +4,12 @@ export class DataPoint implements Schema.DataPoint {
   public constructor(
     public id: string,
     public name: string,
+    public wikiUrl: string,
     public icon: { url: string; width?: number; height?: number }
   ) {
     this.id = id;
     this.name = name;
+    this.wikiUrl = wikiUrl;
     this.icon = icon;
   }
 
