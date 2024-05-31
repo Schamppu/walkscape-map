@@ -45,6 +45,13 @@ h1 {
   text-align: center;
 }
 
+.flex-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .leaflet-marker-icon.marker-div-icon.leaflet-interactive {
   pointer-events: none;
 }

@@ -27,7 +27,10 @@ window.onload = async () => {
     minZoom: 0,
     maxZoom: 4,
   });
-  const mapLayer = map.addMapLayer();
+  const mapLayer = map.addMapLayer("in-game", true);
+  map.addMapLayer("concept art", false);
+  map.addMapLayer("before 0.1.0-beta+248", false);
+
   map.addControls();
   map.addFilterGroup(
     [
