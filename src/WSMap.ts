@@ -1,9 +1,10 @@
-import { Map, LatLngBounds, MapOptions, Point } from "leaflet";
+import { Map, LatLngBounds, MapOptions, Point, Control } from "leaflet";
 import { create } from "./WSCRS";
 import { MapLayer } from "./MapLayer";
 import { ControlDock } from "./Controls/ControlDock";
 import { ZoomControl } from "./Controls/ZoomControl";
 import { FilterControl } from "./Controls/FilterControl";
+import { LayersControl } from "./Controls/LayersControl";
 import { FilterCategory } from "./FilterCategory";
 
 export interface WSMapOptions extends MapOptions {
@@ -14,6 +15,8 @@ export interface WSMapOptions extends MapOptions {
 export class WSMap extends Map {
   private layers = <MapLayer[]>[];
   private filterControl?: FilterControl;
+  private layersControl?: LayersControl;
+  private mapLayers: Record<string, MapLayer> = {};
 
   private constructor(
     element: string | HTMLElement,
@@ -78,11 +81,12 @@ export class WSMap extends Map {
     return map;
   }
 
-  public addMapLayer(layerName = "Default"): MapLayer {
+  public addMapLayer(layerName: string, visible: boolean): MapLayer {
     const layer = new MapLayer(this, layerName, this.tileSize, this.bounds);
     this.addLayer(layer);
     this.layers.push(layer);
-    layer.show();
+    if (visible) layer.show();
+    this.mapLayers[layerName] = layer;
     return layer;
   }
 
@@ -105,6 +109,9 @@ export class WSMap extends Map {
     // Filter
     this.filterControl = new FilterControl(this.layers);
     controls.addControl(this.filterControl);
+
+    this.layersControl = new LayersControl(this.mapLayers);
+    controls.addControl(this.layersControl);
 
     controls.addTo(this);
   }

@@ -17,7 +17,7 @@ export class MapLayer extends LayerGroup {
     bounds: LatLngBounds
   ) {
     super();
-    this.tileLayer = new TileLayer("tiles/{z}/{x}_{y}.png", {
+    this.tileLayer = new TileLayer(`tiles/${layerName}/{z}/{x}_{y}.png`, {
       tileSize: tileSize,
       minZoom: 0,
       maxZoom: map.getMaxZoom(),

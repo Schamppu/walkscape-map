@@ -27,7 +27,9 @@ window.onload = async () => {
     minZoom: 0,
     maxZoom: 4,
   });
-  const mapLayer = map.addMapLayer();
+  const mapLayer = map.addMapLayer("main", true);
+  map.addMapLayer("concept", false);
+
   map.addControls();
   map.addFilterGroup(
     [
