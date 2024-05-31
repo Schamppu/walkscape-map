@@ -20,7 +20,7 @@ export class LayersControl extends ControlPane {
     });
     this.layerList = [];
     DomUtil.create("h3", "ws-control__title", this.container).innerText =
-      "Layers";
+      "Maps";
 
     this.layerContainer = DomUtil.create(
       "ul",
@@ -32,7 +32,7 @@ export class LayersControl extends ControlPane {
       this.addBaseLayer(name, layer);
     }
 
-    const mainLayer = this.findLayer("main");
+    const mainLayer = this.findLayer("in-game");
     if (mainLayer) this.currentLayer = mainLayer;
     else this.currentLayer = this.layerList[0];
     this.enableLayer(this.currentLayer);
