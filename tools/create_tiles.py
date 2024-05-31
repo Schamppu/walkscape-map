@@ -15,7 +15,7 @@ def load_image(filename):
 def mkdir(path):
   os.makedirs(path, exist_ok=True)
   
-def square_borders(img):
+def tile_borders(img):
   img_x, img_y = img.size
   for y in range(0, img_y // TILESIZE):
     for x in range(0, img_x // TILESIZE):
@@ -26,7 +26,7 @@ def square_borders(img):
 def split_to_tiles(zoom_level, img):
   is_divisible_by_tilesize(img)
   mkdir(f'out/{zoom_level}')
-  for border, x, y in square_borders(img):
+  for border, x, y in tile_borders(img):
     tile = img.crop(border)
     tile.save(f"out/{zoom_level}/{x}_{y}.png", optimize=True)
 
@@ -36,10 +36,17 @@ def main():
 
   base_zoom_level = 2
   for zoom_level in range(0,5):
-    scaling_factor = base_zoom_level**(zoom_level - base_zoom_level)
+    print(f"processing zoom level: {zoom_level}/4")
+    scaling_factor = 2**(zoom_level - base_zoom_level)
     size = tuple([int(scaling_factor * x) for x in img.size])
     scaled_img = img.resize(size)
+    x, y = size
+    print(f"{x // TILESIZE} * {y // TILESIZE} = {x // TILESIZE * y // TILESIZE} tiles")
     split_to_tiles(zoom_level, scaled_img)
+  
+  # create icon:
+  tile = img.crop((1536, 1280, 1792, 1536))
+  tile.save(f"out/icon.png", optimize=True)
 
 if __name__ == '__main__':
     # To use, add base image to data/{zoom_level}.png
