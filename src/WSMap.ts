@@ -1,4 +1,4 @@
-import { Map, LatLngBounds, MapOptions, Point, Control } from "leaflet";
+import { Map, LatLngBounds, MapOptions, Point } from "leaflet";
 import { create } from "./WSCRS";
 import { MapLayer } from "./MapLayer";
 import { ControlDock } from "./Controls/ControlDock";
