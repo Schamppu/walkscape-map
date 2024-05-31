@@ -29,7 +29,7 @@ window.onload = async () => {
   });
   const mapLayer = map.addMapLayer("in-game", true);
   map.addMapLayer("concept art", false);
-  map.addMapLayer("before 0.1.0-beta+248", false);
+  map.addMapLayer("before beta build 248", false);
 
   map.addControls();
   map.addFilterGroup(
