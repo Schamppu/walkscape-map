@@ -30,7 +30,7 @@ window.onload = async () => {
     maxZoom: 4,
   });
   map.addMapLayer("in-game", "In-Game", "in-game", true);
-  map.addMapLayer("pre-beta-248", "Before 0.1.0-beta+248", "before beta build 248");
+  map.addMapLayer("pre-beta-248", "Before 0.1.0-beta+248", "pre-beta-248");
   map.addMapLayer("concept", "Concept Art", "concept art");
 
   map.addControls();
