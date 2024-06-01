@@ -1,11 +1,13 @@
 import { Map, LatLngBounds, MapOptions, Point } from "leaflet";
 import { create } from "./WSCRS";
 import { MapLayer } from "./MapLayer";
+import { Layer } from "./Layer";
 import { ControlDock } from "./Controls/ControlDock";
 import { ZoomControl } from "./Controls/ZoomControl";
 import { FilterControl } from "./Controls/FilterControl";
 import { LayersControl } from "./Controls/LayersControl";
 import { FilterCategory } from "./FilterCategory";
+import * as Schema from "./JSONSchema";
 
 export interface WSMapOptions extends MapOptions {
   mapSizePixels: number;
@@ -62,10 +64,6 @@ export class WSMap extends Map {
     map.dragging.enable();
     map.scrollWheelZoom.enable();
 
-    map.on("click", () => {
-      console.log(map.getCenter());
-    });
-
     map.on("zoomend", function () {
       map.layers.forEach((l) => {
         l.updateZoom(map.getZoom());
@@ -81,13 +79,43 @@ export class WSMap extends Map {
     return map;
   }
 
-  public addMapLayer(layerName: string, visible: boolean): MapLayer {
-    const layer = new MapLayer(this, layerName, this.tileSize, this.bounds);
+  public addMapLayer(
+    layerName: string,
+    displayName: string,
+    tilePath: string,
+    visible: boolean = false
+  ): MapLayer {
+    const layer = new MapLayer(
+      this,
+      layerName,
+      displayName,
+      tilePath,
+      this.tileSize,
+      this.bounds
+    );
     this.addLayer(layer);
     this.layers.push(layer);
     if (visible) layer.show();
     this.mapLayers[layerName] = layer;
     return layer;
+  }
+
+  public addRealmKeywords() {
+    for (const mapLayer of Object.values(this.mapLayers)) {
+      mapLayer.addRealmKeywords();
+    }
+  }
+
+  public addCategory(category: Schema.Category, data: Schema.DataPoint[][]) {
+    for (const layer of category.layers) {
+      for (const mapLayerName of layer.mapLayers) {
+        const mapLayer = this.mapLayers[mapLayerName];
+        mapLayer.addCategory(
+          category.name,
+          Layer.fromJson(layer, category.name, data)
+        );
+      }
+    }
   }
 
   public addControls(): void {
@@ -112,7 +140,6 @@ export class WSMap extends Map {
 
     this.layersControl = new LayersControl(this.mapLayers);
     controls.addControl(this.layersControl);
-
     controls.addTo(this);
   }
 

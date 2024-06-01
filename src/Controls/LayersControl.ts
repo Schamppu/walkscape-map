@@ -28,8 +28,8 @@ export class LayersControl extends ControlPane {
       this.container
     );
 
-    for (const [name, layer] of Object.entries(baseLayers)) {
-      this.addBaseLayer(name, layer);
+    for (const layer of Object.values(baseLayers)) {
+      this.addBaseLayer(layer);
     }
 
     const mainLayer = this.findLayer("in-game");
@@ -38,10 +38,10 @@ export class LayersControl extends ControlPane {
     this.enableLayer(this.currentLayer);
   }
 
-  private addBaseLayer(name: string, layer: MapLayer) {
-    const li = this.createBaseLayerLi(name);
+  private addBaseLayer(layer: MapLayer) {
+    const li = this.createBaseLayerLi(layer);
     const layerItem = {
-      name,
+      name: layer.layerName,
       layer,
       li,
     };
@@ -49,7 +49,7 @@ export class LayersControl extends ControlPane {
     this.layerList.push(layerItem);
   }
 
-  private createBaseLayerLi(name: string): HTMLElement {
+  private createBaseLayerLi(layer: MapLayer): HTMLElement {
     const li = DomUtil.create(
       "li",
       "ws-legend__category-div selectable",
@@ -57,14 +57,14 @@ export class LayersControl extends ControlPane {
     );
 
     const icon = DomUtil.create("img", "", li);
-    icon.src = `tiles/${name}/icon.png`;
+    icon.src = `tiles/${layer.tilePath}/icon.png`;
     const iconSize = 128;
     icon.style.width = iconSize + "px";
     icon.style.height = iconSize + "px";
 
     const div = DomUtil.create("div", "flex-center", li)
     const p = DomUtil.create("p", "layer__title", div);
-    p.innerText = this.capitalize(name);
+    p.innerText = layer.displayName;
     return li;
   }
 
@@ -95,9 +95,5 @@ export class LayersControl extends ControlPane {
     const { li, layer } = layerItem;
     DomUtil.removeClass(li, "selected");
     layer.hide();
-  }
-
-  private capitalize(string: string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
   }
 }

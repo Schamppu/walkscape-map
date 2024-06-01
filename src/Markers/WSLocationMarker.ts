@@ -10,7 +10,8 @@ export class WSLocationMarker extends WSMarker {
   protected constructor(
     json: Schema.MappedLocation,
     public hidden: boolean,
-    private keywords: string[],
+    public realm: string,
+    keywords: string[],
     coords: LatLngExpression,
     layer: Layer
   ) {
@@ -27,7 +28,9 @@ export class WSLocationMarker extends WSMarker {
         services: json.services,
       });
       this.popup = popup;
+      this.realm = json.realm;
       this.bindPopup(this.popup);
+      this.addKeywords(keywords);
     }
 
     this.on("popupopen", () => {
@@ -50,15 +53,12 @@ export class WSLocationMarker extends WSMarker {
     const marker = new WSLocationMarker(
       json,
       json.hidden,
+      json.realm,
       json.keywords,
       json.coords,
       layer
     );
     return marker;
-  }
-
-  public getKeywords() {
-    return this.keywords;
   }
 
   private updateUrl(enable: boolean): void {

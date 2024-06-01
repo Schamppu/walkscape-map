@@ -85,7 +85,7 @@ export class Layer extends LayerGroup {
     categoryName: string,
     data: Schema.DataPoint[][]
   ): Layer {
-    const layer = new Layer(json.name ?? categoryName);
+    const layer = new Layer(categoryName);
 
     if (json.minZoom != undefined) {
       layer.minZoom = json.minZoom;
