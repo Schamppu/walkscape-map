@@ -12,6 +12,7 @@ export class MapLayer extends LayerGroup {
   public constructor(
     private map: WSMap,
     public layerName: string,
+    public displayName: string,
     public tilePath: string,
     public tileSize: number,
     bounds: LatLngBounds

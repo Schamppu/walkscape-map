@@ -29,9 +29,9 @@ window.onload = async () => {
     minZoom: 0,
     maxZoom: 4,
   });
-  map.addMapLayer("in-game", "in-game", true);
-  map.addMapLayer("before beta build 248", "before beta build 248");
-  map.addMapLayer("concept art", "concept art");
+  map.addMapLayer("in-game", "In-Game", "in-game", true);
+  map.addMapLayer("pre-beta-248", "Before 0.1.0-beta+248", "before beta build 248");
+  map.addMapLayer("concept", "Concept Art", "concept art");
 
   map.addControls();
   map.addFilterGroup(

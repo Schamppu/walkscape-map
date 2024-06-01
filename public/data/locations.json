@@ -3,7 +3,7 @@
     "name": "Realms",
     "layers": [
       {
-        "mapLayers": ["in-game", "before beta build 248"],
+        "mapLayers": ["in-game", "pre-beta-248"],
         "minZoom": 0,
         "maxZoom": 0,
         "markers": [
@@ -145,7 +145,7 @@
     "name": "Locations",
     "layers": [
       {
-        "mapLayers": ["in-game", "before beta build 248"],
+        "mapLayers": ["in-game", "pre-beta-248"],
         "minZoom": 1,
         "maxZoom": 4,
         "labelMinZoom": 2,

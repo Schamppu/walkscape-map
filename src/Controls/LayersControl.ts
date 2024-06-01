@@ -64,7 +64,7 @@ export class LayersControl extends ControlPane {
 
     const div = DomUtil.create("div", "flex-center", li)
     const p = DomUtil.create("p", "layer__title", div);
-    p.innerText = this.capitalize(layer.layerName);
+    p.innerText = layer.displayName;
     return li;
   }
 
@@ -95,9 +95,5 @@ export class LayersControl extends ControlPane {
     const { li, layer } = layerItem;
     DomUtil.removeClass(li, "selected");
     layer.hide();
-  }
-
-  private capitalize(string: string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
   }
 }
