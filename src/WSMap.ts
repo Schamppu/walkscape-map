@@ -156,8 +156,10 @@ export class WSMap extends Map {
       return;
     }
 
+    const openPopup = !(urlParams.has("n") || urlParams.has("no-popup"))
+
     this.layers.forEach((l) => {
-      l.findLocationMarker(location.toLocaleLowerCase());
+      l.findLocationMarker(location.toLocaleLowerCase(), openPopup);
     });
   }
 

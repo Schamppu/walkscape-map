@@ -147,7 +147,7 @@ export class MapLayer extends LayerGroup {
     }
   }
 
-  public findLocationMarker(locationId: string) {
+  public findLocationMarker(locationId: string, openPopup: boolean = true) {
     let location: WSMarker | undefined;
     for (const layer of Object.values(this.categories)) {
       layer.markers.forEach((marker) => {
@@ -159,7 +159,9 @@ export class MapLayer extends LayerGroup {
     }
     if (location) {
       this.map.setView(location.coords, 3);
-      location.openPopup();
+      if (openPopup) {
+        location.openPopup();
+      }
     }
   }
 }
