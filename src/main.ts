@@ -1,7 +1,6 @@
 import "leaflet/dist/leaflet.css";
 import "./style.css";
 import { WSMap } from "./WSMap";
-import { Layer } from "./Layer";
 import * as Schema from "./JSONSchema";
 import { inject } from "@vercel/analytics";
 
@@ -30,7 +29,7 @@ window.onload = async () => {
     minZoom: 0,
     maxZoom: 4,
   });
-  const mapLayer = map.addMapLayer("in-game", true);
+  map.addMapLayer("in-game", true);
   map.addMapLayer("concept art", false);
   map.addMapLayer("before beta build 248", false);
 
@@ -157,10 +156,7 @@ window.onload = async () => {
 
   function addJson(categories: Schema.Category[]): void {
     for (const category of categories) {
-      mapLayer.addCategory(
-        category.name,
-        category.layers.map((l) => Layer.fromJson(l, category.name, data))
-      );
+      map.addCategory(category, data);
     }
   }
 

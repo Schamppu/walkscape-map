@@ -6,7 +6,7 @@ import { WSMarker } from "./Markers/WSMarker";
 export class MapLayer extends LayerGroup {
   public tileLayer: TileLayer;
   public markerLayer: LayerGroup;
-  private categories: Record<string, Layer[]> = {};
+  private categories: Record<string, Layer> = {};
   private currentZoom = 2;
 
   public constructor(
@@ -44,22 +44,18 @@ export class MapLayer extends LayerGroup {
     }
   }
 
-  public addCategory(categoryName: string, layers: Layer[]): void {
-    this.categories[categoryName] = layers;
+  public addCategory(categoryName: string, layer: Layer): void {
+    this.categories[categoryName] = layer;
     const bounds = this.map.getBounds();
-    layers.forEach((l) => {
-      this.updateLayerVisibility(l);
-      l.updateMarkerVisibility(bounds);
-    });
+    this.updateLayerVisibility(layer);
+    layer.updateMarkerVisibility(bounds);
   }
 
   private getMarkers() {
     const markers: WSMarker[] = [];
-    for (const category of Object.values(this.categories)) {
-      for (const layer of category) {
-        for (const m of layer.markers) {
-          markers.push(m);
-        }
+    for (const layer of Object.values(this.categories)) {
+      for (const m of layer.markers) {
+        markers.push(m);
       }
     }
     return markers;
@@ -83,11 +79,9 @@ export class MapLayer extends LayerGroup {
   public updateZoom(zoom: number): void {
     this.currentZoom = zoom;
     const bounds = this.map.getBounds().pad(0.2);
-    for (const category of Object.values(this.categories)) {
-      for (const layer of category) {
-        this.updateLayerVisibility(layer);
-        this.updateLayerMarkerVisibility(layer, bounds);
-      }
+    for (const layer of Object.values(this.categories)) {
+      this.updateLayerVisibility(layer);
+      this.updateLayerMarkerVisibility(layer, bounds);
     }
   }
 
@@ -101,10 +95,8 @@ export class MapLayer extends LayerGroup {
 
   public updateMarkersVisibility(): void {
     const bounds = this.map.getBounds().pad(0.2);
-    for (const category of Object.values(this.categories)) {
-      for (const layer of category) {
-        this.updateLayerMarkerVisibility(layer, bounds);
-      }
+    for (const layer of Object.values(this.categories)) {
+      this.updateLayerMarkerVisibility(layer, bounds);
     }
   }
 
@@ -136,15 +128,13 @@ export class MapLayer extends LayerGroup {
 
   public findLocationMarker(locationId: string) {
     let location: WSMarker | undefined;
-    for (const [, layers] of Object.entries(this.categories)) {
-      for (const layer of layers) {
-        layer.markers.forEach((marker) => {
-          if (marker.id === locationId) {
-            location = marker;
-          }
-        });
-        if (location) break;
-      }
+    for (const layer of Object.values(this.categories)) {
+      layer.markers.forEach((marker) => {
+        if (marker.id === locationId) {
+          location = marker;
+        }
+      });
+      if (location) break;
     }
     if (location) {
       this.map.setView(location.coords, 3);
