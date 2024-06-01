@@ -30,6 +30,20 @@ def split_to_tiles(zoom_level, img):
     tile = img.crop(border)
     tile.save(f"out/{zoom_level}/{x}_{y}.png", optimize=True)
 
+def optimize_folder():
+  folder_name = "before beta build 248"
+  src = f"data/{folder_name}"
+
+  for root, dirs, files in os.walk(src):
+    print(f"processing {root}")
+    for dir in dirs:
+      mkdir(f"out/{dir}")
+    for file in files:
+      img = load_image(f"{root}/{file}")
+      dirs = os.path.split(root)
+      dir = "" if len(dirs[-1]) > 1 else f"{dirs[-1]}/"
+      img.save(f"out/{dir}/{file}", optimize=True)
+
 def main():
   filename = "data/2.png"
   img = load_image(filename)

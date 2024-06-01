@@ -10,6 +10,7 @@ export class WSMarker extends Marker {
   public layer: Layer;
   public visibility = Visibility.Default;
   private labelDiv: HTMLElement;
+  protected keywords: string[];
 
   protected constructor(
     json: Schema.Marker,
@@ -27,6 +28,9 @@ export class WSMarker extends Marker {
     this.layer = layer;
     this.name = title;
     this.labelDiv = labelDiv;
+
+    if (this.layer.name == "Realms") this.keywords = ["realm"];
+    else this.keywords = ["location"];
   }
 
   public show(): void {
@@ -85,6 +89,14 @@ export class WSMarker extends Marker {
   public static fromJson(json: Schema.Marker, layer: Layer): WSMarker {
     const marker = new WSMarker(json, json.coords, layer);
     return marker;
+  }
+
+  public getKeywords() {
+    return this.keywords;
+  }
+
+  public addKeywords(keywords: string[]) {
+    this.keywords = this.keywords.concat(keywords);
   }
 
   public static isLocationJson(

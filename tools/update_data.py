@@ -1,6 +1,7 @@
 import json
 import re
 import os
+import copy
 from urllib.request import urlopen
 
 
@@ -49,10 +50,19 @@ def get_common_info(official_obj, old_data, icon_key):
 def get_wiki_url(name):
     return f"https://wiki.walkscape.app/wiki/{name.replace(' ', '_')}"
 
-def update_locations(filename):
+def update_locations(filename, map_layer_name):
     data_path = f'../public/data/{filename}'
     data_full, src_data = read_data(data_path, f'./data/{filename}')
-    data = data_full[1]['layers'][0]['markers']
+    layers = data_full[1]['layers']
+    data = None
+    layer_index = -1
+    for i, layer in enumerate(layers):
+        print(map_layer_name, layer['mapLayers'], map_layer_name in layer['mapLayers'])
+        if map_layer_name in layer['mapLayers']:
+            data = layers[0]['markers']
+            layer_index = i
+    if data == None:
+        data = layers[-1]['markers']
 
     locations = []
     for src_location in src_data:
@@ -73,7 +83,13 @@ def update_locations(filename):
         }
         locations.append(loc)
 
-    data_full[1]['layers'][0]['markers'] = locations
+    if layer_index > -1:
+        data_full[1]['layers'][layer_index]['markers'] = locations
+    else:
+        layer = copy.deepcopy(layers[0])
+        layer['mapLayers'] = [map_layer_name]
+        layer['markers'] = locations
+        data_full[1]['layers'].append(layer)
     write_json(data_path, data_full)
 
 def update_activities(filename):
@@ -139,7 +155,8 @@ def update_services(filename):
     write_json(data_path, services)
 
 def main():
-    update_locations('locations.json')
+    map_layer_name = 'in-game'
+    update_locations('locations.json', map_layer_name)
     update_activities('activities.json')
     update_buildings('buildings.json')
     update_services('services.json')

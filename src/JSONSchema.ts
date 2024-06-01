@@ -6,7 +6,7 @@ export interface Category {
 }
 
 export interface Layer {
-  name?: string;
+  mapLayers: string[];
   minZoom?: number;
   maxZoom: number;
   labelMinZoom: number;
