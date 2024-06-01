@@ -64,10 +64,6 @@ export class WSMap extends Map {
     map.dragging.enable();
     map.scrollWheelZoom.enable();
 
-    map.on("click", () => {
-      console.log(map.getCenter());
-    });
-
     map.on("zoomend", function () {
       map.layers.forEach((l) => {
         l.updateZoom(map.getZoom());
