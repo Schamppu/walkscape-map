@@ -157,7 +157,7 @@ export class WSMap extends Map {
     }
 
     this.layers.forEach((l) => {
-      l.findLocationMarker(location);
+      l.findLocationMarker(location.toLocaleLowerCase());
     });
   }
 

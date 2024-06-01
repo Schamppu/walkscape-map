@@ -224,15 +224,17 @@ export class FilterControl extends ControlPane {
 
   public resolveUrl(): void {
     const url = new URL(window.location.toString());
-    const categoryNames = url.searchParams.getAll("f");
+    const categoryNames = url.searchParams
+      .getAll("f")
+      .map((f) => f.toLocaleLowerCase());
 
-    if (categoryNames.includes("None")) {
+    if (categoryNames.includes("none")) {
       this.showNone();
       return;
     }
 
     const categories = this.categories.filter(({ category }) =>
-      categoryNames.includes(category.name)
+      categoryNames.includes(category.name.toLocaleLowerCase())
     );
     categories.forEach((c) => this.enableFilter(c, false));
   }
