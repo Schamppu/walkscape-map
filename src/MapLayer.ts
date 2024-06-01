@@ -61,6 +61,25 @@ export class MapLayer extends LayerGroup {
     return markers;
   }
 
+  public addRealmKeywords() {
+    if (!("Realms" in this.categories) || !("Locations" in this.categories))
+      return;
+    const realms = this.categories["Realms"];
+    const locations = this.categories["Locations"];
+    for (const realm of realms.markers) {
+      const { name } = realm;
+      const locationsInRealm = locations.markers.filter((marker) => {
+        if (WSMarker.isLocation(marker)) {
+          return marker.realm === name.toLocaleLowerCase();
+        }
+      });
+      const uniqueKeywords = [
+        ...new Set(locationsInRealm.flatMap((l) => l.getKeywords())),
+      ];
+      realm.addKeywords(uniqueKeywords);
+    }
+  }
+
   public filterLocations(shownValues: string[]) {
     const locations = this.getMarkers();
     for (const loc of locations) {

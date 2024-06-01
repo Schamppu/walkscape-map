@@ -165,6 +165,7 @@ window.onload = async () => {
     .then(addJson);
 
   await Promise.allSettled([locations]);
+  map.addRealmKeywords();
   map.findMarker();
   map.resolveFilters();
 };

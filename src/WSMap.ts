@@ -88,6 +88,12 @@ export class WSMap extends Map {
     return layer;
   }
 
+  public addRealmKeywords() {
+    for (const mapLayer of Object.values(this.mapLayers)) {
+      mapLayer.addRealmKeywords();
+    }
+  }
+
   public addCategory(category: Schema.Category, data: Schema.DataPoint[][]) {
     for (const layer of category.layers) {
       for (const mapLayerName of layer.mapLayers) {
