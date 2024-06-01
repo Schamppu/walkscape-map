@@ -76,7 +76,7 @@ export class MapLayer extends LayerGroup {
       const uniqueKeywords = [
         ...new Set(locationsInRealm.flatMap((l) => l.getKeywords())),
       ];
-      realm.addKeywords(uniqueKeywords);
+      realm.addKeywords(uniqueKeywords.filter((kw) => kw !== "location"));
     }
   }
 

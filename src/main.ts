@@ -151,7 +151,7 @@ window.onload = async () => {
         iconUrl: iconUrl("coatofarms/jarvonia"),
       },
     ],
-    "Locations"
+    "Points of Interest"
   );
 
   function addJson(categories: Schema.Category[]): void {
