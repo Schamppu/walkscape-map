@@ -57,7 +57,6 @@ def update_locations(filename, map_layer_name):
     data = None
     layer_index = -1
     for i, layer in enumerate(layers):
-        print(map_layer_name, layer['mapLayers'], map_layer_name in layer['mapLayers'])
         if map_layer_name in layer['mapLayers']:
             data = layers[0]['markers']
             layer_index = i
@@ -91,6 +90,8 @@ def update_locations(filename, map_layer_name):
         layer['markers'] = locations
         data_full[1]['layers'].append(layer)
     write_json(data_path, data_full)
+    location_ids = [l["id"] for l in locations]
+    write_json('../public/params.json', location_ids)
 
 def update_activities(filename):
     data_path = f'../public/data/{filename}'
