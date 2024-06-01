@@ -3,7 +3,7 @@ import "./style.css";
 import { WSMap } from "./WSMap";
 import { Layer } from "./Layer";
 import * as Schema from "./JSONSchema";
-import { inject } from '@vercel/analytics';
+import { inject } from "@vercel/analytics";
 
 window.onload = async () => {
   inject();
@@ -138,6 +138,21 @@ window.onload = async () => {
       },
     ],
     "Services"
+  );
+  map.addFilterGroup(
+    [
+      {
+        name: "Locations",
+        values: ["location"],
+        iconUrl: iconUrl("locations/castle_white"),
+      },
+      {
+        name: "Realms",
+        values: ["realm"],
+        iconUrl: iconUrl("coatofarms/jarvonia"),
+      },
+    ],
+    "Locations"
   );
 
   function addJson(categories: Schema.Category[]): void {

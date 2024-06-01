@@ -10,7 +10,7 @@ export class WSLocationMarker extends WSMarker {
   protected constructor(
     json: Schema.MappedLocation,
     public hidden: boolean,
-    private keywords: string[],
+    keywords: string[],
     coords: LatLngExpression,
     layer: Layer
   ) {
@@ -28,6 +28,7 @@ export class WSLocationMarker extends WSMarker {
       });
       this.popup = popup;
       this.bindPopup(this.popup);
+      this.addKeywords(keywords);
     }
 
     this.on("popupopen", () => {
@@ -55,10 +56,6 @@ export class WSLocationMarker extends WSMarker {
       layer
     );
     return marker;
-  }
-
-  public getKeywords() {
-    return this.keywords;
   }
 
   private updateUrl(enable: boolean): void {

@@ -2,7 +2,6 @@ import { LatLngBounds, LayerGroup, TileLayer } from "leaflet";
 import { WSMap } from "./WSMap";
 import { Layer, Visibility } from "./Layer";
 import { WSMarker } from "./Markers/WSMarker";
-import { WSLocationMarker } from "./Markers/WSLocationMarker";
 
 export class MapLayer extends LayerGroup {
   public tileLayer: TileLayer;
@@ -54,22 +53,20 @@ export class MapLayer extends LayerGroup {
     });
   }
 
-  private getLocations() {
-    const locations: WSLocationMarker[] = [];
+  private getMarkers() {
+    const markers: WSMarker[] = [];
     for (const category of Object.values(this.categories)) {
       for (const layer of category) {
-        if (layer.name !== "Locations") continue;
         for (const m of layer.markers) {
-          if (!WSMarker.isLocation(m)) continue;
-          locations.push(m);
+          markers.push(m);
         }
       }
     }
-    return locations;
+    return markers;
   }
 
   public filterLocations(shownValues: string[]) {
-    const locations = this.getLocations();
+    const locations = this.getMarkers();
     for (const loc of locations) {
       const filteredArray = shownValues.filter((value) =>
         loc.getKeywords().includes(value)
@@ -95,7 +92,7 @@ export class MapLayer extends LayerGroup {
   }
 
   public resetMarkerVisibility(): void {
-    const locations = this.getLocations();
+    const locations = this.getMarkers();
     for (const loc of locations) {
       loc.resetVisibility();
     }

@@ -112,7 +112,6 @@ export class WSMap extends Map {
 
     this.layersControl = new LayersControl(this.mapLayers);
     controls.addControl(this.layersControl);
-
     controls.addTo(this);
   }
 
