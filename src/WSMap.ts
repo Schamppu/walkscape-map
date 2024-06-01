@@ -79,8 +79,8 @@ export class WSMap extends Map {
     return map;
   }
 
-  public addMapLayer(layerName: string, visible: boolean): MapLayer {
-    const layer = new MapLayer(this, layerName, this.tileSize, this.bounds);
+  public addMapLayer(layerName: string, tilePath: string, visible: boolean = false): MapLayer {
+    const layer = new MapLayer(this, layerName, tilePath, this.tileSize, this.bounds);
     this.addLayer(layer);
     this.layers.push(layer);
     if (visible) layer.show();
