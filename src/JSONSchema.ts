@@ -28,6 +28,13 @@ export interface Realm extends Marker {
   info: string[],
 }
 
+export interface Realm {
+  fullName?: string,
+  motto: string,
+  lore: string,
+  info: string[],
+}
+
 export interface Location extends Marker {
   realm: string;
   wikiUrl: string;
