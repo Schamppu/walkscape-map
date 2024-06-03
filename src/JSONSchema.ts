@@ -20,6 +20,13 @@ export interface Marker {
   name: string;
 }
 
+export interface Realm extends Marker {
+  fullName?: string,
+  motto: string,
+  lore: string,
+  info: string[],
+}
+
 export interface Location extends Marker {
   hidden: boolean;
   realm: string;
