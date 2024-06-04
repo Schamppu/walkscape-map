@@ -15,7 +15,8 @@ export class MapLayer extends LayerGroup {
     public displayName: string,
     public tilePath: string,
     public tileSize: number,
-    bounds: LatLngBounds
+    bounds: LatLngBounds,
+    public legacy: boolean
   ) {
     super();
     this.tileLayer = new TileLayer(`tiles/${tilePath}/{z}/{x}_{y}.png`, {
