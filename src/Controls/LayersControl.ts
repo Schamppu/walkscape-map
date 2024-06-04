@@ -34,7 +34,7 @@ export class LayersControl extends ControlPane {
       else this.addLegacyLayer(layer);
     }
 
-    this.createLegacyDropdown();
+    this.legacyContainer = this.createLegacyDropdown();
     for (const layer of Object.values(baseLayers)) {
       if (layer.legacy) this.addLegacyLayer(layer);
     }
@@ -158,8 +158,6 @@ export class LayersControl extends ControlPane {
     const groupBody = DomUtil.create("ul", "ws-legend-group__body", groupDiv);
     DomUtil.addClass(groupBody, "visible");
 
-    this.legacyContainer = groupBody;
-
     //Add click event to group for dropdown functionality
     DomEvent.addListener(groupHeader, "click", () => {
       //Check if group is selected
@@ -175,5 +173,6 @@ export class LayersControl extends ControlPane {
         DomUtil.addClass(groupBody, "visible");
       }
     });
+    return groupBody;
   }
 }
