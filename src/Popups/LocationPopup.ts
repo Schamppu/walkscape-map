@@ -1,30 +1,17 @@
 import * as Schema from "../JSONSchema";
-import { Popup, PopupOptions, DomUtil } from "leaflet";
+import { DomUtil } from "leaflet";
+import { WSPopup, WSPopupOptions } from "./WSPopup";
 
-export interface LocationPopupOptions extends PopupOptions {
-  id: string;
-  name: string;
+export interface LocationPopupOptions extends WSPopupOptions {
   realm: string;
   wikiUrl: string;
-  icon: {
-    url: string;
-    width?: number | undefined;
-    height?: number | undefined;
-  };
   activities: Schema.Activity[];
   buildings: Schema.Building[];
   services: Schema.Service[];
 }
 
-export class LocationPopup extends Popup {
-  private container: HTMLElement;
-  private name: string;
+export class LocationPopup extends WSPopup {
   private wikiUrl: string;
-  private icon: {
-    url: string;
-    width?: number | undefined;
-    height?: number | undefined;
-  };
   private realm: string;
   private activities: Schema.Activity[];
   private buildings: Schema.Building[];
@@ -34,8 +21,6 @@ export class LocationPopup extends Popup {
 
   private constructor(options: LocationPopupOptions) {
     super(options);
-    this.name = options.name;
-    this.icon = options.icon;
     this.realm = options.realm;
     this.activities = options.activities;
     this.buildings = options.buildings;
@@ -59,19 +44,16 @@ export class LocationPopup extends Popup {
     this.setContent(this.container);
   }
 
-  public static create(options: LocationPopupOptions): LocationPopup {
+  public static override create(options: LocationPopupOptions) {
     return new LocationPopup({
       ...options,
       minWidth: undefined,
     });
   }
 
-  public getPopupContent() {
-    if (!this.container.hasChildNodes()) {
-      this.createTitleContent();
-      this.createBodyContent();
-    }
-    return this.container;
+  protected createPopupContent() {
+    this.createTitleContent();
+    this.createBodyContent();
   }
 
   private createTitleContent() {
@@ -86,16 +68,8 @@ export class LocationPopup extends Popup {
     titleDiv.appendChild(icon);
 
     if (this.wikiUrl.length) {
-      const title = DomUtil.create(
-        "h2",
-        "ws-location-popup__title",
-        titleDiv
-      );
-      const titleLink = DomUtil.create(
-        "a",
-        `${this.realm}-color`,
-        title,
-      );
+      const title = DomUtil.create("h2", "ws-location-popup__title", titleDiv);
+      const titleLink = DomUtil.create("a", `${this.realm}-color`, title);
       titleLink.innerText = this.name;
       titleLink.href = this.wikiUrl;
       titleLink.target = "_blank";

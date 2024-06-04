@@ -3,6 +3,7 @@ import { LayerGroup, LatLngBounds } from "leaflet";
 import { WSMarker } from "./Markers/WSMarker";
 import { WSLocationMarker } from "./Markers/WSLocationMarker";
 import { DataPoint } from "./DataPoint";
+import { WSRealmMarker } from "./Markers/WSRealmMarker";
 
 export enum Visibility {
   Off,
@@ -41,6 +42,7 @@ export class Layer extends LayerGroup {
 
     const mapped: Schema.MappedLocation = {
       ...json,
+      hidden: json.hidden !== undefined ? json.hidden : false,
       activities: [],
       buildings: [],
       services: [],
@@ -97,9 +99,13 @@ export class Layer extends LayerGroup {
       json.labelMinZoom != undefined ? json.labelMinZoom : layer.minZoom;
 
     layer.markers = json.markers.map((m) => {
-      return WSMarker.isLocationJson(m)
-        ? WSLocationMarker.fromJson(this.matchDataPointsToJson(m, data), layer)
-        : WSMarker.fromJson(m, layer);
+      if (WSMarker.isLocationJson(m))
+        return WSLocationMarker.fromJson(
+          this.matchDataPointsToJson(m, data),
+          layer
+        );
+      if (WSMarker.isRealmJson(m)) return WSRealmMarker.fromJson(m, layer);
+      return WSMarker.fromJson(m, layer);
     });
 
     return layer;

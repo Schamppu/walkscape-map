@@ -18,6 +18,7 @@ export interface Marker {
   icon: { url: string; width?: number; height?: number };
   id: string;
   name: string;
+  hidden?: boolean;
 }
 
 export interface Realm extends Marker {
@@ -28,7 +29,6 @@ export interface Realm extends Marker {
 }
 
 export interface Location extends Marker {
-  hidden: boolean;
   realm: string;
   wikiUrl: string;
   activities: string[];
