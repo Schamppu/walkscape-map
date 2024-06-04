@@ -57,34 +57,26 @@ export class LocationPopup extends WSPopup {
   }
 
   private createTitleContent() {
-    const titleDiv = DomUtil.create(
-      "div",
-      "ws-location-popup__title-wrapper",
-      this.container
-    );
+    const titleDiv = DomUtil.create("div", "title-wrapper", this.container);
     const icon = new Image(16, 16);
     icon.src = `icons/${this.icon.url}`;
-    icon.className = "ws-location-popup__title-icon";
+    icon.className = "title-icon";
     titleDiv.appendChild(icon);
 
     if (this.wikiUrl.length) {
-      const title = DomUtil.create("h2", "ws-location-popup__title", titleDiv);
-      const titleLink = DomUtil.create("a", `${this.realm}-color`, title);
+      const title = DomUtil.create("h2", "title", titleDiv);
+      const titleLink = DomUtil.create("a", `color-${this.realm}`, title);
       titleLink.innerText = this.name;
       titleLink.href = this.wikiUrl;
       titleLink.target = "_blank";
     } else {
-      const title = DomUtil.create(
-        "h2",
-        `ws-location-popup__title ${this.realm}-color`,
-        titleDiv
-      );
+      const title = DomUtil.create("h2", `title color-${this.realm}`, titleDiv);
       title.innerText = this.name;
     }
 
     const divider = DomUtil.create(
       "div",
-      `ws-location-popup__title-divider ${this.realm}-bg`,
+      `title-divider bg-${this.realm}`,
       this.container
     );
     DomUtil.create("span", "", divider);
@@ -93,16 +85,16 @@ export class LocationPopup extends WSPopup {
 
   private createBodyContent() {
     const createSubDiv = (name: string, parent: HTMLElement) => {
-      const subDiv = DomUtil.create("div", "ws-location-popup__subdiv", parent);
+      const subDiv = DomUtil.create("div", "subdiv", parent);
       const subHeader = DomUtil.create(
         "p",
-        "ws-location-popup__subheader",
+        "subheader",
         subDiv
       );
       subHeader.innerText = name;
       const subContentDiv = DomUtil.create(
         "div",
-        `ws-location-popup__subcontent ${name}`,
+        `subcontent ${name}`,
         subDiv
       );
       return [subDiv, subContentDiv];
@@ -128,7 +120,7 @@ export class LocationPopup extends WSPopup {
       data.forEach((d) => {
         const dataDiv = DomUtil.create(
           "div",
-          "ws-location-popup__subdiv-content",
+          "subdiv-content",
           parent
         );
         const img = new Image(d.icon.width ?? 32, d.icon.height ?? 32);
@@ -137,12 +129,12 @@ export class LocationPopup extends WSPopup {
 
         const infoDiv = DomUtil.create(
           "div",
-          "ws-location-popup__activity-info",
+          "activity-info",
           dataDiv
         );
         const textsDiv = DomUtil.create(
           "div",
-          "ws-location-popup__info-texts",
+          "info-texts",
           infoDiv
         );
         const text = DomUtil.create("p", "", textsDiv);
@@ -157,12 +149,12 @@ export class LocationPopup extends WSPopup {
 
         const keywordRequirementsDiv = DomUtil.create(
           "div",
-          "ws-location-popup__requirements-keywords",
+          "requirements-keywords",
           textsDiv
         );
         const skillRequirementDiv = DomUtil.create(
           "div",
-          "ws-location-popup__requirements-skills",
+          "requirements-skills",
           infoDiv
         );
 
@@ -177,7 +169,7 @@ export class LocationPopup extends WSPopup {
         for (const [skill, level] of Object.entries(d.levelRequirements)) {
           const skillDiv = DomUtil.create(
             "div",
-            `ws-location-popup__skill-div border-${skill}`,
+            `skill-div border-${skill}`,
             skillRequirementDiv
           );
           const img = new Image(d.icon.width ?? 16, d.icon.height ?? 16);
@@ -196,7 +188,7 @@ export class LocationPopup extends WSPopup {
       data.forEach((d) => {
         const dataDiv = DomUtil.create(
           "div",
-          "ws-location-popup__subdiv-content",
+          "subdiv-content",
           parent
         );
         const img = new Image(d.icon.width ?? 32, d.icon.height ?? 32);

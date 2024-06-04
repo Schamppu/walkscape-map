@@ -1,5 +1,8 @@
 import "leaflet/dist/leaflet.css";
-import "./style.css";
+import './styles/main.scss';
+import './styles/globals/typography.scss';
+import './styles/globals/tailorings.scss';
+
 import { WSMap } from "./WSMap";
 import * as Schema from "./JSONSchema";
 import { inject } from "@vercel/analytics";
