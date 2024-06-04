@@ -30,8 +30,13 @@ window.onload = async () => {
     maxZoom: 4,
   });
   map.addMapLayer("in-game", "In-Game", "in-game", true);
-  map.addMapLayer("pre-beta-248", "Before 0.1.0-beta+248", "pre-beta-248");
   map.addMapLayer("concept", "Concept Art", "concept art");
+  map.addMapLayer("pre-beta-248", "Before 0.1.0-beta+248", "pre-beta-248", false, true);
+  map.addMapLayer("locations_old_4", "Beta - Wave 1", "pre-beta-248", false, true);
+  map.addMapLayer("locations_old_3", "Alpha - December '23", "pre-beta-248", false, true);
+  map.addMapLayer("locations_old_2", "Alpha - November '23", "pre-beta-248", false, true);
+  map.addMapLayer("locations_old_1", "Alpha - October '23", "pre-beta-248", false, true);
+  map.addMapLayer("locations_old", "Alpha - July '23", "pre-beta-248", false, true);
 
   map.addControls();
   map.addFilterGroup(
