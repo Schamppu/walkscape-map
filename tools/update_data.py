@@ -50,8 +50,15 @@ def get_common_info(official_obj, old_data, icon_key):
 def get_wiki_url(name):
     return f"https://wiki.walkscape.app/wiki/{name.replace(' ', '_')}"
 
+def getRealm(official_obj):
+    if 'realm' in official_obj:
+        return official_obj['realm']
+    if 'realmName' in official_obj:
+        return official_obj['realmName']
+    return 'Jarvonia'
+
 def update_locations(filename, map_layer_name):
-    data_path = f'../public/data/{filename}'
+    data_path = f'../public/data/locations.json'
     data_full, src_data = read_data(data_path, f'./data/{filename}')
     layers = data_full[1]['layers']
     data = None
@@ -61,24 +68,26 @@ def update_locations(filename, map_layer_name):
             data = layers[0]['markers']
             layer_index = i
     if data == None:
-        data = layers[-1]['markers']
+        data = layers[0]['markers']
 
     locations = []
     for src_location in src_data:
         id, name, icon_path, old_loc = get_common_info(src_location, data, 'locationIcon')
         hidden = False if 'hidden' not in old_loc[0] else old_loc[0]['hidden']
+        realm = getRealm(src_location)
+        buildings = list(map(get_id, src_location['buildingList'])) if 'buildingList' in src_location else []
 
         loc = {
             'id': id,
             'name': name,
-            'realm': src_location['realm'],
+            'realm': realm,
             'wikiUrl': get_wiki_url(name),
             'coords': src_location['locationPosition'][::-1],
             'icon': { 'url': icon_path },
             'hidden': hidden,
             'activities': list(map(get_id, src_location['activityList'])),
             'services': list(map(get_id, src_location['serviceList'])),
-            'buildings': list(map(get_id, src_location['buildingList'])),
+            'buildings': buildings,
         }
         locations.append(loc)
 
@@ -156,11 +165,11 @@ def update_services(filename):
     write_json(data_path, services)
 
 def main():
-    map_layer_name = 'in-game'
-    update_locations('locations.json', map_layer_name)
-    update_activities('activities.json')
-    update_buildings('buildings.json')
-    update_services('services.json')
+    map_layer_name = 'locations_old_4'
+    update_locations('locations_old_4.json', map_layer_name)
+    # update_activities('activities.json')
+    # update_buildings('buildings.json')
+    # update_services('services.json')
 
 if __name__ == '__main__':
     main()
