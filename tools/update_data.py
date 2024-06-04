@@ -167,9 +167,9 @@ def update_services(filename):
 def main():
     map_layer_name = 'locations_old_4'
     update_locations('locations_old_4.json', map_layer_name)
-    # update_activities('activities.json')
-    # update_buildings('buildings.json')
-    # update_services('services.json')
+    update_activities('activities.json')
+    update_buildings('buildings.json')
+    update_services('services.json')
 
 if __name__ == '__main__':
     main()
