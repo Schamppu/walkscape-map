@@ -1,26 +1,24 @@
-.marker-content-div {
+.marker-content {
+  @include center-horizontal;
   flex-direction: column;
-  display: flex;
-  align-items: center;
   transform: translateX(-50%);
   pointer-events: all;
-}
 
-.marker-label-div {
-  display: flex;
-  margin-top: -13px;
-}
+  .label-div {
+    display: flex;
+    margin-top: -13px;
+  }
 
-.marker-label-edge-end {
-  transform: scaleX(-1);
-}
+  .label-edge-end {
+    transform: scaleX(-1);
+  }
 
-.marker-div-span {
-  font-family: "Notototo";
-  color: #4b361a;
-  padding: 5px 1px 3px;
-  background-image: url("/icons/label_center.png");
-  background-repeat: repeat-x;
-  vertical-align: 100%;
-  white-space: nowrap;
+  .label {
+    font-family: "Notototo";
+    color: #4b361a;
+    padding: 5px 1px 3px;
+    background-image: url("/icons/label_center.png");
+    background-repeat: repeat-x;
+    white-space: nowrap;
+  }
 }
