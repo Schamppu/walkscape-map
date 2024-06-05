@@ -41,7 +41,6 @@
         background-image: linear-gradient(90deg, transparent, $color);
       }
       span:last-child {
-        /* color changes in here */
         background-image: linear-gradient(90deg, $color, transparent);
       }
     }
@@ -54,13 +53,13 @@
   }
 
   .subdiv + .subdiv {
-    border-top: solid 2px #21333d;
+    border-top: solid 2px $boxDarkOutline;
   }
 
   .subheader {
     font-family: "WorkSans";
-    color: #ded1c0;
-    text-shadow: 2px 2px #080d10;
+    color: $txLighter;
+    text-shadow: 2px 2px $boxPrimaryBackground;
     margin-bottom: 4px;
   }
 
@@ -75,19 +74,17 @@
     gap: 8px;
 
     p {
-      color: #dbd2c3;
+      color: $txLighter;
       a {
-        color: #dbd2c3 !important;
+        color: inherit;
       }
     }
 
     .subdiv-content {
+      @include box;
+      background-color: $boxPrimaryBackground;
       display: flex;
-      align-items: center;
       text-align: start;
-      border-radius: 10px;
-      border: 2px solid #21333d;
-      background-color: #1a1f23;
       padding: 4px;
       gap: 8px;
 
@@ -111,11 +108,9 @@
           gap: 4px;
 
           .skill-div {
+            @include box;
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            border-radius: 8px;
-            border: 2px solid #21333d;
             padding: 3px 6px;
             gap: 8px;
             width: 40px;
