@@ -21,3 +21,9 @@
   align-items: center;
   height: 100%
 }
+
+@mixin box {
+  border-radius: 10px;
+  border: 2px solid $boxDarkOutline;
+  align-items: center;
+}
