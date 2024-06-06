@@ -16,16 +16,16 @@ export class ZoomControl {
   private zoomOutBtn: HTMLElement;
 
   public constructor(private options: Options) {
-    this.container = DomUtil.create("div", "ws-control__button-group");
+    this.container = DomUtil.create("div", "zoom-button-group");
 
     this.zoomOutBtn = DomUtil.create(
       "div",
-      "ws-control__button zoom",
+      "control-button zoom",
       this.container
     );
     const zoomOutBtnText = DomUtil.create(
       "p",
-      "ws-control__button-text",
+      "control-button-text",
       this.zoomOutBtn
     );
     zoomOutBtnText.innerText = "-";
@@ -41,12 +41,12 @@ export class ZoomControl {
 
     this.zoomInBtn = DomUtil.create(
       "div",
-      "ws-control__button zoom",
+      "control-button zoom",
       this.container
     );
     const zoomInBtnText = DomUtil.create(
       "p",
-      "ws-control__button-text",
+      "control-button-text",
       this.zoomInBtn
     );
     zoomInBtnText.innerText = "+";

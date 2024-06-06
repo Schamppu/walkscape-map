@@ -1,188 +1,166 @@
-
-/* CONTROLS */
-
 .ws-controls {
+  display: flex;
+  font-family: "Notototo";
+
+  .dock {
+    background: $boxDarkBackground;
     display: flex;
-    font-family: "Notototo";
+
+    .dock-group {
+      display: flex;
+      flex: 1;
+    }
+
+    .dock-group:nth-child(2) {
+      justify-content: center;
+    }
+
+    .dock-group:nth-child(3) {
+      justify-content: end;
+    }
   }
-  
-  .ws-controls__dock {
-    background: #0f1e25;
-    display: flex;
-  }
-  
-  .ws-controls__dock__group {
-    display: flex;
-    flex: 1;
-  }
-  
-  .ws-controls__dock__group:nth-child(2) {
-    justify-content: center;
-  }
-  
-  .ws-controls__dock__group:nth-child(3) {
-    justify-content: end;
-  }
-  
-  .ws-control__button-group {
-    display: flex;
-    width: 100%;
-  }
-  
-  .ws-control__button {
+
+  .control-button {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     width: 32px;
     height: 32px;
     padding: 4px;
-  
+
     margin: 5px;
     line-height: 30px;
     font-size: 22px;
     text-align: center;
-    color: #dbd2c3;
+    color: $txLighter;
     border-radius: 8px;
-    border: 2px solid #21333d;
-    background-color: #1a1f23;
+    border: 2px solid $boxDarkOutline;
+    background-color: $boxPrimaryBackground;
     background-size: contain;
     background-repeat: no-repeat;
     background-clip: padding-box;
     cursor: pointer;
   }
-  
-  .ws-control__button:active {
-    background-color: #21333d;
+
+  .control-button:active {
+    background-color: $boxDarkOutline;
   }
-  
-  .ws-control__button-text {
-    margin: 0px;
-  }
-  
-  .ws-controls__pane-container {
-    overflow: hidden;
-    background: rgba(15, 30, 37, 0.8);
-  }
-  
-  .ws-control__pane {
+}
+
+.pane-container {
+  overflow: hidden;
+  background: $boxTransparentDarkBackground;
+
+  .pane {
     display: none;
     margin: 5px;
-    color: #dbd2c3;
+    color: $txLighter;
+
+    h3 {
+      font-size: 14px;
+    }
   }
-  
-  .ws-control__pane.visible {
+
+  .pane.visible {
     display: flex;
     flex-direction: column;
   }
-  
-  .ws-control__pane h3 {
-    font-size: 14px;
+}
+
+@media (orientation: landscape) {
+  .ws-controls {
+    height: 100dvh;
   }
-  
-  @media (orientation: landscape) {
-    .ws-controls {
-      height: 100dvh;
-    }
-  
-    .ws-controls__dock {
-      height: 100dvh;
-      width: 50px;
-      flex-direction: column;
-    }
-  
-    .ws-controls__dock__group {
+
+  .dock {
+    height: 100dvh;
+    width: 50px;
+    flex-direction: column;
+
+    .dock-group {
       flex-direction: column;
       align-items: center;
     }
-  
-    .ws-control__button-group {
-      flex-direction: column-reverse;
-      align-items: center;
-    }
-  
-    .ws-control__button.selected {
-      border-right: 5px solid #dbd2c3;
-    }
-  
-    .ws-controls__pane-container {
-      width: 0;
-      height: 100%;
-      transition: width 0.2s;
-    }
-  
-    .ws-controls__pane-container.visible {
-      width: calc(100vw - 40px);
-    }
-  
-    .ws-control__pane {
+  }
+
+  .control-button.selected {
+    border-right: 5px solid $txLighter;
+  }
+
+  .pane-container {
+    width: 0;
+    height: 100%;
+    transition: width 0.2s;
+
+    .pane {
       width: calc(100vw - 50px);
       height: 100%;
     }
-  
-    @media (min-width: 768px) {
-      .ws-controls__pane-container.visible {
-        width: 330px;
-      }
-  
-      .ws-control__pane {
-        width: 320px;
-      }
+  }
+
+  .pane-container.visible {
+    width: calc(100vw - 40px);
+  }
+
+  @media (min-width: 768px) {
+    .pane-container.visible {
+      width: 330px;
+    }
+
+    .pane {
+      width: 320px;
     }
   }
-  
-  @media (orientation: portrait) {
-    .ws-controls {
-      flex-direction: column-reverse;
-      width: 100dvw;
-    }
-  
-    .ws-controls__dock {
-      height: 50px;
-      width: 100dvw;
+}
+
+@media (orientation: portrait) {
+  .ws-controls {
+    flex-direction: column-reverse;
+    width: 100dvw;
+  }
+
+  .dock {
+    height: 50px;
+    width: 100dvw;
+    flex-direction: row;
+
+    .dock-group {
       flex-direction: row;
     }
-  
-    .ws-controls__dock__group {
-      flex-direction: row;
-    }
-  
-    .ws-control__button-group {
-      flex-direction: row;
-      justify-content: center;
-    }
-  
-    .ws-control__button.zoom {
-      width: 100%;
-    }
-  
-    .ws-control__button.selected {
-      margin-top: 0;
-      border-top: 5px solid #dbd2c3;
-    }
-  
-    .ws-controls__pane-container {
-      width: 100%;
-      height: 0;
-      transition: height 0.2s;
-    }
-  
-    .ws-controls__pane-container.visible {
-      height: calc(100dvh - 40px);
-    }
-  
-    .ws-control__pane {
+  }
+
+  .control-button.zoom {
+    width: 100%;
+  }
+
+  .control-button.selected {
+    margin-top: 0;
+    border-top: 5px solid #dbd2c3;
+  }
+
+  .pane-container {
+    width: 100%;
+    height: 0;
+    transition: height 0.2s;
+
+    .pane {
       width: 100%;
       height: calc(100dvh - 50px);
     }
-  
-    @media (min-height: 600px) {
-      .ws-controls__pane-container.visible {
-        height: calc(50dvh - 40px);
-      }
-  
-      .ws-control__pane {
-        height: calc(50dvh - 50px);
-      }
+  }
+
+  .pane-container.visible {
+    height: calc(100dvh - 40px);
+  }
+
+  @media (min-height: 600px) {
+    .pane-container.visible {
+      height: calc(50dvh - 40px);
+    }
+
+    .pane {
+      height: calc(50dvh - 50px);
     }
   }
+}
