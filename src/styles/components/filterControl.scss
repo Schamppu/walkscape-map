@@ -21,16 +21,16 @@
 }
 
 .ws-tab--button.selected {
-  border-bottom: 5px solid #dbd2c3;
+  border-bottom: 5px solid $txLighter;
 }
 
 .selectable {
   cursor: pointer;
-  color: rgba(219, 210, 195, 0.7);
+  color: $txPrimary;
 }
 
 .selected {
-  color: #dbd2c3 !important;
+  color: $txLighter !important;
 }
 
 .visible {
@@ -67,7 +67,7 @@
 
 .ws-legend-group__title,
 .ws-legend-group__dropdown {
-  color: #dbd2c3;
+  color: $txLighter;
   margin: 0px 0px 0px 0px;
   font-family: "Notototo", "OpenSansBold", "Open Sans", sans-serif;
   font-size: 14px;

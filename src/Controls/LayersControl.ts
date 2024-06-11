@@ -78,7 +78,7 @@ export class LayersControl extends ControlPane {
     icon.style.width = iconSize + "px";
     icon.style.height = iconSize + "px";
 
-    const div = DomUtil.create("div", "flex-center", li);
+    const div = DomUtil.create("div", "flex-ch", li);
     const p = DomUtil.create("p", "layer__title", div);
     p.innerText = layer.displayName;
     return li;
@@ -90,7 +90,7 @@ export class LayersControl extends ControlPane {
       "ws-legend__category-div selectable",
       this.legacyContainer
     );
-    const div = DomUtil.create("div", "flex-center", li);
+    const div = DomUtil.create("div", "flex-ch", li);
     const p = DomUtil.create("p", "layer__title", div);
     p.innerText = layer.displayName;
     return li;

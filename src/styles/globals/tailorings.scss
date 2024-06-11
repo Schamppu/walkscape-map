@@ -1,4 +1,5 @@
 @import "./typography.scss";
+@import "../variables.scss";
 
 .leaflet-marker-icon.div-icon.leaflet-interactive {
   pointer-events: none;
@@ -12,8 +13,8 @@
 }
 
 .leaflet-popup-content-wrapper {
-  background-color: #0f1e25;
-  border: 1px solid #a5a198;
+  background-color: $boxDarkBackground;
+  border: 1px solid $txPrimary;
   transform: translateY(-24px);
 }
 
