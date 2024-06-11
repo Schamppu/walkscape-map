@@ -27,13 +27,32 @@ $realm-colors: (
   "wrentmark": #f8ff9f,
   "painful_islands": #ff2f15,
   "ewerethien": #d4b4ff,
-  "breamercia": #ffa25f,
+  "braemercia": #ffa25f,
   "rid_raddak": #c3ff1f,
   "ethereal": #ff608c,
 );
 
 @each $name, $color in $realm-colors {
   .color-#{$name} {
+    color: $color !important;
+  }
+}
+
+$realm-highlight-colors: (
+  "jarvonia": #fbaeff,
+  "wallisia": #f4fb43,
+  "gdte": #e8f9ff,
+  "galeforge": #86dcfc,
+  "wrentmark": #fa99a3,
+  "painful_islands": #c9cbcb,
+  "ewerethien": #0dfbff,
+  "braemercia": #f5d6ee,
+  "rid_raddak": #7ff5ff,
+  "ethereal": #d8758b,
+);
+
+@each $name, $color in $realm-highlight-colors {
+  .color-#{$name} span {
     color: $color !important;
   }
 }

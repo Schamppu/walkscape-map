@@ -19,6 +19,8 @@ export class WSRealmMarker extends WSMarker {
       motto: json.motto,
       lore: json.lore,
       info: json.info,
+      hiddenText: json.hiddenText ? json.hiddenText : "",
+      wordsToHighlight: json.wordsToHighLight,
     });
     this.bindPopup(this.popup);
   }

@@ -22,17 +22,12 @@ export interface Marker {
 }
 
 export interface Realm extends Marker {
-  fullName?: string,
-  motto: string,
-  lore: string,
-  info: string[],
-}
-
-export interface Realm {
-  fullName?: string,
-  motto: string,
-  lore: string,
-  info: string[],
+  fullName?: string;
+  motto: string;
+  lore: string;
+  info: string[];
+  hiddenText: string | undefined;
+  wordsToHighLight: string[];
 }
 
 export interface Location extends Marker {
@@ -56,7 +51,7 @@ export interface MappedLocation extends Marker {
 export interface DataPoint {
   id: string;
   name: string;
-  wikiUrl: string,
+  wikiUrl: string;
   icon: { url: string; width?: number; height?: number };
 }
 

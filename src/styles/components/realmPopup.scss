@@ -1,0 +1,56 @@
+.realm-popup {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 8px;
+
+  .title {
+    @include center-horizontal;
+    @include header-text;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .motto {
+    @include center-horizontal;
+    gap: 8px;
+    padding-bottom: 8px;
+
+    .text {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  .lore {
+    font-size: 11px;
+    background-color: $boxTransparentDarkOutline;
+    border-radius: 10px;
+    padding: 8px;
+    text-indent: 10px;
+  }
+
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .info {
+      font-size: 11px;
+      background-color: $boxTransparentDarkOutline;
+      border-radius: 10px;
+      padding: 8px;
+    }
+  }
+
+  .hidden-wrapper {
+    @include center-horizontal;
+    .hidden-text {
+      width: fit-content;
+      font-size: 11px;
+      background-color: $boxTransparentDarkOutline;
+      border-radius: 10px;
+      padding: 10px 20px;
+    }
+  }
+}
