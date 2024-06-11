@@ -59,7 +59,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    gap: 2px 8px
+    gap: 2px 8px;
   }
 }
 
@@ -87,5 +87,11 @@
 @media (orientation: portrait) {
   .legend-item {
     min-width: 32%;
+  }
+}
+
+@media (max-width: 450px) {
+  .legend-item {
+    min-width: 48%;
   }
 }

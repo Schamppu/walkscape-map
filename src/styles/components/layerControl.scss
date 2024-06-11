@@ -65,3 +65,11 @@
     }
   }
 }
+
+@media (max-width: 450px) {
+  .layers-wrapper {
+    .layers {
+      column-count: 1;
+    }
+  }
+}
