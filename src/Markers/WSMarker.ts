@@ -3,11 +3,15 @@ import { Marker, LatLngExpression, LatLngBounds, DomUtil } from "leaflet";
 import { Layer, Visibility } from "../Layer";
 import { MarkerDivIcon } from "./MarkerDivIcon";
 import { WSLocationMarker } from "./WSLocationMarker";
+import { WSRealmMarker } from "./WSRealmMarker";
+import { WSPopup } from "../Popups/WSPopup";
 
 export class WSMarker extends Marker {
+  protected popup?: WSPopup;
   public id: string;
   public name: string;
   public layer: Layer;
+  public hidden: boolean;
   public visibility = Visibility.Default;
   private labelDiv: HTMLElement;
   protected keywords: string[];
@@ -29,8 +33,22 @@ export class WSMarker extends Marker {
     this.name = title;
     this.labelDiv = labelDiv;
 
+    this.hidden = json.hidden !== undefined ? json.hidden : false;
+
     if (this.layer.name == "Realms") this.keywords = ["realm"];
     else this.keywords = ["location"];
+
+    this.on("popupopen", () => {
+      if (this.popup) {
+        const popupContent = this.popup.getPopupContent();
+        this.setPopupContent(popupContent).openPopup();
+        this.updateUrl(true);
+      }
+    });
+
+    this.on("popupclose", () => {
+      this.updateUrl(false);
+    });
   }
 
   public show(): void {
@@ -47,6 +65,9 @@ export class WSMarker extends Marker {
 
   public forceShow(): void {
     this.setVisibility(Visibility.On);
+    if (this.hidden) {
+      this.setVisibility(Visibility.Off);
+    }
   }
 
   public forceHide(): void {
@@ -99,13 +120,28 @@ export class WSMarker extends Marker {
     this.keywords = this.keywords.concat(keywords);
   }
 
+  public static isRealmJson(marker: Schema.Marker): marker is Schema.Realm {
+    return Object.keys(marker).includes("motto");
+  }
+
   public static isLocationJson(
     marker: Schema.Marker | Schema.Location
   ): marker is Schema.Location {
     return Object.keys(marker).includes("realm");
   }
 
+  public static isRealm(marker: WSMarker): marker is WSRealmMarker {
+    return Object.keys(marker).includes("motto");
+  }
+
   public static isLocation(marker: WSMarker): marker is WSLocationMarker {
-    return Object.keys(marker).includes("keywords");
+    return Object.keys(marker).includes("realm");
+  }
+
+  protected updateUrl(enable: boolean): void {
+    const url = new URL(window.location.toString());
+    if (enable) url.searchParams.set("l", this.id);
+    else url.searchParams.delete("l");
+    history.pushState({}, "", url);
   }
 }

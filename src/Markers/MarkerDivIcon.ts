@@ -16,12 +16,11 @@ export class MarkerDivIcon {
     const width = json.icon.width ?? 32;
     const height = json.icon.height ?? 32;
 
-    const content = DomUtil.create("div", "marker-content-div");
+    const content = DomUtil.create("div", "marker-content");
     const image = new Image(width, height);
     image.src = json.hidden
       ? "icons/locations/unknown_1.png"
       : `icons/${json.icon.url}`;
-    image.className = "marker-div-image";
     content.appendChild(image);
 
     const labelDiv = DomUtil.create("div", "visible", content);
@@ -31,14 +30,14 @@ export class MarkerDivIcon {
     labelEnd.src = "icons/label_edge.png";
 
     labelDiv.appendChild(labelStart);
-    labelDiv.className = "marker-label-div";
-    const label = DomUtil.create("span", "marker-div-span", labelDiv);
+    labelDiv.className = "label-div";
+    const label = DomUtil.create("span", "label", labelDiv);
     label.textContent = title;
     labelDiv.appendChild(labelEnd);
-    labelEnd.className = "marker-label-edge-end";
+    labelEnd.className = "label-edge-end";
 
     const icon = new DivIcon({
-      className: "marker-div-icon",
+      className: "div-icon",
       iconSize: undefined,
       iconAnchor: new Point(0, height),
       html: content,

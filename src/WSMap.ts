@@ -83,7 +83,8 @@ export class WSMap extends Map {
     layerName: string,
     displayName: string,
     tilePath: string,
-    visible: boolean = false
+    visible: boolean = false,
+    legacy: boolean = false
   ): MapLayer {
     const layer = new MapLayer(
       this,
@@ -91,7 +92,8 @@ export class WSMap extends Map {
       displayName,
       tilePath,
       this.tileSize,
-      this.bounds
+      this.bounds,
+      legacy
     );
     this.addLayer(layer);
     this.layers.push(layer);
@@ -156,8 +158,10 @@ export class WSMap extends Map {
       return;
     }
 
+    const openPopup = !(urlParams.has("n") || urlParams.has("no-popup"))
+
     this.layers.forEach((l) => {
-      l.findLocationMarker(location);
+      l.findLocationMarker(location.toLocaleLowerCase(), openPopup);
     });
   }
 

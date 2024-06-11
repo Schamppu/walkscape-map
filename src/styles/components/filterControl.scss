@@ -1,0 +1,104 @@
+@import "../variables.scss";
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+
+  .tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    height: 35px;
+    color: $txPrimary;
+    
+    background-color: $boxTransparentPrimaryBackground;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .tab.selected {
+    text-decoration: underline;
+    color: $txLighter;
+  }
+}
+
+.categories {
+  @include control-list;
+}
+
+.group {
+  margin-top: 1em;
+  background-color: $boxTransparentPrimaryBackground;
+  border-radius: 10px;
+  padding: 2px;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    cursor: pointer;
+
+    .dropdown {
+      width: 14px;
+    }
+
+    .title,
+    .dropdown {
+      @include base-text;
+    }
+  }
+
+  .group-body {
+    display: none;
+    list-style: none;
+    padding: 0;
+    gap: 4px;
+    width: 100%;
+  }
+
+  .group-body.visible {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2px 8px;
+  }
+}
+
+.legend-item {
+  min-width: 48%;
+
+  .legend-item-content {
+    @include list-item-transparent;
+
+    .label {
+      @include base-text;
+      @include center;
+      height: 32px;
+      font-size: 12px;
+    }
+  }
+}
+
+.legend-item.selected {
+  .legend-item-content {
+    border: 2px solid $txTransparentHighlight;
+  }
+}
+
+@media (orientation: portrait) {
+  .legend-item {
+    min-width: 32%;
+  }
+}
+
+@media (max-width: 450px) {
+  .legend-item {
+    min-width: 48%;
+  }
+}

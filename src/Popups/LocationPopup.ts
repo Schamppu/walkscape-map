@@ -1,30 +1,17 @@
 import * as Schema from "../JSONSchema";
-import { Popup, PopupOptions, DomUtil } from "leaflet";
+import { DomUtil } from "leaflet";
+import { WSPopup, WSPopupOptions } from "./WSPopup";
 
-export interface LocationPopupOptions extends PopupOptions {
-  id: string;
-  name: string;
+export interface LocationPopupOptions extends WSPopupOptions {
   realm: string;
   wikiUrl: string;
-  icon: {
-    url: string;
-    width?: number | undefined;
-    height?: number | undefined;
-  };
   activities: Schema.Activity[];
   buildings: Schema.Building[];
   services: Schema.Service[];
 }
 
-export class LocationPopup extends Popup {
-  private container: HTMLElement;
-  private name: string;
+export class LocationPopup extends WSPopup {
   private wikiUrl: string;
-  private icon: {
-    url: string;
-    width?: number | undefined;
-    height?: number | undefined;
-  };
   private realm: string;
   private activities: Schema.Activity[];
   private buildings: Schema.Building[];
@@ -34,8 +21,6 @@ export class LocationPopup extends Popup {
 
   private constructor(options: LocationPopupOptions) {
     super(options);
-    this.name = options.name;
-    this.icon = options.icon;
     this.realm = options.realm;
     this.activities = options.activities;
     this.buildings = options.buildings;
@@ -59,58 +44,39 @@ export class LocationPopup extends Popup {
     this.setContent(this.container);
   }
 
-  public static create(options: LocationPopupOptions): LocationPopup {
+  public static override create(options: LocationPopupOptions) {
     return new LocationPopup({
       ...options,
       minWidth: undefined,
     });
   }
 
-  public getPopupContent() {
-    if (!this.container.hasChildNodes()) {
-      this.createTitleContent();
-      this.createBodyContent();
-    }
-    return this.container;
+  protected createPopupContent() {
+    this.createTitleContent();
+    this.createBodyContent();
   }
 
   private createTitleContent() {
-    const titleDiv = DomUtil.create(
-      "div",
-      "ws-location-popup__title-wrapper",
-      this.container
-    );
+    const titleDiv = DomUtil.create("div", "title-wrapper", this.container);
     const icon = new Image(16, 16);
     icon.src = `icons/${this.icon.url}`;
-    icon.className = "ws-location-popup__title-icon";
+    icon.className = "title-icon";
     titleDiv.appendChild(icon);
 
     if (this.wikiUrl.length) {
-      const title = DomUtil.create(
-        "h2",
-        "ws-location-popup__title",
-        titleDiv
-      );
-      const titleLink = DomUtil.create(
-        "a",
-        `${this.realm}-color`,
-        title,
-      );
+      const title = DomUtil.create("h2", "title", titleDiv);
+      const titleLink = DomUtil.create("a", `color-${this.realm}`, title);
       titleLink.innerText = this.name;
       titleLink.href = this.wikiUrl;
       titleLink.target = "_blank";
     } else {
-      const title = DomUtil.create(
-        "h2",
-        `ws-location-popup__title ${this.realm}-color`,
-        titleDiv
-      );
+      const title = DomUtil.create("h2", `title color-${this.realm}`, titleDiv);
       title.innerText = this.name;
     }
 
     const divider = DomUtil.create(
       "div",
-      `ws-location-popup__title-divider ${this.realm}-bg`,
+      `title-divider bg-${this.realm}`,
       this.container
     );
     DomUtil.create("span", "", divider);
@@ -119,16 +85,16 @@ export class LocationPopup extends Popup {
 
   private createBodyContent() {
     const createSubDiv = (name: string, parent: HTMLElement) => {
-      const subDiv = DomUtil.create("div", "ws-location-popup__subdiv", parent);
+      const subDiv = DomUtil.create("div", "subdiv", parent);
       const subHeader = DomUtil.create(
         "p",
-        "ws-location-popup__subheader",
+        "subheader",
         subDiv
       );
       subHeader.innerText = name;
       const subContentDiv = DomUtil.create(
         "div",
-        `ws-location-popup__subcontent ${name}`,
+        `subcontent ${name}`,
         subDiv
       );
       return [subDiv, subContentDiv];
@@ -154,7 +120,7 @@ export class LocationPopup extends Popup {
       data.forEach((d) => {
         const dataDiv = DomUtil.create(
           "div",
-          "ws-location-popup__subdiv-content",
+          "subdiv-content",
           parent
         );
         const img = new Image(d.icon.width ?? 32, d.icon.height ?? 32);
@@ -163,12 +129,12 @@ export class LocationPopup extends Popup {
 
         const infoDiv = DomUtil.create(
           "div",
-          "ws-location-popup__activity-info",
+          "activity-info",
           dataDiv
         );
         const textsDiv = DomUtil.create(
           "div",
-          "ws-location-popup__info-texts",
+          "info-texts",
           infoDiv
         );
         const text = DomUtil.create("p", "", textsDiv);
@@ -183,12 +149,12 @@ export class LocationPopup extends Popup {
 
         const keywordRequirementsDiv = DomUtil.create(
           "div",
-          "ws-location-popup__requirements-keywords",
+          "requirements-keywords",
           textsDiv
         );
         const skillRequirementDiv = DomUtil.create(
           "div",
-          "ws-location-popup__requirements-skills",
+          "requirements-skills",
           infoDiv
         );
 
@@ -203,7 +169,7 @@ export class LocationPopup extends Popup {
         for (const [skill, level] of Object.entries(d.levelRequirements)) {
           const skillDiv = DomUtil.create(
             "div",
-            `ws-location-popup__skill-div border-${skill}`,
+            `skill-div border-${skill}`,
             skillRequirementDiv
           );
           const img = new Image(d.icon.width ?? 16, d.icon.height ?? 16);
@@ -222,7 +188,7 @@ export class LocationPopup extends Popup {
       data.forEach((d) => {
         const dataDiv = DomUtil.create(
           "div",
-          "ws-location-popup__subdiv-content",
+          "subdiv-content",
           parent
         );
         const img = new Image(d.icon.width ?? 32, d.icon.height ?? 32);

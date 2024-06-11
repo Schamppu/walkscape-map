@@ -1,0 +1,82 @@
+$bgPrimary: rgb(6, 12, 15);
+$boxPrimaryBackground: rgb(25, 31, 34);
+$boxTransparentPrimaryBackground: rgba(25, 31, 34, 0.7);
+$boxPrimaryOutline: rgb(47, 58, 63);
+$boxDarkBackground: rgb(15, 29, 36);
+$boxTransparentDarkBackground: rgba(15, 29, 36, 0.7);
+$boxDarkOutline: rgb(31, 52, 63);
+$boxTransparentDarkOutline: rgba(31, 52, 63, 0.7);
+$chipBackground: rgb(66, 65, 62);
+$chipOutline: rgb(90, 89, 85);
+$txPrimary: rgb(171, 160, 144);
+$txDarker: rgb(145, 134, 117);
+$txLighter: rgb(218, 207, 191);
+$txPositive: rgb(142, 228, 123);
+$txNegative: rgb(209, 111, 116);
+$txHighlight: rgb(223, 209, 189);
+$txTransparentHighlight: rgba(223, 209, 189, 0.7);
+$positiveDark: rgb(97, 145, 86);
+
+/* REALM COLORS */
+
+$realm-colors: (
+  "jarvonia": #abddff,
+  "wallisia": #ff9b74,
+  "gdte": #a9ff6a,
+  "galeforge": #fbaaff,
+  "wrentmark": #f8ff9f,
+  "painful_islands": #ff2f15,
+  "ewerethien": #d4b4ff,
+  "braemercia": #ffa25f,
+  "rid_raddak": #c3ff1f,
+  "ethereal": #ff608c,
+);
+
+@each $name, $color in $realm-colors {
+  .color-#{$name} {
+    color: $color !important;
+  }
+}
+
+$realm-highlight-colors: (
+  "jarvonia": #fbaeff,
+  "wallisia": #f4fb43,
+  "gdte": #e8f9ff,
+  "galeforge": #86dcfc,
+  "wrentmark": #fa99a3,
+  "painful_islands": #c9cbcb,
+  "ewerethien": #0dfbff,
+  "braemercia": #f5d6ee,
+  "rid_raddak": #7ff5ff,
+  "ethereal": #d8758b,
+);
+
+@each $name, $color in $realm-highlight-colors {
+  .color-#{$name} span {
+    color: $color !important;
+  }
+}
+
+/* SKILL COLORS */
+
+$skill-colors: (
+  "agility": rgb(241, 95, 192),
+  "carpentry": rgb(241, 141, 95),
+  "cooking": rgb(241, 173, 95),
+  "crafting": rgb(233, 71, 125),
+  "fishing": rgb(95, 219, 241),
+  "foraging": rgb(170, 211, 160),
+  "mining": rgb(140, 165, 211),
+  "smithing": rgb(226, 167, 167),
+  "woodcutting": rgb(95, 241, 107),
+);
+
+@each $name, $color in $skill-colors {
+  .color-#{$name} {
+    background: $color;
+  }
+
+  .border-#{$name} {
+    border: 2px solid $color !important;
+  }
+}

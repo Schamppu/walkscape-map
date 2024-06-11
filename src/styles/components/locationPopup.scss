@@ -1,0 +1,148 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+
+.ws-location-popup {
+  background-color: $boxDarkBackground;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .title-wrapper {
+    @include center-horizontal;
+    gap: 6px;
+
+    .title {
+      font-family: "Notototo";
+      margin: 0px;
+    }
+
+    .title-icon {
+      padding-bottom: 4px;
+    }
+  }
+
+  .title-divider {
+    display: table;
+    height: 2px;
+
+    span {
+      display: table-cell;
+      position: relative;
+      width: 50%;
+      background-size: 100% 2px;
+      background-position: 0 0, 0 100%;
+      background-repeat: no-repeat;
+    }
+  }
+
+  @each $name, $color in $realm-colors {
+    .title-divider.bg-#{$name} {
+      span:first-child {
+        background-image: linear-gradient(90deg, transparent, $color);
+      }
+      span:last-child {
+        background-image: linear-gradient(90deg, $color, transparent);
+      }
+    }
+  }
+
+  .subdiv {
+    padding: 5px 0px;
+    gap: 4px;
+    @include center-vertical;
+  }
+
+  .subdiv + .subdiv {
+    border-top: solid 2px $boxDarkOutline;
+  }
+
+  .subheader {
+    font-family: "WorkSans";
+    color: $txLighter;
+    text-shadow: 2px 2px $boxPrimaryBackground;
+    margin-bottom: 4px;
+  }
+
+  .subheader::first-letter {
+    text-transform: capitalize;
+  }
+
+  .subcontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+
+    p {
+      color: $txLighter;
+      a {
+        color: inherit;
+      }
+    }
+
+    .subdiv-content {
+      @include box;
+      background-color: $boxPrimaryBackground;
+      display: flex;
+      text-align: start;
+      padding: 4px;
+      gap: 8px;
+
+      .activity-info {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .info-texts {
+          display: flex;
+          flex-direction: column;
+
+          .requirements-keywords p {
+            font-size: 10px;
+          }
+        }
+
+        .requirements-skills {
+          display: flex;
+          align-items: end;
+          gap: 4px;
+
+          .skill-div {
+            @include box;
+            display: flex;
+            justify-content: space-between;
+            padding: 3px 6px;
+            gap: 8px;
+            width: 40px;
+            height: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .activities {
+    width: 100%;
+    .subdiv-content {
+      width: 100%;
+    }
+  }
+
+  .buildings {
+    .subdiv-content {
+      width: 135px;
+    }
+  }
+
+  .services {
+    .subdiv-content {
+      width: 100px;
+    }
+  }
+}
+
+@media (orientation: landscape) {
+  .ws-location-popup {
+    width: 351px;
+  }
+}

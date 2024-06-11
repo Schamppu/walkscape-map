@@ -1,0 +1,30 @@
+@import "./mixins.scss";
+
+.flex-c {
+  @include center;
+}
+
+.flex-ch {
+  @include center-horizontal;
+}
+
+.flex-cv {
+  @include center-vertical;
+}
+
+.selectable {
+  cursor: pointer;
+  color: $txPrimary;
+}
+
+.selected {
+  color: $txLighter !important;
+}
+
+.visible {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}

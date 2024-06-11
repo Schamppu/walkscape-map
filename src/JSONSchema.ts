@@ -18,10 +18,19 @@ export interface Marker {
   icon: { url: string; width?: number; height?: number };
   id: string;
   name: string;
+  hidden?: boolean;
+}
+
+export interface Realm extends Marker {
+  fullName?: string;
+  motto: string;
+  lore: string;
+  info: string[];
+  hiddenText: string | undefined;
+  wordsToHighLight: string[];
 }
 
 export interface Location extends Marker {
-  hidden: boolean;
   realm: string;
   wikiUrl: string;
   activities: string[];
@@ -42,7 +51,7 @@ export interface MappedLocation extends Marker {
 export interface DataPoint {
   id: string;
   name: string;
-  wikiUrl: string,
+  wikiUrl: string;
   icon: { url: string; width?: number; height?: number };
 }
 

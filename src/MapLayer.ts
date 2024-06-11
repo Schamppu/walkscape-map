@@ -15,7 +15,8 @@ export class MapLayer extends LayerGroup {
     public displayName: string,
     public tilePath: string,
     public tileSize: number,
-    bounds: LatLngBounds
+    bounds: LatLngBounds,
+    public legacy: boolean
   ) {
     super();
     this.tileLayer = new TileLayer(`tiles/${tilePath}/{z}/{x}_{y}.png`, {
@@ -147,19 +148,25 @@ export class MapLayer extends LayerGroup {
     }
   }
 
-  public findLocationMarker(locationId: string) {
+  public findLocationMarker(locationId: string, openPopup: boolean = true) {
     let location: WSMarker | undefined;
+    let zoomLevel = 3;
     for (const layer of Object.values(this.categories)) {
       layer.markers.forEach((marker) => {
         if (marker.id === locationId) {
           location = marker;
         }
       });
-      if (location) break;
+      if (location) {
+        zoomLevel = Math.max(layer.minZoom, Math.min(layer.maxZoom, zoomLevel));
+        break;
+      }
     }
     if (location) {
-      this.map.setView(location.coords, 3);
-      location.openPopup();
+      this.map.setView(location.coords, zoomLevel);
+      if (openPopup) {
+        location.openPopup();
+      }
     }
   }
 }

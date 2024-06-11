@@ -14,7 +14,7 @@ export class ControlPane {
   private button: HTMLElement;
 
   protected constructor(options: Options) {
-    this.button = DomUtil.create("div", "ws-control__button");
+    this.button = DomUtil.create("div", "control-button");
     const img = new Image(24, 24);
     img.src = `icons/${options.icon}.png`;
     this.button.appendChild(img);
@@ -23,7 +23,7 @@ export class ControlPane {
     DomEvent.disableClickPropagation(this.button);
     DomEvent.disableScrollPropagation(this.button);
 
-    this.container = DomUtil.create("div", "ws-control__pane");
+    this.container = DomUtil.create("div", "pane");
   }
 
   public getButton(): HTMLElement {

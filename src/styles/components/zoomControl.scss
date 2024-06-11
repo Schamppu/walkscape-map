@@ -1,0 +1,22 @@
+.zoom-button-group {
+  display: flex;
+  width: 100%;
+
+  .control-button-text {
+    margin: 0px;
+  }
+}
+
+@media (orientation: landscape) {
+  .zoom-button-group {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media (orientation: portrait) {
+  .zoom-button-group {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
