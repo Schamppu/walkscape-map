@@ -25,7 +25,7 @@ export class RealmPopup extends WSPopup {
     return new RealmPopup({
       ...options,
       minWidth: undefined,
-      offset: new Point(200, 200),
+      offset: new Point(200, options.hiddenText ? 75 : 200),
     });
   }
 
