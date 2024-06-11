@@ -16,6 +16,10 @@
     flex-grow: 1;
     height: 35px;
     color: $txPrimary;
+    
+    background-color: $boxTransparentPrimaryBackground;
+    border-radius: 10px;
+    margin: 5px;
   }
 
   .tab.selected {
