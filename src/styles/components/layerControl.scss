@@ -13,6 +13,8 @@
   .layer {
     @include list-item-transparent;
     padding: 0px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .layer.selected {
