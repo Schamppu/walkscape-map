@@ -1,0 +1,24 @@
+.marker-content {
+  @include center-horizontal;
+  flex-direction: column;
+  transform: translateX(-50%);
+  pointer-events: all;
+
+  .label-div {
+    display: flex;
+    margin-top: -13px;
+  }
+
+  .label-edge-end {
+    transform: scaleX(-1);
+  }
+
+  .label {
+    font-family: "Notototo";
+    color: $chipBackground;
+    padding: 5px 1px 3px;
+    background-image: url("/icons/label_center.png");
+    background-repeat: repeat-x;
+    white-space: nowrap;
+  }
+}

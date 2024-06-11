@@ -1,0 +1,37 @@
+@import "./components.scss";
+@import "./variables.scss";
+@import "./mixins.scss";
+
+:root {
+  font-family: "Notototo", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: $txLighter;
+  background-color: $bgPrimary;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  margin: 0;
+  @include center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}

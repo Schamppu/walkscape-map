@@ -31,13 +31,12 @@ export class FilterControl extends ControlPane {
       title: "Filter",
     });
 
-    DomUtil.create("h3", "ws-control__title", this.container).innerText =
-      "Filter Locations";
+    DomUtil.create("h3", "", this.container).innerText = "Filter Locations";
 
-    this.allNoneUL = DomUtil.create("ul", "ws-tabs", this.container);
-    this.all = DomUtil.create("li", "ws-tab selectable", this.allNoneUL);
+    this.allNoneUL = DomUtil.create("ul", "tabs", this.container);
+    this.all = DomUtil.create("li", "tab selectable", this.allNoneUL);
     this.all.innerText = "All";
-    this.none = DomUtil.create("li", "ws-tab selectable", this.allNoneUL);
+    this.none = DomUtil.create("li", "tab selectable", this.allNoneUL);
     this.none.innerText = "None";
 
     DomUtil.addClass(this.all, "selected");
@@ -50,42 +49,25 @@ export class FilterControl extends ControlPane {
       this.showNone();
     });
 
-    this.categoryList = DomUtil.create(
-      "ul",
-      "ws-legend__categories",
-      this.container
-    );
+    this.categoryList = DomUtil.create("ul", "categories", this.container);
   }
 
   public addGroup(name: string) {
-    const groupLi = DomUtil.create("li", "ws-legend-group", this.categoryList);
+    const groupLi = DomUtil.create("li", "group", this.categoryList);
 
-    const groupDiv = DomUtil.create("div", "ws-legend-group__div", groupLi);
-    const groupHeader = DomUtil.create(
-      "div",
-      "ws-legend-group__header",
-      groupDiv
-    );
-    const groupHeaderDropdown = DomUtil.create(
-      "p",
-      "ws-legend-group__dropdown",
-      groupHeader
-    );
+    const groupHeader = DomUtil.create("div", "header", groupLi);
+    const groupHeaderDropdown = DomUtil.create("p", "dropdown", groupHeader);
     groupHeaderDropdown.classList.add("toggleable");
     groupHeaderDropdown.innerText = "▼";
     DomUtil.addClass(groupHeaderDropdown, "toggled-on");
 
-    const groupHeaderTitle = DomUtil.create(
-      "p",
-      "ws-legend-group__title",
-      groupHeader
-    );
+    const groupHeaderTitle = DomUtil.create("p", "title", groupHeader);
     groupHeaderTitle.classList.add("toggleable");
     groupHeaderTitle.innerText = name;
     groupHeaderTitle.style.textAlign = "center";
     groupHeaderTitle.style.fontWeight = "bold";
 
-    const groupBody = DomUtil.create("ul", "ws-legend-group__body", groupDiv);
+    const groupBody = DomUtil.create("ul", "group-body", groupLi);
     DomUtil.addClass(groupBody, "visible");
 
     const groupItem = { name, li: groupBody };
@@ -116,15 +98,12 @@ export class FilterControl extends ControlPane {
     }
     const groupLi = groupItem.li;
 
-    const li = DomUtil.create(
-      "li",
-      "ws-legend__category-div selectable",
-      groupLi
-    );
-    const icon = DomUtil.create("img", "", li);
+    const li = DomUtil.create("li", "legend-item selectable", groupLi);
+    const div = DomUtil.create("div", "legend-item-content", li);
+    const icon = DomUtil.create("img", "", div);
 
-    const div = DomUtil.create("div", "ws-legend__category", li);
-    div.innerText = category.name;
+    const label = DomUtil.create("p", "label", div);
+    label.innerText = category.name;
     icon.src = category.iconUrl;
     const iconSize = 32;
     icon.style.width = iconSize + "px";

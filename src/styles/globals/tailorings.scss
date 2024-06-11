@@ -1,0 +1,59 @@
+@import "./typography.scss";
+@import "../variables.scss";
+
+.leaflet-marker-icon.div-icon.leaflet-interactive {
+  pointer-events: none;
+}
+
+@media (orientation: portrait) {
+  .leaflet-popup-content {
+    width: 85vw;
+    max-width: 400px;
+  }
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: $boxDarkBackground;
+  border: 1px solid $txPrimary;
+  transform: translateY(-24px);
+}
+
+.leaflet-popup-tip {
+  display: none;
+}
+
+.leaflet-popup-content p {
+  margin: 0px;
+}
+
+.leaflet-popup-close-button {
+  transform: translate3d(-4px, -20px, 0px);
+}
+
+#map .leaflet-div-icon {
+  width: 0;
+  height: 0;
+  border: 0;
+  padding: 0;
+}
+
+/* Hide leaflet icon */
+.leaflet-bottom.leaflet-right {
+  display: none;
+}
+
+.leaflet-bottom {
+  bottom: env(safe-area-inset-bottom);
+}
+
+.leaflet-left .ws-controls {
+  margin-left: 0;
+}
+
+.leaflet-right .ws-controls {
+  margin-right: 0;
+}
+
+.leaflet-bottom .ws-controls {
+  margin-bottom: 0;
+}
