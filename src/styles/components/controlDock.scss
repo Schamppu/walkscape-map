@@ -58,7 +58,7 @@
     color: $txLighter;
 
     h3 {
-      font-size: 14px;
+      @include header-text;
     }
   }
 
@@ -157,10 +157,10 @@
   @media (min-height: 600px) {
     .pane-container.visible {
       height: calc(50dvh - 40px);
-    }
 
-    .pane {
-      height: calc(50dvh - 50px);
+      .pane {
+        height: calc(50dvh - 50px);
+      }
     }
   }
 }

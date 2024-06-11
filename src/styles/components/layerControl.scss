@@ -1,0 +1,65 @@
+@import "../variables.scss";
+
+.layers-wrapper {
+  @include control-list;
+  flex-grow: unset;
+
+  .layers {
+    @include control-list;
+    overflow: visible;
+    display: block;
+  }
+
+  .layer {
+    @include list-item-transparent;
+    padding: 0px;
+  }
+
+  .layer.selected {
+    border: 2px solid $txTransparentHighlight;
+  }
+}
+
+.legacy-maps {
+  margin-top: 1em;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    cursor: pointer;
+
+    .dropdown {
+      width: 14px;
+    }
+
+    .dropdown,
+    .title {
+      @include base-text;
+    }
+  }
+
+  .group {
+    display: none;
+    column-count: 1;
+    list-style: none;
+    padding: 0;
+    gap: 4px;
+  }
+
+  .group.visible {
+    display: block;
+  }
+}
+
+@media (orientation: portrait) {
+  .layers {
+    column-count: 2;
+  }
+
+  .legacy-maps {
+    .group {
+      column-count: 2;
+    }
+  }
+}

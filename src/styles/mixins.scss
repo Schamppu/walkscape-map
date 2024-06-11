@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import "./variables.scss";
 
 @mixin center {
   display: flex;
@@ -19,11 +19,55 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%
+  height: 100%;
 }
 
 @mixin box {
   border-radius: 10px;
   border: 2px solid $boxDarkOutline;
   align-items: center;
+}
+
+@mixin control-list {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+@mixin list-item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  border-radius: 10px;
+  padding: 2px;
+  margin-bottom: 4px;
+  gap: 6px;
+  overflow: clip;
+
+  background-color: $boxDarkBackground;
+  border: 2px solid $boxDarkOutline;
+}
+
+@mixin list-item-transparent {
+  @include list-item;
+  background-color: $boxTransparentDarkBackground;
+  border: 2px solid $boxTransparentDarkOutline;
+}
+
+@mixin base-text {
+  color: $txLighter;
+  font-family: "Notototo", "OpenSansBold", "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: lighter !important;
+}
+
+@mixin header-text {
+  @include base-text;
+  font-size: 16px;
+  font-weight: normal;
 }

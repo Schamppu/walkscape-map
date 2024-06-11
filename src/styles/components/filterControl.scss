@@ -24,31 +24,8 @@
   border-bottom: 5px solid $txLighter;
 }
 
-.selectable {
-  cursor: pointer;
-  color: $txPrimary;
-}
-
-.selected {
-  color: $txLighter !important;
-}
-
-.visible {
-  display: flex;
-}
-
-.hidden {
-  display: none;
-}
-
 .ws-legend__categories {
-  list-style: none;
-  margin: 0;
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  overflow-y: auto;
+  @include control-list;
 }
 
 .ws-legend-group {
@@ -59,6 +36,7 @@
   display: flex;
   flex-direction: row;
   gap: 4px;
+  cursor: pointer;
 }
 
 .ws-legend-group__dropdown {

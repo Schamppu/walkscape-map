@@ -1,9 +1,11 @@
 $bgPrimary: rgb(6, 12, 15);
 $boxPrimaryBackground: rgb(25, 31, 34);
+$boxTransparentPrimaryBackground: rgba(25, 31, 34, 0.7);
 $boxPrimaryOutline: rgb(47, 58, 63);
 $boxDarkBackground: rgb(15, 29, 36);
-$boxTransparentDarkBackground: rgba(15, 29, 36, 0.8);
+$boxTransparentDarkBackground: rgba(15, 29, 36, 0.7);
 $boxDarkOutline: rgb(31, 52, 63);
+$boxTransparentDarkOutline: rgba(31, 52, 63, 0.7);
 $chipBackground: rgb(66, 65, 62);
 $chipOutline: rgb(90, 89, 85);
 $txPrimary: rgb(171, 160, 144);
@@ -12,6 +14,7 @@ $txLighter: rgb(218, 207, 191);
 $txPositive: rgb(142, 228, 123);
 $txNegative: rgb(209, 111, 116);
 $txHighlight: rgb(223, 209, 189);
+$txTransparentHighlight: rgba(223, 209, 189, 0.7);
 $positiveDark: rgb(97, 145, 86);
 
 /* REALM COLORS */
