@@ -10,18 +10,21 @@ export interface NamedDivIcon {
 export class MarkerDivIcon {
   public static create(json: Schema.Marker): NamedDivIcon;
   public static create(json: Schema.Location): NamedDivIcon {
-    let title = json.name;
+    let title = json.name ?? null;
     if (json.hidden) title = "Unknown";
 
-    const width = json.icon.width ?? 32;
-    const height = json.icon.height ?? 32;
-
     const content = DomUtil.create("div", "marker-content");
-    const image = new Image(width, height);
-    image.src = json.hidden
-      ? "icons/locations/unknown_1.png"
-      : `icons/${json.icon.url}`;
-    content.appendChild(image);
+    let height = 0;
+
+    if (json.icon) {
+      const width = json.icon.width ?? 32;
+      height = json.icon.height ?? 32;
+      const image = new Image(width, height);
+      image.src = json.hidden
+        ? "icons/locations/unknown_1.png"
+        : `icons/${json.icon.url}`;
+      content.appendChild(image);
+    }
 
     const labelDiv = DomUtil.create("div", "visible", content);
     const labelStart = new Image();

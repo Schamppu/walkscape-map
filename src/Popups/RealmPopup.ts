@@ -3,7 +3,7 @@ import { WSPopup, WSPopupOptions } from "./WSPopup";
 
 export interface RealmPopupOptions extends WSPopupOptions {
   id: string;
-  icon: { url: string; width?: number; height?: number };
+  icon?: { url: string; width?: number; height?: number };
   motto: string;
   lore: string;
   info: string[];
@@ -68,9 +68,11 @@ export class RealmPopup extends WSPopup {
   private createMottoContent() {
     const mottoDiv = DomUtil.create("div", "motto", this.container);
 
-    const img = new Image(64, 64);
-    img.src = `icons/${this.icon.url}`;
-    mottoDiv.appendChild(img);
+    if (this.icon) {
+      const img = new Image(64, 64);
+      img.src = `icons/${this.icon.url}`;
+      mottoDiv.appendChild(img);
+    }
 
     const mottoText = DomUtil.create(
       "p",

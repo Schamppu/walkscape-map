@@ -58,10 +58,12 @@ export class LocationPopup extends WSPopup {
 
   private createTitleContent() {
     const titleDiv = DomUtil.create("div", "title-wrapper", this.container);
-    const icon = new Image(16, 16);
-    icon.src = `icons/${this.icon.url}`;
-    icon.className = "title-icon";
-    titleDiv.appendChild(icon);
+    if (this.icon) {
+      const icon = new Image(16, 16);
+      icon.src = `icons/${this.icon.url}`;
+      icon.className = "title-icon";
+      titleDiv.appendChild(icon);
+    }
 
     if (this.wikiUrl.length) {
       const title = DomUtil.create("h2", "title", titleDiv);
@@ -86,17 +88,9 @@ export class LocationPopup extends WSPopup {
   private createBodyContent() {
     const createSubDiv = (name: string, parent: HTMLElement) => {
       const subDiv = DomUtil.create("div", "subdiv", parent);
-      const subHeader = DomUtil.create(
-        "p",
-        "subheader",
-        subDiv
-      );
+      const subHeader = DomUtil.create("p", "subheader", subDiv);
       subHeader.innerText = name;
-      const subContentDiv = DomUtil.create(
-        "div",
-        `subcontent ${name}`,
-        subDiv
-      );
+      const subContentDiv = DomUtil.create("div", `subcontent ${name}`, subDiv);
       return [subDiv, subContentDiv];
     };
 
@@ -118,25 +112,13 @@ export class LocationPopup extends WSPopup {
       };
 
       data.forEach((d) => {
-        const dataDiv = DomUtil.create(
-          "div",
-          "subdiv-content",
-          parent
-        );
+        const dataDiv = DomUtil.create("div", "subdiv-content", parent);
         const img = new Image(d.icon.width ?? 32, d.icon.height ?? 32);
         img.src = `icons/${d.icon.url}`;
         dataDiv.appendChild(img);
 
-        const infoDiv = DomUtil.create(
-          "div",
-          "activity-info",
-          dataDiv
-        );
-        const textsDiv = DomUtil.create(
-          "div",
-          "info-texts",
-          infoDiv
-        );
+        const infoDiv = DomUtil.create("div", "activity-info", dataDiv);
+        const textsDiv = DomUtil.create("div", "info-texts", infoDiv);
         const text = DomUtil.create("p", "", textsDiv);
         if (d.wikiUrl.length) {
           const link = DomUtil.create("a", "", text);
@@ -186,11 +168,7 @@ export class LocationPopup extends WSPopup {
       data: Schema.DataPoint[]
     ) => {
       data.forEach((d) => {
-        const dataDiv = DomUtil.create(
-          "div",
-          "subdiv-content",
-          parent
-        );
+        const dataDiv = DomUtil.create("div", "subdiv-content", parent);
         const img = new Image(d.icon.width ?? 32, d.icon.height ?? 32);
         img.src = `icons/${d.icon.url}`;
         dataDiv.appendChild(img);

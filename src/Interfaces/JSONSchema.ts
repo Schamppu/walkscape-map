@@ -15,7 +15,7 @@ export interface Layer {
 
 export interface Marker {
   coords: LatLngTuple;
-  icon: { url: string; width?: number; height?: number };
+  icon?: { url: string; width?: number; height?: number };
   id: string;
   name: string;
   hidden?: boolean;
