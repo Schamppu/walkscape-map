@@ -37,14 +37,15 @@ def read_data(data_path, src_path):
     src_data = read_json(src_path)
     return data, src_data
 
-def get_common_info(official_obj, old_data, icon_key):
+def get_common_info(official_obj, old_data, icon_key=None):
     id = get_id(official_obj['id'])
     old_obj = find(old_data, id)
     exists = len(old_obj)
 
     # keep fixed capitalizations from old data if it exists
     name = old_obj[0]['name'] if exists else get_name(official_obj)
-    icon_path = official_obj[icon_key].replace('assets/icons/', '')
+    if icon_key and icon_key in official_obj:
+        icon_path = official_obj[icon_key].replace('assets/icons/', '')
     return id, name, icon_path, old_obj
 
 def get_wiki_url(name):
@@ -164,12 +165,56 @@ def update_services(filename):
         services.append(service)
     write_json(data_path, services)
 
+def update_routes(filename, map_layer_name):
+    data_path = f'../public/data/{filename}'
+    data_full, src_data = read_data(data_path, f'./data/{filename}')
+    
+    layers = data_full[1]['layers']
+    data = None
+    layer_index = -1
+    for i, layer in enumerate(layers):
+        if map_layer_name in layer['mapLayers']:
+            data = layers[0]['markers']
+            layer_index = i
+    if data == None:
+        data = layers[0]['markers']
+
+
+    routes = []
+    for src_route in src_data:
+        id, name, icon_path, _ = get_common_info(src_data, data)
+        pathpoints = [[src_route[f'pathPoints/{i}/1'], src_route[f'pathPoints/{i}/0']] for i in range(14)]
+        pathpoints = list(filter(lambda x: x[0], pathpoints))
+        middle = pathpoints[(len(pathpoints))//2]
+
+        route = {
+            'id': id,
+            'name': name,
+            'coords': middle,
+            'distance': src_route['distance'],
+            'distanceModifier': src_route['distanceModifier'],
+            'location0': get_id(src_route['locations/0']),
+            'location1': get_id(src_route['locations/1']),
+            'pathpoints': pathpoints,
+            'terrainModifiers': get_id(src_route['terrainModifiers/0']),
+        }
+        routes.append(route)
+    if layer_index > -1:
+        data_full[1]['layers'][layer_index]['markers'] = routes
+    else:
+        layer = copy.deepcopy(layers[0])
+        layer['mapLayers'] = [map_layer_name]
+        layer['markers'] = routes
+        data_full[1]['layers'].append(layer)
+    write_json(data_path, routes)
+
 def main():
-    map_layer_name = 'locations_old_4'
-    update_locations('locations_old_4.json', map_layer_name)
+    map_layer_name = 'in-game'
+    update_locations('locations.json', map_layer_name)
     update_activities('activities.json')
     update_buildings('buildings.json')
     update_services('services.json')
+    update_routes('routes.json', map_layer_name)
 
 if __name__ == '__main__':
     main()
