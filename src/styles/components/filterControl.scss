@@ -16,7 +16,7 @@
     flex-grow: 1;
     height: 35px;
     color: $txPrimary;
-    
+
     background-color: $boxTransparentPrimaryBackground;
     border-radius: 10px;
     margin: 5px;
@@ -30,65 +30,65 @@
 
 .categories {
   @include control-list;
-}
 
-.group {
-  margin-top: 1em;
-  background-color: $boxTransparentPrimaryBackground;
-  border-radius: 10px;
-  padding: 2px;
+  .group {
+    margin-top: 1em;
+    background-color: $boxTransparentPrimaryBackground;
+    border-radius: 10px;
+    padding: 2px;
 
-  .header {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    padding: 8px;
-    cursor: pointer;
+    .header {
+      display: flex;
+      flex-direction: row;
+      gap: 4px;
+      padding: 8px;
+      cursor: pointer;
 
-    .dropdown {
-      width: 14px;
+      .dropdown {
+        width: 14px;
+      }
+
+      .title,
+      .dropdown {
+        @include base-text;
+      }
     }
 
-    .title,
-    .dropdown {
-      @include base-text;
+    .group-body {
+      display: none;
+      list-style: none;
+      padding: 0;
+      gap: 4px;
+      width: 100%;
+    }
+
+    .group-body.visible {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      gap: 2px 8px;
     }
   }
 
-  .group-body {
-    display: none;
-    list-style: none;
-    padding: 0;
-    gap: 4px;
-    width: 100%;
-  }
+  .legend-item {
+    min-width: 48%;
 
-  .group-body.visible {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    gap: 2px 8px;
-  }
-}
+    .legend-item-content {
+      @include list-item-transparent;
 
-.legend-item {
-  min-width: 48%;
-
-  .legend-item-content {
-    @include list-item-transparent;
-
-    .label {
-      @include base-text;
-      @include center;
-      height: 32px;
-      font-size: 12px;
+      .label {
+        @include base-text;
+        @include center;
+        height: 32px;
+        font-size: 12px;
+      }
     }
   }
-}
 
-.legend-item.selected {
-  .legend-item-content {
-    border: 2px solid $txTransparentHighlight;
+  .legend-item.selected {
+    .legend-item-content {
+      border: 2px solid $txTransparentHighlight;
+    }
   }
 }
 
