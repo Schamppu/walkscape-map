@@ -29,6 +29,8 @@ def get_id(string):
     return '-'.join(split[1:len(split) - 5])
 
 def get_name(key):
+    if not key:
+        return
     parts = key.split('.')
     localization_file = f"localizations/{parts[0]}_en-US.yaml"
     data = read_yaml(localization_file)
@@ -44,14 +46,15 @@ def read_data(data_path, src_path):
     src_data = read_json(src_path)
     return data, src_data
 
-def get_common_info(official_obj, old_data, icon_key):
+def get_common_info(official_obj, old_data, icon_key=None):
     id = get_id(official_obj['id'])
     old_obj = find(old_data, id)
     exists = len(old_obj)
 
     # keep fixed capitalizations from old data if it exists
     name = get_name(official_obj['name'])
-    icon_path = official_obj[icon_key].replace('assets/icons/', '')
+    if icon_key and icon_key in official_obj:
+        icon_path = official_obj[icon_key].replace('assets/icons/', '')
     return id, name, icon_path, old_obj
 
 def get_wiki_url(name):
@@ -171,12 +174,67 @@ def update_services(filename):
         services.append(service)
     write_json(data_path, services)
 
+def update_routes(filename, map_layer_name):
+    data_path = f'../public/data/{filename}'
+    data_full, src_data = read_data(data_path, f'./data/{filename}')
+    locations = [layer['markers'] for layer in read_json('../public/data/locations.json')[1]['layers'] if map_layer_name in layer['mapLayers']][0]
+    def location_by_id(id):
+        for location in locations:
+            if location['id'] == id:
+                return location
+    
+    layers = data_full[0]['layers']
+    data = None
+    layer_index = -1
+    for i, layer in enumerate(layers):
+        if map_layer_name in layer['mapLayers']:
+            data = layers[0]['markers']
+            layer_index = i
+    if data == None:
+        data = layers[0]['markers']
+
+    routes = []
+    for src_route in src_data:
+        id = get_id(src_route['id'])
+
+        pathpoints = [coords[::-1] for coords in src_route['pathPoints']]
+        middle = pathpoints[(len(pathpoints))//2]
+
+        location_0 = location_by_id(get_id(src_route['locations'][0]))
+        location_1 = location_by_id(get_id(src_route['locations'][1]))
+        pathpoints.insert(0, location_0['coords'])
+        pathpoints.append(location_1['coords'])
+        name = f"{location_0['name']} to {location_1['name']}"
+        realm = location_1['realm']
+
+        route = {
+            'id': id,
+            'name': name,
+            'realm': realm,
+            'coords': middle,
+            'distance': src_route['distance'],
+            'distanceModifier': src_route['distanceModifier'],
+            'pathpoints': pathpoints,
+            'terrainModifiers': [get_id(i) for i in src_route['terrainModifiers']],
+        }
+        routes.append(route)
+
+    if layer_index > -1:
+        data_full[0]['layers'][layer_index]['markers'] = routes
+    else:
+        layer = copy.deepcopy(layers[0])
+        layer['mapLayers'] = [map_layer_name]
+        layer['markers'] = routes
+        data_full[0]['layers'].append(layer)
+    write_json(data_path, data_full)
+
 def main():
     map_layer_name = 'beta-277'
-    update_locations('locations.json', map_layer_name)
-    update_activities('activities.json')
-    update_buildings('buildings.json')
-    update_services('services.json')
+    # update_locations('locations.json', map_layer_name)
+    # update_activities('activities.json')
+    # update_buildings('buildings.json')
+    # update_services('services.json')
+    update_routes('routes.json', map_layer_name)
 
 if __name__ == '__main__':
     main()
