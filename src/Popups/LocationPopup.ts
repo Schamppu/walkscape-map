@@ -1,4 +1,4 @@
-import * as Schema from "../JSONSchema";
+import * as Schema from "../Interfaces/JSONSchema";
 import { DomUtil } from "leaflet";
 import { WSPopup, WSPopupOptions } from "./WSPopup";
 
