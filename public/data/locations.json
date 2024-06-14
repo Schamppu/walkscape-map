@@ -941,7 +941,7 @@
             "id": "solitude_rock",
             "name": "Solitude Rock",
             "realm": "jarvonia",
-            "wikiUrl": "https://wiki.walkscape.app/wiki/Solitude_Rock",
+            "wikiUrl": "",
             "coords": [1500.0, 353.0],
             "icon": {
               "url": "locations/coast_white.png"
@@ -1123,7 +1123,7 @@
             "id": "halfling_campgrounds",
             "name": "Halfling Campgrounds",
             "realm": "gdte",
-            "wikiUrl": "https://wiki.walkscape.app/wiki/Halfling_Campgrounds",
+            "wikiUrl": "",
             "coords": [641.0, 1981.0],
             "icon": {
               "url": "locations/marsh_green.png"
@@ -1380,7 +1380,7 @@
             "id": "solitude_rock",
             "name": "Solitude Rock",
             "realm": "Jarvonia",
-            "wikiUrl": "https://wiki.walkscape.app/wiki/Solitude_Rock",
+            "wikiUrl": "",
             "coords": [1500, 353],
             "icon": {
               "url": "locations/coast_white.png"
@@ -1558,7 +1558,7 @@
             "id": "halfling_campgrounds",
             "name": "Halfling Campgrounds",
             "realm": "GDTE",
-            "wikiUrl": "https://wiki.walkscape.app/wiki/Halfling_Campgrounds",
+            "wikiUrl": "",
             "coords": [641, 1981],
             "icon": {
               "url": "locations/marsh_green.png"
@@ -1806,7 +1806,7 @@
             "id": "solitude_rock",
             "name": "Solitude Rock",
             "realm": "Jarvonia",
-            "wikiUrl": "https://wiki.walkscape.app/wiki/Solitude_Rock",
+            "wikiUrl": "",
             "coords": [1500, 353],
             "icon": {
               "url": "locations/coast_white.png"
@@ -1979,7 +1979,7 @@
             "id": "halfling_campgrounds",
             "name": "Halfling Campgrounds",
             "realm": "GDTE",
-            "wikiUrl": "https://wiki.walkscape.app/wiki/Halfling_Campgrounds",
+            "wikiUrl": "",
             "coords": [641, 1981],
             "icon": {
               "url": "locations/marsh_green.png"
@@ -2215,7 +2215,7 @@
             "id": "solitude_rock",
             "name": "Solitude Rock",
             "realm": "Jarvonia",
-            "wikiUrl": "https://wiki.walkscape.app/wiki/Solitude_Rock",
+            "wikiUrl": "",
             "coords": [1500, 353],
             "icon": {
               "url": "locations/coast_white.png"
@@ -2383,7 +2383,7 @@
             "id": "halfling_campgrounds",
             "name": "Halfling Campgrounds",
             "realm": "GDTE",
-            "wikiUrl": "https://wiki.walkscape.app/wiki/Halfling_Campgrounds",
+            "wikiUrl": "",
             "coords": [641, 1981],
             "icon": {
               "url": "locations/marsh_green.png"

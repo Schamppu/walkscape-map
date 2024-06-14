@@ -99,7 +99,7 @@ def update_locations(filename, map_layer_name):
         layer['markers'] = locations
         data_full[1]['layers'].append(layer)
     write_json(data_path, data_full)
-    location_ids = [l["id"] for l in locations]
+    location_ids = [l["id"] for l in locations if not l["hidden"]]
     write_json('../public/params.json', location_ids)
 
 def update_activities(filename):
@@ -165,8 +165,8 @@ def update_services(filename):
     write_json(data_path, services)
 
 def main():
-    map_layer_name = 'locations_old_4'
-    update_locations('locations_old_4.json', map_layer_name)
+    map_layer_name = 'in-game'
+    update_locations('locations.json', map_layer_name)
     update_activities('activities.json')
     update_buildings('buildings.json')
     update_services('services.json')
