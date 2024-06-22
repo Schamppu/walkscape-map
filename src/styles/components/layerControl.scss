@@ -7,7 +7,10 @@
   .layers {
     @include control-list;
     overflow: visible;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .layer {
@@ -47,26 +50,32 @@
   }
 
   .group {
+    width: 100%;
     display: none;
-    column-count: 1;
     list-style: none;
     padding: 0;
-    gap: 4px;
+    gap: 2px 8px;
   }
 
   .group.visible {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
   }
 }
 
 @media (orientation: portrait) {
   .layers {
-    column-count: 2;
+    .layer {
+      max-width: 49%;
+    }
   }
 
   .legacy-maps {
     .group {
-      column-count: 2;
+      .layer {
+        max-width: 48%;
+      }
     }
   }
 }
@@ -74,7 +83,17 @@
 @media (max-width: 450px) {
   .layers-wrapper {
     .layers {
-      column-count: 1;
+      .layer {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .legacy-maps {
+    .group {
+      .layer {
+        max-width: 100%;
+      }
     }
   }
 }
