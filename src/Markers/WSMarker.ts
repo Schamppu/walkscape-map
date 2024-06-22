@@ -1,4 +1,4 @@
-import * as Schema from "../JSONSchema";
+import * as Schema from "../Interfaces/JSONSchema";
 import { Marker, LatLngExpression, LatLngBounds, DomUtil } from "leaflet";
 import { Layer, Visibility } from "../Layer";
 import { MarkerDivIcon } from "./MarkerDivIcon";

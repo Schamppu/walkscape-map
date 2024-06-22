@@ -1,13 +1,13 @@
 import { Map, LatLngBounds, MapOptions, Point } from "leaflet";
-import { create } from "./WSCRS";
+import { create } from "./utils/WSCRS";
 import { MapLayer } from "./MapLayer";
 import { Layer } from "./Layer";
 import { ControlDock } from "./Controls/ControlDock";
 import { ZoomControl } from "./Controls/ZoomControl";
 import { FilterControl } from "./Controls/FilterControl";
 import { LayersControl } from "./Controls/LayersControl";
-import { FilterCategory } from "./FilterCategory";
-import * as Schema from "./JSONSchema";
+import { FilterCategory } from "./Interfaces/FilterCategory";
+import * as Schema from "./Interfaces/JSONSchema";
 
 export interface WSMapOptions extends MapOptions {
   mapSizePixels: number;

@@ -1,4 +1,4 @@
-import * as Schema from "../JSONSchema";
+import * as Schema from "../Interfaces/JSONSchema";
 import { WSMarker } from "./WSMarker";
 import { Layer } from "../Layer";
 import { LocationPopup } from "../Popups/LocationPopup";

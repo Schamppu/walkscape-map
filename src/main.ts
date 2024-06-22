@@ -5,7 +5,7 @@ import "./styles/globals/tailorings.scss";
 
 import { inject } from "@vercel/analytics";
 import { WSMap } from "./WSMap";
-import * as Schema from "./JSONSchema";
+import * as Schema from "./Interfaces/JSONSchema";
 import { mapLayers } from "./data/mapLayers";
 import { filterGroups } from "./data/filterGroups";
 

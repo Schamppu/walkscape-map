@@ -1,7 +1,7 @@
 import { DomUtil, DomEvent } from "leaflet";
 import { ControlPane } from "./ControlPane";
 import { MapLayer } from "../MapLayer";
-import { FilterCategory } from "../FilterCategory";
+import { FilterCategory } from "../Interfaces/FilterCategory";
 
 interface LegendItem {
   category: FilterCategory;
