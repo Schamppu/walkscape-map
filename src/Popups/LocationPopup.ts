@@ -1,5 +1,5 @@
 import * as Schema from "../Interfaces/JSONSchema";
-import { DomUtil } from "leaflet";
+import { DomUtil, Point } from "leaflet";
 import { WSPopup, WSPopupOptions } from "./WSPopup";
 
 export interface LocationPopupOptions extends WSPopupOptions {
@@ -48,6 +48,7 @@ export class LocationPopup extends WSPopup {
     return new LocationPopup({
       ...options,
       minWidth: undefined,
+      offset: new Point(0, -20),
     });
   }
 
