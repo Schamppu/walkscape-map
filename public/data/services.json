@@ -97,5 +97,14 @@
     "skills": [
       "smithing"
     ]
+  },
+  {
+    "id": "wardrobe",
+    "name": "Wardrobe",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Wardrobe",
+    "icon": {
+      "url": "services/wardrobe.png"
+    },
+    "skills": []
   }
 ]
