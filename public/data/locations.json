@@ -3,12 +3,19 @@
     "name": "Realms",
     "layers": [
       {
-        "mapLayers": ["in-game", "pre-beta-248"],
+        "mapLayers": [
+          "beta-277",
+          "beta-248",
+          "pre-beta-248"
+        ],
         "minZoom": 0,
         "maxZoom": 0,
         "markers": [
           {
-            "coords": [630, 750],
+            "coords": [
+              630,
+              750
+            ],
             "id": "jarvonia",
             "name": "Jarvonia",
             "icon": {
@@ -36,7 +43,10 @@
             ]
           },
           {
-            "coords": [540, 1840],
+            "coords": [
+              540,
+              1840
+            ],
             "id": "gdte",
             "name": "GDTE",
             "icon": {
@@ -65,7 +75,10 @@
             ]
           },
           {
-            "coords": [1320, 1700],
+            "coords": [
+              1320,
+              1700
+            ],
             "id": "wallisia",
             "name": "Wallisia",
             "icon": {
@@ -92,7 +105,10 @@
             ]
           },
           {
-            "coords": [2265, 2175],
+            "coords": [
+              2265,
+              2175
+            ],
             "id": "galeforge",
             "name": "Galeforge",
             "icon": {
@@ -119,7 +135,10 @@
             ]
           },
           {
-            "coords": [2120, 890],
+            "coords": [
+              2120,
+              890
+            ],
             "id": "wrentmark",
             "name": "Wrentmark",
             "icon": {
@@ -147,7 +166,10 @@
             ]
           },
           {
-            "coords": [555, 3915],
+            "coords": [
+              555,
+              3915
+            ],
             "id": "painful_islands",
             "name": "Painful Islands",
             "icon": {
@@ -176,7 +198,10 @@
             ]
           },
           {
-            "coords": [860, 2910],
+            "coords": [
+              860,
+              2910
+            ],
             "id": "ewerethien",
             "name": "Ewerethien",
             "icon": {
@@ -204,7 +229,10 @@
             ]
           },
           {
-            "coords": [1800, 3270],
+            "coords": [
+              1800,
+              3270
+            ],
             "id": "braemercia",
             "name": "Braemercia",
             "icon": {
@@ -231,7 +259,10 @@
             ]
           },
           {
-            "coords": [1625, 4120],
+            "coords": [
+              1625,
+              4120
+            ],
             "id": "rid_raddak",
             "name": "Rid Raddak",
             "icon": {
@@ -257,7 +288,10 @@
             ]
           },
           {
-            "coords": [1770, 2580],
+            "coords": [
+              1770,
+              2580
+            ],
             "id": "ethereal",
             "name": "Ethereal",
             "icon": {
@@ -279,7 +313,10 @@
     "name": "Locations",
     "layers": [
       {
-        "mapLayers": ["in-game", "pre-beta-248"],
+        "mapLayers": [
+          "beta-248",
+          "pre-beta-248"
+        ],
         "minZoom": 1,
         "maxZoom": 4,
         "labelMinZoom": 2,
@@ -289,7 +326,10 @@
             "name": "Disenchanted Forest",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Disenchanted_Forest",
-            "coords": [369.0, 537.0],
+            "coords": [
+              369.0,
+              537.0
+            ],
             "icon": {
               "url": "locations/forest_white.png"
             },
@@ -300,34 +340,53 @@
               "dobby_is..._free"
             ],
             "services": [],
-            "buildings": ["helpful_herbert's_hut"]
+            "buildings": [
+              "helpful_herbert's_hut"
+            ]
           },
           {
             "id": "azurazera",
             "name": "Azurazera",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Azurazera",
-            "coords": [1065.0, 827.0],
+            "coords": [
+              1065.0,
+              827.0
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
             "hidden": false,
-            "activities": ["lake_fishing", "soup_kitchen_volunteering"],
+            "activities": [
+              "lake_fishing",
+              "soup_kitchen_volunteering"
+            ],
             "services": [],
-            "buildings": ["temple_of_azurazera"]
+            "buildings": [
+              "temple_of_azurazera"
+            ]
           },
           {
             "id": "kallaheim",
             "name": "Kallaheim",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Kallaheim",
-            "coords": [408.0, 619.0],
+            "coords": [
+              408.0,
+              619.0
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
             "hidden": false,
-            "activities": ["litter_looting"],
-            "services": ["basic_forge", "basic_kitchen", "basic_sawmill"],
+            "activities": [
+              "litter_looting"
+            ],
+            "services": [
+              "basic_forge",
+              "basic_kitchen",
+              "basic_sawmill"
+            ],
             "buildings": [
               "the_icy_goblet",
               "kallaheim's_frosty_finds",
@@ -339,21 +398,34 @@
             "name": "Frusenholm",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Frusenholm",
-            "coords": [463.0, 954.0],
+            "coords": [
+              463.0,
+              954.0
+            ],
             "icon": {
               "url": "locations/town_white.png"
             },
             "hidden": false,
-            "activities": ["lake_fishing", "ice_sculpting"],
-            "services": ["basic_workshop"],
-            "buildings": ["jarvojoy"]
+            "activities": [
+              "lake_fishing",
+              "ice_sculpting"
+            ],
+            "services": [
+              "basic_workshop"
+            ],
+            "buildings": [
+              "jarvojoy"
+            ]
           },
           {
             "id": "barbantok",
             "name": "Barbantok",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Barbantok",
-            "coords": [795.0, 592.0],
+            "coords": [
+              795.0,
+              592.0
+            ],
             "icon": {
               "url": "locations/town_white.png"
             },
@@ -363,7 +435,9 @@
               "wood_carving",
               "tinkering"
             ],
-            "services": ["basic_sawmill"],
+            "services": [
+              "basic_sawmill"
+            ],
             "buildings": []
           },
           {
@@ -371,21 +445,31 @@
             "name": "Centaham",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Centaham",
-            "coords": [678.0, 928.0],
+            "coords": [
+              678.0,
+              928.0
+            ],
             "icon": {
               "url": "locations/city_white.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_kitchen"],
-            "buildings": ["northstar_mercantile"]
+            "services": [
+              "basic_kitchen"
+            ],
+            "buildings": [
+              "northstar_mercantile"
+            ]
           },
           {
             "id": "port_skildar",
             "name": "Port Skildar",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Port_Skildar",
-            "coords": [946.0, 1135.0],
+            "coords": [
+              946.0,
+              1135.0
+            ],
             "icon": {
               "url": "locations/port_white.png"
             },
@@ -396,20 +480,30 @@
               "ship_repair_(beginner)"
             ],
             "services": [],
-            "buildings": ["frosthook_emporium"]
+            "buildings": [
+              "frosthook_emporium"
+            ]
           },
           {
             "id": "coldington",
             "name": "Coldington",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Coldington",
-            "coords": [1003.0, 1013.0],
+            "coords": [
+              1003.0,
+              1013.0
+            ],
             "icon": {
               "url": "locations/city_white.png"
             },
             "hidden": false,
-            "activities": ["firewood_making", "rooftop_jumping"],
-            "services": ["basic_kitchen"],
+            "activities": [
+              "firewood_making",
+              "rooftop_jumping"
+            ],
+            "services": [
+              "basic_kitchen"
+            ],
             "buildings": []
           },
           {
@@ -417,7 +511,10 @@
             "name": "Sanguine Hills",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Sanguine_Hills",
-            "coords": [1278.0, 906.0],
+            "coords": [
+              1278.0,
+              906.0
+            ],
             "icon": {
               "url": "locations/hills_white.png"
             },
@@ -438,7 +535,10 @@
             "name": "Nomad Woods",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Nomad_Woods",
-            "coords": [712.0, 480.0],
+            "coords": [
+              712.0,
+              480.0
+            ],
             "icon": {
               "url": "locations/forest_white.png"
             },
@@ -449,14 +549,19 @@
               "cut_oak_trees"
             ],
             "services": [],
-            "buildings": ["woodcutter's_cabin"]
+            "buildings": [
+              "woodcutter's_cabin"
+            ]
           },
           {
             "id": "casbrant_fields",
             "name": "Casbrant Fields",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Casbrant_Fields",
-            "coords": [752.0, 821.0],
+            "coords": [
+              752.0,
+              821.0
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
@@ -474,7 +579,10 @@
             "name": "Solitude Rock",
             "realm": "jarvonia",
             "wikiUrl": "",
-            "coords": [1500.0, 353.0],
+            "coords": [
+              1500.0,
+              353.0
+            ],
             "icon": {
               "url": "locations/coast_white.png"
             },
@@ -488,12 +596,18 @@
             "name": "Norsack Plains",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Norsack_Plains",
-            "coords": [247.0, 851.0],
+            "coords": [
+              247.0,
+              851.0
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
             "hidden": false,
-            "activities": ["plains_foraging", "gold_panning"],
+            "activities": [
+              "plains_foraging",
+              "gold_panning"
+            ],
             "services": [],
             "buildings": []
           },
@@ -502,7 +616,10 @@
             "name": "Frostbite Mountain",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Frostbite_Mountain",
-            "coords": [202.0, 729.0],
+            "coords": [
+              202.0,
+              729.0
+            ],
             "icon": {
               "url": "locations/mountains.png"
             },
@@ -523,7 +640,10 @@
             "name": "Noiseless Pass",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Noiseless_Pass",
-            "coords": [499.0, 1347.0],
+            "coords": [
+              499.0,
+              1347.0
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
@@ -541,21 +661,29 @@
             "name": "Fort of Permafrost",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Fort_of_Permafrost",
-            "coords": [578.3, 1167.5932288753793],
+            "coords": [
+              578.3,
+              1167.5932288753793
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
             "hidden": false,
             "activities": [],
             "services": [],
-            "buildings": ["fort_of_permafrost"]
+            "buildings": [
+              "fort_of_permafrost"
+            ]
           },
           {
             "id": "farsand_coast",
             "name": "Farsand Coast",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Farsand_Coast",
-            "coords": [210.0, 1631.0],
+            "coords": [
+              210.0,
+              1631.0
+            ],
             "icon": {
               "url": "locations/coast_green.png"
             },
@@ -573,49 +701,81 @@
             "name": "Salsfirth",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Salsfirth",
-            "coords": [369.0, 1670.0],
+            "coords": [
+              369.0,
+              1670.0
+            ],
             "icon": {
               "url": "locations/city_green.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_kitchen", "basic_workshop"],
-            "buildings": ["bogside_bank_of_prosperity", "paws_are_us"]
+            "services": [
+              "basic_kitchen",
+              "basic_workshop"
+            ],
+            "buildings": [
+              "bogside_bank_of_prosperity",
+              "paws_are_us"
+            ]
           },
           {
             "id": "everhaven",
             "name": "Everhaven",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Everhaven",
-            "coords": [306.0, 2024.0],
+            "coords": [
+              306.0,
+              2024.0
+            ],
             "icon": {
               "url": "locations/castle_green.png"
             },
             "hidden": false,
-            "activities": ["rooftop_jumping_(intermediate)"],
-            "services": ["basic_sawmill", "basic_kitchen"],
-            "buildings": ["mossy_merchant's_breeze_mart"]
+            "activities": [
+              "rooftop_jumping_(intermediate)"
+            ],
+            "services": [
+              "basic_sawmill",
+              "basic_kitchen"
+            ],
+            "buildings": [
+              "mossy_merchant's_breeze_mart"
+            ]
           },
           {
             "id": "bilgemont_port",
             "name": "Bilgemont Port",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Bilgemont_Port",
-            "coords": [437.0, 2286.0],
+            "coords": [
+              437.0,
+              2286.0
+            ],
             "icon": {
               "url": "locations/port_green.png"
             },
             "hidden": false,
-            "activities": ["frisbee_golfing_(intermediate)"],
-            "services": ["basic_forge"],
-            "buildings": ["bilgemont_castle", "maritime_fortune_bank"]
+            "activities": [
+              "frisbee_golfing_(intermediate)"
+            ],
+            "services": [
+              "basic_forge"
+            ],
+            "buildings": [
+              "bilgemont_castle",
+              "maritime_fortune_bank"
+            ]
           },
           {
             "id": "granfiddich",
             "name": "Granfiddich",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Granfiddich",
-            "coords": [753.0, 1718.0],
+            "coords": [
+              753.0,
+              1718.0
+            ],
             "icon": {
               "url": "locations/city_green.png"
             },
@@ -626,7 +786,9 @@
               "wine_grape_stomping",
               "dumpster_diving"
             ],
-            "services": ["basic_forge"],
+            "services": [
+              "basic_forge"
+            ],
             "buildings": [
               "fish_market_stall",
               "food_market_stall",
@@ -638,13 +800,21 @@
             "name": "Blackspell Port",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Blackspell_Port",
-            "coords": [786.0, 2199.0],
+            "coords": [
+              786.0,
+              2199.0
+            ],
             "icon": {
               "url": "locations/port_green.png"
             },
             "hidden": false,
-            "activities": ["dumpster_diving", "ship_repair_(intermediate)"],
-            "services": ["basic_kitchen"],
+            "activities": [
+              "dumpster_diving",
+              "ship_repair_(intermediate)"
+            ],
+            "services": [
+              "basic_kitchen"
+            ],
             "buildings": []
           },
           {
@@ -652,12 +822,18 @@
             "name": "Old Arena Ruins",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Old_Arena_Ruins",
-            "coords": [913.0, 2086.0],
+            "coords": [
+              913.0,
+              2086.0
+            ],
             "icon": {
               "url": "locations/arena_green.png"
             },
             "hidden": false,
-            "activities": ["magnet_fishing", "kayaking"],
+            "activities": [
+              "magnet_fishing",
+              "kayaking"
+            ],
             "services": [],
             "buildings": []
           },
@@ -666,12 +842,17 @@
             "name": "Halfling Campgrounds",
             "realm": "gdte",
             "wikiUrl": "",
-            "coords": [641.0, 1981.0],
+            "coords": [
+              641.0,
+              1981.0
+            ],
             "icon": {
               "url": "locations/marsh_green.png"
             },
             "hidden": true,
-            "activities": ["cut_mangrove_trees"],
+            "activities": [
+              "cut_mangrove_trees"
+            ],
             "services": [],
             "buildings": []
           },
@@ -680,7 +861,10 @@
             "name": "Mangrove Forest",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Mangrove_Forest",
-            "coords": [398.0, 1563.0],
+            "coords": [
+              398.0,
+              1563.0
+            ],
             "icon": {
               "url": "locations/forest_green.png"
             },
@@ -698,12 +882,17 @@
             "name": "Red Coast",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Red_Coast",
-            "coords": [912.0, 2228.0],
+            "coords": [
+              912.0,
+              2228.0
+            ],
             "icon": {
               "url": "locations/coast_green.png"
             },
             "hidden": false,
-            "activities": ["swimming_(intermediate)"],
+            "activities": [
+              "swimming_(intermediate)"
+            ],
             "services": [],
             "buildings": []
           },
@@ -712,12 +901,18 @@
             "name": "Warrenfield",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Warrenfield",
-            "coords": [939.0, 1916.0],
+            "coords": [
+              939.0,
+              1916.0
+            ],
             "icon": {
               "url": "locations/plains_green.png"
             },
             "hidden": false,
-            "activities": ["cut_willow_trees", "butterfly_catching"],
+            "activities": [
+              "cut_willow_trees",
+              "butterfly_catching"
+            ],
             "services": [],
             "buildings": []
           },
@@ -726,7 +921,10 @@
             "name": "Beach of Woes",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Beach_of_Woes",
-            "coords": [405.543212890625, 451.25],
+            "coords": [
+              405.543212890625,
+              451.25
+            ],
             "icon": {
               "url": "locations/coast_white.png"
             },
@@ -745,19 +943,28 @@
             "name": "Winter Waves Glacier",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Winter_Waves_Glacier",
-            "coords": [131.33333333303992, 879.5341621359416],
+            "coords": [
+              131.33333333303992,
+              879.5341621359416
+            ],
             "icon": {
               "url": "locations/glacier.png"
             },
             "hidden": false,
-            "activities": ["glacier_foraging"],
-            "services": ["frozen_forge"],
+            "activities": [
+              "glacier_foraging"
+            ],
+            "services": [
+              "frozen_forge"
+            ],
             "buildings": []
           }
         ]
       },
       {
-        "mapLayers": ["locations_old_4"],
+        "mapLayers": [
+          "locations_old_4"
+        ],
         "minZoom": 1,
         "maxZoom": 4,
         "labelMinZoom": 2,
@@ -767,7 +974,10 @@
             "name": "Disenchanted Forest",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Disenchanted_Forest",
-            "coords": [369.0, 537.0],
+            "coords": [
+              369.0,
+              537.0
+            ],
             "icon": {
               "url": "locations/forest_white.png"
             },
@@ -778,34 +988,52 @@
               "dobby_is..._free"
             ],
             "services": [],
-            "buildings": ["helpful_herbert's_hut"]
+            "buildings": [
+              "helpful_herbert's_hut"
+            ]
           },
           {
             "id": "azurazera",
             "name": "Azurazera",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Azurazera",
-            "coords": [1065.0, 827.0],
+            "coords": [
+              1065.0,
+              827.0
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
             "hidden": false,
-            "activities": ["lake_fishing"],
+            "activities": [
+              "lake_fishing"
+            ],
             "services": [],
-            "buildings": ["temple_of_azurazera"]
+            "buildings": [
+              "temple_of_azurazera"
+            ]
           },
           {
             "id": "kallaheim",
             "name": "Kallaheim",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Kallaheim",
-            "coords": [408.0, 619.0],
+            "coords": [
+              408.0,
+              619.0
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
             "hidden": false,
-            "activities": ["litter_looting"],
-            "services": ["basic_forge", "basic_kitchen", "basic_sawmill"],
+            "activities": [
+              "litter_looting"
+            ],
+            "services": [
+              "basic_forge",
+              "basic_kitchen",
+              "basic_sawmill"
+            ],
             "buildings": [
               "the_icy_goblet",
               "kallaheim's_frosty_finds",
@@ -817,27 +1045,43 @@
             "name": "Frusenholm",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Frusenholm",
-            "coords": [463.0, 954.0],
+            "coords": [
+              463.0,
+              954.0
+            ],
             "icon": {
               "url": "locations/town_white.png"
             },
             "hidden": false,
-            "activities": ["lake_fishing"],
-            "services": ["basic_workshop"],
-            "buildings": ["jarvojoy"]
+            "activities": [
+              "lake_fishing"
+            ],
+            "services": [
+              "basic_workshop"
+            ],
+            "buildings": [
+              "jarvojoy"
+            ]
           },
           {
             "id": "barbantok",
             "name": "Barbantok",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Barbantok",
-            "coords": [795.0, 592.0],
+            "coords": [
+              795.0,
+              592.0
+            ],
             "icon": {
               "url": "locations/town_white.png"
             },
             "hidden": false,
-            "activities": ["frisbee_golfing_(beginner)"],
-            "services": ["basic_sawmill"],
+            "activities": [
+              "frisbee_golfing_(beginner)"
+            ],
+            "services": [
+              "basic_sawmill"
+            ],
             "buildings": []
           },
           {
@@ -845,41 +1089,60 @@
             "name": "Centaham",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Centaham",
-            "coords": [678.0, 928.0],
+            "coords": [
+              678.0,
+              928.0
+            ],
             "icon": {
               "url": "locations/city_white.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_kitchen"],
-            "buildings": ["northstar_mercantile"]
+            "services": [
+              "basic_kitchen"
+            ],
+            "buildings": [
+              "northstar_mercantile"
+            ]
           },
           {
             "id": "port_skildar",
             "name": "Port Skildar",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Port_Skildar",
-            "coords": [946.0, 1135.0],
+            "coords": [
+              946.0,
+              1135.0
+            ],
             "icon": {
               "url": "locations/port_white.png"
             },
             "hidden": false,
-            "activities": ["sea_fishing_(rod)"],
+            "activities": [
+              "sea_fishing_(rod)"
+            ],
             "services": [],
-            "buildings": ["frosthook_emporium"]
+            "buildings": [
+              "frosthook_emporium"
+            ]
           },
           {
             "id": "coldington",
             "name": "Coldington",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Coldington",
-            "coords": [1003.0, 1013.0],
+            "coords": [
+              1003.0,
+              1013.0
+            ],
             "icon": {
               "url": "locations/city_white.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_kitchen"],
+            "services": [
+              "basic_kitchen"
+            ],
             "buildings": []
           },
           {
@@ -887,7 +1150,10 @@
             "name": "Sanguine Hills",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Sanguine_Hills",
-            "coords": [1278.0, 906.0],
+            "coords": [
+              1278.0,
+              906.0
+            ],
             "icon": {
               "url": "locations/hills_white.png"
             },
@@ -906,7 +1172,10 @@
             "name": "Nomad Woods",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Nomad_Woods",
-            "coords": [712.0, 480.0],
+            "coords": [
+              712.0,
+              480.0
+            ],
             "icon": {
               "url": "locations/forest_white.png"
             },
@@ -917,14 +1186,19 @@
               "cut_oak_trees"
             ],
             "services": [],
-            "buildings": ["woodcutter's_cabin"]
+            "buildings": [
+              "woodcutter's_cabin"
+            ]
           },
           {
             "id": "casbrant_fields",
             "name": "Casbrant Fields",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Casbrant_Fields",
-            "coords": [752.0, 821.0],
+            "coords": [
+              752.0,
+              821.0
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
@@ -942,7 +1216,10 @@
             "name": "Solitude Rock",
             "realm": "jarvonia",
             "wikiUrl": "",
-            "coords": [1500.0, 353.0],
+            "coords": [
+              1500.0,
+              353.0
+            ],
             "icon": {
               "url": "locations/coast_white.png"
             },
@@ -956,12 +1233,17 @@
             "name": "Norsack Plains",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Norsack_Plains",
-            "coords": [247.0, 851.0],
+            "coords": [
+              247.0,
+              851.0
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
             "hidden": false,
-            "activities": ["plains_foraging"],
+            "activities": [
+              "plains_foraging"
+            ],
             "services": [],
             "buildings": []
           },
@@ -970,7 +1252,10 @@
             "name": "Frostbite Mountain",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Frostbite_Mountain",
-            "coords": [202.0, 729.0],
+            "coords": [
+              202.0,
+              729.0
+            ],
             "icon": {
               "url": "locations/mountains.png"
             },
@@ -990,7 +1275,10 @@
             "name": "Noiseless Pass",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Noiseless_Pass",
-            "coords": [499.0, 1347.0],
+            "coords": [
+              499.0,
+              1347.0
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
@@ -1008,26 +1296,37 @@
             "name": "Fort of Permafrost",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Fort_of_Permafrost",
-            "coords": [578.3, 1167.5932288753793],
+            "coords": [
+              578.3,
+              1167.5932288753793
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
             "hidden": false,
             "activities": [],
             "services": [],
-            "buildings": ["fort_of_permafrost"]
+            "buildings": [
+              "fort_of_permafrost"
+            ]
           },
           {
             "id": "farsand_coast",
             "name": "Farsand Coast",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Farsand_Coast",
-            "coords": [210.0, 1631.0],
+            "coords": [
+              210.0,
+              1631.0
+            ],
             "icon": {
               "url": "locations/coast_green.png"
             },
             "hidden": false,
-            "activities": ["teak_logs", "seashell_searching"],
+            "activities": [
+              "teak_logs",
+              "seashell_searching"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1036,55 +1335,89 @@
             "name": "Salsfirth",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Salsfirth",
-            "coords": [369.0, 1670.0],
+            "coords": [
+              369.0,
+              1670.0
+            ],
             "icon": {
               "url": "locations/city_green.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_kitchen", "basic_workshop"],
-            "buildings": ["bogside_bank_of_prosperity", "paws_are_us"]
+            "services": [
+              "basic_kitchen",
+              "basic_workshop"
+            ],
+            "buildings": [
+              "bogside_bank_of_prosperity",
+              "paws_are_us"
+            ]
           },
           {
             "id": "everhaven",
             "name": "Everhaven",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Everhaven",
-            "coords": [306.0, 2024.0],
+            "coords": [
+              306.0,
+              2024.0
+            ],
             "icon": {
               "url": "locations/castle_green.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_sawmill", "basic_kitchen"],
-            "buildings": ["mossy_merchant's_breeze_mart"]
+            "services": [
+              "basic_sawmill",
+              "basic_kitchen"
+            ],
+            "buildings": [
+              "mossy_merchant's_breeze_mart"
+            ]
           },
           {
             "id": "bilgemont_port",
             "name": "Bilgemont Port",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Bilgemont_Port",
-            "coords": [437.0, 2286.0],
+            "coords": [
+              437.0,
+              2286.0
+            ],
             "icon": {
               "url": "locations/port_green.png"
             },
             "hidden": false,
-            "activities": ["frisbee_golfing_(intermediate)"],
-            "services": ["basic_forge"],
-            "buildings": ["bilgemont_castle", "maritime_fortune_bank"]
+            "activities": [
+              "frisbee_golfing_(intermediate)"
+            ],
+            "services": [
+              "basic_forge"
+            ],
+            "buildings": [
+              "bilgemont_castle",
+              "maritime_fortune_bank"
+            ]
           },
           {
             "id": "granfiddich",
             "name": "Granfiddich",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Granfiddich",
-            "coords": [753.0, 1718.0],
+            "coords": [
+              753.0,
+              1718.0
+            ],
             "icon": {
               "url": "locations/city_green.png"
             },
             "hidden": false,
-            "activities": ["litter_looting"],
-            "services": ["basic_forge"],
+            "activities": [
+              "litter_looting"
+            ],
+            "services": [
+              "basic_forge"
+            ],
             "buildings": [
               "fish_market_stall",
               "food_market_stall",
@@ -1096,13 +1429,18 @@
             "name": "Blackspell Port",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Blackspell_Port",
-            "coords": [786.0, 2199.0],
+            "coords": [
+              786.0,
+              2199.0
+            ],
             "icon": {
               "url": "locations/port_green.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_kitchen"],
+            "services": [
+              "basic_kitchen"
+            ],
             "buildings": []
           },
           {
@@ -1110,7 +1448,10 @@
             "name": "Old Arena Ruins",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Old_Arena_Ruins",
-            "coords": [913.0, 2086.0],
+            "coords": [
+              913.0,
+              2086.0
+            ],
             "icon": {
               "url": "locations/arena_green.png"
             },
@@ -1124,12 +1465,17 @@
             "name": "Halfling Campgrounds",
             "realm": "gdte",
             "wikiUrl": "",
-            "coords": [641.0, 1981.0],
+            "coords": [
+              641.0,
+              1981.0
+            ],
             "icon": {
               "url": "locations/marsh_green.png"
             },
             "hidden": true,
-            "activities": ["cut_mangrove_trees"],
+            "activities": [
+              "cut_mangrove_trees"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1138,7 +1484,10 @@
             "name": "Mangrove Forest",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Mangrove_Forest",
-            "coords": [398.0, 1563.0],
+            "coords": [
+              398.0,
+              1563.0
+            ],
             "icon": {
               "url": "locations/forest_green.png"
             },
@@ -1156,7 +1505,10 @@
             "name": "Red Coast",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Red_Coast",
-            "coords": [912.0, 2228.0],
+            "coords": [
+              912.0,
+              2228.0
+            ],
             "icon": {
               "url": "locations/coast_green.png"
             },
@@ -1170,12 +1522,17 @@
             "name": "Warrenfield",
             "realm": "gdte",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Warrenfield",
-            "coords": [939.0, 1916.0],
+            "coords": [
+              939.0,
+              1916.0
+            ],
             "icon": {
               "url": "locations/plains_green.png"
             },
             "hidden": false,
-            "activities": ["cut_willow_trees"],
+            "activities": [
+              "cut_willow_trees"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1184,7 +1541,10 @@
             "name": "Beach of Woes",
             "realm": "jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Beach_of_Woes",
-            "coords": [405.543212890625, 451.25],
+            "coords": [
+              405.543212890625,
+              451.25
+            ],
             "icon": {
               "url": "locations/coast_white.png"
             },
@@ -1200,7 +1560,9 @@
         ]
       },
       {
-        "mapLayers": ["locations_old_3"],
+        "mapLayers": [
+          "locations_old_3"
+        ],
         "minZoom": 1,
         "maxZoom": 4,
         "labelMinZoom": 2,
@@ -1210,7 +1572,10 @@
             "name": "Disenchanted Forest",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Disenchanted_Forest",
-            "coords": [369, 537],
+            "coords": [
+              369,
+              537
+            ],
             "icon": {
               "url": "locations/forest_white.png"
             },
@@ -1221,34 +1586,52 @@
               "dobby_is..._free"
             ],
             "services": [],
-            "buildings": ["helpful_herbert's_hut"]
+            "buildings": [
+              "helpful_herbert's_hut"
+            ]
           },
           {
             "id": "azurazera",
             "name": "Azurazera",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Azurazera",
-            "coords": [1065, 827],
+            "coords": [
+              1065,
+              827
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
             "hidden": false,
-            "activities": ["lake_fishing"],
+            "activities": [
+              "lake_fishing"
+            ],
             "services": [],
-            "buildings": ["temple_of_azurazera"]
+            "buildings": [
+              "temple_of_azurazera"
+            ]
           },
           {
             "id": "kallaheim",
             "name": "Kallaheim",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Kallaheim",
-            "coords": [408, 619],
+            "coords": [
+              408,
+              619
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
             "hidden": false,
-            "activities": ["litter_looting"],
-            "services": ["basic_forge", "basic_kitchen", "basic_sawmill"],
+            "activities": [
+              "litter_looting"
+            ],
+            "services": [
+              "basic_forge",
+              "basic_kitchen",
+              "basic_sawmill"
+            ],
             "buildings": [
               "the_icy_goblet",
               "kallaheim's_frosty_finds",
@@ -1260,27 +1643,41 @@
             "name": "Frusenholm",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Frusenholm",
-            "coords": [463, 954],
+            "coords": [
+              463,
+              954
+            ],
             "icon": {
               "url": "locations/town_white.png"
             },
             "hidden": false,
-            "activities": ["lake_fishing"],
-            "services": ["basic_workshop"],
-            "buildings": ["jarvojoy"]
+            "activities": [
+              "lake_fishing"
+            ],
+            "services": [
+              "basic_workshop"
+            ],
+            "buildings": [
+              "jarvojoy"
+            ]
           },
           {
             "id": "barbantok",
             "name": "Barbantok",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Barbantok",
-            "coords": [795, 592],
+            "coords": [
+              795,
+              592
+            ],
             "icon": {
               "url": "locations/town_white.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_sawmill"],
+            "services": [
+              "basic_sawmill"
+            ],
             "buildings": []
           },
           {
@@ -1288,41 +1685,60 @@
             "name": "Centaham",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Centaham",
-            "coords": [678, 928],
+            "coords": [
+              678,
+              928
+            ],
             "icon": {
               "url": "locations/city_white.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_kitchen"],
-            "buildings": ["northstar_mercantile"]
+            "services": [
+              "basic_kitchen"
+            ],
+            "buildings": [
+              "northstar_mercantile"
+            ]
           },
           {
             "id": "port_skildar",
             "name": "Port Skildar",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Port_Skildar",
-            "coords": [946, 1135],
+            "coords": [
+              946,
+              1135
+            ],
             "icon": {
               "url": "locations/port_white.png"
             },
             "hidden": false,
-            "activities": ["sea_fishing"],
+            "activities": [
+              "sea_fishing"
+            ],
             "services": [],
-            "buildings": ["frosthook_emporium"]
+            "buildings": [
+              "frosthook_emporium"
+            ]
           },
           {
             "id": "coldington",
             "name": "Coldington",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Coldington",
-            "coords": [1003, 1013],
+            "coords": [
+              1003,
+              1013
+            ],
             "icon": {
               "url": "locations/city_white.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_kitchen"],
+            "services": [
+              "basic_kitchen"
+            ],
             "buildings": []
           },
           {
@@ -1330,7 +1746,10 @@
             "name": "Sanguine Hills",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Sanguine_Hills",
-            "coords": [1278, 906],
+            "coords": [
+              1278,
+              906
+            ],
             "icon": {
               "url": "locations/hills_white.png"
             },
@@ -1349,7 +1768,10 @@
             "name": "Nomad Woods",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Nomad_Woods",
-            "coords": [712, 480],
+            "coords": [
+              712,
+              480
+            ],
             "icon": {
               "url": "locations/forest_white.png"
             },
@@ -1360,19 +1782,27 @@
               "cut_oak_trees"
             ],
             "services": [],
-            "buildings": ["woodcutter's_cabin"]
+            "buildings": [
+              "woodcutter's_cabin"
+            ]
           },
           {
             "id": "casbrant_fields",
             "name": "Casbrant Fields",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Casbrant_Fields",
-            "coords": [752, 821],
+            "coords": [
+              752,
+              821
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
             "hidden": false,
-            "activities": ["plains_foraging", "cut_spruce_trees"],
+            "activities": [
+              "plains_foraging",
+              "cut_spruce_trees"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1381,7 +1811,10 @@
             "name": "Solitude Rock",
             "realm": "Jarvonia",
             "wikiUrl": "",
-            "coords": [1500, 353],
+            "coords": [
+              1500,
+              353
+            ],
             "icon": {
               "url": "locations/coast_white.png"
             },
@@ -1395,12 +1828,17 @@
             "name": "Norsack Plains",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Norsack_Plains",
-            "coords": [247, 851],
+            "coords": [
+              247,
+              851
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
             "hidden": false,
-            "activities": ["plains_foraging"],
+            "activities": [
+              "plains_foraging"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1409,7 +1847,10 @@
             "name": "Frostbite Mountain",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Frostbite_Mountain",
-            "coords": [202, 729],
+            "coords": [
+              202,
+              729
+            ],
             "icon": {
               "url": "locations/mountains.png"
             },
@@ -1429,12 +1870,18 @@
             "name": "Noiseless Pass",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Noiseless_Pass",
-            "coords": [499, 1347],
+            "coords": [
+              499,
+              1347
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
             "hidden": false,
-            "activities": ["cut_spruce_trees", "cut_oak_trees"],
+            "activities": [
+              "cut_spruce_trees",
+              "cut_oak_trees"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1443,26 +1890,37 @@
             "name": "Fort of Permafrost",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Fort_of_Permafrost",
-            "coords": [544, 1220],
+            "coords": [
+              544,
+              1220
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
             "hidden": false,
             "activities": [],
             "services": [],
-            "buildings": ["fort_of_permafrost"]
+            "buildings": [
+              "fort_of_permafrost"
+            ]
           },
           {
             "id": "farsand_coast",
             "name": "Farsand Coast",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Farsand_Coast",
-            "coords": [210, 1631],
+            "coords": [
+              210,
+              1631
+            ],
             "icon": {
               "url": "locations/coast_green.png"
             },
             "hidden": false,
-            "activities": ["teak_logs", "seashell_searching"],
+            "activities": [
+              "teak_logs",
+              "seashell_searching"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1471,55 +1929,86 @@
             "name": "Salsfirth",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Salsfirth",
-            "coords": [369, 1670],
+            "coords": [
+              369,
+              1670
+            ],
             "icon": {
               "url": "locations/city_green.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_kitchen", "basic_workshop"],
-            "buildings": ["bogside_bank_of_prosperity"]
+            "services": [
+              "basic_kitchen",
+              "basic_workshop"
+            ],
+            "buildings": [
+              "bogside_bank_of_prosperity"
+            ]
           },
           {
             "id": "everhaven",
             "name": "Everhaven",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Everhaven",
-            "coords": [306, 2024],
+            "coords": [
+              306,
+              2024
+            ],
             "icon": {
               "url": "locations/castle_green.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_sawmill", "basic_kitchen"],
-            "buildings": ["mossy_merchant's_breeze_mart"]
+            "services": [
+              "basic_sawmill",
+              "basic_kitchen"
+            ],
+            "buildings": [
+              "mossy_merchant's_breeze_mart"
+            ]
           },
           {
             "id": "bilgemont_port",
             "name": "Bilgemont Port",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Bilgemont_Port",
-            "coords": [437, 2286],
+            "coords": [
+              437,
+              2286
+            ],
             "icon": {
               "url": "locations/port_green.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_forge"],
-            "buildings": ["bilgemont_castle", "maritime_fortune_bank"]
+            "services": [
+              "basic_forge"
+            ],
+            "buildings": [
+              "bilgemont_castle",
+              "maritime_fortune_bank"
+            ]
           },
           {
             "id": "granfiddich",
             "name": "Granfiddich",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Granfiddich",
-            "coords": [753, 1718],
+            "coords": [
+              753,
+              1718
+            ],
             "icon": {
               "url": "locations/city_green.png"
             },
             "hidden": false,
-            "activities": ["litter_looting"],
-            "services": ["basic_forge"],
+            "activities": [
+              "litter_looting"
+            ],
+            "services": [
+              "basic_forge"
+            ],
             "buildings": [
               "fish_market_stall",
               "food_market_stall",
@@ -1531,13 +2020,18 @@
             "name": "Blackspell Port",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Blackspell_Port",
-            "coords": [786, 2199],
+            "coords": [
+              786,
+              2199
+            ],
             "icon": {
               "url": "locations/port_green.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_kitchen"],
+            "services": [
+              "basic_kitchen"
+            ],
             "buildings": []
           },
           {
@@ -1545,7 +2039,10 @@
             "name": "Old Arena Ruins",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Old_Arena_Ruins",
-            "coords": [913, 2086],
+            "coords": [
+              913,
+              2086
+            ],
             "icon": {
               "url": "locations/arena_green.png"
             },
@@ -1559,12 +2056,17 @@
             "name": "Halfling Campgrounds",
             "realm": "GDTE",
             "wikiUrl": "",
-            "coords": [641, 1981],
+            "coords": [
+              641,
+              1981
+            ],
             "icon": {
               "url": "locations/marsh_green.png"
             },
             "hidden": true,
-            "activities": ["cut_mangrove_trees"],
+            "activities": [
+              "cut_mangrove_trees"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1573,7 +2075,10 @@
             "name": "Mangrove Forest",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Mangrove_Forest",
-            "coords": [398, 1563],
+            "coords": [
+              398,
+              1563
+            ],
             "icon": {
               "url": "locations/forest_green.png"
             },
@@ -1591,7 +2096,10 @@
             "name": "Red Coast",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Red_Coast",
-            "coords": [912, 2228],
+            "coords": [
+              912,
+              2228
+            ],
             "icon": {
               "url": "locations/coast_green.png"
             },
@@ -1605,12 +2113,17 @@
             "name": "Warrenfield",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Warrenfield",
-            "coords": [939, 1916],
+            "coords": [
+              939,
+              1916
+            ],
             "icon": {
               "url": "locations/plains_green.png"
             },
             "hidden": false,
-            "activities": ["cut_willow_trees"],
+            "activities": [
+              "cut_willow_trees"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1619,7 +2132,10 @@
             "name": "Beach of Woes",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Beach_of_Woes",
-            "coords": [405.543212890625, 451.25],
+            "coords": [
+              405.543212890625,
+              451.25
+            ],
             "icon": {
               "url": "locations/coast_white.png"
             },
@@ -1635,7 +2151,9 @@
         ]
       },
       {
-        "mapLayers": ["locations_old_2"],
+        "mapLayers": [
+          "locations_old_2"
+        ],
         "minZoom": 1,
         "maxZoom": 4,
         "labelMinZoom": 2,
@@ -1645,7 +2163,10 @@
             "name": "Disenchanted Forest",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Disenchanted_Forest",
-            "coords": [369, 537],
+            "coords": [
+              369,
+              537
+            ],
             "icon": {
               "url": "locations/forest_white.png"
             },
@@ -1663,27 +2184,43 @@
             "name": "Azurazera",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Azurazera",
-            "coords": [1065, 827],
+            "coords": [
+              1065,
+              827
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
             "hidden": false,
-            "activities": ["lake_fishing"],
+            "activities": [
+              "lake_fishing"
+            ],
             "services": [],
-            "buildings": ["temple_of_azurazera"]
+            "buildings": [
+              "temple_of_azurazera"
+            ]
           },
           {
             "id": "kallaheim",
             "name": "Kallaheim",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Kallaheim",
-            "coords": [408, 619],
+            "coords": [
+              408,
+              619
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
             "hidden": false,
-            "activities": ["litter_looting"],
-            "services": ["basic_forge", "basic_kitchen", "basic_sawmill"],
+            "activities": [
+              "litter_looting"
+            ],
+            "services": [
+              "basic_forge",
+              "basic_kitchen",
+              "basic_sawmill"
+            ],
             "buildings": [
               "the_icy_goblet",
               "kallaheim's_frosty_finds",
@@ -1695,13 +2232,20 @@
             "name": "Frusenholm",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Frusenholm",
-            "coords": [463, 954],
+            "coords": [
+              463,
+              954
+            ],
             "icon": {
               "url": "locations/town_white.png"
             },
             "hidden": false,
-            "activities": ["lake_fishing"],
-            "services": ["basic_workshop"],
+            "activities": [
+              "lake_fishing"
+            ],
+            "services": [
+              "basic_workshop"
+            ],
             "buildings": []
           },
           {
@@ -1709,13 +2253,18 @@
             "name": "Barbantok",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Barbantok",
-            "coords": [795, 592],
+            "coords": [
+              795,
+              592
+            ],
             "icon": {
               "url": "locations/town_white.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_sawmill"],
+            "services": [
+              "basic_sawmill"
+            ],
             "buildings": []
           },
           {
@@ -1723,7 +2272,10 @@
             "name": "Centaham",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Centaham",
-            "coords": [678, 928],
+            "coords": [
+              678,
+              928
+            ],
             "icon": {
               "url": "locations/city_white.png"
             },
@@ -1737,27 +2289,39 @@
             "name": "Port Skildar",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Port_Skildar",
-            "coords": [946, 1135],
+            "coords": [
+              946,
+              1135
+            ],
             "icon": {
               "url": "locations/port_white.png"
             },
             "hidden": false,
-            "activities": ["sea_fishing"],
+            "activities": [
+              "sea_fishing"
+            ],
             "services": [],
-            "buildings": ["frosthook_emporium"]
+            "buildings": [
+              "frosthook_emporium"
+            ]
           },
           {
             "id": "coldington",
             "name": "Coldington",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Coldington",
-            "coords": [1003, 1013],
+            "coords": [
+              1003,
+              1013
+            ],
             "icon": {
               "url": "locations/city_white.png"
             },
             "hidden": false,
             "activities": [],
-            "services": ["basic_kitchen"],
+            "services": [
+              "basic_kitchen"
+            ],
             "buildings": []
           },
           {
@@ -1765,7 +2329,10 @@
             "name": "Sanguine Hills",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Sanguine_Hills",
-            "coords": [1278, 906],
+            "coords": [
+              1278,
+              906
+            ],
             "icon": {
               "url": "locations/hills_white.png"
             },
@@ -1779,12 +2346,18 @@
             "name": "Nomad Woods",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Nomad_Woods",
-            "coords": [712, 480],
+            "coords": [
+              712,
+              480
+            ],
             "icon": {
               "url": "locations/forest_white.png"
             },
             "hidden": false,
-            "activities": ["cut_birch_trees", "cut_spruce_trees"],
+            "activities": [
+              "cut_birch_trees",
+              "cut_spruce_trees"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1793,12 +2366,17 @@
             "name": "Casbrant Fields",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Casbrant_Fields",
-            "coords": [752, 821],
+            "coords": [
+              752,
+              821
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
             "hidden": false,
-            "activities": ["plains_foraging"],
+            "activities": [
+              "plains_foraging"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1807,7 +2385,10 @@
             "name": "Solitude Rock",
             "realm": "Jarvonia",
             "wikiUrl": "",
-            "coords": [1500, 353],
+            "coords": [
+              1500,
+              353
+            ],
             "icon": {
               "url": "locations/coast_white.png"
             },
@@ -1821,12 +2402,17 @@
             "name": "Norsack Plains",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Norsack_Plains",
-            "coords": [247, 851],
+            "coords": [
+              247,
+              851
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
             "hidden": false,
-            "activities": ["plains_foraging"],
+            "activities": [
+              "plains_foraging"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1835,7 +2421,10 @@
             "name": "Frostbite Mountain",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Frostbite_Mountain",
-            "coords": [202, 729],
+            "coords": [
+              202,
+              729
+            ],
             "icon": {
               "url": "locations/mountains.png"
             },
@@ -1854,7 +2443,10 @@
             "name": "Noiseless Pass",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Noiseless_Pass",
-            "coords": [499, 1347],
+            "coords": [
+              499,
+              1347
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
@@ -1868,7 +2460,10 @@
             "name": "Fort of Permafrost",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Fort_of_Permafrost",
-            "coords": [544, 1220],
+            "coords": [
+              544,
+              1220
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
@@ -1882,7 +2477,10 @@
             "name": "Farsand Coast",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Farsand_Coast",
-            "coords": [210, 1631],
+            "coords": [
+              210,
+              1631
+            ],
             "icon": {
               "url": "locations/coast_green.png"
             },
@@ -1896,7 +2494,10 @@
             "name": "Salsfirth",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Salsfirth",
-            "coords": [369, 1670],
+            "coords": [
+              369,
+              1670
+            ],
             "icon": {
               "url": "locations/city_green.png"
             },
@@ -1910,7 +2511,10 @@
             "name": "Everhaven",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Everhaven",
-            "coords": [306, 2024],
+            "coords": [
+              306,
+              2024
+            ],
             "icon": {
               "url": "locations/castle_green.png"
             },
@@ -1924,7 +2528,10 @@
             "name": "Bilgemont Port",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Bilgemont_Port",
-            "coords": [437, 2286],
+            "coords": [
+              437,
+              2286
+            ],
             "icon": {
               "url": "locations/port_green.png"
             },
@@ -1938,12 +2545,17 @@
             "name": "Granfiddich",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Granfiddich",
-            "coords": [753, 1718],
+            "coords": [
+              753,
+              1718
+            ],
             "icon": {
               "url": "locations/city_green.png"
             },
             "hidden": false,
-            "activities": ["litter_looting"],
+            "activities": [
+              "litter_looting"
+            ],
             "services": [],
             "buildings": []
           },
@@ -1952,7 +2564,10 @@
             "name": "Blackspell Port",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Blackspell_Port",
-            "coords": [786, 2199],
+            "coords": [
+              786,
+              2199
+            ],
             "icon": {
               "url": "locations/port_green.png"
             },
@@ -1966,7 +2581,10 @@
             "name": "Old Arena Ruins",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Old_Arena_Ruins",
-            "coords": [913, 2086],
+            "coords": [
+              913,
+              2086
+            ],
             "icon": {
               "url": "locations/arena_green.png"
             },
@@ -1980,7 +2598,10 @@
             "name": "Halfling Campgrounds",
             "realm": "GDTE",
             "wikiUrl": "",
-            "coords": [641, 1981],
+            "coords": [
+              641,
+              1981
+            ],
             "icon": {
               "url": "locations/marsh_green.png"
             },
@@ -1994,7 +2615,10 @@
             "name": "Mangrove Forest",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Mangrove_Forest",
-            "coords": [398, 1563],
+            "coords": [
+              398,
+              1563
+            ],
             "icon": {
               "url": "locations/forest_green.png"
             },
@@ -2008,7 +2632,10 @@
             "name": "Red Coast",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Red_Coast",
-            "coords": [912, 2228],
+            "coords": [
+              912,
+              2228
+            ],
             "icon": {
               "url": "locations/coast_green.png"
             },
@@ -2022,7 +2649,10 @@
             "name": "Warrenfield",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Warrenfield",
-            "coords": [939, 1916],
+            "coords": [
+              939,
+              1916
+            ],
             "icon": {
               "url": "locations/plains_green.png"
             },
@@ -2036,19 +2666,27 @@
             "name": "Beach of Woes",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Beach_of_Woes",
-            "coords": [405.543212890625, 451.25],
+            "coords": [
+              405.543212890625,
+              451.25
+            ],
             "icon": {
               "url": "locations/coast_white.png"
             },
             "hidden": false,
-            "activities": ["sea_fishing", "sandcastle_building"],
+            "activities": [
+              "sea_fishing",
+              "sandcastle_building"
+            ],
             "services": [],
             "buildings": []
           }
         ]
       },
       {
-        "mapLayers": ["locations_old_1"],
+        "mapLayers": [
+          "locations_old_1"
+        ],
         "minZoom": 1,
         "maxZoom": 4,
         "labelMinZoom": 2,
@@ -2058,7 +2696,10 @@
             "name": "Disenchanted Forest",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Disenchanted_Forest",
-            "coords": [369, 537],
+            "coords": [
+              369,
+              537
+            ],
             "icon": {
               "url": "locations/forest_white.png"
             },
@@ -2076,7 +2717,10 @@
             "name": "Azurazera",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Azurazera",
-            "coords": [1065, 827],
+            "coords": [
+              1065,
+              827
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
@@ -2090,7 +2734,10 @@
             "name": "Kallaheim",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Kallaheim",
-            "coords": [408, 619],
+            "coords": [
+              408,
+              619
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
@@ -2104,7 +2751,10 @@
             "name": "Frusenholm",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Frusenholm",
-            "coords": [463, 954],
+            "coords": [
+              463,
+              954
+            ],
             "icon": {
               "url": "locations/town_white.png"
             },
@@ -2118,7 +2768,10 @@
             "name": "Barbantok",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Barbantok",
-            "coords": [795, 592],
+            "coords": [
+              795,
+              592
+            ],
             "icon": {
               "url": "locations/town_white.png"
             },
@@ -2132,7 +2785,10 @@
             "name": "Centaham",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Centaham",
-            "coords": [678, 928],
+            "coords": [
+              678,
+              928
+            ],
             "icon": {
               "url": "locations/city_white.png"
             },
@@ -2146,7 +2802,10 @@
             "name": "Port Skildar",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Port_Skildar",
-            "coords": [946, 1135],
+            "coords": [
+              946,
+              1135
+            ],
             "icon": {
               "url": "locations/port_white.png"
             },
@@ -2160,7 +2819,10 @@
             "name": "Coldington",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Coldington",
-            "coords": [1003, 1013],
+            "coords": [
+              1003,
+              1013
+            ],
             "icon": {
               "url": "locations/city_white.png"
             },
@@ -2174,7 +2836,10 @@
             "name": "Sanguine Hills",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Sanguine_Hills",
-            "coords": [1278, 906],
+            "coords": [
+              1278,
+              906
+            ],
             "icon": {
               "url": "locations/hills_white.png"
             },
@@ -2188,7 +2853,10 @@
             "name": "Nomad Woods",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Nomad_Woods",
-            "coords": [712, 480],
+            "coords": [
+              712,
+              480
+            ],
             "icon": {
               "url": "locations/forest_white.png"
             },
@@ -2202,7 +2870,10 @@
             "name": "Casbrant Fields",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Casbrant_Fields",
-            "coords": [752, 821],
+            "coords": [
+              752,
+              821
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
@@ -2216,7 +2887,10 @@
             "name": "Solitude Rock",
             "realm": "Jarvonia",
             "wikiUrl": "",
-            "coords": [1500, 353],
+            "coords": [
+              1500,
+              353
+            ],
             "icon": {
               "url": "locations/coast_white.png"
             },
@@ -2230,7 +2904,10 @@
             "name": "Norsack Plains",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Norsack_Plains",
-            "coords": [247, 851],
+            "coords": [
+              247,
+              851
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
@@ -2244,7 +2921,10 @@
             "name": "Frostbite Mountain",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Frostbite_Mountain",
-            "coords": [202, 729],
+            "coords": [
+              202,
+              729
+            ],
             "icon": {
               "url": "locations/mountains.png"
             },
@@ -2258,7 +2938,10 @@
             "name": "Noiseless Pass",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Noiseless_Pass",
-            "coords": [499, 1347],
+            "coords": [
+              499,
+              1347
+            ],
             "icon": {
               "url": "locations/plains_white.png"
             },
@@ -2272,7 +2955,10 @@
             "name": "Fort of Permafrost",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Fort_of_Permafrost",
-            "coords": [544, 1220],
+            "coords": [
+              544,
+              1220
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
@@ -2286,7 +2972,10 @@
             "name": "Farsand Coast",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Farsand_Coast",
-            "coords": [210, 1631],
+            "coords": [
+              210,
+              1631
+            ],
             "icon": {
               "url": "locations/coast_green.png"
             },
@@ -2300,7 +2989,10 @@
             "name": "Salsfirth",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Salsfirth",
-            "coords": [369, 1670],
+            "coords": [
+              369,
+              1670
+            ],
             "icon": {
               "url": "locations/city_green.png"
             },
@@ -2314,7 +3006,10 @@
             "name": "Everhaven",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Everhaven",
-            "coords": [306, 2024],
+            "coords": [
+              306,
+              2024
+            ],
             "icon": {
               "url": "locations/castle_green.png"
             },
@@ -2328,7 +3023,10 @@
             "name": "Bilgemont Port",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Bilgemont_Port",
-            "coords": [437, 2286],
+            "coords": [
+              437,
+              2286
+            ],
             "icon": {
               "url": "locations/port_green.png"
             },
@@ -2342,7 +3040,10 @@
             "name": "Granfiddich",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Granfiddich",
-            "coords": [753, 1718],
+            "coords": [
+              753,
+              1718
+            ],
             "icon": {
               "url": "locations/city_green.png"
             },
@@ -2356,7 +3057,10 @@
             "name": "Blackspell Port",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Blackspell_Port",
-            "coords": [786, 2199],
+            "coords": [
+              786,
+              2199
+            ],
             "icon": {
               "url": "locations/port_green.png"
             },
@@ -2370,7 +3074,10 @@
             "name": "Old Arena Ruins",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Old_Arena_Ruins",
-            "coords": [913, 2086],
+            "coords": [
+              913,
+              2086
+            ],
             "icon": {
               "url": "locations/arena_green.png"
             },
@@ -2384,7 +3091,10 @@
             "name": "Halfling Campgrounds",
             "realm": "GDTE",
             "wikiUrl": "",
-            "coords": [641, 1981],
+            "coords": [
+              641,
+              1981
+            ],
             "icon": {
               "url": "locations/marsh_green.png"
             },
@@ -2398,7 +3108,10 @@
             "name": "Mangrove Forest",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Mangrove_Forest",
-            "coords": [398, 1563],
+            "coords": [
+              398,
+              1563
+            ],
             "icon": {
               "url": "locations/forest_green.png"
             },
@@ -2412,7 +3125,10 @@
             "name": "Red Coast",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Red_Coast",
-            "coords": [912, 2228],
+            "coords": [
+              912,
+              2228
+            ],
             "icon": {
               "url": "locations/coast_green.png"
             },
@@ -2426,7 +3142,10 @@
             "name": "Warrenfield",
             "realm": "GDTE",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Warrenfield",
-            "coords": [939, 1916],
+            "coords": [
+              939,
+              1916
+            ],
             "icon": {
               "url": "locations/plains_green.png"
             },
@@ -2438,7 +3157,9 @@
         ]
       },
       {
-        "mapLayers": ["locations_old"],
+        "mapLayers": [
+          "locations_old"
+        ],
         "minZoom": 1,
         "maxZoom": 4,
         "labelMinZoom": 2,
@@ -2448,7 +3169,10 @@
             "name": "Disenchanted Forest",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Disenchanted_Forest",
-            "coords": [399, 477],
+            "coords": [
+              399,
+              477
+            ],
             "icon": {
               "url": "locations/forest_white.png"
             },
@@ -2466,7 +3190,10 @@
             "name": "Azurazera",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Azurazera",
-            "coords": [882, 718],
+            "coords": [
+              882,
+              718
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
@@ -2480,7 +3207,10 @@
             "name": "Kallaheim",
             "realm": "Jarvonia",
             "wikiUrl": "https://wiki.walkscape.app/wiki/Kallaheim",
-            "coords": [330, 617],
+            "coords": [
+              330,
+              617
+            ],
             "icon": {
               "url": "locations/castle_white.png"
             },
@@ -2489,6 +3219,667 @@
               "cut_pine_trees",
               "dobby_is..._free",
               "cut_birch_trees"
+            ],
+            "services": [],
+            "buildings": []
+          }
+        ]
+      },
+      {
+        "mapLayers": [
+          "beta-277"
+        ],
+        "minZoom": 1,
+        "maxZoom": 4,
+        "labelMinZoom": 2,
+        "markers": [
+          {
+            "id": "disenchanted_forest",
+            "name": "Disenchanted Forest",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Disenchanted_Forest",
+            "coords": [
+              369.0,
+              537.0
+            ],
+            "icon": {
+              "url": "locations/forest_white.png"
+            },
+            "activities": [
+              "cut_pine_trees",
+              "cut_birch_trees",
+              "dobby_is..._free"
+            ],
+            "services": [],
+            "buildings": [
+              "helpful_herbert's_hut"
+            ]
+          },
+          {
+            "id": "azurazera",
+            "name": "Azurazera",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Azurazera",
+            "coords": [
+              1065.0,
+              827.0
+            ],
+            "icon": {
+              "url": "locations/castle_white.png"
+            },
+            "activities": [
+              "lake_fishing",
+              "soup_kitchen_volunteering"
+            ],
+            "services": [
+              "wardrobe"
+            ],
+            "buildings": [
+              "temple_of_azurazera",
+              "polar_pruning",
+              "tundra_trends"
+            ]
+          },
+          {
+            "id": "kallaheim",
+            "name": "Kallaheim",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Kallaheim",
+            "coords": [
+              408.0,
+              619.0
+            ],
+            "icon": {
+              "url": "locations/castle_white.png"
+            },
+            "activities": [
+              "litter_looting"
+            ],
+            "services": [
+              "basic_forge",
+              "basic_kitchen",
+              "basic_sawmill",
+              "wardrobe"
+            ],
+            "buildings": [
+              "the_icy_goblet",
+              "kallaheim's_frosty_finds",
+              "frozen_capital_bank"
+            ]
+          },
+          {
+            "id": "frusenholm",
+            "name": "Frusenholm",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Frusenholm",
+            "coords": [
+              463.0,
+              954.0
+            ],
+            "icon": {
+              "url": "locations/town_white.png"
+            },
+            "activities": [
+              "lake_fishing",
+              "ice_sculpting"
+            ],
+            "services": [
+              "basic_workshop"
+            ],
+            "buildings": [
+              "jarvojoy"
+            ]
+          },
+          {
+            "id": "barbantok",
+            "name": "Barbantok",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Barbantok",
+            "coords": [
+              795.0,
+              592.0
+            ],
+            "icon": {
+              "url": "locations/town_white.png"
+            },
+            "activities": [
+              "frisbee_golfing_(beginner)",
+              "wood_carving",
+              "tinkering"
+            ],
+            "services": [
+              "sawmill_of_barbantok"
+            ],
+            "buildings": []
+          },
+          {
+            "id": "centaham",
+            "name": "Centaham",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Centaham",
+            "coords": [
+              678.0,
+              928.0
+            ],
+            "icon": {
+              "url": "locations/city_white.png"
+            },
+            "activities": [],
+            "services": [
+              "basic_kitchen"
+            ],
+            "buildings": [
+              "northstar_mercantile"
+            ]
+          },
+          {
+            "id": "port_skildar",
+            "name": "Port Skildar",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Port_Skildar",
+            "coords": [
+              946.0,
+              1135.0
+            ],
+            "icon": {
+              "url": "locations/port_white.png"
+            },
+            "activities": [
+              "sea_fishing_(rod)",
+              "horseshoe_making",
+              "ship_repair_(beginner)"
+            ],
+            "services": [],
+            "buildings": [
+              "frosthook_emporium"
+            ]
+          },
+          {
+            "id": "coldington",
+            "name": "Coldington",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Coldington",
+            "coords": [
+              1003.0,
+              1013.0
+            ],
+            "icon": {
+              "url": "locations/city_white.png"
+            },
+            "activities": [
+              "firewood_making",
+              "rooftop_jumping",
+              "branch_trimming"
+            ],
+            "services": [
+              "basic_kitchen"
+            ],
+            "buildings": []
+          },
+          {
+            "id": "sanguine_hills",
+            "name": "Sanguine Hills",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Sanguine_Hills",
+            "coords": [
+              1278.0,
+              906.0
+            ],
+            "icon": {
+              "url": "locations/hills_white.png"
+            },
+            "activities": [
+              "mine_coal",
+              "mine_tarsilium_ore",
+              "cliff_foraging",
+              "stone_quarrying"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "nomad_woods",
+            "name": "Nomad Woods",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Nomad_Woods",
+            "coords": [
+              712.0,
+              480.0
+            ],
+            "icon": {
+              "url": "locations/forest_white.png"
+            },
+            "activities": [
+              "cut_birch_trees",
+              "cut_spruce_trees",
+              "cut_oak_trees"
+            ],
+            "services": [],
+            "buildings": [
+              "woodcutter's_cabin"
+            ]
+          },
+          {
+            "id": "casbrant_fields",
+            "name": "Casbrant Fields",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Casbrant_Fields",
+            "coords": [
+              752.0,
+              821.0
+            ],
+            "icon": {
+              "url": "locations/plains_white.png"
+            },
+            "activities": [
+              "plains_foraging",
+              "cut_spruce_trees",
+              "cross-country_skiing_(beginner)"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "norsack_plains",
+            "name": "Norsack Plains",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Norsack_Plains",
+            "coords": [
+              247.0,
+              851.0
+            ],
+            "icon": {
+              "url": "locations/plains_white.png"
+            },
+            "activities": [
+              "plains_foraging",
+              "gold_panning"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "frostbite_mountain",
+            "name": "Frostbite Mountain",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Frostbite_Mountain",
+            "coords": [
+              202.0,
+              729.0
+            ],
+            "icon": {
+              "url": "locations/mountains.png"
+            },
+            "activities": [
+              "mine_copper_ore",
+              "mine_tin_ore",
+              "mine_iron_ore",
+              "cliff_foraging",
+              "mine_coal",
+              "mountain_climbing_(beginner)"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "noiseless_pass",
+            "name": "Noiseless Pass",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Noiseless_Pass",
+            "coords": [
+              499.0,
+              1347.0
+            ],
+            "icon": {
+              "url": "locations/plains_white.png"
+            },
+            "activities": [
+              "cut_spruce_trees",
+              "cut_oak_trees",
+              "cross-country_skiing_(intermediate)"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "fort_of_permafrost",
+            "name": "Fort of Permafrost",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Fort_of_Permafrost",
+            "coords": [
+              578.3,
+              1167.5932288753793
+            ],
+            "icon": {
+              "url": "locations/castle_white.png"
+            },
+            "activities": [],
+            "services": [],
+            "buildings": [
+              "fort_of_permafrost"
+            ]
+          },
+          {
+            "id": "farsand_coast",
+            "name": "Farsand Coast",
+            "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Farsand_Coast",
+            "coords": [
+              210.0,
+              1631.0
+            ],
+            "icon": {
+              "url": "locations/coast_green.png"
+            },
+            "activities": [
+              "teak_logs",
+              "seashell_searching",
+              "swimming_(beginner)"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "salsfirth",
+            "name": "Salsfirth",
+            "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Salsfirth",
+            "coords": [
+              369.0,
+              1670.0
+            ],
+            "icon": {
+              "url": "locations/city_green.png"
+            },
+            "activities": [],
+            "services": [
+              "basic_kitchen",
+              "basic_workshop",
+              "wardrobe"
+            ],
+            "buildings": [
+              "bogside_bank_of_prosperity",
+              "paws_are_us",
+              "bog_&_blade",
+              "quagmire_couture"
+            ]
+          },
+          {
+            "id": "everhaven",
+            "name": "Everhaven",
+            "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Everhaven",
+            "coords": [
+              306.0,
+              2024.0
+            ],
+            "icon": {
+              "url": "locations/castle_green.png"
+            },
+            "activities": [
+              "rooftop_jumping_(intermediate)"
+            ],
+            "services": [
+              "basic_sawmill",
+              "basic_kitchen",
+              "wardrobe"
+            ],
+            "buildings": [
+              "mossy_merchant's_breeze_mart"
+            ]
+          },
+          {
+            "id": "bilgemont_port",
+            "name": "Bilgemont Port",
+            "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Bilgemont_Port",
+            "coords": [
+              437.0,
+              2286.0
+            ],
+            "icon": {
+              "url": "locations/port_green.png"
+            },
+            "activities": [
+              "frisbee_golfing_(intermediate)"
+            ],
+            "services": [
+              "basic_forge",
+              "wardrobe"
+            ],
+            "buildings": [
+              "bilgemont_castle",
+              "maritime_fortune_bank"
+            ]
+          },
+          {
+            "id": "granfiddich",
+            "name": "Granfiddich",
+            "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Granfiddich",
+            "coords": [
+              753.0,
+              1718.0
+            ],
+            "icon": {
+              "url": "locations/city_green.png"
+            },
+            "activities": [
+              "litter_looting",
+              "soup_kitchen_volunteering",
+              "wine_grape_stomping",
+              "dumpster_diving"
+            ],
+            "services": [
+              "basic_forge",
+              "wardrobe"
+            ],
+            "buildings": [
+              "fish_market_stall",
+              "food_market_stall",
+              "tool_market_stall"
+            ]
+          },
+          {
+            "id": "blackspell_port",
+            "name": "Blackspell Port",
+            "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Blackspell_Port",
+            "coords": [
+              786.0,
+              2199.0
+            ],
+            "icon": {
+              "url": "locations/port_green.png"
+            },
+            "activities": [
+              "dumpster_diving",
+              "ship_repair_(intermediate)"
+            ],
+            "services": [
+              "basic_kitchen",
+              "wardrobe"
+            ],
+            "buildings": []
+          },
+          {
+            "id": "old_arena_ruins",
+            "name": "Old Arena Ruins",
+            "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Old_Arena_Ruins",
+            "coords": [
+              913.0,
+              2086.0
+            ],
+            "icon": {
+              "url": "locations/arena_green.png"
+            },
+            "activities": [
+              "magnet_fishing",
+              "kayaking"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "mangrove_forest",
+            "name": "Mangrove Forest",
+            "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Mangrove_Forest",
+            "coords": [
+              398.0,
+              1563.0
+            ],
+            "icon": {
+              "url": "locations/forest_green.png"
+            },
+            "activities": [
+              "cut_maple_trees",
+              "cut_mangrove_trees",
+              "cut_willow_trees",
+              "branch_trimming"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "red_coast",
+            "name": "Red Coast",
+            "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Red_Coast",
+            "coords": [
+              912.0,
+              2228.0
+            ],
+            "icon": {
+              "url": "locations/coast_green.png"
+            },
+            "activities": [
+              "swimming_(intermediate)"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "warrenfield",
+            "name": "Warrenfield",
+            "realm": "gdte",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Warrenfield",
+            "coords": [
+              939.0,
+              1916.0
+            ],
+            "icon": {
+              "url": "locations/plains_green.png"
+            },
+            "activities": [
+              "cut_willow_trees",
+              "butterfly_catching"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "beach_of_woes",
+            "name": "Beach of Woes",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Beach_of_Woes",
+            "coords": [
+              405.543212890625,
+              451.25
+            ],
+            "icon": {
+              "url": "locations/coast_white.png"
+            },
+            "activities": [
+              "sea_fishing",
+              "sandcastle_building",
+              "seashell_searching",
+              "surface_salt_mining"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "winter_waves_glacier",
+            "name": "Winter Waves Glacier",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Winter_Waves_Glacier",
+            "coords": [
+              131.33333333303992,
+              879.5341621359416
+            ],
+            "icon": {
+              "url": "locations/glacier.png"
+            },
+            "activities": [
+              "glacier_foraging"
+            ],
+            "services": [
+              "frozen_forge"
+            ],
+            "buildings": []
+          },
+          {
+            "id": "horn_of_respite",
+            "name": "Horn Of Respite",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Horn_Of_Respite",
+            "coords": [
+              1193.3434455860745,
+              1056.0262755912097
+            ],
+            "icon": {
+              "url": "locations/horn_of_respite.png"
+            },
+            "activities": [
+              "dobby_is..._free",
+              "cut_pine_trees",
+              "horn_of_respite_treasure_hunt",
+              "black_eye_peak_search_team",
+              "black_eye_peak_rescue_team",
+              "branch_trimming"
+            ],
+            "services": [],
+            "buildings": [
+              "horn_of_respite_adventurer's_guild_outpost"
+            ]
+          },
+          {
+            "id": "black_eye_peak",
+            "name": "Black Eye Peak",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Black_Eye_Peak",
+            "coords": [
+              1419.015064680928,
+              920.0486527612546
+            ],
+            "icon": {
+              "url": "locations/mountains.png"
+            },
+            "activities": [
+              "mountain_climbing_(intermediate)",
+              "mine_farganite_ore",
+              "spelunking"
+            ],
+            "services": [],
+            "buildings": []
+          },
+          {
+            "id": "winter's_end",
+            "name": "Winters End",
+            "realm": "jarvonia",
+            "wikiUrl": "https://wiki.walkscape.app/wiki/Winters_End",
+            "coords": [
+              1519.9461850186772,
+              966.58800649401
+            ],
+            "icon": {
+              "url": "locations/winters_end.png"
+            },
+            "activities": [
+              "cave_foraging",
+              "sea_fishing_(cage)"
             ],
             "services": [],
             "buildings": []
