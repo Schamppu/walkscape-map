@@ -105,6 +105,11 @@ export const filterGroups = {
       values: ["basic_workshop", "advanced_workshop"],
       iconUrl: iconUrl("services/workshop"),
     },
+    {
+      name: "Wardrobe",
+      values: ["wardrobe"],
+      iconUrl: iconUrl("services/wardrobe"),
+    },
   ],
   "Points of Interest": [
     {
