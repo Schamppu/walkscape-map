@@ -50,6 +50,11 @@ export const filterGroups = {
   ],
   Buildings: [
     {
+      name: "Bank",
+      values: ["bank"],
+      iconUrl: iconUrl("buildings/bank"),
+    },
+    {
       name: "Store",
       values: [
         "generalStore",
@@ -64,14 +69,19 @@ export const filterGroups = {
       iconUrl: iconUrl("buildings/general_store"),
     },
     {
+      name: "Guild",
+      values: ["outpost"],
+      iconUrl: iconUrl("buildings/adventure_guild_outpost_cabin"),
+    },
+    {
+      name: "Clothing",
+      values: ["barber", "clothingShop"],
+      iconUrl: iconUrl("buildings/barber"),
+    },
+    {
       name: "Other",
       values: ["temple"],
       iconUrl: iconUrl("buildings/cabin"),
-    },
-    {
-      name: "Bank",
-      values: ["bank"],
-      iconUrl: iconUrl("buildings/bank"),
     },
   ],
   Services: [
