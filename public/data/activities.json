@@ -573,6 +573,25 @@
     ]
   },
   {
+    "id": "magnet_fishing",
+    "name": "Magnet Fishing",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Magnet_Fishing",
+    "icon": {
+      "url": "activities/fishing/magnet_fishing.png"
+    },
+    "skills": [
+      "fishing",
+      "foraging"
+    ],
+    "levelRequirements": {
+      "fishing": 40,
+      "foraging": 30
+    },
+    "requiredKeywords": [
+      "magnetic"
+    ]
+  },
+  {
     "id": "glacier_foraging",
     "name": "Glacier Foraging",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Glacier_Foraging",
@@ -879,5 +898,117 @@
     "requiredKeywords": [
       "craftingTool"
     ]
+  },
+  {
+    "id": "cave_foraging",
+    "name": "Cave Foraging",
+    "wikiUrl": "",
+    "icon": {
+      "url": "activities/foraging/cave_foraging.png"
+    },
+    "skills": [
+      "foraging"
+    ],
+    "levelRequirements": {
+      "foraging": 35
+    },
+    "requiredKeywords": [
+      "lightSource"
+    ]
+  },
+  {
+    "id": "sea_fishing_(cage)",
+    "name": "Sea Fishing (Cage)",
+    "wikiUrl": "",
+    "icon": {
+      "url": "activities/fishing/sea_fishing_cage.png"
+    },
+    "skills": [
+      "fishing"
+    ],
+    "levelRequirements": {
+      "fishing": 35
+    },
+    "requiredKeywords": [
+      "fishingCage"
+    ]
+  },
+  {
+    "id": "horn_of_respite_treasure_hunt",
+    "name": "Treasure Hunt",
+    "wikiUrl": "",
+    "icon": {
+      "url": "activities/foraging/treasure_hunting.png"
+    },
+    "skills": [
+      "foraging"
+    ],
+    "levelRequirements": {
+      "foraging": 20
+    },
+    "requiredKeywords": []
+  },
+  {
+    "id": "black_eye_peak_search_team",
+    "name": "Search Team",
+    "wikiUrl": "",
+    "icon": {
+      "url": "activities/agility/search_team.png"
+    },
+    "skills": [
+      "agility"
+    ],
+    "levelRequirements": {
+      "agility": 1
+    },
+    "requiredKeywords": []
+  },
+  {
+    "id": "black_eye_peak_rescue_team",
+    "name": "Rescue Team",
+    "wikiUrl": "",
+    "icon": {
+      "url": "activities/agility/rescue_team.png"
+    },
+    "skills": [
+      "agility"
+    ],
+    "levelRequirements": {
+      "agility": 30
+    },
+    "requiredKeywords": [
+      "climbingTool",
+      "skis"
+    ]
+  },
+  {
+    "id": "stone_quarrying",
+    "name": "Stone Quarrying",
+    "wikiUrl": "",
+    "icon": {
+      "url": "activities/mining/stone_quarrying.png"
+    },
+    "skills": [
+      "mining"
+    ],
+    "levelRequirements": {
+      "mining": 1
+    },
+    "requiredKeywords": []
+  },
+  {
+    "id": "branch_trimming",
+    "name": "Branch Trimming",
+    "wikiUrl": "",
+    "icon": {
+      "url": "activities/woodcutting/branch_trimming.png"
+    },
+    "skills": [
+      "woodcutting"
+    ],
+    "levelRequirements": {
+      "woodcutting": 1
+    },
+    "requiredKeywords": []
   }
 ]

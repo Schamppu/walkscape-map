@@ -97,5 +97,14 @@
     "skills": [
       "smithing"
     ]
+  },
+  {
+    "id": "wardrobe",
+    "name": "Wardrobe",
+    "wikiUrl": "",
+    "icon": {
+      "url": "services/wardrobe.png"
+    },
+    "skills": []
   }
 ]

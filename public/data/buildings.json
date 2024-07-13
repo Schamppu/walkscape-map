@@ -198,5 +198,55 @@
     },
     "type": "generalStore",
     "shop": "bigloo"
+  },
+  {
+    "id": "polar_pruning",
+    "name": "Polar Pruning",
+    "wikiUrl": "",
+    "icon": {
+      "url": "buildings/barber.png"
+    },
+    "type": "barber",
+    "shop": null
+  },
+  {
+    "id": "tundra_trends",
+    "name": "Tundra Trends",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Tundra_Trends",
+    "icon": {
+      "url": "buildings/clothing_shop.png"
+    },
+    "type": "clothingShop",
+    "shop": "tundra_trends"
+  },
+  {
+    "id": "horn_of_respite_adventurer's_guild_outpost",
+    "name": "Adventurer's Guild Outpost",
+    "wikiUrl": "",
+    "icon": {
+      "url": "buildings/adventure_guild_outpost_cabin.png"
+    },
+    "type": "outpost",
+    "shop": "adventurers_guild_cabin_outpost"
+  },
+  {
+    "id": "bog_&_blade",
+    "name": "Bog And Blade",
+    "wikiUrl": "",
+    "icon": {
+      "url": "buildings/barber.png"
+    },
+    "type": "barber",
+    "shop": null
+  },
+  {
+    "id": "quagmire_couture",
+    "name": "Quagmire Couture",
+    "wikiUrl": "",
+    "icon": {
+      "url": "buildings/clothing_shop.png"
+    },
+    "type": "clothingShop",
+    "shop": "quagmire_coutur"
   }
 ]
