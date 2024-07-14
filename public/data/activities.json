@@ -902,7 +902,7 @@
   {
     "id": "cave_foraging",
     "name": "Cave Foraging",
-    "wikiUrl": "",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cave_Foraging",
     "icon": {
       "url": "activities/foraging/cave_foraging.png"
     },
@@ -919,7 +919,7 @@
   {
     "id": "sea_fishing_(cage)",
     "name": "Sea Fishing (Cage)",
-    "wikiUrl": "",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_Fishing_(Cage)",
     "icon": {
       "url": "activities/fishing/sea_fishing_cage.png"
     },
@@ -936,7 +936,7 @@
   {
     "id": "horn_of_respite_treasure_hunt",
     "name": "Treasure Hunt",
-    "wikiUrl": "",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Treasure_Hunt",
     "icon": {
       "url": "activities/foraging/treasure_hunting.png"
     },
@@ -951,7 +951,7 @@
   {
     "id": "black_eye_peak_search_team",
     "name": "Search Team",
-    "wikiUrl": "",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Search_Team",
     "icon": {
       "url": "activities/agility/search_team.png"
     },
@@ -966,7 +966,7 @@
   {
     "id": "black_eye_peak_rescue_team",
     "name": "Rescue Team",
-    "wikiUrl": "",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Rescue_Team",
     "icon": {
       "url": "activities/agility/rescue_team.png"
     },
@@ -984,7 +984,7 @@
   {
     "id": "stone_quarrying",
     "name": "Stone Quarrying",
-    "wikiUrl": "",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Stone_Quarrying",
     "icon": {
       "url": "activities/mining/stone_quarrying.png"
     },
@@ -999,7 +999,7 @@
   {
     "id": "branch_trimming",
     "name": "Branch Trimming",
-    "wikiUrl": "",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Branch_Trimming",
     "icon": {
       "url": "activities/woodcutting/branch_trimming.png"
     },
