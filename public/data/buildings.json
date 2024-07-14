@@ -202,7 +202,7 @@
   {
     "id": "polar_pruning",
     "name": "Polar Pruning",
-    "wikiUrl": "",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Polar_Pruning",
     "icon": {
       "url": "buildings/barber.png"
     },
@@ -221,7 +221,7 @@
   },
   {
     "id": "horn_of_respite_adventurer's_guild_outpost",
-    "name": "Adventurer's Guild Outpost",
+    "name": "Adventurers' Guild Outpost",
     "wikiUrl": "",
     "icon": {
       "url": "buildings/adventure_guild_outpost_cabin.png"
@@ -231,8 +231,8 @@
   },
   {
     "id": "bog_&_blade",
-    "name": "Bog And Blade",
-    "wikiUrl": "",
+    "name": "Bog & Blade",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Bog_&_Blade",
     "icon": {
       "url": "buildings/barber.png"
     },
@@ -242,7 +242,7 @@
   {
     "id": "quagmire_couture",
     "name": "Quagmire Couture",
-    "wikiUrl": "",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Quagmire_Couture",
     "icon": {
       "url": "buildings/clothing_shop.png"
     },
