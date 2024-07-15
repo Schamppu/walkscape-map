@@ -6,7 +6,7 @@
         "mapLayers": [
           "beta-277",
           "beta-248",
-          "pre-beta-248"
+          "beta-218"
         ],
         "minZoom": 0,
         "maxZoom": 0,
@@ -315,7 +315,7 @@
       {
         "mapLayers": [
           "beta-248",
-          "pre-beta-248"
+          "beta-218"
         ],
         "minZoom": 1,
         "maxZoom": 4,
@@ -963,7 +963,7 @@
       },
       {
         "mapLayers": [
-          "locations_old_4"
+          "beta-72"
         ],
         "minZoom": 1,
         "maxZoom": 4,
@@ -1561,7 +1561,7 @@
       },
       {
         "mapLayers": [
-          "locations_old_3"
+          "alpha-4"
         ],
         "minZoom": 1,
         "maxZoom": 4,
@@ -2152,7 +2152,7 @@
       },
       {
         "mapLayers": [
-          "locations_old_2"
+          "alpha-3"
         ],
         "minZoom": 1,
         "maxZoom": 4,
@@ -2685,7 +2685,7 @@
       },
       {
         "mapLayers": [
-          "locations_old_1"
+          "alpha-2"
         ],
         "minZoom": 1,
         "maxZoom": 4,
@@ -3158,7 +3158,7 @@
       },
       {
         "mapLayers": [
-          "locations_old"
+          "alpha-1"
         ],
         "minZoom": 1,
         "maxZoom": 4,

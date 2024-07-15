@@ -53,6 +53,5 @@ window.onload = async () => {
 
   await Promise.allSettled([locations]);
   map.addRealmKeywords();
-  map.findMarker();
-  map.resolveFilters();
+  map.resolveURL();
 };
