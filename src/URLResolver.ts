@@ -37,7 +37,6 @@ export class URLResolver {
   }
 
   public resolveURL() {
-    console.log("main.resolveURL");
     const urlParams = new URLSearchParams(window.location.search);
 
     const mapLayer = urlParams.get("m") || urlParams.get("mapLayer");
