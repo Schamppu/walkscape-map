@@ -29,6 +29,10 @@ export class MapLayer extends LayerGroup {
     this.markerLayer = new LayerGroup();
   }
 
+  public isVisible(): boolean {
+    return this.hasLayer(this.tileLayer) || this.hasLayer(this.markerLayer);
+  }
+
   public show(): void {
     if (!this.hasLayer(this.tileLayer)) {
       this.addLayer(this.tileLayer);

@@ -74,9 +74,14 @@ export const filterGroups = {
       iconUrl: iconUrl("buildings/adventure_guild_outpost_cabin"),
     },
     {
-      name: "Clothing",
-      values: ["barber", "clothingShop"],
+      name: "Barber",
+      values: ["barber"],
       iconUrl: iconUrl("buildings/barber"),
+    },
+    {
+      name: "Clothing",
+      values: ["clothingShop"],
+      iconUrl: iconUrl("buildings/clothing_shop"),
     },
     {
       name: "Other",

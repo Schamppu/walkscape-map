@@ -8,6 +8,7 @@ import { FilterControl } from "./Controls/FilterControl";
 import { LayersControl } from "./Controls/LayersControl";
 import { FilterCategory } from "./Interfaces/FilterCategory";
 import * as Schema from "./Interfaces/JSONSchema";
+import { URLResolver } from "./URLResolver";
 
 export interface WSMapOptions extends MapOptions {
   mapSizePixels: number;
@@ -15,9 +16,10 @@ export interface WSMapOptions extends MapOptions {
 }
 
 export class WSMap extends Map {
-  private layers = <MapLayer[]>[];
+  public layers = <MapLayer[]>[];
   private filterControl?: FilterControl;
   private layersControl?: LayersControl;
+  private urlResolver?: URLResolver;
   private mapLayers: Record<string, MapLayer> = {};
 
   private constructor(
@@ -121,6 +123,7 @@ export class WSMap extends Map {
   }
 
   public addControls(): void {
+    this.urlResolver = URLResolver.create(this);
     const controls = new ControlDock();
 
     // Zoom
@@ -151,21 +154,38 @@ export class WSMap extends Map {
     }
   }
 
-  public findMarker() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const location = urlParams.get("l");
-    if (!location) {
-      return;
+  private getVisibleMapLayerName(): string {
+    for (const [name, layer] of Object.entries(this.mapLayers)) {
+      if (layer.isVisible()) return name;
     }
-
-    const openPopup = !(urlParams.has("n") || urlParams.has("no-popup"))
-
-    this.layers.forEach((l) => {
-      l.findLocationMarker(location.toLocaleLowerCase(), openPopup);
-    });
+    // One should always be visible, so this should never happen
+    return Object.keys(this.mapLayers)[0];
   }
 
-  public resolveFilters() {
-    if (this.filterControl) this.filterControl.resolveUrl();
+  public showLayer(layerName: string) {
+    if (this.layersControl) this.layersControl.enableMapLayer(layerName);
+  }
+
+  public findMarker(
+    layerName: string | null,
+    locationName: string | null,
+    openPopup: boolean
+  ) {
+    if (!locationName) return;
+
+    const usedLayerName = layerName || this.getVisibleMapLayerName();
+    this.showLayer(usedLayerName);
+    const layer = this.mapLayers[usedLayerName];
+
+    const location = locationName.toLocaleLowerCase();
+    layer.findLocationMarker(location, openPopup);
+  }
+
+  public resolveFilters(categoryNames: string[]) {
+    if (this.filterControl) this.filterControl.resolveFromUrl(categoryNames);
+  }
+
+  public resolveURL() {
+    if (this.urlResolver) this.urlResolver.resolveURL();
   }
 }
