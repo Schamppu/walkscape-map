@@ -9,7 +9,7 @@ export class URLResolver {
     return new URLResolver(map);
   }
 
-  public updateMapLayerURL(mapLayerName: string, mainLayerName: string) {
+  public static updateMapLayerURL(mapLayerName: string, mainLayerName: string) {
     const url = new URL(window.location.toString());
     if (mapLayerName !== mainLayerName) {
       url.searchParams.set("m", mapLayerName);
@@ -19,11 +19,23 @@ export class URLResolver {
     history.pushState({}, "", url);
   }
 
-  public updateURL() {
-    const urlParams = new URLSearchParams(window.location.search);
+  public static updateFilterURL(categoryName: string, enable: boolean) {
+    const url = new URL(window.location.toString());
+    if (categoryName == "None") url.searchParams.set("f", categoryName);
+    else {
+      url.searchParams.delete("f", "None");
+      if (categoryName == "All") url.searchParams.delete("f");
+      else if (enable) url.searchParams.append("f", categoryName);
+      else url.searchParams.delete("f", categoryName);
+    }
+    history.pushState({}, "", url);
+  }
 
-    const location = urlParams.get("l") || urlParams.get("location");
-    console.log(location);
+  public static UpdateLocationURL(locationId: string, enable: boolean) {
+    const url = new URL(window.location.toString());
+    if (enable) url.searchParams.set("l", locationId);
+    else url.searchParams.delete("l");
+    history.pushState({}, "", url);
   }
 
   public resolveURL() {
@@ -33,14 +45,17 @@ export class URLResolver {
     const mapLayer = urlParams.get("m") || urlParams.get("mapLayer");
     const location = urlParams.get("l") || urlParams.get("location");
     const openPopup = !(urlParams.has("n") || urlParams.has("no-popup"));
-    const categoryNames = urlParams
-      .getAll("f")
-      .map((f) => f.toLocaleLowerCase());
-
     if (mapLayer && !location) {
       this.map.showLayer(mapLayer);
     } else {
       this.map.findMarker(mapLayer, location, openPopup);
+    }
+
+    const categoryNames = urlParams
+      .getAll("f")
+      .map((f) => f.toLocaleLowerCase());
+    if (categoryNames) {
+      this.map.resolveFilters(categoryNames);
     }
   }
 }

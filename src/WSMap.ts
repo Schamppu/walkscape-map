@@ -140,10 +140,10 @@ export class WSMap extends Map {
     });
 
     // Filter
-    this.filterControl = new FilterControl(this.layers, this.urlResolver!);
+    this.filterControl = new FilterControl(this.layers);
     controls.addControl(this.filterControl);
 
-    this.layersControl = new LayersControl(this.mapLayers, this.urlResolver);
+    this.layersControl = new LayersControl(this.mapLayers);
     controls.addControl(this.layersControl);
     controls.addTo(this);
   }
@@ -181,8 +181,8 @@ export class WSMap extends Map {
     layer.findLocationMarker(location, openPopup);
   }
 
-  public resolveFilters() {
-    if (this.filterControl) this.filterControl.resolveUrl();
+  public resolveFilters(categoryNames: string[]) {
+    if (this.filterControl) this.filterControl.resolveFromUrl(categoryNames);
   }
 
   public resolveURL() {

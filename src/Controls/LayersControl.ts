@@ -17,7 +17,7 @@ export class LayersControl extends ControlPane {
   private currentLayer: LayerItem;
   private mainLayer: LayerItem;
 
-  public constructor(baseLayers: Record<string, MapLayer>, private urlResolver: URLResolver) {
+  public constructor(baseLayers: Record<string, MapLayer>) {
     super({
       icon: "layers",
       title: "Layers",
@@ -119,7 +119,7 @@ export class LayersControl extends ControlPane {
     this.disableLayer(this.currentLayer);
     this.currentLayer = layerItem;
     layer.show();
-    this.urlResolver.updateMapLayerURL(name, this.mainLayer.name);
+    URLResolver.updateMapLayerURL(name, this.mainLayer.name);
   }
 
   private disableLayer(layerItem: LayerItem) {

@@ -5,6 +5,7 @@ import { MarkerDivIcon } from "./MarkerDivIcon";
 import { WSLocationMarker } from "./WSLocationMarker";
 import { WSRealmMarker } from "./WSRealmMarker";
 import { WSPopup } from "../Popups/WSPopup";
+import { URLResolver } from "../URLResolver";
 
 export class WSMarker extends Marker {
   protected popup?: WSPopup;
@@ -42,12 +43,12 @@ export class WSMarker extends Marker {
       if (this.popup) {
         const popupContent = this.popup.getPopupContent();
         this.setPopupContent(popupContent).openPopup();
-        this.updateUrl(true);
+        URLResolver.UpdateLocationURL(this.id, true);
       }
     });
 
     this.on("popupclose", () => {
-      this.updateUrl(false);
+      URLResolver.UpdateLocationURL(this.id, false);
     });
   }
 
@@ -136,12 +137,5 @@ export class WSMarker extends Marker {
 
   public static isLocation(marker: WSMarker): marker is WSLocationMarker {
     return Object.keys(marker).includes("realm");
-  }
-
-  protected updateUrl(enable: boolean): void {
-    const url = new URL(window.location.toString());
-    if (enable) url.searchParams.set("l", this.id);
-    else url.searchParams.delete("l");
-    history.pushState({}, "", url);
   }
 }

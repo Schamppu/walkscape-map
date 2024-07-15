@@ -2,6 +2,7 @@ import { DomUtil, DomEvent } from "leaflet";
 import { ControlPane } from "./ControlPane";
 import { MapLayer } from "../MapLayer";
 import { FilterCategory } from "../Interfaces/FilterCategory";
+import { URLResolver } from "../URLResolver";
 
 interface LegendItem {
   category: FilterCategory;
@@ -132,7 +133,7 @@ export class FilterControl extends ControlPane {
     this.shownValues = this.shownValues.filter(
       (el) => !category.values.includes(el)
     );
-    this.updateUrl(category.name, false);
+    URLResolver.updateFilterURL(category.name, false);
 
     // select "All" if no others are selected
     if (this.categories.every((c) => !DomUtil.hasClass(c.li, "selected"))) {
@@ -145,7 +146,7 @@ export class FilterControl extends ControlPane {
     const { category, li } = item;
     DomUtil.addClass(li, "selected");
     this.shownValues.push(...category.values);
-    if (urlUpdate) this.updateUrl(category.name, true);
+    if (urlUpdate) URLResolver.updateFilterURL(category.name, true);
 
     // hide the others
     if (DomUtil.hasClass(this.all, "selected")) {
@@ -173,7 +174,7 @@ export class FilterControl extends ControlPane {
       l.filterLocations(this.shownValues);
       l.resetMarkerVisibility();
     });
-    this.updateUrl("All", true);
+    URLResolver.updateFilterURL("All", true);
   }
 
   private showNone(): void {
@@ -186,27 +187,10 @@ export class FilterControl extends ControlPane {
       });
     }
     this.mapLayers.forEach((l) => l.filterLocations(this.shownValues));
-    this.updateUrl("None", true);
+    URLResolver.updateFilterURL("None", true);
   }
 
-  private updateUrl(categoryName: string, enable: boolean): void {
-    const url = new URL(window.location.toString());
-    if (categoryName == "None") url.searchParams.set("f", categoryName);
-    else {
-      url.searchParams.delete("f", "None");
-      if (categoryName == "All") url.searchParams.delete("f");
-      else if (enable) url.searchParams.append("f", categoryName);
-      else url.searchParams.delete("f", categoryName);
-    }
-    history.pushState({}, "", url);
-  }
-
-  public resolveUrl(): void {
-    const url = new URL(window.location.toString());
-    const categoryNames = url.searchParams
-      .getAll("f")
-      .map((f) => f.toLocaleLowerCase());
-
+  public resolveFromUrl(categoryNames: string[]): void {
     if (categoryNames.includes("none")) {
       this.showNone();
       return;
