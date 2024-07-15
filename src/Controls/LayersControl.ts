@@ -1,4 +1,4 @@
-import { DomUtil, DomEvent, Layer } from "leaflet";
+import { DomUtil, DomEvent } from "leaflet";
 import { ControlPane } from "./ControlPane";
 import { MapLayer } from "../MapLayer";
 import { URLResolver } from "../URLResolver";

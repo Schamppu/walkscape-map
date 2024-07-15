@@ -1,5 +1,3 @@
-import { FilterControl } from "./Controls/FilterControl";
-import { MapLayer } from "./MapLayer";
 import { WSMap } from "./WSMap";
 
 export class URLResolver {
