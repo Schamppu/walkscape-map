@@ -9,10 +9,7 @@ export class URLResolver {
     return new URLResolver(map);
   }
 
-  public updateMapLayer(mapLayerName: string, mainLayerName: string) {
-    console.log("updateMapLayer", mapLayerName);
-    console.log(mapLayerName, mainLayerName);
-
+  public updateMapLayerURL(mapLayerName: string, mainLayerName: string) {
     const url = new URL(window.location.toString());
     if (mapLayerName !== mainLayerName) {
       url.searchParams.set("m", mapLayerName);

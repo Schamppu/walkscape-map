@@ -1,6 +1,7 @@
-import { DomUtil, DomEvent } from "leaflet";
+import { DomUtil, DomEvent, Layer } from "leaflet";
 import { ControlPane } from "./ControlPane";
 import { MapLayer } from "../MapLayer";
+import { URLResolver } from "../URLResolver";
 
 interface LayerItem {
   name: string;
@@ -14,8 +15,9 @@ export class LayersControl extends ControlPane {
   private layerContainer: HTMLElement;
   private legacyContainer: HTMLElement;
   private currentLayer: LayerItem;
+  private mainLayer: LayerItem;
 
-  public constructor(baseLayers: Record<string, MapLayer>) {
+  public constructor(baseLayers: Record<string, MapLayer>, private urlResolver: URLResolver) {
     super({
       icon: "layers",
       title: "Layers",
@@ -39,6 +41,7 @@ export class LayersControl extends ControlPane {
     const mainLayer = this.findLayer("in-game");
     if (mainLayer) this.currentLayer = mainLayer;
     else this.currentLayer = this.layerList[0];
+    this.mainLayer = this.currentLayer;
     this.enableLayer(this.currentLayer);
   }
 
@@ -98,6 +101,16 @@ export class LayersControl extends ControlPane {
     return this.layerList.find((layer) => layer.name === name);
   }
 
+  public enableMapLayer(layerName: string) {
+    for (const layerItem of Object.values(this.layerList)) {
+      const { name } = layerItem;
+      if (name === layerName) {
+        this.enableLayer(layerItem);
+        return;
+      }
+    }
+  }
+
   private enableLayer(layerItem: LayerItem) {
     const { li, layer, name } = layerItem;
     DomUtil.addClass(li, "selected");
@@ -106,6 +119,7 @@ export class LayersControl extends ControlPane {
     this.disableLayer(this.currentLayer);
     this.currentLayer = layerItem;
     layer.show();
+    this.urlResolver.updateMapLayerURL(name, this.mainLayer.name);
   }
 
   private disableLayer(layerItem: LayerItem) {
