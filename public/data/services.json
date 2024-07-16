@@ -77,17 +77,6 @@
     ]
   },
   {
-    "id": "sawmill_of_barbantok",
-    "name": "Sawmill of Barbantok",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Sawmill_of_Barbantok",
-    "icon": {
-      "url": "services/sawmill.png"
-    },
-    "skills": [
-      "carpentry"
-    ]
-  },
-  {
     "id": "advanced_sawmill",
     "name": "Advanced Sawmill",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Advanced_Sawmill",
@@ -117,5 +106,16 @@
       "url": "services/wardrobe.png"
     },
     "skills": []
+  },
+  {
+    "id": "sawmill_of_barbantok",
+    "name": "Sawmill of Barbantok",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sawmill_of_Barbantok",
+    "icon": {
+      "url": "services/sawmill.png"
+    },
+    "skills": [
+      "carpentry"
+    ]
   }
 ]
