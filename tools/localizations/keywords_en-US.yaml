@@ -1,0 +1,352 @@
+singulars:
+  recipes:
+    skills:
+      cooking:
+        name: Cooking
+    products:
+      sandwich:
+        name: Sandwich
+  activities:
+    woodcuttingTrees:
+      name: Woodcutting trees
+      requirement: Requires woodcutting trees activity.
+      requirementLevel: Requires woodcutting trees activity that has at least <keywordRequirements /> in its requirements.
+    fishing:
+      name: Fishing
+      requirement: Requires fishing activity.
+      requirementLevel: Requires fishing activity that has at least <keywordRequirements /> in its requirements.
+    miningOres:
+      name: Mining ores
+      requirement: Requires mining ores activity.
+      requirementLevel: Requires mining ores activity that has at least <keywordRequirements /> in its requirements.
+    foragingPlants:
+      name: Foraging plants
+      requirement: Requires foraging plants activity.
+      requirementLevel: Requires foraging plants activity that has at least <keywordRequirements /> in its requirements.
+  gear:
+    skillingGear:
+      name: Skilling gear
+      requirement: Requires skilling gear.
+      requirementLevel: Requires skilling gear that has at least <keywordRequirements /> in its requirements.
+    frisbee:
+      name: Frisbee
+      requirement: Requires a frisbee.
+      requirementLevel: Requires a frisbee that has at least <keywordRequirements /> in its requirements.
+    skis:
+      name: Skis
+      requirement: Requires skis.
+      requirementLevel: Requires skis that has at least <keywordRequirements /> in its requirements.
+    lifeVest:
+      name: Life vest
+      requirement: Requires a life vest.
+      requirementLevel: Requires a life vest that has at least <keywordRequirements /> in its requirements.
+    climbing:
+      name: Climbing
+      requirement: Requires a climbing gear.
+      requirementLevel: Requires a climbing gear that has at least <keywordRequirements /> in its requirements.
+    bugCatchingNet:
+      name: Bug catching net
+      requirement: Requires a bug catching net.
+      requirementLevel: Requires a bug catching net that has at least <keywordRequirements /> in its requirements.
+    ring:
+      name: Ring
+      requirement: Requires a ring.
+      requirementLevel: Requires a ring that has at least <keywordRequirements /> in its requirements.
+    socks:
+      name: Socks
+      requirement: Requires socks.
+      requirementLevel: Requires socks that has at least <keywordRequirements /> in its requirements.
+  tools:
+    sickle:
+      name: Sickle
+      requirement: Requires a sickle.
+      requirementLevel: Requires a sickle that has at least <keywordRequirements /> in its requirements.
+    goldPan:
+      name: Gold pan
+      requirement: Requires a gold pan.
+      requirementLevel: Requires a gold pan that has at least <keywordRequirements /> in its requirements.
+    magnetic:
+      name: Magnetic
+      requirement: Requires a magnetic item.
+      requirementLevel: Requires a magnetic item that has at least <keywordRequirements /> in its requirements.
+    cookingPan:
+      name: Cooking pan
+      requirement: Requires a cooking pan.
+      requirementLevel: Requires a cooking pan that has at least <keywordRequirements /> in its requirements.
+    tool:
+      name: Tool
+      requirement: Requires a tool.
+      requirementLevel: Requires a tool that has at least <keywordRequirements /> in its requirements.
+    woodcuttingHatchet:
+      name: Hatchet
+      requirement: Requires a woodcutting hatchet.
+      requirementLevel: Requires a woodcutting hatchet that has at least <keywordRequirements /> in its requirements.
+    fishingRod:
+      name: Fishing rod
+      requirement: Requires a fishing rod.
+      requirementLevel: Requires a fishing rod that has at least <keywordRequirements /> in its requirements.
+    fishingSpear:
+      name: Fishing spear
+      requirement: Requires a fishing spear.
+      requirementLevel: Requires a fishing spear that has at least <keywordRequirements /> in its requirements.
+    fishingNet:
+      name: Fishing net
+      requirement: Requires a fishing net.
+      requirementLevel: Requires a fishing net that has at least <keywordRequirements /> in its requirements.
+    fishingCage:
+      name: Fishing cage
+      requirement: Requires a fishing cage.
+      requirementLevel: Requires a fishing cage that has at least <keywordRequirements /> in its requirements.
+    fishing:
+      name: Fishing
+      requirement: Requires a fishing related tool.
+      requirementLevel: Requires a fishing related tool that has at least <keywordRequirements /> in its requirements.
+    pickaxe:
+      name: Pickaxe
+      requirement: Requires a pickaxe.
+      requirementLevel: Requires a pickaxe that has at least <keywordRequirements /> in its requirements.
+    cookingTool:
+      name: Cooking tool
+      requirement: Requires a cooking tool.
+      requirementLevel: Requires a cooking tool that has at least <keywordRequirements /> in its requirements.
+    carpentryTool:
+      name: Carpentry tool
+      requirement: Requires a carpentry tool.
+      requirementLevel: Requires a carpentry tool that has at least <keywordRequirements /> in its requirements.
+    craftingTool:
+      name: Crafting tool
+      requirement: Requires a crafting tool.
+      requirementLevel: Requires a crafting tool that has at least <keywordRequirements /> in its requirements.
+    fishingLure:
+      name: Fishing lure
+      requirement: Requires a fishing lure.
+      requirementLevel: Requires a fishing lure that has at least <keywordRequirements /> in its requirements.
+    magnifyingLense:
+      name: Magnifying lense
+      requirement: Requires a magnifying lense.
+      requirementLevel: Requires a magnifying lense that has at least <keywordRequirements /> in its requirements.
+    cookingKnife:
+      name: Cooking knife
+      requirement: Requires a cooking knife.
+      requirementLevel: Requires a cooking knife that has at least <keywordRequirements /> in its requirements.
+    cookingPot:
+      name: Cooking pot
+      requirement: Requires a cooking pot.
+      requirementLevel: Requires a cooking pot that has at least <keywordRequirements /> in its requirements.
+    cuttingBoard:
+      name: Cutting board
+      requirement: Requires a cutting board.
+      requirementLevel: Requires a cutting board that has at least <keywordRequirements /> in its requirements.
+    cookingSpices:
+      name: Spices
+      requirement: Requires spices.
+      requirementLevel: Requires spices that has at least <keywordRequirements /> in its requirements.
+    chisel:
+      name: Chisel
+      requirement: Requires chisel.
+      requirementLevel: Requires chisel that has at least <keywordRequirements /> in its requirements.
+    saw:
+      name: Saw
+      requirement: Requires a saw.
+      requirementLevel: Requires a saw that has at least <keywordRequirements /> in its requirements.
+    screwdriver:
+      name: Screwdriver
+      requirement: Requires a screwdriver.
+      requirementLevel: Requires a screwdriver that has at least <keywordRequirements /> in its requirements.
+    smithingHammer:
+      name: Smithing hammer
+      requirement: Requires a smithing hammer.
+      requirementLevel: Requires a smithing hammer that has at least <keywordRequirements /> in its requirements.
+    foragingTool:
+      name: Foraging tool
+      requirement: Requires a foraging tool.
+      requirementLevel: Requires a foraging tool that has at least <keywordRequirements /> in its requirements.
+    localMap:
+      name: Local map
+      requirement: Requires a local map.
+      requirementLevel: Requires a local map that has at least <keywordRequirements /> in its requirements.
+    knife:
+      name: Knife
+      requirement: Requires a knife.
+      requirementLevel: Requires a knife that has at least <keywordRequirements /> in its requirements.
+    wrench:
+      name: Wrench
+      requirement: Requires a wrench.
+      requirementLevel: Requires a wrench that has at least <keywordRequirements /> in its requirements.
+    ruler:
+      name: Ruler
+      requirement: Requires a ruler.
+      requirementLevel: Requires a ruler that has at least <keywordRequirements /> in its requirements.
+  materials:
+    logs:
+      name: Logs
+      requirement: Requires a wooden log.
+      requirementLevel: Requires a wooden log that has at least <keywordRequirements /> in its requirements.
+    fish:
+      name: Fish
+      requirement: Requires a fish.
+      requirementLevel: Requires a fish that has at least <keywordRequirements /> in its requirements.
+    plant:
+      name: Plant
+      requirement: Requires a plant.
+      requirementLevel: Requires a plant that has at least <keywordRequirements /> in its requirements.
+    ore:
+      name: Ore
+      requirement: Requires an ore.
+      requirementLevel: Requires an ore that has at least <keywordRequirements /> in its requirements.
+    bar:
+      name: Bar
+      requirement: Requires a bar.
+      requirementLevel: Requires a bar that has at least <keywordRequirements /> in its requirements.
+    plank:
+      name: Plank
+      requirement: Requires a plank.
+      requirementLevel: Requires a plank that has at least <keywordRequirements /> in its requirements.
+    gem:
+      name: Gem
+      requirement: Requires a gem.
+      requirementLevel: Requires a gem that has at least <keywordRequirements /> in its requirements.
+    mushroom:
+      name: Mushroom
+      requirement: Requires a mushroom.
+      requirementLevel: Requires a mushroom that has at least <keywordRequirements /> in its requirements.
+  consumables:
+    cookedFish:
+      name: Cooked fish
+      requirement: Requires a cooked fish.
+      requirementLevel: Requires a cooked fish that has at least <keywordRequirements /> in its requirements.
+    food:
+      name: Food
+      requirement: Requires a food.
+      requirementLevel: Requires a food that has at least <keywordRequirements /> in its requirements.
+    fruit:
+      name: Fruit
+      requirement: Requires a fruit.
+      requirementLevel: Requires a fruit that has at least <keywordRequirements /> in its requirements.
+    beverage:
+      name: Beverage
+      requirement: Requires a beverage.
+      requirementLevel: Requires a beverage that has at least <keywordRequirements /> in its requirements.
+    alcohol:
+      name: Alcohol
+      requirement: Requires alcohol.
+      requirementLevel: Requires alcohol that has at least <keywordRequirements /> in its requirements.
+    water:
+      name: Water
+      requirement: Requires water.
+      requirementLevel: Requires water that has at least <keywordRequirements /> in its requirements.
+    memosphere:
+      name: Memosphere
+      requirement: Requires memosphere.
+      requirementLevel: Requires memosphere that has at least <keywordRequirements /> in its requirements.
+  containers:
+    chest:
+      name: Chest
+      requirement: Requires a chest.
+      requirementLevel: Requires a chest that has at least <keywordRequirements /> in its requirements.
+    regionalChest:
+      name: Regional chest
+      requirement: Requires a regional chest.
+      requirementLevel: Requires a regional chest that has at least <keywordRequirements /> in its requirements.
+    skillingChest:
+      name: Skilling chest
+      requirement: Requires a skilling chest.
+      requirementLevel: Requires a skilling chest that has at least <keywordRequirements /> in its requirements.
+  general:
+    fuel:
+      name: Fuel
+      requirement: Requires fuel.
+      requirementLevel: Requires fuel that has at least <keywordRequirements /> in its requirements.
+    lightSource:
+      name: Light source
+      requirement: Requires a light source.
+      requirementLevel: Requires a light source that has at least <keywordRequirements /> in its requirements.
+  misc:
+    trash:
+      name: Trash
+      requirement: Requires trash.
+      requirementLevel: Requires trash that has at least <keywordRequirements /> in its requirements.
+  achievements:
+    percentage:
+      name: Achievement percentage
+      requirement: none
+      requirementLevel: none
+  search:
+    skills:
+      agility:
+        name: Agility
+        requirement: <PLACEHOLDER>
+        requirementLevel: <PLACEHOLDER>
+      carpentry:
+        name: Carpentry
+        requirement: <PLACEHOLDER>
+        requirementLevel: <PLACEHOLDER>
+      cooking:
+        name: Cooking
+        requirement: <PLACEHOLDER>
+        requirementLevel: <PLACEHOLDER>
+      crafting:
+        name: Crafting
+        requirement: <PLACEHOLDER>
+        requirementLevel: <PLACEHOLDER>
+      fishing:
+        name: Fishing
+        requirement: <PLACEHOLDER>
+        requirementLevel: <PLACEHOLDER>
+      foraging:
+        name: Foraging
+        requirement: <PLACEHOLDER>
+        requirementLevel: <PLACEHOLDER>
+      mining:
+        name: Mining
+        requirement: <PLACEHOLDER>
+        requirementLevel: <PLACEHOLDER>
+      smithing:
+        name: Smithing
+        requirement: <PLACEHOLDER>
+        requirementLevel: <PLACEHOLDER>
+      woodcutting:
+        name: Woodcutting
+        requirement: <PLACEHOLDER>
+        requirementLevel: <PLACEHOLDER>
+  weight:
+    light:
+      name: Light
+      requirement: <PLACEHOLDER>
+      requirementLevel: <PLACEHOLDER>
+    ultraLight:
+      name: Ultra light
+      requirement: <PLACEHOLDER>
+      requirementLevel: <PLACEHOLDER>
+    heavy:
+      name: Heavy
+      requirement: <PLACEHOLDER>
+      requirementLevel: <PLACEHOLDER>
+  services:
+    sawmill:
+      name: Sawmill
+      requirement: <PLACEHOLDER>
+      requirementLevel: <PLACEHOLDER>
+    workshop:
+      name: Workshop
+      requirement: <PLACEHOLDER>
+      requirementLevel: <PLACEHOLDER>
+    forge:
+      name: Forge
+      requirement: <PLACEHOLDER>
+      requirementLevel: <PLACEHOLDER>
+    kitchen:
+      name: Kitchen
+      requirement: <PLACEHOLDER>
+      requirementLevel: <PLACEHOLDER>
+  itemSets:
+    treasureHunter:
+      name: Treasure hunter set
+      requirement: <PLACEHOLDER>
+      requirementLevel: <PLACEHOLDER>
+    adventuringTools:
+      name: Adventuring tool set
+      requirement: <PLACEHOLDER>
+      requirementLevel: <PLACEHOLDER>
+    
+      

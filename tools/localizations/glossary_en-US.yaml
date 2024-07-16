@@ -1,0 +1,94 @@
+singulars:
+  actions:
+    delete: Delete
+    remove: Remove
+    cancel: Cancel
+    craft: Craft
+    equip: Equip
+    unequip: Unequip
+    cont: Continue
+    drop: Drop
+    back: Back
+    copyAll: Copy all
+    copy: Copy
+    open: Open
+    openAll: Open all
+    openTreasure: Open treasure
+    travel: Travel
+    all: All
+    clear: Clear
+    select: Select
+    selectAll: Select all
+    send: Send
+    complete: Complete
+    deposit: Deposit
+    withdraw: Withdraw
+    share: Share
+    start: Start
+    randomize: Randomize
+    swap: Swap
+    unlock: Unlock
+    claim: Claim
+    customizeLooks: Customize looks
+    buy: Buy
+    purchase: Purchase
+    exit: Exit
+  labels:
+    inventory: Inventory
+    crafting: Crafting
+    devTools: Dev Tools
+    devLogger: Dev Logger
+    settings: Settings
+    options: Options
+    market: Market
+    leaderboards: Leaderboards
+    leagues: Leagues
+    profile: Profile
+    achievements: Achievements
+    gear: Gear
+    tools: Tools
+    character: Character
+    journal: Journal
+    feed: Feed
+    location: Location
+    activity: Activity
+    abilities: Abilities
+    specialItems: Special items
+    collectibleItems: Collectible items
+    information: Information
+    walkpedia: Walkpedia
+  responses:
+    ok: Okay
+    no: No
+    yes: Yes
+  states:
+    loading: Loading
+    loadingDots: Loading...
+  fields:
+    search: Search
+    searchDots: Search...
+  toggles:
+    states:
+      on: On
+      off: Off
+    hideCompletedAchievements: Hide completed achievements
+  commonWords:
+    level: Level
+    lvl: Lvl.
+    xp: XP
+    unkown: Unknown
+    unexplored: Unexplored
+    filters: Filters
+    sorting: Sorting
+    unlock: Unlock
+  phrases:
+    requirementsNotMet: Requirements not met
+    maxLevel: Max level
+  shortWeekdays:
+    monday: M
+    tuesday: T
+    wednesday: W
+    thursday: T
+    friday: F
+    saturday: S
+    sunday: S

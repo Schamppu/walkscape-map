@@ -1,0 +1,48 @@
+singulars:
+  smithing:
+    basicForge:
+      name: Basic Forge
+      desc: An entry-level forge, ideal for crafting straightforward items.
+    advancedForge:
+      name: Advanced Forge
+      desc: A more sophisticated forge, perfect for fashioning intricate and higher-quality creations.
+    frozenForge:
+      name: Frozen Forge
+      desc: A forge made out of ice with small carvings of penguins all over it.
+  cooking:
+    basicKitchen:
+      name: Basic Kitchen
+      desc: A modest kitchen setup, where you can prepare simple and wholesome meals.
+    advancedKitchen:
+      name: Advanced Kitchen
+      desc: A well-equipped kitchen, suitable for gourmet cooking and culinary experiments.
+  crafting:
+    basicWorkshop:
+      name: Basic Workshop
+      desc: A basic workshop setup, designed for crafting simple and practical items.
+    advancedWorkshop:
+      name: Advanced Workshop
+      desc: An advanced workshop, equipped for crafting complex and versatile creations.
+  carpentry:
+    basicSawmill:
+      name: Basic Sawmill
+      desc: A rudimentary timber processing facility, where logs are transformed into basic lumber.
+    advancedSawmill:
+      name: Advanced Sawmill
+      desc: An advanced timber processing mill, capable of producing higher-quality lumber with precision and efficiency.
+    barbantokSawmill:
+      name: Sawmill of Barbantok
+      desc: A sawmill that is said to be haunted by the ghost of Barbantok, a legendary carpenter who was known for his exceptional craftsmanship.
+  cosmetics:
+    barber:
+      name: Barber
+      desc: A barber who can style your hair to a different one.
+    wardrobe:
+      name: Wardrobe
+      desc: Access to your wardrobe, so you can change your looks to any cosmetics you might own.
+maps:
+  tiers(map):
+    "basic": Basic
+    "advanced": Advanced
+    "legendary": Legendary
+    "mythic": Mythic

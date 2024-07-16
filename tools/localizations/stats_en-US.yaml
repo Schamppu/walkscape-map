@@ -1,0 +1,63 @@
+singulars:
+  skilling:
+    workEfficiency:
+      name: Work efficiency
+      desc: <PLACEHOLDER>
+    chestFind:
+      name: Chest finding
+      desc: <PLACEHOLDER>
+    craftingOutcome:
+      name: Crafting outcome
+      desc: <PLACEHOLDER>
+    fineMaterialFind:
+      name: Fine material finding
+      desc: <PLACEHOLDER>
+    doubleRewards:
+      name: Double rewards
+      desc: <PLACEHOLDER>
+    doubleAction:
+      name: Double action
+      desc: <PLACEHOLDER>
+    bonusExperience:
+      name: Bonus experience
+      desc: <PLACEHOLDER>
+    bonusMoney:
+      name: bonusMoney
+      desc: <PLACEHOLDER>
+    extraLootRolls:
+      name: Extra loot rolls
+      desc: <PLACEHOLDER>
+    rollSpecialTable:
+      name: Roll special table
+      desc: <PLACEHOLDER>
+    travelingDistance:
+      name: Traveling distance
+      desc: <PLACEHOLDER>
+    stepsRequired:
+      name: Steps required
+      desc: <PLACEHOLDER>
+    inventorySpace:
+      name: Inventory space
+      desc: <PLACEHOLDER>
+    randomEncounters:
+      name: Random encounters
+      desc: <PLACEHOLDER>
+    fineMaterialOutcome:
+      name: Fine material outcome
+      desc: <PLACEHOLDER>
+    skillLevel:
+      name: <supp k="skill"/>
+      desc: <PLACEHOLDER>
+    noMaterialsConsumed:
+      name: No materials consumed
+      desc: <PLACEHOLDER>
+  special:
+    findGems:
+      name: Find gems
+      desc: <PLACEHOLDER>
+    findBirdNests:
+      name: Find bird nests
+      desc: <PLACEHOLDER>
+    findCollectibles:
+      name: Find collectibles
+      desc: <PLACEHOLDER>

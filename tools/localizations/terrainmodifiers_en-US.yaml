@@ -1,0 +1,15 @@
+singulars:
+  requiresItems:
+    jarvonianBorderCheck:
+      name: Jarvonian border check
+      desc: <PLACEHOLDER>
+    blackEyePeakWildernessPermit:
+      name: Black eye peak wilderness permit
+      desc: <PLACEHOLDER>
+  requiresSkill:
+    sanguineHills:
+      name: Difficult mountain terrain
+      desc: <PLACEHOLDER>
+    frostbiteMountain:
+      name: Challenging wilderness terrain
+      desc: <PLACEHOLDER>

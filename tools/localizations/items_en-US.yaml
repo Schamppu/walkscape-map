@@ -1,0 +1,1503 @@
+singulars:
+  materials:
+    woodcutting:
+      birchLogs:
+        name: Birch logs
+        desc: Smooth and pale, the birch logs exude an elegant simplicity.
+      pineLogs:
+        name: Pine logs
+        desc: Strong and resinous, the pine logs emanate a distinct and comforting aroma.
+      spruceLogs:
+        name: Spruce logs
+        desc: The spruce logs exhibit a rich and warm tone, showcasing their natural beauty and appeal.
+      mapleLogs:
+        name: Maple logs
+        desc: The maple logs display a rich and inviting grain, showcasing nature's artistry in every piece.
+      oakLogs:
+        name: Oak logs
+        desc: Adorned with a distinct character, the oak logs exude a sense of noble presence and enduring grace.
+      teakLogs:
+        name: Teak logs
+        desc: Very tough and heavy, with a very thick bark which inside has a much lighter color than the rest of the log.
+      willowLogs:
+        name: Willow logs
+        desc: These earthy logs are quite lightweight, making them very comfortable to handle and work with.
+      mangroveLogs:
+        name: Mangrove logs
+        desc: Still damp from the environment where they once grew, they have a beautiful glistering on them.
+      sturdyBranch:
+        name: Sturdy branch
+        desc: An abnormally sturdy branch.
+    mining:
+      copperOre:
+        name: Copper ore
+        desc: With its reddish color, the copper ore stands out as a distinctive mineral.
+      tinOre:
+        name: Tin ore
+        desc: Simple and unassuming, the tin ore showcases its straightforward mineral composition.
+      ironOre:
+        name: Iron ore
+        desc: The iron ore has a gritty and dense feel, reflecting its robust and unrefined nature.
+      coal:
+        name: Coal
+        desc: Modest and unpretentious, the coal signifies its practicality as a vital energy resource.
+      tarsiliumOre:
+        name: Tarsilium ore
+        desc: The tarsilium ore's smooth and reflective surface reflects the surrounding world with an almost magical brilliance.
+      farganiteOre:
+        name: Farganite ore
+        desc: With its unyielding strength and captivating blue sheen, the farganite ore has become a symbol of unbreakable resolve.
+      saltCrystal:
+        name: Salt crystal
+        desc: Versatile once finely ground up, beautiful intricate shapes in their raw form.
+      silverOre:
+        name: Silver ore
+        desc: Silver is a highly prized metal, frequently utilized in the creation of jewelry such as rings, amulets and earrings.
+      goldOre:
+        name: Gold ore
+        desc: Gold is one of the most valuable metals, often used in jewelery crafting.
+      wrentmarine:
+        name: Wrentmarine
+        desc: When you move it around, it looks like water flows from one side to another on the surface of this ocean blue rock.
+      starPearl:
+        name: Star pearl
+        desc: Featured in the famous painting "Girl with a Star Pearl Earring" by a Wallisian painter.
+      opal:
+        name: Opal
+        desc: Beautiful iridescent colours shimmer on its surface as they are held in the sunlight.
+      ethernite:
+        name: Ethernite
+        desc: A valuable glassy purple gem. You feel a dreadful sensation when you look at it, yet somehow it's very difficult to look away from it.
+      jade:
+        name: Jade
+        desc: It's bright green colour makes it a perfect gemstone for jewellery, which is rumoured to ward off evil spirits when worn.
+      topaz:
+        name: Topaz
+        desc: Shiny gem with colours that resemble the sun. It might even hurt your eyes if you gaze at it for too long.
+      sunStone:
+        name: Sun stone
+        desc: Not really coming from the sun, but judged by its shiny fiery colours, it might as well be.
+      largeStone:
+        name: Large stone
+        desc: A larger stone than normal.
+      ruby:
+        name: Ruby
+        desc: This red colored gem is highly popular amongst the nobles. The red color symbolizes power and passion.
+    rawFish:
+      rawShrimp:
+        name: Raw shrimp
+        desc: With their pristine appearance, the shrimp entice with the promise of a delightful seafood feast.
+      rawPerch:
+        name: Raw perch
+        desc: Gracefully curved and agile, the perch is a fine fish for new fishing enthusiasts to catch.
+      rawCrayfish:
+        name: Raw crayfish
+        desc: Crayfish offer succulent delight for seafood enthusiasts.
+      rawCarp:
+        name: Raw carp
+        desc: The carp's mild flavor lends itself well to various culinary preparations. These fish like to jump.
+      rawSeabass:
+        name: Raw seabass
+        desc: Sea bass shines with silver scales.
+      rawPike:
+        name: Raw pike
+        desc: With its flaky and tender meat, raw pike lends itself well to cooking.
+      rawJellyfish:
+        name: Raw jellyfish
+        desc: As a culinary curiosity, the jellyfish invites exploration, challenging chefs to embrace its strange texture.
+      rawTrout:
+        name: Raw trout
+        desc: The trout displays a mesmerizing tapestry of iridescent scales, reflecting hues of silver, pink, and speckled patterns.
+      rawSalmon:
+        name: Raw salmon
+        desc: With its succulent and buttery flesh, salmon delights the palate with its rich and velvety texture.
+      rawMoray:
+        name: Raw moray
+        desc: The moray has a long, snakelike body and unique jaws, giving it a mysterious appearance from the deep sea.
+      rawLobster:
+        name: Raw lobster
+        desc: The lobster has a tough shell and strong claws. Brings you back in time, doesn't it?
+      rawSquid:
+        name: Raw squid
+        desc: Squid surprises with its knack for disappearing acts.
+      rawStreamEel:
+        name: Raw stream eel
+        desc: The streamlined form of stream eel reflects its adaptability to flowing rivers and streams.
+    foraging:
+      nettle:
+        name: Nettle
+        desc: Tall, slender plant with heart-shaped leaves and a potent sting.
+      thistle:
+        name: Thistle
+        desc: Robust plant with spiky leaves, forming a protective shield around its colorful flowers.
+      hemp:
+        name: Hemp
+        desc: Tall and leafy plant with slender stalks, renowned for its versatile fibers and practical uses.
+      moondaisy:
+        name: Moondaisy
+        desc: A fragile flower that glows with moonlight on the darkest of nights.
+      sunblossom:
+        name: Sunblossom
+        desc: Beautiful blossom reflecting the sun's brilliance, its golden petals shining brightly.
+      flax:
+        name: Flax
+        desc: Delicate blue blossoms yielding strong threads. Perfect for linen production.
+      snowdrop:
+        name: Snowdrop
+        desc: Tiny white flower that blooms in winter, a gentle reminder of hope and new beginnings.
+      iceplum:
+        name: Iceplum
+        desc: Small fruit with a frosty exterior, shimmering in shades of purple.
+      cotton:
+        name: Cotton
+        desc: Soft and fluffy material, offering a gentle touch and comforting feel.
+      nightgem:
+        name: Nightgem
+        desc: The dark gem seems to absorb all of the light around it in a magnetic way.
+      starflower:
+        name: Starflower
+        desc: A glowing five-pointed star that sits upon a leafy stem. It's customary to make a wish whenever you find one. 
+      silkwormSilk:
+        name: Silkworm silk
+        desc: A silk so fine that it might necessitate the construction of a trade route across the entire continent.
+      catsBell:
+        name: Cat's bell
+        desc: When blown by the wind, the simple stem with three yellow bulbs emits an alluring sound.
+      widowsKiss:
+        name: Widow's kiss
+        desc: The pink bulb invites you to draw closer, but it's best to keep your distance.
+      shadowLeaf:
+        name: Shadow leaf
+        desc: The dark leaf nearly crumbles if disturbed by touch or light. Best stored in a dark place.
+      deathsToll:
+        name: Death's toll
+        desc: It may look inviting, but I wouldn't consume it in this form.
+      rotbud:
+        name: Rotbud
+        desc: As a truffle calls to a pig, the rotbud calls to halflings of the Great Marshes.
+      acidSapling:
+        name: Acid sapling
+        desc: Barely the size of a twig, the ochre sapling nearly burns your skin on contact.
+      woodenStick:
+        name: Wooden stick
+        desc: A pointy piece of wood. Maybe you can create something with it to help you survive?
+      stone:
+        name: Stone
+        desc: A rock. Maybe you can create something with it to help you survive?
+      berries:
+        name: Berries
+        desc: Will do well to keep you reasonably fed in a pinch, or you could use them as an ingredient for your culinary creations.
+    carpentry:
+      birchPlank:
+        name: Birch plank
+        desc: Smooth and pale, the birch plank exemplifies simplicity and elegance with its clean, light wood appearance.
+      pinePlank:
+        name: Pine plank
+        desc: Distinguished by its warm, earthy tones, the pine plank radiates a rustic charm with its natural woodgrain pattern.
+      sprucePlank:
+        name: Spruce plank
+        desc: Featuring a fine woodgrain texture, the spruce plank embodies a sense of elegance with its clean and classic appearance.
+      maplePlank:
+        name: Maple plank
+        desc: Aesthetic and inviting, the maple plank boasts a smooth, light-colored surface, adding a touch of sophistication to any project.
+      oakPlank:
+        name: Oak plank
+        desc: A timeless choice for woodworking projects distinguished by its rich, earthy hue and prominent, intricate woodgrain patterns.
+      teakPlank:
+        name: Teak plank
+        desc: Known for its durability and lustrous golden-brown hue, the teak plank is a top-tier choice for crafting sturdy and beautiful creations.
+      willowPlank:
+        name: Willow plank
+        desc: With a delicate, pale appearance and a subtle grain pattern, the willow plank brings a touch of ethereal beauty to your carpentry projects.
+      mangrovePlank:
+        name: Mangrove plank
+        desc: Resilient and weather-resistant, the mangrove plank is the perfect choice for outdoor carpentry, combining strength with a unique tropical charm.
+      woodScrap:
+        name: Wood scrap
+        desc: Some low-quality wood offcuts
+      woodShaving:
+        name: Wood shaving
+        desc: Some lmid-quality wood offcuts
+      woodFragment:
+        name: Wood scrap
+        desc: Some high-quality wood offcuts
+    smithing:
+      copperBar:
+        name: Copper bar
+        desc: The copper bar gleams with a reddish-orange luster, reflecting its metallic strength and versatility in various applications.
+      bronzeBar:
+        name: Bronze bar
+        desc: The bronze bar, a relic of dwarven forges, exudes rustic charm and durability, bearing the secrets of copper and tin melded by skilled hands.
+      ironBar:
+        name: Iron bar
+        desc: It stands as a testament to the earth's core strength, heavy and unyielding.
+      steelBar:
+        name: Steel bar
+        desc: Forged in the fires of determination, the steel bar glimmers with ethereal luster.
+      tarsiliumBar:
+        name: Tarsilium bar
+        desc: The tarsilium bar shimmers like the night sky, an oily texture coating it's surface.
+      farganiteBar:
+        name: Farganite bar
+        desc: A shade of blue between the sea and the sky, it looks cool even when hot and ready to work.
+      metalScrap:
+        name: Metal scrap
+        desc: Some low-quality metal offcuts
+      metalShaving:
+        name: Metal shaving
+        desc: Some lmid-quality metal offcuts
+      metalFragment:
+        name: Metal scrap
+        desc: Some high-quality metal offcuts
+    cooking:
+      milk:
+        name: Milk
+        desc: Straight from the cow, a goat, or a camel. Or squeezed from some nuts? Only you know where you found this.
+      salt:
+        name: Salt
+        desc: Each grain is a fragment of forgotten oceans, imbued with the power to purify, protect, and add a dash of enchantment to any dish.
+      honey:
+        name: Honeycomb
+        desc: This raw honeycomb is dripping with fresh honey.
+      carrot:
+        name: Carrot
+        desc: It's been said that this helps your vision.
+      mushroom:
+        name: Mushroom
+        desc: This fungi is technically a vegetable.
+    crafting:
+      rope:
+        name: Rope
+        desc: A survival kit is not complete without some rope. Essential to make yourself some basic tools.
+    misc:
+      trash:
+        name: Trash
+        desc: A collection of useless, worthless items. Why did you even pick this up?
+      fishbone:
+        name: Fishbone
+        desc: Although it is kind of gruesome and quite smelly, it looks pretty cool.
+      seashell:
+        name: Sea shell
+        desc: Probably sold by somebody on a beach.
+      clam:
+        name: Clam
+        desc: Pearly white and perfectly intact. A beautiful specimen for a collector.
+      pearls:
+        name: Pearls
+        desc: A set of literal pearly whites. Great material for making jewellery.
+      glacierMap:
+        name: Mysterious northern map
+        desc: The map resembles northern part of Jarvonia. Marked with red line there's a path to what appears to be glacier with an igloo on it.
+      crosswordPuzzle:
+        name: Old crossword puzzle
+        desc: Word game, nine letters, starts with a C.
+      fishingLine:
+        name: Fishing line
+        desc: Reclaiming this from nature might have just saved an animal's life.
+      unidentifiedRemains:
+        name: Unidentified remains
+        desc: The Adventurer's Guild would appreciate if you returned this pile of bones to them, it may help them resolve an open permit.
+      nameTag:
+        name: Name tag
+        desc: A name tag with the name of some long gone adventurer written on it. Adventurer's Guild might be interested in this.
+      adventurersPin:
+        name: Adventurer's enamel pin
+        desc: A pin with the symbol of the Adventurers' Guild. It's a bit rusty, but still shiny. Adventurer's Guild would appreciate if you returned this to them.
+  crafted:
+    skilling:
+      miscellaneous:
+        bagOfRocks:
+          name: Bag of rocks
+          desc: It's hard dragging this around, why are you doing this again?
+      foraging:
+        stoneSickle:
+          name: Basic sickle
+          desc: A basic tool for reaping the bounty of nature. Its rough edge is not that efficient.
+        copperSickle:
+          name: Copper sickle
+          desc: Offers a modest efficiency in cutting basic plants.
+        ironSickle:
+          name: Iron sickle
+          desc: Sturdy and reliable, it slices through tough stems with ease.
+        steelSickle:
+          name: Steel sickle
+          desc: Strong and durable, offering reliable performance for extensive foraging.
+      woodcutting:
+        basicHatchet:
+          name: Basic hatchet
+          desc: The basic hatchet, a humble tool of foresters. Hardly more than a stick, a rock, and a string tying it all together.
+        copperHatchet:
+          name: Copper hatchet
+          desc: Fragile and quite light to use for woodcutting. But gets the job done.
+        bronzeHatchet:
+          name: Bronze hatchet
+          desc: Good for beginners to start chopping some trees.
+        ironHatchet:
+          name: Iron hatchet
+          desc: With its heavy blade, it serves as a loyal partner to those who seek to tame the wilderness or face the unknown.
+        steelHatchet:
+          name: Steel hatchet
+          desc: The steel hatchet gleams with the determination of its creator, ready to do their bidding.
+        tarsiliumHatchet:
+          name: Tarsilium hatchet
+          desc: A black axe.
+        farganiteHatchet:
+          name: Farganite hatchet
+          desc: A perfect reflection of the hues in the sky throughout the day, a rare axe indeed.
+      mining:
+        basicPickaxe:
+          name: Basic pickaxe
+          desc: The basic pickaxe, a humble tool of a miner. Hardly more than a stick, a rock, and some string tying it all together.
+        copperPickaxe:
+          name: Copper pickaxe
+          desc: A fragile and light axe for mining. It gets the job done.
+        bronzePickaxe:
+          name: Bronze pickaxe
+          desc: The bronze pickaxe resonates with rustic charm and unyielding strength.
+        ironPickaxe:
+          name: Iron pickaxe
+          desc: With its heavy head, it serves as a loyal partner to those who seek to tame the wilderness or face the unknown.
+        steelPickaxe:
+          name: Steel pickaxe
+          desc: The steel pickaxe gleams with the determination of its creator, ready to do their bidding.
+        tarsiliumPickaxe:
+          name: Tarsilium pickaxe
+          desc: A black pickaxe.
+        farganitePickaxe:
+          name: Farganite pickaxe
+          desc: A perfect reflection of the hues in the sky throughout the day, a rare pickaxe indeed.
+      fishing:
+        smallFishingNet:
+          name: Basic fishing net
+          desc: The basic net, a humble tool of a simple fisher. Hardly more than a few pieces of rope tied together.
+        basicFishingPole:
+          name: Wooden fishing pole
+          desc: You know what they say, a bad day at the lake is better than a good day at work.
+        pineFishingRod:
+          name: Pine fishing rod
+          desc: A freshly-scented rod that can withstand the heaviest of fish.
+        fishingSpear:
+          name: Fishing spear 
+          desc: The spear embodies the dance of predator and prey beneath the surface, offering a direct and formidable means to secure sustenance from the waters.
+        largeFishingNet:
+          name: Large fishing net
+          desc: The large fishing net, a creation of coastal communities, is a web of aspirations cast wide upon the ever-shifting tides.
+        oakFishingRod:
+          name: Oak fishing rod
+          desc: The oak fishing rod, a masterpiece of seasoned artisans, carries the essence of ancient trees and their enduring wisdom.
+        willowFishingRod:
+          name: Willow fishing rod
+          desc: The fishing rod crafted from willow is lightweight and soft to the touch.
+        advancedFishingRod:
+          name: Advanced fishing rod
+          desc: The advanced rod is intended for use by professional fishers.
+        lobsterPot:
+          name: Lobster Pot
+          desc: Place in the sea, and a lobster there will be.
+    equipmentSets:
+      basic:
+        woodenSword:
+          name: Wooden sword
+          desc: You hope this simple stick can defend you.
+        woodenShield:
+          name: Wooden shield
+          desc: You hope this simple shield can defend you.
+      copper:
+        lightHelmet:
+          name: Copper light helmet
+          desc: The copper light helmet, a gleaming crown of protection, offers a balance between light defense and agility. 
+        heavyHelmet:
+          name: Copper heavy helmet
+          desc: The copper heavy helmet, a visage of resilience, sacrificies all agility for maximum defense.
+        legs:
+          name: Copper legs
+          desc: Some copper platelegs, fashioned with a blend of sturdiness and freedom of movement provide a basic level of protection.
+        gloves:
+          name: Copper gloves
+          desc: Copper coverings for your hands.
+        chest:
+          name: Copper chest
+          desc: Requires a significant amount of copper, but protects the most vital parts of the body.
+        shoes:
+          name: Copper shoes
+          desc: Some heavy boots that provide a small amount of protection.
+        sword:
+          name: Copper sword
+          desc: A light sword.
+        shield:
+          name: Copper shield
+          desc: A light shield.
+      bronze:
+        lightHelmet:
+          name: Bronze light helmet
+          desc: It bears the mark of those who have mastered the art of crafting defensive headgear that doesn't compromise speed and mobility. 
+        heavyHelmet:
+          name: Bronze heavy helmet
+          desc: Forged with unwavering determination, it forms an simple shield for the wearer's skull.
+        legs:
+          name: Bronze legs
+          desc: These bronze-clad legs promise unwavering protection to set out on any quest.
+        gloves:
+          name: Bronze gloves
+          desc: Bronze gloves, masterfully crafted and sturdy, cradle the hands of adventurers in a reassuring embrace.
+        chest:
+          name: Bronze chest
+          desc: The bronze platebody, a formidable chestplate of defense, carries the timeless legacy of armor-crafting traditions.
+        shoes:
+          name: Bronze shoes
+          desc: At least they are lighter than the iron pair!
+        sword:
+          name: Bronze sword
+          desc: A sword.
+        shield:
+          name: Bronze shield
+          desc: A shield.
+      iron:
+        lightHelmet:
+          name: Iron light helmet
+          desc: It glistens with the promise of safeguarding adventurers as they embark on their quests.
+        heavyHelmet:
+          name: Iron heavy helmet
+          desc: This helmet serves as a guardian for those who march into the heart of danger, instilling unwavering confidence in its wearer.
+        legs:
+          name: Iron legs
+          desc: The platelegs are heavy, but provide a moderate amount of defense for your limbs.
+        gloves:
+          name: Iron gloves
+          desc: These gloves, finely detailed and sturdy, provide a reassuring embrace to the hands of adventurers.
+        chest:
+          name: Iron chest
+          desc: It acts as an unyielding bulwark against danger, guarding the wearer's torso with unwavering resolve. 
+        shoes:
+          name: Iron shoes
+          desc: Your feet have never felt heavier. But you are somewhat confident they could be rolled over by a heavy cart and survive unscathed.
+        sword:
+          name: Iron sword
+          desc: A sword.
+        shield:
+          name: Iron shield
+          desc: A shield.
+      steel:
+        lightHelmet:
+          name: Steel light helmet
+          desc: A radiant guardian for the head, it provides a medium level of protection while maintaining a high level of visibility.
+        heavyHelmet:
+          name: Steel heavy helmet
+          desc: The glare off of the rest of your armor and the small slits makes it quite hard to see your surroundings, but you feel safe.
+        legs:
+          name: Steel legs
+          desc: They glisten with the promise of safeguarding heroes as they confront the perils of their epic quests.
+        gloves:
+          name: Steel gloves
+          desc: Crafted with meticulous care, they offer both resilience and dexterity, enabling the wearer to wield weapons and tools with masterful skill.
+        chest:
+          name: Steel chest
+          desc: A mighty bastion for the torso and a testament to the indomitable spirit of warriors and knights. 
+        shoes:
+          name: Steel shoes
+          desc: At least they are lighter than the iron pair!
+        sword:
+          name: Steel sword
+          desc: A shiny sword.
+        shield:
+          name: Steel shield
+          desc: A shiny shield.
+      tarsilium:
+        lightHelmet:
+          name: Tarsilium light helmet
+          desc: A black light helmet.
+        heavyHelmet:
+          name: Tarsilium heavy helmet
+          desc: A black heavy helmet.
+        legs:
+          name: Tarsilium legs
+          desc: A black set of platelegs.
+        gloves:
+          name: Tarsilium gloves
+          desc: A black pair of gloves.
+        chest:
+          name: Tarsilium chest
+          desc: A black platebody.
+        shoes:
+          name: Tarsilium shoes
+          desc: A black pair of shoes. At least they are lighter than the steel pair!
+        sword:
+          name: Tarsilium sword
+          desc: A black sword.
+        shield:
+          name: Tarsilium shield
+          desc: A black shield.
+      farganite:
+        lightHelmet:
+          name: Farganite light helmet
+          desc: An enigmatic masterpiece of smithwork, it surrounds your face in a shimmering blue.
+        heavyHelmet:
+          name: Farganite heavy helmet
+          desc: A mark of the most skilled warriors of the Western Continent. 
+        legs:
+          name: Farganite legs
+          desc: A perfect balance of defense and weight, they allow the wearer high mobility and high defense.
+        gloves:
+          name: Farganite gloves
+          desc: A wonderous pair of gloves that seem to reflect the current color of the sky.
+        chest:
+          name: Farganite chest
+          desc: An impenetrable fortress on your chest, your foe can see themself on its reflective blue surface.
+        shoes:
+          name: Farganite shoes
+          desc: At least they are lighter than the black pair!
+        sword:
+          name: Farganite sword
+          desc: A blue sword.
+        shield:
+          name: Farganite shield
+          desc: A blue shield.
+  looted:
+    achievements:
+      capeOfHalfAchiever:
+        name: Cape of Half-Achiever
+        desc: This magnificent blue cape represents someone filled with determination to achieve greatness.
+      capeOfAchiever:
+        name: Cape of Achiever
+        desc: The rose-colored cape sparks interest in anyone who witnesses it. The owner of the cape has fulfilled what others only dream of.
+      adventurersHat:
+        name: Adventurer's hat
+        desc: This leather bucket hat will protect you from the sun, wind, and rain.
+      adventurersShirt:
+        name: Adventurer's shirt
+        desc: This leather shirt is of a light brown color and has multiple pockets for storage.
+      adventurersPants:
+        name: Adventurer's pants
+        desc: These tough leather pants have various straps on them, both for utility and fashion.
+      adventurersBoots:
+        name: Adventurer's boots
+        desc: These sturdy boots are made to withstand heavy wear and adverse weather conditions.
+      adventurersGloves:
+        name: Adventurer's gloves
+        desc: These leather gloves have an adjustable strap for a perfect fit.
+      adventurersCape:
+        name: Adventurer's cape
+        desc: This tough leather cape will protect its wearer against most weather. It has straps for easy adjustment.
+      ringOfHomesickness:
+        name: Ring of homesickness
+        desc: This ring reminds you that there's no place like home.
+      amuletOfLightness:
+        name: Amulet of lightness
+        desc: This amulet radiates bright light and fills you with hope even in the darkest place.
+      axeOfDestruction:
+        name: Axe of destruction
+        desc: This axe's blade is shaped like a mouth ready to devour wood.
+      shoesOfEscape:
+        name: Shoes of escape
+        desc: These shoes let you go really fast from time to time.
+      otherSock:
+        name: Other sock
+        desc: The other sock that you didn't give to Dobby.
+      tinyBackpack:
+        name: Tiny backpack
+        desc: It's regular sized backpack if you're a child.
+      shinyRing:
+        name: Shiny Ring
+        desc: Not the most elegant ring but it for sure is shiny.
+      gemBracelet:
+        name: Gem bracelet
+        desc: Six coloful gems form a bracelet.
+      pathfinder:
+        name: Pathfinder
+        desc: Attached to the necklace is a miniature map that displays the shortest route.
+      runningVisor:
+        name: Running visor
+        desc: This red visor shields your eyes from the sun, while still allowing your head to cool off through the top.
+      rustySpyglass:
+        name: Rusty spyglass
+        desc: There's a certain charm to a well-used instrument, such as this rusty spyglass.
+      pantsOfHaste:
+        name: Pants of haste
+        desc: Gotta go fast!
+      omniTool:
+        name: Omni-tool
+        desc: This tool, which can be attached to your forearm, is designed to assist with various tasks at your command.
+      trashGrabber:
+        name: Trash grabber
+        desc: The design of this extended instrument makes it simple to pick up trash without the need to bend over.
+      treasureHunterHat:
+        name: Treasure hunter hat
+        desc: While it's unclear whether it's considered a cowboy hat or a fedora, it certainly carries that distinctive 'Indy' vibe.
+      treasureHunterPants:
+        name: Treasure hunter pants
+        desc: These form-fitting leather pants accentuate your leg muscles.
+      treasureHunterJacket:
+        name: Treasure hunter jacket
+        desc: This appears to be a classic leather jacket that never goes out of style.
+      jugglingBalls:
+        name: Juggling balls
+        desc: Three multi-colored balls filled with grain makes the ideal objects for juggling.
+      bootsOfSpeed:
+        name: Boots of speed
+        desc: These shoes make your feet feel lighter and your stride quicker.
+      travelersKit:
+        name: Traveler's kit
+        desc: This suitcase is packed with essentials for any travel destination.
+      absorbingAmulet:
+        name: Absorbing amulet
+        desc: This amulet, crafted from ancient metal, is known to attract fine things.
+      greedyPiggyBank:
+        name: Greedy piggy bank
+        desc: Each time a coin is dropped in, this golden piggy bank oinks loudly.
+      trekkingPoles:
+        name: Trekking poles
+        desc: These poles provide assistance with maintaining balance and traversing rough terrain.
+      conservationistHat:
+        name: Conservationist hat
+        desc: This blue hat provides good protection against the elements.
+      conservationistShirt:
+        name: Conservationist shirt
+        desc: This shirt offers comfort as well as extra pockets for stashing discoveries.
+      conservationistShorts:
+        name: Conservationist shorts
+        desc: These shorts lets you move around freely and has large pockets for tools.
+      conservationistBoots:
+        name: Conservationist boots
+        desc: These blue comfortable boots are also durable.    
+      cursedAwl:
+        name: Cursed awl
+        desc: Upon use, this awl emits smoke in hues of blue and violet.
+      rockstarAmulet:
+        name: Rock-star amulet
+        desc: Amulet that is either a star shaped rock or a rock shaped star.
+    skilling:
+      cooking:
+        simplePan:
+          name: Simple pan
+          desc: This pan is not non-stick, but it will save you in a pinch.
+        measuringSpoonsNecklace:
+          name: Measuring spoons necklace
+          desc: Three measuring spoons are always at your disposal. Not dishwasher safe.
+        eberhartCorkscrew:
+          name: Eberhart corkscrew
+          desc: This classic corkscrew shows a quality far superior to any other you have seen. The handle is ergonomic and made of exquisite wood and the spiral is stainless steel with a very precise finish. 
+        chefsHat:
+          name: Chef's hat
+          desc: This whimsical hat seems to channel the magic of the kitchen, inspiring culinary wonders with every flick of the spatula.
+        chefsApron:
+          name: Chef's apron
+          desc: With this apron, every meal becomes a masterpiece, and every dish a work of art.
+        meatCleaver:
+          name: Meat cleaver
+          desc: Its sharp steel blade can chop up pieces of meat into smaller pieces. Like your fingers, if you're not careful.
+        florasSilverSpoon:
+          name: Flora's silver spoon
+          desc: A special silver spoon. Flora must have lost it in the kitchen someday. It's yours now!
+        ovenMittens:
+          name: Oven mittens
+          desc: Nice and warm, but not as warm as the things you're gonna need them for.
+        sharpKnife:
+          name: Sharp knife
+          desc: It has a rustic wooden handle and its blade seems to have been sharpened recently.
+        dullKnife:
+          name: Dull knife
+          desc: Nothing as dangerous as a dull knife. Or so they say.
+        cuttingBoard:
+          name: Cutting board
+          desc: A square wooden board for chopping up meat, fruit, and vegetables.
+        largePot:
+          name: Large pot
+          desc: Made of steel and big enough to hold food for a dozen of people.
+        chefsLegApron:
+          name: Chef's leg apron
+          desc: An apron to be worn over the leg, with a pocket to hold some kitchen tools.
+        nonSlipShoes:
+          name: Non-slip shoes
+          desc: Not quite hip, but provide more grip so you will less often slip.
+        sturdyWhisk:
+          name: Sturdy whisk
+          desc: Its steel wires are firmly attached to the grippy handle, you could whisk thousands of eggs with this.
+        northernSpices:
+          name: Northern spices
+          desc: The strong aroma of these spices makes your stomach rumble so loud, you'd be done for if you were on a stealth mission.
+        flippySpatula:
+          name: Flippy spatula
+          desc: Not just any spatula, a flippy spatula. How many rotations in one flip can you get?
+        recipeBook:
+          name: Recipe book
+          desc: There are hundreds of recipes in this book, covering every imaginable sort of cuisine, from Jarvonian to Rid Raddakian.
+        rottenEggplant:
+          name: Rotten eggplant
+          desc: For testers only. Grants unlimited power.
+      foraging:
+        blueIceSickle:
+          name: Blue ice sickle
+          desc: This sickle is made of ice and shows an intense blue color, like the clear sky on a summer day. It cuts like the best sickles, but it chills your hand when you use it, even though it doesn't melt. What was a sickle doing on a glacier?
+        simpleBugCatchingNet:
+          name: Simple bug catching net
+          desc: It's not much, but it catches bugs.
+        hatWithAFeather:
+          name: Hat with a feather
+          desc: Its presence evokes the spirit of adventure and the allure of far-off lands, promising that wherever it's worn, tales of daring escapades are sure to follow.
+        halflingsFeetSlippers:
+          name: Halfling's feet slippers
+          desc: These cozy and charming slippers are designed to mimic the furry feet of halflings, complete with tiny toes and whimsical details.
+        wildernessShirt:
+          name: Wilderness shirt
+          desc: A comfortable green shirt combined with a red neckerchief that makes you feel one with nature.
+        wildernessPants:
+          name: Wilderness pants
+          desc: A pair of green pants designed to handle rummaging through nature on all fours.
+        foragingShorts:
+          name: Foraging shorts
+          desc: Durable and comfortable shorts, perfect for foraging in any terrain.
+        foragingShirt:
+          name: Foraging shirt
+          desc: Keeps you cool when foraging in hot environments, but warm in cold environments.
+        camouflageCape:
+          name: Camouflage cape
+          desc: You might as well call this an invisiblity cloak, as it makes you virtually invisible while roaming around in search of treasures.
+        sharpMachete:
+          name: Sharp machete
+          desc: Its razor sharp blade turns navigating through dense foliage into a walk in the park.
+        dullMachete:
+          name: Dull machete
+          desc: The blade is in no good condition, as if entire forests have already been cleared with it.
+        pointyShears:
+          name: Pointy shears
+          desc: Using these, you just might find treasures that have been completely overgrown by bushes and other foliage.
+        waterproofBoots:
+          name: Waterproof boots
+          desc: Wellies as yellow as a canary bird that keep your socks dry. And there are not many things that feel worse than wet socks.
+        nonWaterproofBoots:
+          name: Non-waterproof shoes
+          desc: While they do offer some protection against wind and rough terrain while foraging, there's no guarantee they will keep your feet dry.
+        compassNecklace:
+          name: Compass necklace
+          desc: A functional compass on a string you can tie around your neck. If you know how to use it, you can always find your way home.
+        gardeningGloves:
+          name: Gardening gloves
+          desc: Grippy watertight gloves perfect for all your gardening activities such as planting, watering, pruning, and clearing weeds.
+        pickersGloves:
+          name: Picker's gloves
+          desc: Comfortable leather gloves that protect your hands from thorns and other natural defense systems when looking for treasures hidden by foliage.
+        longSpade:
+          name: Long spade
+          desc: A hefty spade with sturdy wooden handle and stainless steel blade. You could surely dig a big hole with this.
+        bigBasket:
+          name: Big basket
+          desc: Beautifully crafted from wicker. Can hold all your foraging finds with ease.
+        smallSack:
+          name: Small sack
+          desc: A small jute sack you can carry with you that can hold an extra item.
+        wildernessGuideBook:
+          name: Wilderness guide book
+          desc: It is filled with tips about how to survive the wilderness, covering animals, plants, water sources, and more.
+      mining:
+        simpleMagnet:
+          name: Simple magnet
+          desc: You can fish with it, but don't expect fish.
+        simpleGoldPan:
+          name: Simple gold pan
+          desc: This pan will help you find gold in rivers. 
+        miningHelm:
+          name: Mining helmet
+          desc: The mining helmet, a beacon in the depths of the earth, radiates a steady glow that pierces the darkness of subterranean realms.
+        shovelAxe:
+          name: Shovel axe
+          desc: An indispensable companion for adventurers who seek to unearth secrets buried beneath the surface and defend against the perils that may arise.
+        steelToeBoots:
+          name: Steel-toe boots
+          desc: These boots will derail minecarts instead of having them flattening your toes.
+        minersPants:
+          name: Miner's pants
+          desc: These have padded knees so you can comfortably sit on them while digging for ores below you without getting hurt.
+        minersShirt:
+          name: Miner's shirt
+          desc: High visibility shirt to help you get found quickly when you inevitably get lost in the mazes of mining caves.
+        handLantern:
+          name: Hand lantern
+          desc: Hopefully you brought extra matches, because if the candle goes out while you're deep in the caves, you're done for.
+        goldPan:
+          name: Gold pan
+          desc: Put in some rocks and some water, swirl around, and the lumps of gold will reveal themselves to you.
+        minersBeard:
+          name: Miner's beard
+          desc: Can you really be considered a miner if you don't have a beard?
+        minersMagnet:
+          name: Miner's magnet
+          desc: Extremely helpful for locating precious metal hidden in the rocky walls.
+        simpleMiningShovel:
+          name: Simple mining shovel
+          desc: You can use this to remove some of the rubble from the ore-filled ground, making it easier to spot precious minerals.
+      smithing:
+        coolingIceAmulet:
+          name: Cooling ice amulet
+          desc: Amulet radiates constant cold
+        smithsApron:
+          name: Smith's apron
+          desc: A protective shroud of the forge, the apron is a tapestry of resilience and craftsmanship.
+        smeltingGoggles:
+          name: Smelting goggles
+          desc: A shield for eyes to gaze upon the searing brilliance of molten metal.
+        jarvonianSmithsHammer:
+          name: Jarvonian smiths hammer 
+          desc: Ice blue hammer with a long handle, so you can put some extra force behind every swing.
+        simpleHammer:
+          name: Simple hammer
+          desc: Just your standard hammer. Has a steel head and wooden handle. Simple indeed, but better than no hammer at all.
+        wolfJawTongs:
+          name: Wolf jaw tongs
+          desc: You can handle steaming hot metal using these. No wolves were harmed in the making of this item.
+        forgeBellows:
+          name: Forge bellows
+          desc: Used to blow air into a forge, to literally pump up the heat. 
+        smithsPants:
+          name: Smith's pants
+          desc: Though they're quite hot, they will prevent your legs from burning while you're spending all day in front of a furnace.
+        metalworkingGloves:
+          name: Metalworking gloves
+          desc: You can stick your hands in a burning furnace without getting blisters on them when wearing these. The same can't be said for your arms, though.
+        blacksmithsHandbook:
+          name: Blacksmiths handbook
+          desc: The book includes pictures of various forges, hammers, and bellows. The craft of smithing is explained in great detail. 
+      fishing:
+        fishermansHat:
+          name: Fisherman's hat
+          desc: This hat is a symbol of the angler's patience and their connection to the ever-flowing currents of nature.
+        fishermansTrousers:
+          name: Fisherman's trousers
+          desc: Crafted from resilient, waterproof material, they offer protection against the elements while allowing for agile movement. 
+        wadingShoes:
+          name: Wading shoes
+          desc: These lightweight shoes are good choice for fishing adventures.
+        squishyFlipFlops:
+          name: Squishy flip flops
+          desc: The soft layer of fabric acts as a shield between your feet and the burning sand on even the hottest beaches of Wrentmark.
+        jarvonianBait:
+          name: Jarvonian bait
+          desc: It's a tiny little fish that lures bigger fish. There's a metaphor hidden in there somewhere...
+        bugBait:
+          name: Bug bait
+          desc: The bug will be a fish's dinner, and the fish will be your dinner. But who's dinner will you be?
+        coolSunglasses:
+          name: Cool sunglasses
+          desc: Very stylish sunglasses that make it much more comfortable to be fishing on the beach during the sunset.
+        breezyShirt:
+          name: Breezy shirt
+          desc: This light shirt will make you stand out at any beach.
+        fishingGuidebook:
+          name: Fishing guidebook
+          desc: The book includes pictures of various fish and lists the baits and lures suitable for each kind.
+        shinySpinner:
+          name: Shiny spinner
+          desc: While not used for catching fish it can be used as fidget spinner.
+      woodcutting:
+        lumberjackShirt:
+          name: Lumberjack shirt
+          desc: Sturdy and plaid, it is both a shield against the elements and a testament to the woodsman's resilience.
+        lumberjackBoots:
+          name: Lumberjack boots
+          desc: Lumberjack's boots, a fusion of durability and practicality, are the favored attire of those who brave the wilds of (dis)enchanted forests. 
+        logSplitter:
+          name: Log splitter
+          desc: The axe's wider blade makes it effective at splitting logs.
+        heavyAxeHandle:
+          name: Heavy axe handle
+          desc: A sturdy handle to be attached to an axe.
+        lumberjackSandals:
+          name: Lumberjack sandals
+          desc: These open shoes make you feel more connected to nature, as if the energy of your surroundings travels to your heart through your feet.
+        lumberjackPants:
+          name: Lumberjack pants
+          desc: For lumberjacks who sleep all night and work all day, these pants are quite OK.
+        lumberjackHat:
+          name: Lumberjack hat
+          desc: The hat suited for woodcutting adventures.
+        forestersPants:
+          name: Forester's pants
+          desc: These green pants are built to withstand scrapes and scratches from twigs and branches.
+        forestersFlannelShirt:
+          name: Forester's flannel shirt
+          desc: This green flannel shirt is warm and comfortable. Well suited for working deep in nature.
+        forestersBoots:
+          name: Forester's boots
+          desc: These boots are nearly fully water resistant. They are durable and stylish.
+        forestersHat:
+          name: Forester's hat
+          desc: This green hat, inlaid with sheep's wool, is well-suited for winter weather.
+        logBasket:
+          name: Log basket
+          desc: A wooden platform with a handle to carry it. Perfect for carrying some logs in, but also suitable for other items. Like another log basket.
+        woodcuttingGuidebook:
+          name: Woodcutting guidebook
+          desc: This book has pictures of various wood found all across the realms.
+      agility:
+        ironThermos:
+          name: Iron thermos
+          desc: You can fill it with coffee, milk, wine, brandy, or any other liquid you can think of, even combining several. Or you can fill it with water and come back safe and sound from the expedition.
+        mountaineeringGuidebook:
+          name: Mountaineering guidebook
+          desc: This book is reinforced, both spine and covers, to withstand long expeditions. On its cover appears the recognizable silhouette of the Frostbite Mountains. Inside is a compilation of tips from expert climbers.
+        parkourGloves:
+          name: Parkour gloves
+          desc: These gloves improve grip by 800%. At least that's what it is written on the label.
+        flowyTrousers:
+          name: Flowy trousers
+          desc: Wide where they need to be and narrow where they have to be, these pants are perfect for dangerous maneuvers among street furniture.
+        simpleTorch:
+          name: Simple torch
+          desc: With a wooden stick, cloth and a flammable substance you have a portable light. It couldn't be simpler.
+        simpleRope:
+          name: Simple rope
+          desc: Rope has many uses, for example, mountaineering.
+        medievalSneakers:
+          name: Medieval sneakers
+          desc: With each step, they offer the wearer a silent and nimble journey through realms both ancient and contemporary, bridging the gap between eras.
+        exerciseHeadband:
+          name: Exercise headband
+          desc: This headband is a reminder that strength is born from dedication, and that one's inner warrior can overcome any challenge, no matter how fantastical or demanding.
+        clayFrisbee:
+          name: Clay frisbee
+          desc: It's quite heavy and fragile. Let's hope there are no clay pigeon shooters nearby!
+        goldenFrisbee:
+          name: Golden frisbee
+          desc: Merely gold plated, which makes it quite light, yet durable. You'd expect a rainbow trail to be emitted when thrown, but alas.
+        birchSkis:
+          name: Birch skis
+          desc: A pair of beginner's skis. Hard to control and not very fast, but they do get you down a snowy slope quicker than walking.
+        oakSkis:
+          name: Oak skis
+          desc: Heavy skis, which makes them speedy but difficult to steer. At least their strength won't let them break easily if you crash!
+        pineSkis:
+          name: Pine skis
+          desc: Sturdy and light skis. Made from the wood of the very trees you are trying to avoid.
+        walkingStick:
+          name: Walking stick
+          desc: A sturdy wooden stick with a comfortable metal handle, to provide some extra support on your walking adventures.
+        runningShorts:
+          name: Running shorts
+          desc: They're comfy and easy to wear! Their bright blue color also makes you more visible.
+        runningShirt:
+          name: Running shirt
+          desc: Proper attire is very important when going for a run. A shirt like this is indispensible.
+        waterBottle:
+          name: Water bottle
+          desc: A glass bottle filled with fresh clean drinking water. Stay hydrated!
+        mapOfJarvonia:
+          name: Map of Jarvonia
+          desc: The map shows the lands and cities of northern continent. 
+        mapOfGDTE:
+          name: Map of GDTE
+          desc: The map shows the geographical shape of the Grand Duchy of Trellin-Erdwise.
+        toughRope:
+          name: Tough rope
+          desc: With this sturdy rope, you can scale even the highest mountains.
+        grapplingHook:
+          name: Grappling hook
+          desc: A four-way metal hook is attached at the end of the rope.
+        featherCape:
+          name: Feather cape
+          desc: This cape is light as feather, because it's made from them.
+      carpentry:
+        iceSaw:
+          name: Ice cutter
+          desc: Perfect for cutting ice, this tool is very convenient if you want to build an igloo.
+        simpleSaw:
+          name: Simple saw
+          desc: This saw will cut long enough until you get a better one.
+        handsaw:
+          name: Handsaw
+          desc: This saw embodies the harmony between craftsman and nature, promising the ability to shape wood with precision and grace.
+        protectiveGloves:
+          name: Protective gloves
+          desc: It's better when the chance to have your digits cut off by a saw are reduced to 0%.
+        woodworkingGlasses:
+          name: Woodworking glasses
+          desc: When worn, these glasses reveal the intricate patterns and stories contained within every board.
+        toolbelt:
+          name: Toolbelt
+          desc: A multifaceted accessory that cradles an array of woodworking instruments
+        protectiveGlasses:
+          name: Protective glasses
+          desc: These glasses will stop fast flying objects from injuring your eyes. Hopefully.
+        protectivePants:
+          name: Protective pants
+          desc: These pants have protective pads sewn onto them.
+        sharpChisel:
+          name: Sharp chisel
+          desc: This sharp tool is used to sculpt wood.
+        dullChisel:
+          name: Dull chisel
+          desc: It has a wooden handle and a dull steel blade, though it can still produce beautiful crafts.
+        simpleRuler:
+          name: Simple ruler
+          desc: A wooden ruler, an essential part of a carpenter's toolkit. Can be used to measure things or draw straight lines.
+        preciseRuler:
+          name: Precise ruler
+          desc: The measurement markings are engraved neatly in the wood, and both centimeters and inches are displayed on it.
+        protractor:
+          name: Protractor
+          desc: This is an angle-measuring tool that is often used in carpentry.
+        protectiveShirt:
+          name: Protective shirt
+          desc: This shirt has protective pads sewn onto it.
+      crafting:
+        simpleChisel:
+          name: Simple chisel
+          desc: With this tool you can shape the world for a small fee.
+        wireSaw:
+          name: Wire saw
+          desc: This saw uses a wire for mechanical cutting of solid bulk material such as stone, wood, glass, concrete, metals, glass, etc. Perfect for improving your efficiency in the workshop.
+        carvingKnife:
+          name: Carving knife
+          desc: This knife has a very small, curved blade that makes it shine when peeling shavings from a piece of wood. Its handle is comparatively much larger. Cutting meat (or worse, bread) with it would be a very impractical sacrilege.
+        magnifyingLens:
+          name: Magnifying lense
+          desc: A tool of master crafters who seek to unlock the secrets of complex machinery and study the world at a microscopic level.
+        grippyGloves:
+          name: Grippy gloves
+          desc: These gloves offer a steadfast grip on the world, and are rumored to help you never drop a screw or a small part.
+        candlehat:
+          name: Candlehat
+          desc: It's a hat with a candle attached. What more could one desire?
+        craftingGuidebook:
+          name: Crafting guidebook
+          desc: The crafting guidebook, a tome of boundless creativity, is a repository of knowledge passed down through generations of artisans and tinkerers.
+        craftingShirt:
+          name: Crafting shirt
+          desc: A shirt fit for a crafter. Easy to clean and quite resistant to damage commonly inflicted by crafting tools.
+        craftingPants:
+          name: Crafting pants
+          desc: Baggy trousers that make it more comfortable for you to excersise your crafting arts.
+        craftingBoots:
+          name: Crafting boots
+          desc: Comes with a thick sole that can handle being walked on in the workshop for hours upon hours.
+        slideRuler:
+          name: Slipstick
+          desc: A sophisticated mechanical calculator that provides functionality to make complex calculations that aid you in developing your creations.
+        adjustableWrench:
+          name: Adjustable wrench
+          desc: Made entirely of high grade steel from Braemercia, making it basically indestructible.
+        simpleWrench:
+          name: Simple wrench
+          desc: A fitting tool for amateur crafters.
+    versatile:
+      oldSilverRing:
+        name: Old silver ring
+        desc: This ring has lost its engraving and appears blackened. Who knows how long it's been here?
+      oldGoldRing:
+        name: Old gold ring
+        desc: This ring has lost its golden luster and shows clear signs of deterioration. It must have been important to someone.
+      oldCopperRing:
+        name: Old copper ring
+        desc: This ring has seen better days. Maybe the pawn shop will give you something for it. Or maybe you can get some other use out of it.
+      luckyRabbitsFootNecklace:
+        name: Lucky rabbit's foot necklace
+        desc: A desiccated rabbit's foot that brings luck. Use it sparingly.
+      ringOfHeron:
+        name: Ring of the Heron
+        desc: This signet ring is engraved with a heron in a hunting pose.
+      ringOfBat:
+        name: Ring of the Bat
+        desc: This signet ring is engraved with a bat in flight.
+      ringOfEel:
+        name: Ring of the Eel
+        desc: This signet ring is engraved with a eel in a swimming pose.
+      treeScalingClaws:
+        name: Tree scaling claws
+        desc: Equipped with these special claws, no bird's nest will be out of reach.
+      sailorsHat:
+        name: Sailor's hat
+        desc: This hat is white and completely spotless. A gift from a rather skinny fellow. When you hold it up to your face to put it on, it smells of salt and a little bit of.... spinach?
+      lifeVest:
+        name: Life vest
+        desc: The mission of this vest is to save your life. Consider it your guardian angel.
+      simpleLifeVest:
+        name: Simple life vest
+        desc: Ideal for kayaking. It has a nozzle to inflate it.
+      sharkToothNecklace:
+        name: Shark tooth necklace
+        desc: Nothing communicates "I fight shirtless in melee against sharks" better than a necklace with their teeth on it.
+      shrimpRing:
+        name: Shrimp ring
+        desc: Perhaps Sorgo won't know if you sold it to the prawn shop - I hear they've got a shrimp guy, but he's real shellfish.
+      firefliesInJar:
+        name: Fireflies in a jar
+        desc: A very creative and natural way to light your way. They don't have a command word to turn off.
+      comfySlippers:
+        name: Comfy slippers
+        desc: Each step taken in these slippers feels like walking on clouds.
+      snowshoes:
+        name: Snowshoes
+        desc: The snowshoes ensure that even in the harshest of blizzards, the wearer can travel unencumbered and explore the frosty wonders of the world.
+      warmJacket:
+        name: Warm jacket
+        desc: A very warm jacket for very cold weather.
+      hatOfWisdom:
+        name: Hat of wisdom
+        desc: When worn, this hat bestows upon the wearer an enhanced understanding of the world.
+      warmBeanie:
+        name: Warm beanie
+        desc: Woven with frost-resistant threads, it embraces the wearer's head like a comforting hug from a hearthfire.
+      fishingLure:
+        name: Fishing lure
+        desc: Handcrafted by skilled artisans, it shimmers with colors and patterns that dance like iridescent scales in the sunlight.
+      recipeBook:
+        name: Recipe book
+        desc: This book is a culinary companion for aspiring cooks, offering the keys to unlocking the flavors of the world and creating meals that are nothing short of enchanting.
+      backpack:
+        name: Backpack
+        desc: A premium leather backpack with additional pockets and a lot of storage space.
+      utilityPants:
+        name: Utility pants
+        desc: Green pants with countless pockets, a must-have for a well-rounded adventurer.
+      mosquitoNethat:
+        name: Mosquito nethat
+        desc: This hat allows its wearer to journey through even the most insect-infested regions in peace, keeping their focus on the wonders of the wild.
+      veryLongBootS:
+        name: Very long boots
+        desc: Depending on your height, these could go up to your shins, above your knees, or even up to your hips.
+      waterproofPants:
+        name: Waterproof pants
+        desc: They ensure that the wearer remains dry and comfortable even in the most torrential of downpours or when navigating treacherous marshlands. 
+      bugCatchingNet:
+        name: Bug catching net
+        desc: Its useful for trapping many types of bugs, or even...jellyfish?
+      protectiveEarmuffs:
+        name: Protective earmuffs
+        desc: These earmuffs are a symbol of sound judgment and the ability to maintain one's composure in the midst of chaos.
+      screwdriver:
+        name: Screwdriver
+        desc: Which way to rotate to tighten the screw? I always forget.
+      herbertsBoots:
+        name: Herbert's boots
+        desc: Well worn leather boots that could use some polish, but they're decent working boots.
+      herbertsPants:
+        name: Herbert's pants
+        desc: An old pair of jeans, one size too large for you. Fortunately comes with a leather belt, so it's not a problem.
+      herbertsShirt:
+        name: Herbert's shirt
+        desc: A red long sleeved shirt, with collar that can be turned upward. Some buttons are missing, but at least it gets you dressed.
+      herbertsHat:
+        name: Herbert's hat
+        desc: A brown wooly hat that will even warm your ears. It's not old, it's vintage.
+      herbertsCape:
+        name: Herbert's cape
+        desc: It's a bit dusty, which shows Herbert hasn't used it in ages. Perhaps you could give it a second life.
+      simpleRing:
+        name: Simple ring
+        desc: A shiny brass coloured ring. Doesn't have intricate details or pretty gems, but there's elegence in its simplicity.
+      simpleAmulet:
+        name: Simple amulet
+        desc: A brass coloured necklace with a similarly coloured pendant that has some lighter coloured nonsensible shapes on it.
+      properShirt:
+        name: Proper shirt
+        desc: A nice looking shirt, but nothing too fancy. Suitable for any casual occasion.
+      properPants:
+        name: Proper pants
+        desc: You wouldn't want to get these stained, they're quite proper!
+      properHat:
+        name: Proper hat
+        desc: A nicely knitted beanie-style hat that helps keep your head cool on your wintery adventures.
+      properCape:
+        name: Proper cape
+        desc: A stylish cape that adds a touch of elegance to your outfit, perfect for formal events or when you want to make a bold fashion statement.
+      properBoots:
+        name: Proper boots
+        desc: Sturdy and comfortable boots designed for both style and functionality. Whether you're strolling through Galeforge or trekking through the jungles of Rid Raddak, these boots have your feet covered.
+      smellySocks:
+        name: Smelly socks
+        desc: The perfect socks to free an elf.
+      adoringFanStatue:
+        name: Adoring fan statue
+        desc: "A statue of a fan that adores you. It's a bit creepy, while also weirdly flattering. You can hear it saying: \n\n<i>\"Yes, oh great and mighty Grand Champion? Is there something you need? Can I carry your weapon? Shine your boots? Foot massage, perhaps?\"</i>"
+      capeOfTheTrailblazer:
+        name: Cape of the trailblazer
+        desc: This cape is a symbol of the trailblazer's courage and determination, promising that wherever it's worn, tales of daring escapades are sure to follow.
+    equipmentSets:
+      enchanted:
+        chest:
+          name: Enchanted shirt
+          desc: Every time you pop the collar, you look a little cooler. Especially with the top button secured.
+        feet:
+          name: Enchanted shoes
+          desc: Clicking the heels twice doesn't actually send you home, but they do sound cool when walking in them.
+        legs:
+          name: Enchanted pants
+          desc: These pants fit perfectly every time, and they even have pockets!
+        head:
+          name: Enchanted hat
+          desc: This hat can actually hold ten gallons. Of what? Nobody has figured it out yet.
+      dimensional:
+        feet:
+          name: Dimensional shoes
+          desc: The stardust on the shoes make them light up with each step.
+        chest:
+          name: Dimensional shirt
+          desc: The collar and cuffs on this shirt are covered in stardust, waves of void slowly wash over the rest of the shirt.
+        legs:
+          name: Dimensional pants
+          desc: Stardust and sequins seem to be holding these stylish pants together with ease.
+        head:
+          name: Dimensional hat
+          desc: Constellations dot the rim of this hat, sparking softly in the day, and swirls of void moving at night.
+      adventurersTools:
+        adventuringHatchet:
+          name: Adventuring hatchet
+          desc: A hatchet with Adventurers' Guild insignia. It has a sharp blade and a sturdy handle.
+        adventuringPickaxe:
+          name: Adventuring pickaxe
+          desc: A pickaxe with a sturdy handle that has Adventurers' Guild symbol on it. It's perfect for breaking rocks and mining ores.
+        adventuringFishingPole:
+          name: Adventuring fishing pole
+          desc: A fishing pole with Adventurers' Guild insignia. It's feels great for catching fish in the wild.
+        adventuringSickle:
+          name: Adventuring sickle
+          desc: A sickle with Adventurers' Guild insignia engraved on its blade. It's can be used for harvesting herbs and other plants.
+        adventuringHammer:
+          name: Adventuring hammer
+          desc: A hammer with Adventurers' Guild insignia engraved to the base of its handle. You could use it for smithing.
+        adventuringFryingPan:
+          name: Adventuring frying pan
+          desc: A frying pan with the Adventurers' Guild emblem on its handle. Ideal for cooking meals over a campfire.
+        adventuringSaw:
+          name: Adventuring saw
+          desc: A saw with the Adventurers' Guild insignia. Adventurer's choice for cutting wood.
+        adventuringWrench:
+          name: Adventuring wrench
+          desc: A wrench adorned with the Adventurers' Guild insignia. Useful for making repairs and adjustments in the field.
+        adventurersRing:
+          name: Adventurer's ring
+          desc: A ring bearing the Adventurers' Guild crest.
+        adventurersAmulet:
+          name: Adventurer's amulet
+          desc: An amulet with the Adventurers' Guild symbol.
+  consumables:
+    cookedFish:
+      cookedShrimp:
+        name: Cooked shrimp
+        desc: Tender and succulent, these cooked shrimp are a delectable seafood treat. They have a delicate flavor and a slightly sweet taste.
+      cookedPerch:
+        name: Cooked perch
+        desc: Pan-fried or grilled, cooked perch offers a delightful flakiness and a mild, slightly sweet taste. Perfect for a light meal.
+      cookedCrayfish:
+        name: Cooked crayfish
+        desc: These cooked crayfish are a seafood lover's delight, with their tender, sweet meat and a hint of brininess.
+      cookedCarp:
+        name: Cooked carp
+        desc: Cooked carp retains its mild flavor, and it can be prepared in various ways, from baking to frying. Its tender meat is a culinary canvas.
+      cookedSeabass:
+        name: Cooked seabass
+        desc: The silver-scaled cooked seabass is a gourmet's choice, known for its delicate flavor and flaky, moist flesh.
+      cookedPike:
+        name: Cooked pike
+        desc: Grilled or pan-seared, cooked pike offers a delightful flakiness and a mild, slightly sweet taste. It's a versatile fish for various dishes.
+      cookedJellyfish:
+        name: Cooked jellyfish
+        desc: Transformed into a unique delicacy, cooked jellyfish challenges the palate with its intriguing texture and subtle oceanic flavor.
+      cookedTrout:
+        name: Cooked trout
+        desc: Cooked trout showcases its iridescent scales in a delightful culinary presentation, offering a blend of flavors from its pink flesh and a delicate texture.
+      cookedSalmon:
+        name: Cooked salmon
+        desc: Cooked salmon is a luxurious treat with its buttery, velvety flesh and rich flavor. It's a favorite among seafood enthusiasts.
+      cookedMoray:
+        name: Cooked moray
+        desc: The mysterious appearance of the cooked moray is matched by its unique flavor. Its meat is tender and slightly sweet, making it a rare delight from the deep sea.
+      cookedLobster:
+        name: Cooked lobster
+        desc: Cooked lobster, with its succulent and flavorful meat, brings a touch of nostalgia with its tough shell and strong claws. A classic seafood delicacy.
+      cookedSquid:
+        name: Cooked squid
+        desc: Cooked squid is a culinary wonder, known for its versatility in various dishes. It can be tender and flavorful when prepared with the right techniques.
+      cookedStreamEel:
+        name: Cooked stream eel
+        desc: The cooked stream eel, adapted to flowing rivers and streams, is a unique delicacy with its tender and flaky meat, perfect for those who appreciate the taste of freshwater fish.
+    cooking:
+      cookedPotato:
+        name: Cooked potato
+        desc: Out of the ground, and into the oven!
+      cookedEgg:
+        name: Cooked egg
+        desc: Baked, fried, scrambled, over easy, or boiled - the choice is yours!
+      bread:
+        name: Bread
+        desc: The base of the food pyramid. 
+      cookedTomato:
+        name: Cooked tomato
+        desc: There have been many debates over if this is preferable to the raw form, but it certainly provided some cooking practice.
+      cookedMushrooms:
+        name: Cooked mushrooms
+        desc: The nutty smell makes you very hungry. Do you eat them for a quick snack, or save them for another dish?
+      porridge:
+        name: Porridge
+        desc: Perfectly fine breakfast! If there's really nothing else to find, that is...
+      jam:
+        name: Jam
+        desc: A spreadable combination of fruit and sugar. 
+      pickles:
+        name: Pickles
+        desc: The tangiest of snacks.
+      cheese:
+        name: Cheese
+        desc: There are a bunch of holes in this block of cheese. Unfortunate, because more holes equals less cheese.
+      jellySandwich:
+        name: Jelly sandwich
+        desc: A sandwich with a thick layer of sweet jelly. A classic for all ages.
+      pie:
+        name: Pie
+        desc: Pie made of red berries, the way grandma used to make it. There's a legend about an extinct clan of dwarves of which this was an absolute favorite.
+      fishSoup:
+        name: Fish soup
+        desc: Congratulations, you took a fish from one body of water and have now put it in another.
+      bagel:
+        name: Bagel
+        desc: A bun with a hole in it. Actually just a sugar-free donut.
+      veggieSoup:
+        name: Veggie soup
+        desc: A bowl of vegetable soup, a humble yet satisfying dish enjoyed by many in Arenum.
+      friedFishSandwich:
+        name: Fried fish sandwich
+        desc: A sandwich with some fried fish on top. Watch out for fish bones!
+      tofu:
+        name: Tofu
+        desc: It has a bit of a spongy structure, and contains lots of protein, vitamins, and minerals.
+      beer:
+        name: Beer
+        desc: Fermentation may have been a greater discovery than fire.
+      friedNoodles:
+        name: Fried noodles
+        desc: Quite spicy and still steaming hot. Hopefully you know how to handle your chopsticks.
+      fruitCake:
+        name: Fruit cake
+        desc: A rich dense cake packed with dry fruits, nuts and spices!
+      spicyPumpkinJuice:
+        name: Spicy pumpkin juice
+        desc: This drink calls to the people of Arenum in the autumn. 
+      mushroomCurry:
+        name: Mushroom curry
+        desc: An aromatic blend of spices and mushrooms. Perfect for a hearty meal.
+      pancake:
+        name: Pancake
+        desc: Its a base that provides an unlimited amount of options as toppings.
+      wine:
+        name: Wine
+        desc: The nectar of nobles and adventurers alike, it promises a taste of both the past and the present to those who raise their goblets in toast.
+      chocolate:
+        name: Chocolate
+        desc: A big bar of delicious milk chocolate, so soft that every bite melts away on your tongue.
+  containers:
+    skilling:
+      foraging:
+        foragingChest:
+          name: Foraging chest
+          desc: A delightful assortment of gear and items related to foraging.
+        sunkenChest:
+          name: Sunken chest
+          desc: From the depths of the sea, this chest has found its way to the shore.
+      mining:
+        miningChest:
+          name: Mining chest
+          desc: A rock solid variety of items that are related to mining.
+        gemPouch:
+          name: Gem pouch
+          desc: A small pouch filled with precious gems. You can feel the weight of the gems as you hold it.
+      fishing:
+        fishingChest:
+          name: Fishing chest
+          desc: There's plenty of fish in the sea, but aquariums contain the rarest of things.
+      woodcutting:
+        woodcuttingChest:
+          name: Woodcutting chest
+          desc: A beautiful ornate wooden chest, decorated with different kinds of tree bark. It was hidden between the roots of a tree you cut down.
+        birdNest:
+          name: Bird nest
+          desc: This nest fell out of a tree you were cutting down. Its owner won't be able to find it anymore, so you might as well check what's in it.
+      carpentry:
+        carpentryChest:
+          name: Carpentry chest
+          desc: The sublime details on this crate you found while going through your carpentry supplies indicate that it was crafted by a master carpenter.
+      cooking:
+        cookingChest:
+          name: Cooking chest
+          desc: This large cast iron pot suddenly appeared between the pots and kettles while you were more focused on not burning your dish.
+      crafting:
+        craftingChest:
+          name: Crafting chest
+          desc: While you were crafting your creations, you noticed this big red toolbox was suddenly next to your own tools.
+      smithing:
+        smithingChest:
+          name: Smithing chest
+          desc: You found this heavy metal anvil-shaped box in the blazing furnace while smelting your ores. Who would just leave it there?
+      agility:
+        agilityChest:
+          name: Agility chest
+          desc: A brown leather boot that fell down right next to you while you were exercising, though nobody seemed to be around. Upon closer inspection, there seems to be something hidden in there.
+      regional:
+        galeforgeChest:
+          name: Chest of Galeforge
+          desc: Rumor has it that this chest is rounded so it can be rolled around the city. How ingenious!
+      generic:
+        coinPouch:
+          name: Coin pouch
+          desc: A small pouch filled with coins. It's a bit heavy, but you're not complaining.
+        adventureGuildChest:
+          name: Adventurers' guild chest
+          desc: This sturdy chest has the symbol of Adventurers' Guild on it.
+  collectibles:
+    visas:
+      jarvonianLetterOfPassage:
+        name: Jarvonian letter of passage
+        desc: Proof that you can go through the Noiseless Pass when coming from Jarvonia.
+      westernContinentBoatPass:
+        name: Western continent boat pass
+        desc: This formal pass grants you the privilege to traverse various locations via boats and ships. It is marked with a small ship stamp.
+      blackEyePeakWildernessPermit:
+        name: Black eye peak wilderness permit
+        desc: Black Eye Peak is dangerous, and this registration covers the cost of notifying your family members should you not return.
+    fromActivity:
+      jarvonianCrosswordPuzzle:
+        name: Jarvonian crossword puzzle
+        desc: "These crossword puzzles are designed, copied and distributed among the population of Jarvonia once a season. There is great competitiveness since a monetary prize is given to the first one to solve it. 1.- Horizontal: Mountain where a mining expedition disappeared (nine spaces)"
+      blueLotusButterfly:
+        name: Blue lotus butterfly
+        desc: "This butterfly has no patterns or shapes on its wings, but the blue color is so intense that it is hard to take your eyes off it. A magnificent specimen that is not often found."
+      tinySwanIceSculpture:
+        name: Tiny swan ice sculpture
+        desc: "This tiny ice sculpture resembles a beautiful swan. It's wings are glistening with light as it reflects the sun. This piece of art is important to you, because you made it for a special someone."
+      veryOldWine:
+        name: 99-year-old wine
+        desc: 'This wine bottle is very old and the label has been lost in the annals of time. Only one mark persists, "B.B.". It could very well be the booty of some mad pirate.'
+      woodenCarvedBearFigurine:
+        name: Wooden carved bear figurine
+        desc: "This fist-sized piece is carefully carved, showing an upright and defiant bear, its mouth open as it roars. The details bring out a sense of urgency in the viewer, as if the bear itself were present at life size." 
+      silverPocketWatch:
+        name: Silver pocket watch
+        desc: "This watch was missing hands and gears, had a broken glass cover of a non-standard size, and to top it off, both its silver chain and casing were blackened. It wasn't easy, but you fixed it in such a way that it now looks like new and could be considered a family heirloom and hold up for several generations."
+      ancientAnkh:
+        name: Ancient ankh
+        desc: 'This artifact is a piece from another era. Shaped like a key, the ankh (☥) is a hieroglyph from a lost culture that historians have translated as "life." Legends speak of this key opening the door between life and death.'
+      oldWarSword:
+        name: Old war sword
+        desc: "This long sword is quite rusty, but still retains some recognizable details, whose origin seems to be Walisian. Maybe it comes from the War of the Crimson Banner?"
+      soupKitchenBadge:
+        name: Soup kitchen badge
+        desc: "The badge, although small and simple, identifies you as a volunteer in the soup kitchen. Wearing it is a source of pride and each kitchen delivers its own, so go out and get them all, beating all the gyms, I mean, helping in all the kitchens."
+      expeditionJournal:
+        name: Expedition journal
+        desc: "The day we saw the sun rise again, the expedition's morale awoke from its lethargy. Before being subjected to the eternal night, one cannot imagine how much the human psyche needs that radiant star in the sky"
+      petrifiedBranch:
+        name: Petrified branch
+        desc: This branch seems to be from an ancient time, when all the Arenum was a single, enormous landmass. Back then, only animals roamed the valleys and forests.   
+      floatingCoral:
+        name: Floating coral
+        desc: A dazzling array of colorful corals forms a single, interconnected mass. While some believe these corals possess healing properties, such claims are likely rooted in superstition.  
+      easterEgg:
+        name: Easter egg
+        desc: Distracting the birds long enough to find this special egg was quite a challenge.  
+      treasureHunterToken:
+        name: Treasure hunter token
+        desc: Tokens like this were awarded to the most adventurous treasure seekers. It's bruised and have long lost it's shine. The owner must be sad to have lost it.  
+      artificialSnowflake:
+        name: Artificial snowflake
+        desc: Unlike any other snowflake, this one doesn't melt in your palm. It's clear someone, somewhere, crafted it from an unusually resilient material. If you can find this, you can find anything.  
+  currencies:
+    adventurersGuildToken:
+      name: Adventurers' guild token
+      desc: A token that can be exchanged for goods and services at the Adventurers' Guild.

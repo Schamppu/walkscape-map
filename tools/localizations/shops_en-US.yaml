@@ -1,0 +1,6 @@
+singulars:
+  shoppingLists:
+    adventurerGuild:
+      name: Adventurer's Guild
+      descBuying: You can buy these items with <hl>Adventurer's Guild Tokens</hl>. Selling certain important things for the Adventurer's Guild Outposts will grant you these tokens.
+      descSelling: You can give the following items to the <hl>Adventurer's Guild</hl> in exchange for <hl>Adventurer's Guild Tokens</hl>. These tokens can be used to buy items from the Adventurer's Guild Outposts.

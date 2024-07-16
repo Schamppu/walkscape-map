@@ -1,0 +1,224 @@
+singulars:
+  skilling:
+    workEfficiency:
+      global:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="workEfficiency"/>
+      whileMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="workEfficiency"/> while <supp k="skill"/>
+      whileTraveling:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="workEfficiency"/> while traveling
+      whileRealm:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="workEfficiency"/> while in <supp k="realm"/>
+      whileRealmAndTraveling:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="workEfficiency"/> while traveling in <supp k="realm"/>
+      whileRealmAndMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="workEfficiency"/> while <supp k="skill"/> in <supp k="realm"/>
+      whenKeywordSetBonus:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="workEfficiency"/> if wearing at least <supp k="quantity"/> <supp k="keyword"/> items.
+    fineMaterialFind:
+      global:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="fineMaterialFind"/>
+      whileMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="fineMaterialFind"/> while <supp k="skill"/>
+      whenAchievementPoints:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="fineMaterialFind"/> when <supp k="achievementPoints"/>
+      whenKeywordSetBonus:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="fineMaterialFind"/> if wearing at least <supp k="quantity"/> <supp k="keyword"/> items.
+    craftingOutcome:
+      global:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="craftingOutcome"/>
+      whileMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="craftingOutcome"/> while <supp k="skill"/>
+      whenKeywordSetBonus:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="craftingOutcome"/> if wearing at least <supp k="quantity"/> <supp k="keyword"/> items.
+    chestFind:
+      global:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="chestFind"/>
+      whileMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="chestFind"/> while <supp k="skill"/>
+      whileTraveling:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="chestFind"/> while traveling
+      whenAchievementPoints:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="chestFind"/> when <supp k="achievementPoints"/>
+      whenKeywordSetBonus:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="chestFind"/> if wearing at least <supp k="quantity"/> <supp k="keyword"/> items.
+    doubleAction:
+      global:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="doubleAction"/>
+      whileMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="doubleAction"/> while <supp k="skill"/>
+      whileTraveling:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="doubleAction"/> while traveling
+      whenKeywordSetBonus:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="doubleAction"/> if wearing at least <supp k="quantity"/> <supp k="keyword"/> items.
+    doubleRewards:
+      global:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="doubleRewards"/>
+      whileMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="doubleRewards"/> while <supp k="skill"/>
+      whenAchievementPoints:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="doubleRewards"/> when <supp k="achievementPoints"/>
+      whenKeywordSetBonus:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="doubleRewards"/> if wearing at least <supp k="quantity"/> <supp k="keyword"/> items.
+    rollSpecialTable:
+      whileMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="rollSpecialTable"/> while <supp k="skill"/>
+    experience:
+      global:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="bonusExperience"/>
+      globalSkillXp:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="bonusExperience"/> to <supp k="skill"/>
+      whileMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="bonusExperience"/> while <supp k="skill"/>
+      whileTraveling:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="bonusExperience"/> while traveling
+    travelingDistance:
+      whileTraveling:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="travelingDistance"/>
+    inventorySpace:
+      global:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="inventorySpace"/>
+    stepsRequired:
+      global:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="stepsRequired"/>
+      whileMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="stepsRequired"/> while <supp k="skill"/>
+      whileTraveling:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="stepsRequired"/> while traveling
+      whenKeywordSetBonus:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="stepsRequired"/> if wearing at least <supp k="quantity"/> <supp k="keyword"/> items.
+    noMaterialsConsumed:
+      global:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="noMaterialsConsumed"/>
+      whileMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="noMaterialsConsumed"/> while <supp k="skill"/>
+      whileTraveling:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="noMaterialsConsumed"/> while traveling
+    skillLevel:
+      global:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="skillLevel"/> level
+      whileMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="skillLevel"/> level while <supp k="skill"/>
+      whileTraveling:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="skillLevel"/> level while traveling
+  special:
+    findGems:
+      whileMining:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="findGems">chance to find gems</stat> while <supp k="skill"/>
+    findBirdNests:
+      whileWoodcutting:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="findBirdNests">chance to find bird nests</stat> while <supp k="skill"/>
+    findCollectibles:
+      global:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="findCollectibles">chance to find collectibles</stat>
+      whileMainSkill:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: <stat s="findCollectibles"/> while <supp k="skill"/>
+      whenAchievementPoints:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="findCollectibles">chance to find collectibles</stat> when <supp k="achievementPoints"/>
+      whenKeywordSetBonus:
+        name: <PLACEHOLDER>
+        desc: <PLACEHOLDER>
+        text: Global <stat s="findCollectibles">chance to find collectibles</stat> if wearing at least <supp k="quantity"/> <supp k="keyword"/> items.
+  custom:
+    gainAdventurersGuildToken:
+      name: <PLACEHOLDER>
+      desc: <PLACEHOLDER>
+      text: Global <stat>chance to find</stat> <hl>1</hl> <item id="item-adventurer's_guild_token-dad84ad7-050a-4ec2-9bc7-7f2dae5c4a08" />

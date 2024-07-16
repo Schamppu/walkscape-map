@@ -1,0 +1,119 @@
+singulars:
+  jarvonia:
+    peterBanksworth:
+      name: Peter Banksworth
+      desc: An influential individual in Jarvonia, who is known for having an attitude.
+      greetings:
+        d0:
+          "p0": Ah, another day, another transaction. Remember, if you're not banking with <c>Frozen Capital</c>, you're probably losing money somewhere else.
+        d1:
+          "p0": I'll need you to provide <c>your identification</c>, your <c>mother's maiden name</c>, and the name of your <c>childhood pet</c>. Don't bother asking why; it's protocol.
+        d2:
+          "p0": I find it imperative to inform you that our fees are <c>non-refundable</c>. You'll need to pay regardless of your complaints.
+        d3:
+          "p0": Your account balance is your responsibility. If you overdraw, don't expect <c>any sympathy from me</c>.
+        d4:
+          "p0": Hurry up and make <c>your deposits</c>, and it better not just be <c>pine logs</c> and <c>fish</c> again. I'm sick of the smell at this point.
+    floraFloursifter:
+      name: Flora Floursifter
+      desc: A lovely and helpful shopkeeper, who runs the legenedary Kallaheim's Frosty Finds.
+      greetings:
+        d0:
+          "p0": Welcome to the <c>Kallaheim's Frosty Finds</c>! Whatever you are looking for, you can find it here.
+    runaNorrberga:
+      name: Runa Norrberga
+      desc: Runa is the lively tavern owner who insists that all patrons share a moment with her beloved cat Icicle while enjoying their drinks.
+      greetings:
+        d0:
+          "p0": "Hail, traveler! You've stumbled upon the <c>Icy Goblet Tavern</c>, a haven of merriment amidst the icy wastes. Oh, and before you get too cozy, say hello to our <c>purring protector</c>."
+        d1:
+          "p0": "Well met, wanderer! <c>The Icy Goblet</c> welcomes all, whether you seek respite, revelry, or a roaring good time. What can I pour for you today?"
+        d2:
+          "p0": "Ho, adventurer! In <c>the Icy Goblet</c>, we celebrate warmth, camaraderie, and the indomitable spirit of Jarvonia. Take a seat, and let's make this <c>night one to remember</c>!"
+        d3:
+          "p0": "Hello, brave soul! As you enter <c>the Icy Goblet</c>, know that you've found a place of frosty cheer and hearty spirits. What brings you to our <c>cozy corner</c> of the world today?"
+    helpfulHerbert:
+      name: Helpful Herbert
+      desc: A man that likes to help any aspiring new people to start chopping trees or mining rocks.
+      greetings:
+        d0:
+          "p0": Well, hello there! Name is Herbert, and they call me helpful. I've been chopping trees my whole life, and I like to help people to fall in love with the <c>art of lumber</c>. How can I help you?
+    hildurTheSharkbait:
+      name: Hildur the Sharkbait
+      desc: An older woman with graying hair, and what seems to be a peg leg that has replaced her right limb from the knee down.
+      greetings:
+        d0:
+          "p0": Ahoy, Welcome to th' shop. If'n you need some goods, Many be callin' me Hildur the Sharkbait. Otherwise, you can keep gawkin' at <c>Bruce</c> up on th' wall. He ain't much help though, hah!
+    oldinSkogsan:
+      name: Oldin Skogsan
+      desc: The man in front of you seems well seasoned to the forests. His form is strong and sturdy like the trees he fells. It is rumored that he lives in the forest his fathers planted before him.
+      greetings:
+        d0:
+          "p0": Oy, not many get to this part of Arenum. Nonetheless, welcome to the wilds. Many call me Oldin Skogsan, and this here is my home. How can I help you, Adventurer?
+    maiaYalestrom:
+      name: Maia Yalestrom
+      desc: A younger woman can be seen running about, energetic, and full of life. A lithe form, full of well-trained movements in stocking shelves and cleaning messes.
+      greetings:
+        d0:
+          "p0": Welcome to the <c>Northstar Merchantile</c>, My name is Maia Yalestrom, please let me know if you need help finding anything.
+    balunnBrimstone:
+      name: Balunn Brimstone
+      desc: The dwarf holds several scars upon his face, his beard is recovering from damage as well. Though he seems in good spirits, it is apparent he is healing from something.
+      greetings:
+        d0:
+          "p0": Mountains guard you, adventurer. I am Balunn Brimstone, son of Kierg Brimstone. This is one of the few sporting shops available in all of Arenum, even in the mountains. Let me know if you need something specific.
+    gunnarKnuds:
+      name: Gunnar Knuds
+      desc: The guard has a clipboard in one hand, and a quill in the other. Carefully he goes over the contents of whatever is written with a bottomless excitement. Stubble dots his chin and upper lip. The rest hidden by a helmet.
+      greetings:
+        d0:
+          "p0": Well met, I am Guard Gunnar, of the 5th infantry, protectors of the border between Jarvonia and the GDTE. If you would like to pass, you will need <c>a letter of passage</c>. If you have one, please present it to me now so that paperwork may get underway.
+    heinnirUltemor:
+      name: Heinnir Ultemor
+      desc: A rather eccentric man stands behind the counter. Full of energy as he converses with customers and coworkers alike. A frog upon his head seems immune to the endless chattering, one eye slowly blinks after the other in sweet, blissful ignorance.
+      greetings:
+        d0:
+          "p0": Hi, Hello and happy days! Welcome to <c>Bureau of Moss</c>. I am the owner and host <c>Heinnir Ultemor</c>, and fellow upon my head is named Squik. Should you need a drink or company, do inquire quickly!
+    mikkaMaier:
+      name: Mikka Maier
+      desc: A woman seems to be caring for a few of the animals, and the only other human around. She speaks softly to the animals, seemingly holding full conversations with them
+      greetings:
+        d0:
+          "p0": Thank you for visiting <c>Paws are Us</c>, I am Mikka Maier... These lovely animals were rescued from the nearby swamp. Feel free to say hello and get to know a few of them. I'll be around if you'd like to make a purchase.
+    alexaLeeroi:
+      name: Alexa Leeroi
+      desc: The woman behind the stall has a head of blonde, wavy hair. Sun-kissed skin and bright blue eyes warily watch those who walk by a little too slow. Her clothing is brown and layered, apparently to keep warm on land.
+      greetings:
+        d0:
+          "p0": Greetin's, I be Alexa Leeroi. I be sellin' some of the biggest fish in Arenum seas. Fish so big they'll swallow you whole, but not me. You interested or are y'just gonna keep starin'
+    bastiDupont:
+      name: Basti Dupont
+      desc: The man caring for the food market stall seems to be adjusting the scales nearby. Measuring out some strange looking beans before bagging them up and sending them with a customer. His smile is almost contagious, and full of kindness.
+      greetings:
+        d0:
+          "p0": Welcome to my stall, I have the freshest bread, and food from many far away lands. The people say "Basti Dupont, where do you find such things?" But I do not tell them. Such is a precious secret, just as precious as my goods! How may I help you?
+    bertLamberen:
+      name: Bert Lamberen
+      desc: The market stall holds a rather stout human behind it, organizing some of the tools that are neatly laid out. His hair is hidden by a large brown fishing hat, his beard is neatly trimmed as well. A shy, timid smile is offered.
+      greetings:
+        d0:
+          "p0": O-oh! Goodness, you scared me a little. Do you need some tools? I know most adventurers make their own, but it doesn't hurt to have extras, right? I'm Bert by the way, Bert Lamberen.
+    warrickDarKoffman:
+      name: Warrick Dar Koffman
+      desc: Riches, perfection, every part of this person seems perfectly in place. His clothing, and even hair have jewels woven into them, if one looks close enough, they can see gold flakes woven into his hair. Head held high, and posture perfect for every waking moment.
+      greetings:
+        d0:
+          "p0": Good fortune to you, adventurer. I hope this day has treated you well, and continues to do so. Welcome to the opulent Maritime Fortune Bank. I am the owner, Warrick Dar Koffman. How may I assist such a fine customer today?
+    delaphinaArmand:
+      name: Delaphina Armand
+      desc: A short, stout, and narrow woman. Strong in spirit and smell, the overwhelming smell of swamp water permeates even the very essence of people here. Her apron is of woven fabric, and the ends of the dress hold a fancy moss trim. A fancy, clean top-hat sits atop her head.
+      greetings:
+        d0:
+          "p0": Soggy Salutations, I am Delaphina Armand of the Bogside Bank. Do you need to get something from your bank? Or are you putting something away! I'm getting better at guessing.
+    quincieCartier:
+      name: Quincie Cartier
+      desc: A woman in large rubber boots seems to be doing her best to mop up water trailed in from another customer. Her dress hem is soaked with swamp water, and her skin gleams from the moist air. A large red bow thankfully keeps most of her hair out of the way.
+      greetings:
+        d0:
+          "p0": Phew, Oh! Erhm- Windy Welcomes, this is the Mossy Merchants Breeze Mart. I'm Quincie Cartier, and I run the place. Hopefully not into the ground, haha! So, how can I help you today?
+    

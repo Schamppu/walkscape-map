@@ -1,0 +1,28 @@
+singulars:
+  agility:
+    name: Agility
+    desc: Breathe in the fresh air while exercising in nature, adventuring through Arenum, and discovering treasures!
+  carpentry:
+    name: Carpentry
+    desc: Process raw logs into components of precise measurement to craft useful items with.
+  cooking:
+    name: Cooking
+    desc: Carefully select natural ingredients and turn them into delicious feasts that will make stomachs rumble and mouths water.
+  crafting:
+    name: Crafting
+    desc: Combine components with your endless creativity and craftsmanship to produce artisanal tools and equipment.
+  fishing:
+    name: Fishing
+    desc: Cast out your nets and lines in search of the countless species living under the surface of the waters of Arenum.
+  foraging:
+    name: Foraging
+    desc: Search for resources and treasures, overgrown by plants, buried in the sand, or anywhere else in the diverse environment of Arenum.
+  mining:
+    name: Mining
+    desc: Make your way over mountains and through caves to dig out precious ores and gemstones.
+  smithing:
+    name: Smithing
+    desc: Use blazing forges to smelt ores into metal bars, and hammer them into armour or craft useful tools with them.
+  woodcutting:
+    name: Woodcutting
+    desc: Harvest timber from the vast forests of Arenum, yielding raw materials that are essential in the world's industries.
