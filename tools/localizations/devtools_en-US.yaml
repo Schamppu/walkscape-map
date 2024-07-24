@@ -1,0 +1,60 @@
+singulars:
+  lootTables:
+    info:
+      lootTableRows: Add item rows to the list of possible loot drops of the table. You can customize how likely an item is to drop and do other sort of modifications to the table.
+    phrases:
+      chanceForNothing: Chance to drop nothing
+      lootTableRows: Loot table rows
+      noSkillSelected: No skill selected
+      minScalingLevel: Min. scaling level
+      maxScalingLevel: Max. scaling level
+      addSkill: Add a skill
+      minScalingCap: Minimum scaling %
+      useLinear: Use linear scaling
+      scalingWeight: Scaling weight
+  achievements:
+    info: 
+      requirements: Add requirements to fulfill the achievement. They don't progress automatically, so progression must be coded into the game manually.
+    phrases:
+      previewBack: Preview back
+      previewComplete: Preview complete
+      previewFront: Preview front
+      achievementRequirements: Achievement requirements
+  pfpOptions:
+    info: 
+      requirementsVariant: Add variants for the PFP options. These variants can have their own mechanics to unlock them.
+      requirementsSupplementary: Supplementary layers for the PFP option. These are drawn to a different layer (for instance, to the background) to supplement the main sprite.
+    phrases:
+      variants: Option variants
+      supplementaryLayers: Supplementary layers
+      type: Option type
+      bodyType: Body type
+      race: Race
+      layer: Layer
+  misc:
+    minAmount: Min. amount
+    maxAmount: Max. amount
+    selectItem: Select item
+    requiredAmount: Required amount
+    descLocalizationIndex: Description localization index
+    nameLocalizationIndex: Name localization index
+    name: Name
+    desc: Description
+    value: Value
+    weight: Weight
+    levelRequirement: Level requirement
+    xpBonusPercent: XP bonus modifier %
+    xpBonus: XP bonus
+    min: Min.
+    max: Max.
+    lootTables: Loot tables
+    pickSprite: Pick sprite
+    noSpriteSelected: No sprite selected
+    spritePathError: Sprite path ERROR
+    select: Select
+    chooseFolder: Choose folder
+    chosenFolder: Chosen folder
+    unlockedDefault: Unlocked by default?
+    willBeGenerated: Will be generated on Save.
+  validation:
+    pleaseEnterSomething: Please enter something

@@ -1,0 +1,54 @@
+singulars:
+  mainSkill:
+    text: While doing <skill skill="${skill}"/>
+  skillLevel:
+    text: At least <skill skill="${skill}" level="${level}" needed/>
+  traveling:
+    text: While traveling
+  itemAnywhereWithYou:
+    text: Have item <item id="${item}"/> with you.
+  itemEquipped:
+    text: Have item <item id="${item}"/> equipped.
+  itemInInventory:
+    text: Have item <item id="${item}"/> in your inventory.
+  itemAnywhere:
+    text: Have item <item id="${item}"/>.
+  distinctItemsEquippedKeyword:
+    text: Have <numberProgress current="${current}" max="${max}" /> of <object id="${obj}" /> equipped.
+  totalSteps:
+    text: Have <numberProgress current="${current}" max="${max}" /> steps walked in total.
+  characterLevel:
+    text: Have character level <numberProgress current="${current}" max="${max}" />.
+  unlocked:
+    text: Have unlocked <object id="${obj}" alwaysShow="true" />.
+  achievementPoints:
+    text: Have <icon i="achievement point"/> <numberProgress current="${current}" max="${max}" /> achievement points.
+  achievementPointsPercent:
+    text: Have <icon i="achievement point"/> <numberProgress current="${current}" max="${max}" /> achievement points (${percentage}% of total).
+  haveCoins:
+    text: Have <icon i="money small"/> <numberProgress current="${current}" max="${max}" /> coins.
+  minimumSkillLevel:
+    text: Have every skill at least level <numberProgress current="${current}" max="${max}" />.
+  levelUpSkills:
+    text: Level up your skills <numberProgress current="${current}" max="${max}" /> times.
+  overencumbered:
+    text: Have your inventory over the limit (overencumbered).
+  haveItemStack:
+    text: Have an item stack of <object id="${obj}" alwaysShow="true" /> with size of <numberProgress current="${current}" max="${max}" />.
+  exploreRegion:
+    text: Explore <object id="${obj}" alwaysShow="true" /> completely. <numberProgress current="${current}" max="${max}" />.
+  haveBankStacks:
+    text: Have <numberProgress current="${current}" max="${max}" /> stacks of items in your bank.
+  activityType:
+    singleKeyword: While doing <object id="${obj}" /> activity.
+  service:
+    text: Needs <serviceTier tier="${tier}" /> <object id="${obj}" /> service or better.
+  realm:
+    text: While in <realm realm="${realm}" />.
+  uniques:
+    beginnerCrossCountry: Complete the Beginner Cross-Country activity <numberProgress current="${current}" max="${max} /> times.
+    intermediateCrossCountry:  Complete the Intermediate Cross-Country activity <numberProgress current="${current}" max="${max} /> times.
+    firewoodMaking:  Complete the Firewood Making activity <numberProgress current="${current}" max="${max} /> times.
+    woodCarving: Complete the Wood Carving activity <numberProgress current="${current}" max="${max} /> times.
+    searchTeam: Complete the Black Eye Peak Search Team activity <numberProgress current="${current}" max="${max} /> times.
+    intermediateShipRepair: Complete the Intermediate Ship Repair activity <numberProgress current="${current}" max="${max} /> times.

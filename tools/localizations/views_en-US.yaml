@@ -1,0 +1,387 @@
+singulars:
+  character:
+    info:
+      skillBreakdown: Here is the total breakdown of all of the skills your character has leveled up throughout your journey.
+    phrases:
+      skills: Skills
+      stepsOfLastWeek: Steps of last 7 days
+      checkOut: Here's my WAlkScape character ${name}. Check it out!\nhttps://walkscape.app
+      checkOutSubject: Check out my progress in WalkScape!
+  permissions:
+    phrases:
+      pedometerPermission: Step counter permission
+      permissionExplanation: In order for the game to work, we need your permission to use the step counter data of your device. Please approve this permission to continue to the game.
+      exactAlarmPermission: Alarm permission
+  rewards:
+    phrases:
+      alreadyClaimed: Already claimed
+  wardrobe:
+    phrases:
+      noHeadwear: You don't own any headwear.
+      noFaceAccessories: You don't own any face accessories.
+      noBackAccessories: You don't own any back accessories.
+      noEyeAccessories: You don't own any eye accessories.
+  achievements:
+    info:
+      viewDescription: Unlock achievements to earn <hl>achievement points</hl>. At certain amounts of achievement points, you unlock special rewards. Some achievements also give rewards on their own for unlocking them.
+      pointsNeeded: <iconText name="achievement_point" text="@:views.plurals.achievements.phrases.achievementPoint" color="${color}"/> until the next reward is unlocked.
+      specialItems: Special items, such as <c>collectibles</c>, <c>quest items</c> and <c>artifacts</c> are collected throughout your journey in WalkScape. You can check them here. Collectibles give you achievement points progress.
+      collectibleItems: Collectible items are things that you can obtain from the world of WalkScape. There are several types of collectibles you can try to gather. They don't take any inventory space and they're always with your character.
+      noCollectibleItems: You have no collectible items gathered yet.
+      totalProgressUnlocks: You will gain these rewards based on your total progress in achievements, and you lose access to the items if more achievement points become available.
+      checkPointUnlocks: These achievements are available at certain achievement point checkpoints. You will not lose access to these even if more achievement points become available.
+    phrases:
+      notUnlocked: Locked achievement
+      rewardProgress: Reward Progress
+      showRewards: Show rewards
+      totalProgressUnlocks: Total progress unlocks
+      checkPointUnlocks: Check point unlocks
+      unclaimedRewards: 'Unclaimed rewards: '
+  crafting:
+    phrases:
+      materials: Materials
+      rewards: Rewards
+      recipes: Recipes
+      requirements: Requirements
+      requirementsNotMet: You don't meet the requirements.
+      requiresOneOfTheFollowing: Requires one of the following materials.
+      requiresMaterial: Requires a material.
+      noMaterials: You have no materials available for crafting at the moment.
+      noServiceRequirements: No service requirements.
+      noMaterialsThatCouldBeUsed: No materials that could be used for crafting in your inventory.
+      showingRecipiesThatUses: Showing recipies that uses
+      requiresService: Requires a service.
+  abilities:
+    info:
+      youHaveNoAbilities: <hl>You have no abilities</hl>. Certain gear in the game can grant you abilities that you can use to gain some instant benefit in the game for a cooldown.
+      abilitiesInfo: Abilities are special actions that you can use to gain instant benefits in the game. Abilities have a cooldown that you must wait for before you can use the ability again.
+    phrases:
+      abilities: Abilities
+      useAbility: Use ability
+      noAction: No action
+      holdToCast: Hold to cast
+  cooldowns:
+    phrases:
+      followingMustBeTrueToUse: "Requirements to use are not met:"
+      followingMustBeTrueToTick: "Following must be true for the cooldown to decrease:"
+      cooldownRemaining: "Cooldown remaining:"
+      cooldownReady: "Cooldown: Ready"
+  treasury:
+    phrases:
+      noItems: You have no treasures to open. You can gain chests from various activities.
+      openChest: Open
+      openAll: Open all
+  inventory:
+    info:
+      noItemEquipped: No item equipped. \n\n You can equip an item by selecting one from the list below and pressing "Equip".
+      noItemSelected: No item selected. \n\n Select an item from the list below in order to compare it to current item and equip it.
+      noItemsFound: No items found from your inventory that would fit this slot.
+    phrases:
+      treasury: Treasury
+      longPressTip: <c>Tip:</c> Long pressing on an item stack selects all similar stacks.
+      dropItems: Drop items?
+      areYouSureToDrop: Are you sure you want to drop items? The items will be gone forever when dropped.
+      itemsInUse: You have selected items that are already in use. You can't drop or bank items in use.
+      slots: Slots <c>${slots}</c>
+      slotsCount: "Slots:"
+      selectedStacks: Selected <c>${stacks}</c> stacks
+      requirementsNotMet: Requirements are not met.
+      cantEquip: Can't equip.
+      checkBank: Check bank
+      slotDoesntExist: This item slot no longer exists.
+      allItemsInUse: All of these items are currently in use, and cannot be dropped.
+      cantBeDropped: Item cannot be dropped.
+      oneOrMoreCantBeDropped: One or more items cannot be dropped.
+      attributes: Attributes
+      abilities: Abilities
+      requires: Requires
+      equipToRingOne: Equip to ring slot 1
+      equipToRingTwo: Equip to ring slot 2
+      equipToToolSlot: Equip to tool slot ${id}
+      emptySlot: Empty slot
+      allSkills: All skills
+      noItemEquipped: No item equipped
+      noItemSelected: No item selected
+    options:
+      consenseInventory: Condense inventory
+      expandInventory: Expand inventory
+      showMaterials: Show materials
+      showGear: Show gear
+      showConsumables: Show consumables
+  gear:
+    phrases:
+      combatModifiers: Combat modifiers
+      noCombatModifiers: No combat modifiers from equipped items.
+      skillModifiers: Skill modifiers
+      noSkillModifiers: No skill modifiers from equipped items.
+      permanentModifiers: Permanent modifiers
+      noPermanentModifiers: No permanent modifiers.
+  tools:
+    phrases:
+      emptyToolSlot: Empty tool slot
+      noToolEquipped: No tool equipped to this slot.
+      lockedToolSlot: Locked tool slot until <c>character level ${level}</c>. 
+  bank:
+    phrases:
+      noItemsInventory: No items in your inventory.
+      noItemsBank: No items in your bank.
+  trade:
+    phrases:
+      trade: TRADE
+      restockIn: 'Restock in: ${time}'
+      buying: Buying ${amount}
+      selling: Selling ${amount}
+      total: Total
+  characterCreation:
+    phrases:
+      bodyType: Body type
+      race: Race
+      chooseABodyType: Choose a body type
+      bodyTypeA: A
+      bodyTypeB: B
+      characterName: Character name
+    info:
+      rememberSwipe: Remember that you can swipe back to change chosen options at any time during character creation.
+  settings:
+    categories:
+      accessibility:
+        title: Accessibility
+        leftHandedMode: Left handed mode
+      gameplay:
+        title: Gameplay
+        stopWhenOverEncumberedDefault: Stop when overencumbered by default
+      closedBeta:
+        title: Closed Beta
+        useThisToClear: Use this if you want to reset you steps graph. Useful if you've gained steps from bugs and want a reset to the graph.
+        clearStepsGraph: Clear steps graph
+      notifications:
+        title: Notifications
+        stepCountInterval: Notification interval
+        stepCountNotifications: Step count notifications
+        notificationType: Notification type
+    phrases:
+      settings: Settings
+      exitToCharacterSelection: Exit to character selection
+  location:
+    phrases:
+      activities: Activities
+      services: Services
+      buildings: Buildings
+      noActivites: No activites available in this location.
+  pfpCreation:
+    buttons:
+      randomize: Randomize
+      showHat: Showing headwear
+      hideHat: Hiding headwear
+      enableFaceAccessorie: Enable face accessorie
+      enableBackAccessorie: Enable back accessorie
+      enableFacepaint: Enable facepaint
+      enableDynamicBackground: Enable dynamic background
+      choose: Choose
+    phrases:
+      mainOptions: Main options
+      extras: Extras
+      currentSelection: Current selection
+      dynamicBackground: Dynamic background changes your background image based on your character's location.
+      defaultExpression: Default expression
+      variants: Variants
+      noVariantSelected: No variant selected
+      resetToDefault: Reset to default
+      colorOptions: Color options
+      homeRegion: Home region
+      race: Race
+      selectedVariant(param=index): Variant $index selected
+  worldMap:
+    phrases:
+      activities: Activities
+      services: Services
+      buildings: Buildings
+      pointsOfInterest: Points of interest
+      afterExploring: After exploring the location, you'll be able to see the points of interest of this location.
+      information: Information
+      routeRequirementsNotMet: 'Routes in your selected path have requirements that are not met:'
+      youHaveNotExplored: You haven't explored this location yet. You'll see information about this location after you've visited it once.
+      routeFromTo: '<location i="${fromID}"/> to <location i="${toID}"/>'
+      route: Route
+      youreHere: You're currently in this location.
+      currentLocation: Current location
+  stats:
+    phrases:
+      stats: Stats
+      totalSkillXp: Total skill XP
+      totalSteps: Total steps
+    info:
+      stats: Collection of statistics from every step you have taken through the world of Arenum.
+  tutorial:
+    phrases:
+      noMoreMessages: No more tutorial messages
+      youWillGain: You will gain the following item(s) if you select this option.
+  leaderboards:
+    phrases:
+      show: Show
+      everyone: Everyone
+      friends: Friends
+      leaderboards: Leaderboards
+      first: First
+      me: Me
+      last: Last
+      loadingPage: Loading page...
+      totalSteps: Total steps
+      totalLevel: Total level
+      totalExperience: Total experience
+      achievementPoints: Achievement points
+  mainMenu:
+    phrases:
+      authenticating: Authenticating...
+      chooseCharacter: Choose your character, or create a new one.
+      pleaseWait: Please wait...
+      createCharacter: Create a new character
+      logOut: Log out
+      noInternet: No internet connection
+      lostInternet: Your device has lost internet connection. Waiting for a connection...
+      areYouSureYouWantToDelete: Are you sure you want to delete <hl>${name}</hl>?
+      dontDoIt: Don't do it if you are not sure.
+      ifYouAreSure: If you are sure, write <c>DELETE</c> to the field and press continue.
+      deleteWord: DELETE
+      deletingCharacter: Deleting your character is <hl>irreversible</hl>.
+      areYouAbsolutelySure: Are you absolutely sure? After this step, you will permanently lose your character.
+      iAmSure: I am sure
+      downloadingLocalisations: Downloading updated localisations
+      downloadingContent: Downloading new game content
+      loadingGame: Loading game... please wait!
+      logIn: Log in
+      register: Register
+      welcomeToWalkscape: Welcome to WalkScape, <hl>stranger</hl>. Please log in.
+      pleaseEnterCredentials: Please enter your WalkScape account credentials.
+      email: E-mail
+      password: Password
+      noBetaAccess: No beta access.
+      googlePlay: Update from Google Play
+plurals:
+  achievements:
+    phrases:
+      achievementPoint(param=pointCount):
+        zero: '-'
+        one: $pointCount achievement point
+        two: '-'
+        few: '-'
+        many: '-'
+        other: $pointCount achievement points
+  activity:
+    phrases:
+      stepsRequired(param=steps):
+        zero: '-'
+        one: Step required
+        two: '-'
+        few: '-'
+        many: '-'
+        other: Steps required
+      stepsToLevelUp(param=steps):
+        zero: '-'
+        one: Step to level up
+        two: '-'
+        few: '-'
+        many: '-'
+        other: Steps to level up
+      stepsToCraft(param=steps):
+        zero: '-'
+        one: Step to craft
+        two: '-'
+        few: '-'
+        many: '-'
+        other: Steps to craft
+      stepsRemainingInTotal(param=steps):
+        zero: '-'
+        one: Step remaining in total
+        two: '-'
+        few: '-'
+        many: '-'
+        other: Steps remaining in total
+      actionsToLevelUp(param=actions):
+        zero: '-'
+        one: Action to level up
+        two: '-'
+        few: '-'
+        many: '-'
+        other: Actions to level up
+      actionsRemaining(param=actions):
+        zero: '-'
+        one: Action remaining
+        two: '-'
+        few: '-'
+        many: '-'
+        other: Actions remaining
+      stepsUntilArrival(param=steps):
+        zero: '-'
+        one: Step until arrival
+        two: '-'
+        few: '-'
+        many: '-'
+        other: Steps until arrival
+maps:
+  character:
+    stepsTime(map):
+      "hourly": Hourly steps
+      "daily": Daily steps
+      "monthly": Monthly steps
+  settings:
+    boolSettings(map):
+      "showRecipesMaterialsAreMet": Material requirements are met
+      "showRecipesRequirementsAreMet": Level requirements are met
+      "showRecipesServiceAreMet": Service requirements are met
+    stepCountNotifications(map):
+      "never": Never
+      "always": Always
+      "everyHundred": Every hundred
+      "everyThousand": Every thousand
+      "everyTenThousand": Every ten thousand
+    notificationImportance(map):
+      "low": No sound, no vibration and doesn't show up in status bar.
+      "high": Makes a sound or vibrates
+      "urgent": Makes a sound or vibrates and appears as a heads up notification.
+    leaderboardFilter(map):
+      "everyone": Everyone
+      "friends": Friends
+  achievements:
+    phrases:
+      difficulty(map):
+        "easy": Easy
+        "normal": Normal
+        "hard": Hard
+        "extreme": Extreme
+      difficultyTitle(map):
+        "easy": Easy achievements
+        "normal": Normal achievements
+        "hard": Hard achievements
+        "extreme": Extreme achievements
+  characterCreation:
+    phrases:
+      optionTypes(map):
+        "none": None
+        "face": Face
+        "body": Body
+        "nose": Nose
+        "hair": Hairstyle
+        "outfit": Outfit
+        "eyes": Eyes
+        "faceAccessorie": Face accessories
+        "headwear": Headwear
+        "facepaint": Facepaint
+        "backAccessorie": Back accessories
+        "background": Background
+      raceTypes(map):
+        "none": None
+        "human": Human
+      bodyTypes(map):
+        "none": None
+        "masculine": A (Masculine)
+        "feminine": B (Feminine)
+      expressions(map):
+        "normal": Normal
+        "angry": Angry
+        "laughing": Laughing
+        "sad": Sad
+        "smile": Smile
+        "smirk": Smirk
+        "surprise": Surprise
+        "veryAngry": Very angry

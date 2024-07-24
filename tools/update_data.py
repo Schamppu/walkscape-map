@@ -2,8 +2,8 @@ import json
 import re
 import os
 import copy
-from urllib.request import urlopen
-
+import yaml
+from functools import lru_cache
 
 def json_files(data_folder):
     folder = os.path.join(os.path.dirname(os.path.realpath(__file__)), data_folder)
@@ -16,6 +16,11 @@ def read_json(filepath):
 def write_json(filepath, data):
     with open(filepath, 'w') as jf:
         json.dump(data, jf, ensure_ascii=False, indent=2)
+
+@lru_cache
+def read_yaml(filename):
+    with open(filename, 'r') as file:
+        return yaml.safe_load(file)
     
 def get_id(string):
     if not string:
@@ -23,11 +28,13 @@ def get_id(string):
     split = string.split('-')
     return '-'.join(split[1:len(split) - 5])
 
-def get_name(official_location):
-    name_data = official_location['name'].split('.')[-2]
-    name = re.sub(r'(\w)([A-Z])', r'\1 \2', name_data)
-    name.replace(" Of ", " of ")
-    return name.title()
+def get_name(key):
+    parts = key.split('.')
+    localization_file = f"localizations/{parts[0]}_en-US.yaml"
+    data = read_yaml(localization_file)
+    for key in parts[1:]:
+        data = data[key]
+    return data
 
 def find(list, id):
     return [i for i in list if i['id'] == id]
@@ -43,7 +50,7 @@ def get_common_info(official_obj, old_data, icon_key):
     exists = len(old_obj)
 
     # keep fixed capitalizations from old data if it exists
-    name = old_obj[0]['name'] if exists else get_name(official_obj)
+    name = get_name(official_obj['name'])
     icon_path = official_obj[icon_key].replace('assets/icons/', '')
     return id, name, icon_path, old_obj
 
@@ -73,7 +80,7 @@ def update_locations(filename, map_layer_name):
     locations = []
     for src_location in src_data:
         id, name, icon_path, old_loc = get_common_info(src_location, data, 'locationIcon')
-        hidden = False if 'hidden' not in old_loc[0] else old_loc[0]['hidden']
+        # hidden = False if 'hidden' not in old_loc[0] else old_loc[0]['hidden']
         realm = getRealm(src_location)
         buildings = list(map(get_id, src_location['buildingList'])) if 'buildingList' in src_location else []
 
@@ -84,7 +91,7 @@ def update_locations(filename, map_layer_name):
             'wikiUrl': get_wiki_url(name),
             'coords': src_location['locationPosition'][::-1],
             'icon': { 'url': icon_path },
-            'hidden': hidden,
+            # 'hidden': hidden,
             'activities': list(map(get_id, src_location['activityList'])),
             'services': list(map(get_id, src_location['serviceList'])),
             'buildings': buildings,
@@ -99,7 +106,7 @@ def update_locations(filename, map_layer_name):
         layer['markers'] = locations
         data_full[1]['layers'].append(layer)
     write_json(data_path, data_full)
-    location_ids = [l["id"] for l in locations if not l["hidden"]]
+    location_ids = [l["id"] for l in locations]
     write_json('../public/params.json', location_ids)
 
 def update_activities(filename):
@@ -165,7 +172,7 @@ def update_services(filename):
     write_json(data_path, services)
 
 def main():
-    map_layer_name = 'in-game'
+    map_layer_name = 'beta-277'
     update_locations('locations.json', map_layer_name)
     update_activities('activities.json')
     update_buildings('buildings.json')

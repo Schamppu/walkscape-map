@@ -1,0 +1,184 @@
+singulars:
+  cards:
+    areYouSickleOfItYet:
+      desc: Taking all the steps across the empty glacier has made you a friend of the penguins. One is eagerly looking at you, hoping you will pick it up and put it on your shoulder.
+      name: Are You Sickle Of It Yet?
+    aFriendLikeMe:
+      desc: Phenomenal cosmic powers, itty bitty living space.
+      name: A Friend Like Me
+    anIdiotSandwhich:
+      desc: -"What are you?"\n- "An idiot sandwich."
+      name: An Idiot Sandwich
+    andMyAxe:
+      desc: Let them come! There is one dwarf yet in Moria who still draws breath!
+      name: And My Axe!
+    barbarianVillage:
+      desc: If you used an empty beer glass on the barrels before the Gunnarsgrunn update, a Barbarian would attack you. If you had killed the Barbarian, using the beer glass on the barrels would refill it.
+      name: Barbarian Village
+    goldDigger:
+      desc: When I said you can't buy my love, I meant it's not possible with your salary.
+      name: Gold Digger
+    hellsKitchen:
+      desc: There's enough garlic in here to kill every vampire in Europe.
+      name: Hell's Kitchen
+    ifItIsBrokenFixIt:
+      desc: It's hard being a solo developer.
+      name: If It Is Broken, Fix It
+    infinityStones:
+      desc: Perfectly balanced, as all things should be.
+      name: Infinity Stones
+    itsAMarathonNotASprint:
+      desc: You are just in the beginning. Now do the same again.
+      name: It's A Marathon, Not A Sprint
+    makeAManOutOfYou:
+      desc: Mysterious as the dark side of the <hl>MOON!</hl>
+      name: Make A Man Out Of You
+    masterHasGivenDobbyASock:
+      desc: Dobby is... free
+      name: Master Has Given Dobby A Sock
+    masterchef:
+      desc: Yummy! It seems like you make a fine chef.
+      name: Masterchef
+    myPrecious:
+      desc: Curse the Baggins! It's gone! What has it got in its pocketses? Oh we guess, we guess, my precious. He's found it, yes he must have.
+      name: My Precious
+    oneCannotSimplyWalkToMordor:
+      desc: Have you ever thought about how simple it would be to walk into Mordor? Well, <hl>now you know</hl>.
+      name: One Does Not Simply Walk Into Mordor
+    onlyYouCanPreventForestFires:
+      desc: By cutting all of the trees, there's literally like... zero percent chance?
+      name: Only You Can Prevent Forest Fires
+    rockAndStone:
+      desc: If you don't Rock and Stone, you ain't comin' home!
+      name: Rock and Stone!
+    rockstar:
+      desc: Hard rock hallelujah!
+      name: Rockstar
+    thatsXcomBaby:
+      desc: RNG can sometimes be very frustrating.
+      name: That's XCOM Baby
+    touchTheGrass:
+      desc: I did make you touch the grass didn't I?
+      name: Touch The Grass
+    underTheSea:
+      desc: Down here all the fish is happy\nAs off through the waves they roll\nThe fish on the land ain't happy\nThey sad 'cause they in their bowl
+      name: Under The Sea
+    visitorOfTheFarLands:
+      desc: The number is the amount of blocks you needed to go across until you could get to "Far Lands" in Minecraft.
+      name: Visitor Of The Far Lands
+    walkOfShame:
+      desc: \*cling\* Shame. \*cling\* Shame. \*cling\* Shame. \*cling\* Shame.
+      name: Walk Of Shame
+    whatATrip:
+      desc: Eating some might also take you to a wild trip. Best consumed in good company.
+      name: What A Trip
+    winniePooh:
+      desc: Sometimes the smallest things take up the most room in your heart.
+      name: Winnie the Pooh
+    youShallNotPass:
+      desc: I am a servant of the Secret Fire, wielder of the Flame of Anor. The dark fire will not avail you, Flame of Udun! Go back to the shadow. <hl>You Shall Not Pass!</hl>
+      name: You Shall Not Pass!
+    fullyPrepared:
+      desc: With full gear on, you're ready to conquer the world!
+      name: Fully Prepared
+    helanGor:
+      desc: Cheers, kippis, salud, cin cin, prost, kanpai, ganbei!
+      name: Helan Går!
+    iSmellDeadMiners:
+      desc: This tale is told in “Of mines and monsters” story. Read more on WalkScape wiki!
+      name: I Smell Dead Miners
+    myBackHurts:
+      desc: Time to drop or sell before you break your back.
+      name: My Back Hurts
+    noTrashing:
+      desc: You better pick up what you dropped! Oh, wait, you can't.
+      name: No Trashing
+    onlyTwoFingers:
+      desc: It's a well known fact that only one finger out of five can benefit from the magical properties of rings.
+      name: Only Two Fingers?
+    oohShiny:
+      desc: As they say the chance of finding this fine thing is 1 in 200.
+      name: Ooh, Shiny!
+    treasureHunter:
+      desc: Nothing hits better than a free treasure chest!
+      name: Treasure Hunter
+    arcticExplorer:
+      desc: You can call yourself a proud Jarvonian now, you know this land like your pocket.
+      name: Arctic Explorer
+    comrade:
+      desc: You have a hammer and sickle? We have a hammer and sickle!
+      name: Comrade
+    hoarder:
+      desc: Limitless bank storage is the dream of any hoarder. All banks are connected too. Enjoy!
+      name: Hoarder
+    theRockstar:
+      desc: Hard rock hallelujah!
+      name: The Rockstar
+    doomsdayPrepper:
+      desc: When the apocalypse comes, you and your 1000 cans of tomato soup are going to be ready!
+      name: Doomsday Prepper
+    jackOfAllTrades:
+      desc: Congratulations, you've reached halfway in all the skills! Or have you?
+      name: Jack Of All Trades
+    prideAndAccomplishment:
+      desc: Somtimes you're most famous for being the worst.
+      name: Pride And Accomplishment
+    timeToParty:
+      desc: This party hat could feed generations.
+      name: Time To Party
+    iJustFeltLikeRunning:
+      desc: Now you wouldn't believe me if I told you, but I could run like the wind blows. From that day on, if I was ever going somewhere, I was running!
+      name: I Just Felt Like Running
+    spaceCarsAndBirds:
+      desc: \"I never give up. I'd have to be dead or completely incapacitated. And when I say never, I mean I'm never gonna give you up, never gonna let you down" -Melon Usk
+      name: Space, Cars and Birds
+    tutorialComplete:
+      desc: You're finally ready to leave the starting zone, right?
+      name: Tutorial Complete
+  requirements:
+    catchCrabs: Catch <numberProgress /> fish while fishing.
+    chop5kTrees: Chop down <numberProgress /> trees.
+    collect1kMushrooms: Forage <numberProgress /> mushrooms.
+    cook20DifferentRecipes: Cook <numberProgress /> different recipes.
+    craftHatchetOfHighestQuality: Craft a hatchet of highest quality. <numberProgress />
+    craftPickaxeOfHighestQuality: Craft a pickaxe of highest quality. <numberProgress />
+    craftPerfectItem: Craft a perfect item. <numberProgress />
+    cookRecipes: Cook recipes <numberProgress /> times.
+    findMysteriousG: Find the mysterious G. <numberProgress />
+    forageHoney: Forage <numberProgress /> honeycomb.
+    gain99Agility: Level up your agility to <numberProgress />.
+    gainRingWhileFishing: Gain a ring while fishing. <numberProgress />
+    gainSocksFromActivity: Gain socks as a drop from activity. <numberProgress />
+    goToBarbantok: Go to the village of Barbantok. <numberProgress />
+    goToNoiselessPass: |
+      Go to the location called Noiseless Pass. <numberProgress />
+    have5DifferentGems: Have <numberProgress /> different gems in your inventory.
+    levelUpAnySkill: Level up any skill. <numberProgress />
+    makeSandwich: Make <numberProgress /> sandwich.
+    mine10kOres: Mine <numberProgress /> ores of any kind.
+    mine1kGoldOres: Mine <numberProgress /> gold ores.
+    useALamp: Use a XP lamp. <numberProgress />
+    walkSteps: Walk <numberProgress /> steps.
+    walkStepsWithoutGear: Walk <numberProgress /> steps without wearing any gear.
+    walkStepsInDay: Walk <numberProgress /> steps in one day.
+    characterLevel: Have <numberProgress /> character level.
+    haveCoins: Have <numberProgress /> coins.
+    haveAllSkillsLevel: Have all skills at least at level. <numberProgress />
+    haveFoodStackQuantity: Have any food stack at <numberProgress /> quantity.
+    mineOres: Mine <numberProgress /> ores.
+    haveBankStacks: Have <numberProgress /> stacks in the bank.
+    exploreJarvonia: Explore every location in Jarvonia. <numberProgress />
+    gainFineMaterial: Gain <numberProgress /> fine material.
+    dropItem: Drop <numberProgress /> item.
+    dropItems: Drop <numberProgress /> items.
+    haveInventoryFilled: Become overencumbered. <numberProgress />
+    haveRingsEquipped: Have two rings equipped. <numberProgress />
+    haveEverySlotFilled: Have an item equipped in each gear slot. <numberProgress />
+    gainItem: Gain item <item id="${item}"/>. <numberProgress />
+    haveSickleEquipped: Have sickle equipped. <numberProgress />
+    haveHammerEquipped: Have hammer equipped. <numberProgress />
+    gainTreasureChest: Gain treasure chest from any activity. <numberProgress />
+    openTreasureChest: Open <numberProgress /> chests.
+    consumeBeer: Drink <numberProgress /> beer.
+    useMemosphere: Use <numberProgress /> memosphere.
+    findIceSickle: Find a <hl>very rare tool</hl> from the Glacier. <numberProgress />

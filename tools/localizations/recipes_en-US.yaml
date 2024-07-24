@@ -1,0 +1,352 @@
+singulars:
+  crafting:
+    tools:
+      stoneSickle:
+        name: Make a stone sickle
+        desc: Craft a basic stone sickle to start harvesting the earth's bounty.
+        activityDesc: By sharpening a piece of stone and attaching it to a stick, you create your simple harvesting tool.
+      copperSickle:
+        name: Make a copper sickle
+        desc: Forge a copper sickle, a basic tool for cutting through vegetation.
+        activityDesc: Heating and shaping the copper, you form a sickle that promises a bit more efficiency in your hands.
+      ironSickle:
+        name: Craft an iron sickle
+        desc: Create an iron sickle, durable and reliable for regular foraging.
+        activityDesc: Through the heat of the forge, you shape iron into a sickle, making a tool that's both sturdy and sharp.
+      steelSickle:
+        name: Craft a steel sickle
+        desc: Craft a steel sickle, sharper and more resilient for extensive use.
+        activityDesc: With precision and a nod to the fields under a red star, you forge steel into a sickle ready for the collective effort.
+      basicHatchet:
+        name: Make a basic hatchet
+        desc: From sticks and stones, you can make a basic tool to cut trees.
+        activityDesc: Carefully chipping the stone and attaching it to the stick, you're making a rudimentary hatchet.
+      basicPickaxe:
+        name: Make a basic pickaxe
+        desc: With a simple stick and some stones, you can make a basic tool to mine some ore.
+        activityDesc: By making the stone as pointy as possible and attaching it to the stick, you're making a basic pickaxe.
+      copperPickaxe:
+        name: Craft a copper pickaxe
+        desc: Forge a sturdy copper pickaxe for efficient mining.
+        activityDesc: Carefully shaping the copper into a formidable mining tool, you're crafting a copper pickaxe.
+      bronzePickaxe:
+        name: Craft a bronze pickaxe
+        desc: Create a durable bronze pickaxe, perfect for heavy mining.
+        activityDesc: Skillfully melding bronze into a robust mining tool, you're crafting a bronze pickaxe.
+      ironPickaxe:
+        name: Craft an iron pickaxe
+        desc: Forge a reliable iron pickaxe for deep mining adventures.
+        activityDesc: Expertly smelting iron into a dependable mining tool, you're crafting an iron pickaxe.
+      steelPickaxe:
+        name: Craft a steel pickaxe
+        desc: Craft a formidable steel pickaxe, suitable for the toughest ores.
+        activityDesc: Precisely shaping steel into a powerful mining tool, you're crafting a steel pickaxe.
+      tarsiliumPickaxe:
+        name: Craft a tarsilium pickaxe
+        desc: Craft a tarsilium pickaxe, to further your exploration into the earth.
+        activityDesc: Heavy strikes upon dark metal and heated coals help forge your new tool, the tarsilium pickaxe is ready for work.
+      farganitePickaxe:
+        name: Craft a farganite pickaxe
+        desc: Craft an arganite pickaxe, to allow more efficient exploration in your earthly delves.
+        activityDesc: The flames dance upon the metal, allowing it to be shaped into a tool worthy to touch the earth once more.
+      copperHatchet:
+        name: Craft a copper hatchet
+        desc: Fashion a copper hatchet, perfect for efficient woodcutting.
+        activityDesc: With precision, you're shaping copper into a sharp woodcutting tool, crafting a copper hatchet.
+      bronzeHatchet:
+        name: Craft a bronze hatchet
+        desc: Create a sturdy bronze hatchet for heavy-duty woodcutting.
+        activityDesc: Meticulously melding bronze into a robust woodcutting tool, you're crafting a bronze hatchet.
+      ironHatchet:
+        name: Craft an iron hatchet
+        desc: Forge a reliable iron hatchet for precise woodcutting.
+        activityDesc: With skill, you're hammering iron into a dependable woodcutting tool, crafting an iron hatchet.
+      steelHatchet:
+        name: Craft a steel hatchet
+        desc: Craft a powerful steel hatchet for swift woodcutting.
+        activityDesc: Carefully shaping steel into a sharp woodcutting tool, you're crafting a steel hatchet.
+      tarsiliumHatchet:
+        name: Craft a tarsilium hatchet
+        desc: Create a hatchet that will mimic the darkness of the night sky.
+        activityDesc: The metal is formed in the fires of the furnace, hammered and sharpened to slice down trees with ease.
+      farganiteHatchet:
+        name: Craft a farganite hatchet
+        desc: Create a hatchet that will overpower the unbreakable resolve of even the mightiest of trees.
+        activityDesc: Sweat and power form this metal into a hatchet, a true symbol of your dedication to becoming an Arborist.
+    misc:
+      rope:
+        name: Spin flax into rope
+        desc: Spin flax to create some rope.
+        activityDesc: The flax tightens upon the wheel, then is braided to form a sturdy rope.
+      bagofRocks:
+        name: Craft a bag of rocks
+        desc: Craft a bag of rocks from a large stone and sturdy branch.
+        activityDesc: The rocks attach at the end of the stick, it's heavy.
+    fishing:
+      smallFishingNet:
+        name: Weave a small fishing net
+        desc: Create a small fishing net out of some basic rope.
+        activityDesc: Many small knots are carefully weaved together, creating a small fishing net.
+      largeFishingNet:
+        name: Weave a large fishing net
+        desc: Create a larger fishing net out of some rope.
+        activityDesc: Many knots are formed, far more than a smaller net. The large fishing net is now complete.
+      basicFishingRod:
+        name: Craft a basic fishing rod
+        desc: Craft a basic fishing rod out of some planks and fishing line.
+        activityDesc: After carefully thinning and connecting the planks, then adding the fishing line, you have fashioned a simple fishing rod.
+      pineFishingRod:
+        name: Craft a pine fishing rod
+        desc: Craft a pine fishing rod out of some planks and fishing line.
+        activityDesc: The pine wood is soft, your work goes quickly. After attaching the fishing line, your new rod is ready to use.
+      oakFishingRod:
+        name: Craft an oak fishing rod
+        desc: Craft an oak fishing rod out of some planks and fishing line.
+        activityDesc: Oak wood is dense, and firm. Crafting your pole takes some time, but you are rewarded with a sturdy fishing rod.
+      willowFishingRod:
+        name: Craft a willow fishing rod
+        desc: Craft a willow fishing rod out of some planks and fishing line.
+        activityDesc: The willow planks are much lighter, and sturdy. Allowing for precise work, fishing string is added to complete your new fishing pole.
+      advancedFishingRod:
+        name: Craft an advanced fishing rod
+        desc: Craft an advanced fishing rod out of some planks and fishing line.
+        activityDesc: After working with several types of wood, configuring an even better fishing rod than the previous ones will be easy. Fishing line is added with excitement as the advanced fishing pole is complete.
+      lobsterPot:
+        name: Craft a lobster pot
+        desc: Craft a lobster pot out of some planks and metal bars
+        activityDesc: This is a completely new concept to you, but you feel advanced enough to undertake a new form of construction.
+  smithing:
+    scrap:
+      copperBarScrap:
+        name: Create a copper bar (scrap)
+        desc: Heat and shape metal scrap into a solid bar for various uses.
+        activityDesc: With the right techniques, you're smelting metal scraps into a durable copper bar.
+      bronzeBarScrap:
+        name: Create a bronze bar (scrap)
+        desc: Melt metal scrap to create a versatile bronze bar.
+        activityDesc: Skillfully melding metal scraps into a versatile metal bar, you're crafting a bronze bar.
+      ironBarScrap:
+        name: Create a iron bar (scrap)
+        desc: Transform metal scraps into a solid and useful iron bar.
+        activityDesc: Expertly smelting metal scraps into a versatile metal bar, you're crafting an iron bar.
+      steelBarScrap:
+        name: Create a steel bar (scrap)
+        desc: Forge a strong steel bar for various heavy-duty applications.
+        activityDesc: Precisely shaping metal scraps into a durable metal bar, you're crafting a steel bar.
+      tarsiliumBarScrap:
+        name: Create a tarsilium bar (scrap)
+        desc: Craft a tarsilium bar from metal scraps.
+        activityDesc: The metal scraps melt in the mould, forming a murky, thick liquid. Slowly cooling to form a perfect tarsilium bar.
+      farganiteBarScrap:
+        name: Create a farganite bar (shavings)
+        desc: Crats a farganite bar from metal shavings.
+        activityDesc: The shavings resists the heat, but through your dedication to the furnace. They too melts, and forms into a soft blue bar.
+    bars:
+      copperBar:
+        name: Smelt a copper bar
+        desc: Heat and shape copper into a solid bar for various uses.
+        activityDesc: With the right techniques, you're smelting copper into a durable metal bar, crafting a copper bar.
+      bronzeBar:
+        name: Smelt a bronze bar
+        desc: Melt and combine copper and tin to create a versatile bronze bar.
+        activityDesc: Skillfully melding copper and tin into a versatile metal bar, you're crafting a bronze bar.
+      ironBar:
+        name: Smelt an iron bar
+        desc: Transform iron ore into a solid and useful iron bar.
+        activityDesc: Expertly smelting iron ore into a versatile metal bar, you're crafting an iron bar.
+      steelBar:
+        name: Smelt a steel bar
+        desc: Forge a strong steel bar for various heavy-duty applications.
+        activityDesc: Precisely shaping steel into a durable metal bar, you're crafting a steel bar.
+      tarsiliumBar:
+        name: Smelt a tarsilium bar
+        desc: Craft a tarsilium bar from previously gathered ore.
+        activityDesc: The dark metal melts in the mould, forming a murky, thick liquid. Slowly cooling to form a perfect tarsilium bar.
+      farganiteBar:
+        name: Smelt a farganite bar
+        desc: Crats a farganite bar from previously gathered ore.
+        activityDesc: The farganite ore resists the heat, but through your dedication to the furnace. It too melts, and forms into a soft blue bar.
+    wooden:
+      woodenSword:
+        name: Make a wooden sword
+        desc: Make a wooden sword from a plank.
+        activityDesc: You make a wooden sword from a plank.
+      woodenShield:
+        name: Make a wooden shield
+        desc: Make a wooden shield from planks.
+        activityDesc: You make a wooden shield from planks.
+    copper:
+      copperSword:
+        name: Make a copper sword
+        desc: Make a copper sword from a copper bar.
+        activityDesc: You make a copper sword from a copper bar.
+      copperShield:
+        name: Make a copper shield
+        desc: Make a copper shield from copper bars.
+        activityDesc: You make a copper shield from copper bars.
+    bronze:
+      bronzeSword:
+        name: Make a bronze sword
+        desc: Make a bronze sword from a bronze bar.
+        activityDesc: You make a bronze sword from a bronze bar.
+      bronzeShield:
+        name: Make a bronze shield
+        desc: Make a bronze shield from bronze bars.
+        activityDesc: You make a bronze shield from bronze bars.
+    iron:
+      ironSword:
+        name: Make an iron sword
+        desc: Make an iron sword from a iron bar.
+        activityDesc: You make an iron sword from an iron bar.
+      ironShield:
+        name: Make an iron shield
+        desc: Make an iron shield from iron bars.
+        activityDesc: You make an iron shield from iron bars.
+    steel:
+      steelSword:
+        name: Make a steel sword
+        desc: Make a steel sword from a steel bar.
+        activityDesc: You make a steel sword from a steel bar.
+      steelShield:
+        name: Make a steel shield
+        desc: Make a steel shield from steel bars.
+        activityDesc: You make a steel shield from steel bars.
+    tarsilium:
+      tarsiliumSword:
+        name: Make a tarsilium sword
+        desc: Make a tarsilium sword from a tarsilium bar.
+        activityDesc: You make a tarsilium sword from a tarsilium bar.
+      tarsiliumShield:
+        name: Make a tarsilium shield
+        desc: Make a tarsilium shield from tarsilium bars.
+        activityDesc: You make a tarsilium shield from tarsilium bars.
+    farganite:
+      farganiteSword:
+        name: Make a farganite sword
+        desc: Make a farganite sword from a farganite bar.
+        activityDesc: You make a farganite sword from a farganite bar.
+      farganiteShield:
+        name: Make a farganite shield
+        desc: Make a farganite shield from farganite bars.
+        activityDesc: You make a farganite shield from farganite bars.
+  carpentry:
+    scrap:
+      birchPlankScrap:
+        name: Create a birch plank (scrap)
+        desc: Carefully transform wood scrap into a useful and versatile plank.
+        activityDesc: With precision, you're shaping scraps into a versatile plank, crafting a birch plank.
+      pinePlankScrap:
+        name: Create a pine plank (scrap)
+        desc: Transform wood scraps into a sturdy and reliable plank.
+        activityDesc: Skillfully shaping scraps into a sturdy plank, you're crafting a pine plank.
+      sprucePlankScrap:
+        name: Create a spruce plank (scrap)
+        desc: Create a spruce plank, known for its strength and versatility.
+        activityDesc: With expertise, you're shaping scraps into a versatile plank, crafting a spruce plank.
+      maplePlankScrap:
+        name: Create a maple plank (scrap)
+        desc: Shape scraps into a smooth and elegant plank.
+        activityDesc: Meticulously crafting wood scraps into a smooth plank, you're crafting a maple plank.
+      oakPlankScrap:
+        name: Create an oak plank (scrap)
+        desc: Create an oak plank, prized for its durability and beauty.
+        activityDesc: With care, you're shaping wood scraps into a beautiful plank, crafting an oak plank.
+      teakPlankScrap:
+        name: Create a teak plank (scrap)
+        desc: Create a teak plank, treasured for its durability and strength.
+        activityDesc: The wood scraps takes time to process, but the plank is finished with no flaws.
+      willowPlankScrap:
+        name: Create a willow plank (scrap)
+        desc: Create a willow plank, the wood is valued due to its lack of weight.
+        activityDesc: The wood scraps is easily molded into a plank, as if it were made of butter.
+      mangrovePlankShavings:
+        name: Create a mangrove plank (shavings)
+        desc: Create a mangrove plank, the hard and dense wood is useful for rough environments.
+        activityDesc: The shavings are thick, and dense. Nearly threatening to destroy your tool, but with perseverance, it is formed into a plank.
+    planks:
+      birchPlank:
+        name: Cut a birch plank
+        desc: Carefully cut birch wood into a useful and versatile plank.
+        activityDesc: With precision, you're shaping birch wood into a versatile plank, crafting a birch plank.
+      pinePlank:
+        name: Cut a pine plank
+        desc: Transform pine wood into a sturdy and reliable plank.
+        activityDesc: Skillfully shaping pine wood into a sturdy plank, you're crafting a pine plank.
+      sprucePlank:
+        name: Cut a spruce plank
+        desc: Craft a spruce plank, known for its strength and versatility.
+        activityDesc: With expertise, you're shaping spruce wood into a versatile plank, crafting a spruce plank.
+      maplePlank:
+        name: Cut a maple plank
+        desc: Shape maple wood into a smooth and elegant plank.
+        activityDesc: Meticulously crafting maple wood into a smooth plank, you're crafting a maple plank.
+      oakPlank:
+        name: Cut an oak plank
+        desc: Craft an oak plank, prized for its durability and beauty.
+        activityDesc: With care, you're shaping oak wood into a beautiful plank, crafting an oak plank.
+      teakPlank:
+        name: Cut a teak plank
+        desc: Craft a teak plank, treasured for its durability and strength.
+        activityDesc: The strong wood takes time to process, but the plank is finished with no flaws.
+      willowPlank:
+        name: Cut a willow plank
+        desc: Craft a willow plank, the wood is valued due to its lack of weight.
+        activityDesc: The willow wood is easily trimmed into a plank, as if it were made of butter.
+      mangrovePlank:
+        name: Cut a mangrove plank
+        desc: Craft a mangrove plank, the hard and dense wood is useful for rough environments.
+        activityDesc: The mangrove wood is thick, and dense. Nearly threatening to destroy your tool, but with perseverance, it is formed into a plank.
+  cooking:
+    fish:
+      cookedShrimp:
+        name: Fry a shrimp
+        desc: Savor the taste of fried shrimp, a delightful seafood treat.
+        activityDesc: With finesse, you're frying the shrimp to perfection, crafting a delicious fried shrimp.
+      cookedPerch:
+        name: Fry a perch
+        desc: Indulge in the flavors of fried perch, a tasty catch from the waters.
+        activityDesc: With skill, you're frying the perch to a crispy finish, crafting a delectable fried perch.
+      cookedCrayfish:
+        name: Fry a crayfish
+        desc: Enjoy the succulence of fried crayfish, a delicacy for seafood enthusiasts.
+        activityDesc: With expertise, you're frying the crayfish to perfection, crafting a succulent fried crayfish.
+      cookedCarp:
+        name: Fry a carp
+        desc: Delight in the flavors of fried carp, known for its mild taste and tender meat.
+        activityDesc: With care, you're frying the carp to perfection, crafting a delectable fried carp.
+      cookedSeabass:
+        name: Fry a seabass
+        desc: Relish the silver-scaled goodness of fried seabass, a gourmet's choice.
+        activityDesc: With finesse, you're frying the seabass to a crispy finish, crafting a delectable fried seabass.
+      cookedPike:
+        name: Fry a pike
+        desc: Enjoy the taste of fried pike, known for its flaky and tender meat.
+        activityDesc: With skill, you're frying the pike to perfection, crafting a delicious fried pike.
+      cookedJellyfish:
+        name: Fry a jellyfish
+        desc: Explore the unique texture and flavor of fried jellyfish, a culinary curiosity.
+        activityDesc: With expertise, you're frying the jellyfish to perfection, crafting an intriguing fried jellyfish.
+      cookedTrout:
+        name: Fry a trout
+        desc: Experience the mesmerizing flavors of fried trout, with its iridescent scales and delightful taste.
+        activityDesc: With care, you're frying the trout to a crispy finish, crafting a delectable fried trout.
+      cookedSalmon:
+        name: Fry a salmon
+        desc: Indulge in the rich and buttery goodness of fried salmon
+        activityDesc: With finesse, you're frying the salmon to perfection, crafting a succulent fried salmon.
+      cookedMoray:
+        name: Fry a moray
+        desc: Discover the unique taste of fried moray, with its snakelike appearance and mysterious flavor.
+        activityDesc: With skill, you're frying the moray to a crispy finish, crafting a delectable fried moray.
+      cookedLobster:
+        name: Fry a lobster
+        desc: Relish the succulent and flavorful delight of fried lobster, a classic seafood delicacy.
+        activityDesc: With expertise, you're frying the lobster to perfection, crafting a succulent fried lobster.
+      cookedSquid:
+        name: Fry a squid
+        desc: Embrace the versatility of fried squid, known for its knack for disappearing acts.
+        activityDesc: With care, you're frying the squid to a crispy finish, crafting a delectable fried squid.
+      cookedStreamEel:
+        name: Fry a stream eel
+        desc: Enjoy the tender and flaky delight of fried stream eel, a freshwater fish delicacy.
+        activityDesc: With finesse, you're frying the stream eel to perfection, crafting a succulent fried stream eel.

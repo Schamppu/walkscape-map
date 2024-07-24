@@ -1,0 +1,237 @@
+singulars:
+  woodcutting:
+    jarvonia:
+      cutPineTrees:
+        name: Cut pine trees
+        desc: You swing your axe with determination to bring down the pine trees.
+      cutBirchTrees:
+        name: Cut birch trees
+        desc: You swing your axe with all your might, determined to bring down the towering birch trees.
+      cutSpruceTrees:
+        name: Cut spruce trees
+        desc: Gripping your axe tightly, you channel your strength to strike down the towering spruce trees.
+      cutMapleTrees:
+        name: Cut maple trees
+        desc: With steady swings of your axe, you work to bring down the resilient maple trees, their sturdy trunks requiring persistence to overcome.
+      cutOakTrees:
+        name: Cut oak trees
+        desc: Steadfastly, you chop away at the towering oak trees, their sprawling branches reaching out like nature's embrace.
+      cutTeakTrees:
+        name: Cut teak trees
+        desc: Sweat on your forehead, blisters on your fingers, but you are determined to get some logs of this durable and strong wood.
+      cutWillowTrees:
+        name: Cut willow trees
+        desc: The wide trunks of these willows are proving to be a challenge, but with your skillful and powerful swings you manage to topple them one by one.
+      cutMangroveTrees:
+        name: Cut mangrove trees
+        desc: While being careful not to trip over their entangling roots, you are working hard to get some logs of these fascinatingly shaped trees.
+      firewoodMaking: 
+        name: Firewood making
+        desc: With patience, sweat, effort and your trusty hatchet, you split the logs mercilessly. If only you could split them with your bare hands. You'd have to be a superhero, to say the least.
+      branchTrimming:
+        name: Branch trimming
+        desc: Cleaning up the branches near the ground helps prevent forest fires in these parts.
+  mining:
+    global:
+      mineCopperOre:
+        name: Mine copper ore
+        desc: The rhythmic clinks of your pickaxe hitting the rocky surface fill the air as you persistently mine for copper ore.
+      mineTinOre:
+        name: Mine tin ore
+        desc: The sound of your pickaxe resonates through the mining site as you tirelessly chip away, uncovering the hidden veins of tin ore waiting to be discovered.
+      mineIronOre:
+        name: Mine iron ore
+        desc: Each of your swings reveals the humble beauty of iron ore, a reliable commodity with a wide range of practical uses.
+      mineCoal:
+        name: Mine coal
+        desc: Each strike of your trusty pickaxe uncovers the veins of coal, essential in providing fuel for the realm's blacksmiths to forge weapons and armor that defend the kingdom.
+      mineTarsiliumOre:
+        name: Mine tarsilium ore
+        desc: In your venture to mine tarsilium ore, the deep, echoing chambers of the earth become your canvas, and the discovery of each new vein feels like unearthing a piece of history.
+      mineFarganiteOre:
+        name: Mine farganite ore
+        desc: With sweat and tears, you slowly extract some of the farganite despite its tremendous hardness.
+    jarvonia:
+      goldPanning: 
+        name: Gold panning
+        desc: This is rudimentary gold mining technique that takes advantage of sedimentary deposits in rivers. First, the pan is submerged in the bottom sand. Then, by shaking it by hand, the gravel is loosened until only the sand and possible gold nuggets are left.
+      spelunking: 
+        name: Spelunking
+        desc: You crawl hard on the ground like a lizard. Ominous thoughts cloud your mind almost paralyzing you. You manage to push them aside for a moment and continue. Soon enough a new unexplored path unveils itself and fills you with joy
+      surfaceSaltMining: 
+        name: Surface salt mining
+        desc: Extracting salt in a mine is hard work because you get dehydrated very quickly due to the constant contact with the salt. Luckily for you, these halite (salt rock) crystals are on the well-ventilated surface and come off easily when you hit them with a pickaxe.
+      stoneQuarrying:
+        name: Stone quarrying
+        desc: Rock and stone! 
+  fishing:
+    jarvonia:
+      pondFishing:
+        name: Pond fishing
+        desc: In the midst of the winter landscape, the tranquil pond glistens with serene beauty.  Its still waters are inviting and promising.
+      lakeFishing:
+        name: Lake fishing
+        desc: You carefully attach your bait with frosty fingers and cast it out upon the calm surface of the lake.
+      seaFishingNet:
+        name: Sea fishing (net)
+        desc: Along the winter shoreline, you find a secluded spot and cast your net into the calm, chilly waters, enjoying the peaceful solitude of sea fishing.
+      seaFishingRod:
+        name: Sea fishing (rod)
+        desc: Along the winter shoreline, you find a secluded spot and cast your rod into the calm, chilly waters, enjoying the peaceful solitude of sea fishing.
+      seaFishingCage:
+        name: Sea fishing (cage)
+        desc: A nutrient dense current brings all sorts of crustaceans to the area.
+    gdte:
+      magnetFishing:
+        name: Magnet fishing
+        desc: "Pulling stuff out of a water body with a strong magnet rarely pays the bills, but helps a couple of good causes: it cleans the environment and it helps solve crimes. Be mindful of the regulations around it and have fun! You could pull anything!"
+  foraging:
+    global:
+      litterLooting:
+        name: Litter looting
+        desc: Amongst the hustle and bustle of the city, you comb through discarded odds and ends, hoping to stumble upon a hidden gem among the common debris.
+    jarvonia:
+      forestForaging:
+        name: Forest foraging
+        desc: Amidst the winter forest, you venture with a keen eye, foraging for hidden treasures beneath the blanket of snow, embracing the thrill of discovering nature's edible offerings.
+      cliffForaging:
+        name: Cliff foraging
+        desc: Perched on the edge of the towering cliff, you carefully explore the rugged terrain, searching for wild mountain herbs, resilient mushrooms, and other edible treasures that thrive in this elevated environment.
+      plainsForaging:
+        name: Plains foraging
+        desc: With each gentle stride across the plains, you immerse yourself in the natural abundance, gathering wild berries, seeds, and tender shoots that thrive in the soil beneath your feet.
+      coastForaging:
+        name: Coast foraging
+        desc: As you stroll through the wintry coastal landscapes, you become one with the cold, foraging for sustenance and warmth amidst the snow-covered rocks and icy pools.
+      seashellSearching:
+        name: Seashell searching
+        desc: You search carefully along the coast for any valuable seashells or pearls.
+      glacierForaging:
+        name: Glacier foraging
+        desc: You search far and wide through the empty glacier. You learn a lot about yourself, but is there anything here to find?
+      caveForaging:
+        name: Cave foraging
+        desc: It's dark in there, better bring a light.
+      hornOfRespiteTreasureHunt: 
+        name: Treasure hunt
+        desc: The Adventurer's Guild has set a challenge to find some special items around the Horn of Respite. How long will it take you to find them all?
+    gdte:
+      butterflyCatching:
+        name: Butterfly catching
+        desc: Catching butterflies requires patience and a good net. Although chasing them is fun, the most efficient option is to catch them when they are still. Admiring them and releasing them afterwards preserves their role in the delicate natural balance.
+      trellinDumpsterDiving:
+        name: Trellin dumpster diving
+        desc: Amidst the labyrinthine alleyways of the city, you explore the forgotten corners, sifting through discarded odds and ends in hopes of unearthing hidden treasures among the cast-offs.
+      erdwiseDumpsterDiving:
+        name: Erdwise dumpster diving
+        desc: Amidst the labyrinthine alleyways of the city, you explore the forgotten corners, sifting through discarded odds and ends in hopes of unearthing hidden treasures among the cast-offs.
+      forestForaging:
+        name: Forest foraging
+        desc: As you wander through the forest's tranquil embrace, you'll immerse yourself in the harmony of the woods, gathering the gifts of nature that thrive beneath the gentle canopy.
+      plainsForaging:
+        name: Plains foraging
+        desc: As you meander through the temperate plains, you'll find yourself on a journey of discovery, weaving through a landscape where nature's treasures await under the gentle sun and azure skies.
+      swampForaging:
+        name: Swamp foraging
+        desc: You search through the murky land and water for valuable flowers and plants.
+  agility:
+    global:
+      traveling:
+        name: Traveling
+        desc: Traveling to a new location
+      sledding:
+        name: Sledding
+        desc: As you grip the sled's handles and push off, you feel the rush of adrenaline course through your veins. The world blurs around you, and for a moment, you're a winter speedster conquering the snow-covered hill.
+      guardDuty:
+        name: Guard duty
+        desc: As a guard in the Wallisian Empire, you've got bills to pay, and this is how you do it. You watch over the kingdom, ensuring you get paid for your watchful eyes.
+      sandcastleBuilding:
+        name: Sandcastle building
+        desc: Building sandcastles on the beach is all about easygoing creativity. Your sandy creations may not last long, but it's a simple pleasure in the moment.
+      scientificTinkering:
+        name: Scientific tinkering
+        desc: In the realm of scientific tinkering, you become an eager enthusiast, molding ideas into tangible experiments. You embrace the spirit of discovery with an open mind.
+      birdWatching:
+        name: Birdwatching
+        desc: Bird watching is a window to the avian realm. You patiently observe, learning about the diverse species that grace the trees, the skies, and the lands, appreciating their beauty and behavior.
+      frisbeeGolfingBeginner:
+        name: Frisbee golfing (Beginner)
+        desc: As a beginner in frisbee golfing, each throw is a new discovery. You learn to gauge the wind and navigate around trees, enjoying the game's simplicity and the joy of watching the disc soar towards the basket.
+      frisbeeGolfingIntermediate:
+        name: Frisbee golfing (Intermediate)
+        desc: In intermediate frisbee golfing, you're developing a keen sense of strategy. Each course presents a new challenge, as you adeptly curve your disc around obstacles, honing your skills with every calculated throw.
+      frisbeeGolfingDifficult:
+        name: Frisbee golfing (Difficult)
+        desc: As a seasoned player in difficult frisbee golfing, every course is a tactical battlefield. You execute complex shots, mastering the art of spin and precision, turning challenging landscapes into triumphant victories.
+      crossCountrySkiingBeginner:
+        name: Cross-country skiing (Beginner)
+        desc: On your beginner cross-country skiing journey, every glide is filled with wonder. The snowy trails are your playground, where you learn the rhythm of the skis and embrace the serene beauty of the winter woods.
+      crossCountrySkiingIntermediate:
+        name: Cross-country skiing (Intermediate)
+        desc: Intermediate cross-country skiing brings a sense of adventure. You tackle varied terrains with newfound confidence, each stride stronger and more assured, as you explore the vast, snow-covered expanses.
+      crossCountrySkiingDifficult:
+        name: Cross-country skiing (Difficult)
+        desc: In difficult cross-country skiing, you challenge the limits of endurance and skill. Conquering steep slopes and enduring harsh conditions, you find exhilaration in the heart-pounding journey across the untamed winter landscape.
+    jarvonia:
+      mountainClimbingBeginner:
+        name: Mountain climbing (Beginner)
+        desc: You prepare for your climb. It's a beautiful day with sunshine and no wind. Still, as you slowly climb, your heart skips a beat and you lose grip on one foot. What a scare! Finally you reach the top and look proudly at the world beneath your feet.
+      mountainClimbingIntermediate:
+        name: Mountain climbing (Intermediate)
+        desc: Now we are talking. This wall is almost vertical and there are no easily accessible grab points. You climb it with tenacity, feeling your muscles suffer to give you the power you need. The top tastes like blood and glory. You scream with the air you have left.
+      rooftopJumpingBeginner:
+        name: Rooftop jumping (Beginner)
+        desc: You climb up on an unlit lamppost, scanning the surroundings. You hear footsteps nearby, so you hurry over to the adjoining rooftop with a small jump. A tile comes loose and falls to the ground, causing a clatter. You'll have to be more careful next time.
+      blackEyePeakSearchTeam:
+        name: Search team
+        desc: Help the adventurer's guild locate and find information on open permits that haven't returned.
+      blackEyePeakRescueTeam: 
+        name: Rescue team
+        desc: Use information from the search teams to actively go and carry out rescue operations.
+    gdte:
+      kayaking: 
+        name: Kayaking
+        desc: "You check the paddles, seat and general condition of the kayak before putting it in the water. On yourself, helmet and waterproof clothing. The weather couldn't be better: sunshine, pleasant temperature and a light breeze. Let's enjoy a good paddling session!"
+      swimmingBeginner: 
+        name: Swimming (Beginner)
+        desc: "You've been told that swimming is a way to maintain good health, so after a few lessons, you feel confident to try it for yourself."
+      swimmingIntermediate: 
+        name: Swimming (Intermediate)
+        desc: "Before entering the water, you check the conditions: wind magnitude and direction, presence and size of rocks, presence of fishermen, boats or dangerous animals. You've even chatted with the locals. Everything is right. You go for a swim among the waves."
+      rooftopJumpingIntermediate: 
+        name: Rooftop jumping (Intermediate)
+        desc: "With feline grace you travel around the city, using any architectural feature as help: walls, roofs, balconies, streetlights. They all bend to your wishes."
+  cooking: 
+    jarvonia:
+      soupKitchenVolunteering: 
+        name: Soup kitchen volunteering
+        desc: Still dressed in your street clothes, you put on an apron and following the instructions of the chef, you start serving hot soup to those who need it most. When everyone has received their ration, you feel a mix of pride, modesty and a sense of community.
+    gdte: 
+      wineGrapeStomping: 
+        name: Wine grape Stomping
+        desc: With bare feet so as not to break the seeds, you step on the grapes. You move from the center of the press towards the ends, thus facilitating fermentation, since the pressure exerted on the fruit allows contact with the yeasts in charge of the process.
+  smithing: 
+    jarvonia:
+      horseshoeMaking: 
+        name: Horseshoe making
+        desc: Using strong metal, you forge a shoe that will protect a horse's hoof in medium to hard terrain. Although nails are used for its fixation, the horse does not suffer since the hoof is not sensitive, similar to a very thick human fingernail.
+  carpentry:
+    jarvonia:
+      shipRepairBeginner: 
+        name: Ship repair (Beginner)
+        desc: You take part in repairs due to wear and tear of small vessels. Timbers, nails, rigging, fittings and ropes are at your disposal. The foreman gives the orders and you execute them masterfully. Maybe one day you will be the one giving the orders.
+      woodCarving: 
+        name: Wood carving
+        desc: "Shaping wood using a sharp object, such as a knife, is an ancient form of craftsmanship. There is a great variety of art and iconography: from small figurines and toys, to ceremonial or war masks, to large mosaics and towering totem poles."
+    gdte: 
+      shipRepairIntermediate: 
+        name: Ship repair (Intermediate)
+        desc: You are no longer an apprentice carpenter, so you repair larger vessels without a problem. Your foreman trusts your skills and good judgment. You know when to be effective and when to be efficient. Your toolkit is professional, just like you.
+  crafting:
+    jarvonia: 
+      iceSculpting: 
+        name: Ice sculpting
+        desc: Armed with chisel, handsaw and a small pick, you transform an ice cube into something else, either functional or artistic. The fleetness of this piece of art is proportional to the ambient temperature, its duration ranging from minutes to permanent.
+      tinkering: 
+        name: Tinkering
+        desc: You scratch your chin as you think about how you can fix this junk. You come up with a thousand ways to do it, but for most of them you're missing components. You look around the workshop, searching for something specific. There it is! Let's get to work.

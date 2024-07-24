@@ -1,0 +1,57 @@
+singulars:
+  pages:
+    home:
+      info:
+        title: WalkPedia
+        description: WalkPedia is your character's personal journal. Here you can keep track of your character's learned knowledge, stats, and navigate the game content with ease.
+        tabText: Home
+    itemList:
+      info:
+        title: Items
+        description: Items are objects that can be collected, used, or sold. They can be found in the world, bought from vendors, or crafted by players.
+        tabText: Item list
+    locationList:
+      info:
+        title: Locations
+        description: Locations are places in the world that can be visited. They provide services and activities for your character to engage with.
+        tabText: Location list
+    skillList:
+      info:
+        title: Skills
+        description: Skills are leveled up while doing activities related to the skill. They unlock you new content and make you more efficient.
+        tabText: Skill list
+    activityList:
+      info:
+        title: Activities
+        description: Activities are repeating tasks that can be done in the world by walking in real life. They are the main way to get items and level up your skills.
+        tabText: Activity list
+    serviceList:
+      info:
+        title: Services
+        description: Services provide you with benefits in a location. Most commonly they enable you to do crafting.
+        tabText: Service list
+    recipeList:
+      info:
+        title: Recipes
+        description: Recipes are the way to craft items yourself. They usually require materials and a service.
+        tabText: Recipe list
+    characterList:
+      info:
+        title: Characters
+        description: Characters are the people you can meet in the world. They can give you quests, sell you items, and more.
+        tabText: Character list
+    buildingList:
+      info:
+        title: Buildings
+        description: Buildings are structures in the world that commonly provide you with shops and services such as banking.
+        tabText: Building list
+    shopList:
+      info:
+        title: Shops
+        description: Shops are places where you can buy and sell items. They are usually found in buildings.
+        tabText: Shop list
+  contentPages:
+    item:
+      info:
+        title: Item <object id="${obj}">
+      

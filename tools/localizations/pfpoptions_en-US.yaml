@@ -1,0 +1,749 @@
+singulars:
+  faces:
+    basic:
+      name: Basic face
+      desc: A generic looking face.
+    goatee:
+      name: Goatee bearded face
+      desc: This beard style is a classic, right?
+    roundedFace:
+      name: Rounded face
+      desc: A slightly rounded face.
+    moustache:
+      name: Face with moustache
+      desc: A face with a medium sized moustache.
+    beardAndMoustache:
+      name: Face with beard and moustache
+      desc: A face that has both, beard and moustache!
+    largeBeard:
+      name: Face with large beard
+      desc: A face that has a slightly more fluffy beard.
+    chiselledFace:
+      name: Chiselled face
+      desc: A face where the shape is slightly more pronounced.
+    fancyMoustache:
+      name: Fancy moustache face
+      desc: Face with a very fancy moustache
+    blushedFace:
+      name: Blushed face
+      desc: Face with cute looking blushing on the cheeks.
+    scarredFace:
+      name: Scarred face
+      desc: Face with a big scar going over one of the eyes.
+    smallerFace:
+      name: Smaller face
+      desc: Face that is horizontally slightly smaller.
+    agedFace:
+      name: Aged face
+      desc: Face that shows more age.
+    agedWithBeardFace:
+      name: Aged face with a beard
+      desc: Face that shows more age, and also has a beard.
+    makeupFace:
+      name: Face with some makeup
+      desc: Face that has a little bit more makeup on it!
+    epicBeard:
+      name: Epic beard
+      desc: This one makes even the dwarves blush.
+    masculineMerfolkFace:
+      name: Masculine merfolk face
+      desc: A masculine face with blueish dolphin-like skin.  
+    feminineMerfolkFace:
+      name: Feminine merfolk face
+      desc: A feminine face with blueish dolphin-like skin.  
+    merfolkFace:
+      name: Merfolk face
+      desc: Face with blueish dolphin-like skin.
+  outfits:
+    coat:
+      name: Coat
+      desc: A standard coat.
+    farmApron: 
+      name: Farm Apron
+      desc: A simple farm apron.
+    partyGown:
+      name: Party Gown
+      desc: A gown for hitting the fanciest of streets.
+    hoodie:
+      name: Hoodie
+      desc: A hoodie meant for adventuring.
+    desertVest:
+      name: Desert Vest
+      desc: A vest meant for hot weather.
+    sleevelessGown:
+      name: Sleeveless Gown
+      desc: A sleeveless gown.
+    woodworkersApron:
+      name: Woodworker's Apron
+      desc: An apron meant for woodworking.
+    blanket:
+      name: Blanket
+      desc: For when there is nothing else to wear.
+    elegantGown:
+      name: Elegant Gown
+      desc: A fit for royalty.
+    simpleShirt:
+      name: Simple Shirt
+      desc: A simple shirt for a commoner.
+    scarfShirt:
+      name: Scarf Shirt
+      desc: A shirt with a scarf. Warm!
+    sleevelessDress:
+      name: Sleeveless Dress with Necklace
+      desc: A sleeveless dress with a necklace.
+    outlanderFurs:
+      name: Outlander Furs
+      desc: Furs to keep you warm in the coldest of environments.
+    trainingRobes:
+      name: Training Robes
+      desc: For studying the gods or the blade.
+    simplePullover:
+      name: Simple Pullover
+      desc: A simple pullover.
+    capedGown:
+      name: Caped Gown
+      desc: A gown with a cape.
+    fancySuit:
+      name: Fancy Suit
+      desc: A suit for doing any kind of business.
+    hoodedMonkRobe:
+      name: Hooded Monk Robe
+      desc: Not a cult member.
+    strapelessDress:
+      name: Strapless Dress
+      desc: A strapless dress.
+    shirtJacket:
+      name: Shirt and Jacket
+      desc: A t-shirt with a light jacket.
+    furCoat:
+      name: Fur Coat
+      desc: A very warm coat.
+    rancherOveralls:
+      name: Rancher Overalls
+      desc: Overalls for ranching and wrangling.
+    botShirt:
+      name: Bot Shirt
+      desc: The default character in a certain MMO.
+    scoopNeckDress:
+      name: Scoop Neck Dress
+      desc: A fancy scoop neck dress.
+    lightBrandedHoodie:
+      name: Light Branded Hoodie
+      desc: Lightweight hoodie with a circular brand. 
+    minecraftOutfit:
+      name: Mine and craft outfit  
+      desc: This outfit may seem simplistic and lacking in curves, but miners and crafters love it.
+    hazmatSuit:
+      name: Hazmat suit
+      desc: Whether you're managing radioactive cores, cooking illegal narcotics, or visiting deep sea cities, this suit will keep you safe. 
+    tailoredBusinessSuit:
+      name: Tailored business suit
+      desc: This professionally tailored suit fits your perfectly. You're ready to impress anyone.   
+    dragonLeatherArmor:
+      name: Dragon leather armor
+      desc: The armor is created from ancient dragon hide and it keeps it's wearer warm and well protected.
+    lumberjackShirt:
+      name: Lumberjack shirt
+      desc: A typical shirt of someone who has felled over 5000 trees.
+    halflingCloak:
+      name: Halfling cloak
+      desc: When you cover yourself with this long and heavy cloak, you become indistinguishable from a large rock.
+    chefsUniform:
+      name: Chef's uniform
+      desc: The uniform is clean and comfortable for efficient work in any kitchen.  
+    orientalDress:
+      name: Oriental dress
+      desc: The elegant dress will make a man out of you.
+    warmWoolenCoat:
+      name: Warm woolen coat
+      desc: The simple coat is inlaid with wool and it provides extra cold protection around your neck.
+    cloakWithGem:
+      name: Cloak with a gem
+      desc: The long cloak is held together by a shiny gem.
+    runningPoloShirt:
+      name: Running polo shirt
+      desc: The shirt is stylish and comfortable. Perfectly suited for running through the continents.
+    treasureHunterJacket:
+      name: Treasure hunter jacket
+      desc: This hardened leather jacket will protect you against traps and pits. It has handy pockets to stash the treasure.
+  hairstyles:
+    bald:
+      name: Bald
+      desc: A bald head.
+    crewCut: 
+      name: Crew cut
+      desc: A standard crew cut.
+    waveFade:
+      name: Wavy fade
+      desc: A wavy fade cut.
+    highAndTight:
+      name: High and tight
+      desc: Just the top.
+    highSwoop:
+      name: High swoop
+      desc: A nice swoop with a fade.
+    swoop:
+      name: Swoop
+      desc: A crew cut with a swoop.
+    balded:
+      name: Balded
+      desc: A balded head.
+    mullet:
+      name: Mullet
+      desc: A mullet cut.
+    bowlCut:
+      name: Bowl cut
+      desc: A Kaarija-style bowl cut.
+    bun:
+      name: Bun
+      desc: Hair done in a bun.
+    looseBun:
+      name: Loose bun
+      desc: Bun hairstyle with loose strands.
+    middlePart:
+      name: Middle part
+      desc: Hair parted in the middle.
+    lionsMane:
+      name: Lion's mane
+      desc: Channeling your inner lion.
+    middlePartAndBangs:
+      name: Middle part and bangs
+      desc: Like a middle part, but with two hanging bangs.
+    unevenBowlCut:
+      name: Uneven bowl cut
+      desc: Like a bowl cut, but a little uneven.
+    highPonytail:
+      name: High ponytail
+      desc: A sleek and elevated look with hair gathered high on the head.
+    highAndTightBun:
+      name: High and tight and bun
+      desc: Clean shaved sides in a bun.
+    spaceBuns:
+      name: Space buns
+      desc: A playful hairstyle that features two small buns positioned on each side of the head.
+    fadeAndBun:
+      name: Fade adn bun
+      desc: A crew fade with a bun.
+    afro:
+      name: Afro
+      desc: An afro haircut.
+    longerMullet:
+      name: Longer mullet
+      desc: A longer mullet haircut.
+    voluminousAfro:
+      name: Voluminous afro
+      desc: An even more voluminous afro haircut.
+    longMiddlePart:
+      name: Long middle part
+      desc: Long length hair, parted in the middle.
+    voluminousMiddlePart:
+      name: Voluminous middle part
+      desc: Long length hair, parted in the middle with some volume.
+    mediumLengthMiddlePart:
+      name: Medium length middle part
+      desc: Medium length hair, parted in the middle.
+    squareCut:
+      name: Square cut
+      desc: Hair cut in a box.
+    mohawk:
+      name: Mohawk
+      desc: a Mohawk.
+    voluminousBun:
+      name: Voluminous bun
+      desc: Hair in a bun with volume.
+    assymetrical:
+      name: Assymetrical
+      desc: An assymetrical haircut.
+    neckLength:
+      name: Neck length
+      desc: A shorter haircut, cut at the neck.
+    braidedPonytail:
+      name: Braided ponytail
+      desc: Long hair braided in a ponytail.
+    longHair:
+      name: Long hair
+      desc: Beautiful classic long hair.
+    pixieCut:
+      name: Pixie cut
+      desc: Short hair in a pixie cut.
+    chignonAndTiara:
+      name: Chignon and tiara
+      desc: A haircut for a royal.
+    shortCutWithFade:
+      name: Short cut with fade
+      desc: Short haircut with stylish fade.
+    highAndThightWithSides:
+      name: High and tight with sides
+      desc: The top and the sides.
+    shortAndBow:
+      name: Short and bow
+      desc: Short hair with a bow.
+    longAndBow:
+      name: Long and bow
+      desc: Long hair with a bow.
+    shortAndCatEars:
+      name: Short and cat ears
+      desc: Short hair with cat ears. Meow!
+    longAndCatEars:
+      name: Long and cat ears
+      desc: Long hair with cat ears. Meow meow!
+    droopy:
+      name: Droopy
+      desc: Short droopy hair.
+    shortTwoColor:
+      name: Short two color
+      desc: Twice the colors, twice the happiness.
+    twoBunsLongHair:
+      name: Two buns long hair
+      desc: This long haircut has two cute buns on top.  
+    longMerfolkHair:
+      name: Long merfolk hair
+      desc: This merfolk wavy hair is finely stylized by a thingamabob.  
+    longHairWithGoggles:
+      name: Long hair with goggles
+      desc: Long wavy hair with steampunk goggles on top.
+    assymetricalLongCut:
+      name: Assymetrical long hair
+      desc: Hairstyle is braided on only one side.
+    braidBun:
+      name: Braid bun
+      desc: The braided hair forms one large bun.
+    braidedForeheadLongHair:
+      name: Braided forehead long hair
+      desc: A french braid is formed on top of forehead, the rest of the hair flows long and free.    
+  noses:
+    genericNose:
+      name: Generic nose
+      desc: A generic looking nose.
+    biggerNose:
+      name: Bigger nose
+      desc: A bit bigger nose!
+    bigAndPointy:
+      name: Big and pointy
+      desc: A bit big nose which is also pointy. Don't hurt anyone with this!
+    noseWithBandaid:
+      name: Nose with band-aid
+      desc: Looks like you've hurt your nose. Oh no.
+    wideNose:
+      name: Wide nose
+      desc: This one is great for sniffing stuff.
+    smallNose:
+      name: Small nose
+      desc: A smaller nose.
+    smallAndPointy:
+      name: Small and pointy
+      desc: A smaller nose that is also pointy.
+    prettyNose:
+      name: Pretty nose
+      desc: Didn't really know what to call this, but I think it looks pretty.
+    tinyNose:
+      name: Tiny nose
+      desc: Very small nose.
+  backAccessories:
+    twoHandedSword:
+      name: Two-handed sword
+      desc: An epic looking two handed sword!
+    stickAndABottle:
+      name: Stick and a bottle
+      desc: There's a hanging bottle with some kind of liquid in it.
+    oneHandedSword:
+      name: One handed sword
+      desc: A one handed sword for some serious business.
+    hatchet:
+      name: Hatchet
+      desc: To show your determination for grinding woodcutting.
+    staff:
+      name: Staff
+      desc: A basic looking wooden staff. Traveller's best choice.
+    iceStaff:
+      name: Ice staff
+      desc: A magic staff that looks like it could freeze some people.
+    arrows:
+      name: Arrows
+      desc: Great for archers.
+    dwarvenAxe:
+      name: Dwarven axe
+      desc: Just don't tell the elf, okay?
+    pickaxe:
+      name: Pickaxe
+      desc: The pickaxe on your back can break any rock and stone.
+    largeIcicle:
+      name: Large icicle
+      desc: The large icicle on your back will shock even those fashionistas who have seen it all.  
+    rodOfMoss:
+      name: Rod of moss
+      desc: A piece of rare moss is attached at the end of the string.
+    birdCompanion:
+      name: Bird companion
+      desc: A small bird that follows you around.
+    floatingOrb:
+      name: Floating orb
+      desc: A floating orb that makes you feel like a true achiever.
+    penguinCompanion:
+      name: Penguin companion
+      desc: 'A tiny penguin sits on your shoulder. From time to time, it squeaks and it sounds like:\n\n<i>"Malik! Malik!"</i>'
+  faceAccessories:
+    goldenPiercings:
+      name: Two golden piercings
+      desc: Two golden piercings, one in your ear and another one in your eyebrows.
+    goldenEarring:
+      name: Golden ear piercing
+      desc: One golden ear piercing.
+    goldenEyebrowPiercing:
+      name: Golden eyebrow piercing
+      desc: One golden eyebrow piercing.
+    fancyEarring:
+      name: Fancy earring
+      desc: A shiny, silver earring. Looks pretty cool.
+    hearingAid:
+      name: Hearing aid
+      desc: Designed in Galeforge.
+    carrot:
+      name: Carrot
+      desc: When you need to roleplay a snowman, grab a carrot!
+  eyeAccessory:
+    goldenGlasses:
+      name: Golden glasses
+      desc: Golden eyeglasses, very shiny!
+    coolGlasses:
+      name: Cool glasses
+      desc: Very cool looking eyeglasses. Looks like you are down to business.
+    goggles:
+      name: Goggles
+      desc: Galeforgian looking goggles.
+    fancyEarring:
+      name: Fancy earring
+      desc: A shiny, silver earring. Looks pretty cool.
+    smokeEyes:
+      name: Smoke eyes
+      desc: Colorful smoke is coming out of your eye sockets.
+  headwear:
+    copperHelmet:
+      name: Copper helmet
+      desc: A helmet made out of copper. Simple looking, but very utilitarian.
+    diamondHelmet:
+      name: Diamond helmet
+      desc: Well this looks very expensive. Might even blind your foes.
+    bronzeHelmet:
+      name: Bronze helmet
+      desc: A beautiful, but simple looking helmet.
+    ironHelmet:
+      name: Iron helmet
+      desc: Looks very guard-like, doesn't it?
+    steelHelmet:
+      name: Steel helmet
+      desc: Protects your head.
+    tarsiliumHelmet:
+      name: Tarsilium helmet
+      desc: Black and very sturdy.
+    farganiteHelmet:
+      name: Farganite helmet
+      desc: A blue helmet, made out of a rare metal. Protects your head very well.
+    crystalHelmet:
+      name: Crystal helmet
+      desc: A crystal helmet, glowing with purple color.
+    lightCopperHelmet:
+      name: Light copper helmet
+      desc: Utilitarian helmet, with a light design.
+    lightDiamondHelmet:
+      name: Light diamond helmet
+      desc: A very strong and expensive looking helmet.
+    lightBronzeHelmet:
+      name: Light bronze helmet
+      desc: Looks a bit like a beanie, but protects your head very well.
+    lightIronHelmet:
+      name: Light iron helmet
+      desc: Very guard-like helmet to wear. And in a light package!
+    steelLightHelmet:
+      name: Steel light helmet
+      desc: Protects your head with excellence.
+    tarsiliumLightHelmet:
+      name: Tarsilium light helmet
+      desc: A black and light helmet.
+    farganiteLightHelmet:
+      name: Farganite light helmet
+      desc: A very light helmet design made from sturdy farganite.
+    crystalLightHelmet:
+      name: Crystal light helmet
+      desc: Light helmet design glowing with purple color. Looks epic.
+    chefsHat:
+      name: Chef's hat
+      desc: You look like you're ready to cook a great dinner!
+    partyHat:
+      name: Party hat
+      desc: How long have you spent bank standing?
+    enchantedHat:
+      name: Enchanted hat
+      desc: Well isn't that a very cool looking hat, fitting for a true cowboy!
+    dragonLeatherHelmet:
+      name: Dragon leather helmet
+      desc: It's red. And it's expensive.
+    plagueDoctorMask:
+      name: Plague doctor mask
+      desc: I feel sick even looking at this, it's scary!
+    cap:
+      name: Cap
+      desc: It's a true classic.
+    topHat:
+      name: Top hat
+      desc: Wall Street is that way, sir.
+    warmBeanie:
+      name: Warm beanie
+      desc: Protects from cold very nicely. And looks cool.
+    desertHat:
+      name: Desert hat
+      desc: This one is very good when sun tries to burn your neck.
+    arcticHat:
+      name: Arctic hat
+      desc: For a true comrad.
+    turban:
+      name: Turban
+      desc: Very partical to wear in the desert.
+    swampHat:
+      name: Swamp hat
+      desc: For the explorers of the Great Marshes.
+    royalHelmet:
+      name: Royal helmet
+      desc: Looking like a true Wallisian royalty.
+    topHatWithGoggles:
+      name: Top hat with goggles
+      desc: If you are going to innovate like a Galeforgian, you need both top hat and goggles.
+    pirateHat:
+      name: Pirate hat
+      desc: But why is the rum gone?
+    christmasHat:
+      name: Christmas hat
+      desc: Ratiritiralla, mistäs tuli halla. It's a Finnish Christmas song.
+    bowlerHat:
+      name: Bowler Hat
+      desc: Businessmen's favorite choice.
+    wizardHat:
+      name: Wizard Hat
+      desc: Always in style within wizards.
+    chaplinHat:
+      name: Chaplin Hat
+      desc: The funniest hat.
+    headwrap:
+      name: Headwrap
+      desc: A versatile head covering that protects, adorns, and reflects the wearer's personal style. Often worn by Wrentmarkians.
+    royalGuardHelmet:
+      name: Royal Guard Helmet
+      desc: For those protecting the Wallisian border.
+    warmWoolenHat:
+      name: Warm woolen hat
+      desc: This simple hat is inlaid with wool providing warmth during the winter.
+    hatWithFeather:
+      name: Hat with a feather
+      desc: The light hat has a feather attached to it. For good luck.
+    treasureHunterHat:
+      name: Treasure hunter hat
+      desc: Nobody can tell if it should be considered a fedora or a cowboy hat. Whatever it is, it makes you look as cool as Indy.
+  facepaints:
+    stipeOverEye:
+      name: Stripe over eye
+      desc: A stripe going over your eye.
+    stripeOverBothEyes:
+      name: Stripe over both eyes
+      desc: A stripe that goes over your both eyes.
+    ringAroundEye:
+      name: Ring around eye
+      desc: A ring that goes around one of your eyes.
+    stripeOverCheeks:
+      name: Stripe over cheeks
+      desc: A stripe that goes over both of your cheeks.
+    manyStripes:
+      name: Many stripes
+      desc: Multiple stripes that almost cover your whole face!
+  bodyTypes:
+    a: A - Masculine
+    b: B - Feminine
+maps:
+  colors:
+    options(map):
+      "skin": Skin color
+      "eyebrows": Eyebrow color
+      "hair": Hair color
+      "eyes": Eye color
+      "facialHair": Facial hair color
+      "facepaint": Facepaint color
+    skin(map):
+      "veryLight": Very light
+      "light": Light
+      "medium": Medium
+      "dark": Dark
+      "veryDark": Very dark
+    eyes(map):
+      "black": Black
+      "darkerBrown": Darker brown
+      "darkBrown": Dark brown
+      "brown": Brown
+      "darkRed": Dark red
+      "red": Red
+      "darkBlue": Dark blue
+      "blue": Blue
+      "lightBlue": Light blue
+      "darkGreen": Dark green
+      "green": Green
+      "lightGreen": Light green
+      "darkMagenta": Dark magenta
+      "magenta": Magenta
+      "lightMagenta": Light magenta
+      "darkBrownish": Dark gray-brown
+      "brownish": Gray-brown
+      "lightBrownish": Light gray-brown
+      "dark": Dark
+      "gray": Gray
+      "lightGray": Light gray
+      "darkGinger": Dark ginger
+      "ginger": Ginger
+      "lightGinger": Light ginger
+      "darkPurple": Dark purple
+      "purple": Purple
+      "lightPurple": Light purple
+      "blueishDarkest": Darkest gray-blue
+      "blueishDarker": Darker gray-blue
+      "blueishDark": Dark gray-blue
+      "blueish": Gray-blue
+      "lightBlueish": Light gray-blue
+    hair(map):
+      "darkestBrown": Darkest brown
+      "darkBrown": Dark brown
+      "brown": Brown
+      "lightBrown": Light brown
+      "darkestRed": Darkest red
+      "darkRed": Dark red
+      "red": Red
+      "lightRed": Light red
+      "darkestBlue": Darkest blue
+      "darkerBlue": Darker blue
+      "blue": Blue
+      "lightBlue": Light blue
+      "darkestGreen": Darkest green
+      "darkGreen": Dark green
+      "green": Green
+      "lightGreen": Light green
+      "darkestMagenta": Darkest magenta
+      "darkMagenta": Dark magenta
+      "magenta": Magenta
+      "lightMagenta": Light magenta
+      "darkestBrownish": Darkest gray-brown
+      "darkBrownish": Dark gray-brown
+      "brownish": Gray-brown
+      "lightBrownish": Light gray-brown
+      "black": Darkest black
+      "darker": Darker black
+      "dark": Black
+      "gray": Gray
+      "lightGray": Light gray
+      "darkGinger": Dark ginger
+      "ginger": Ginger
+      "lightGinger": Light ginger 
+      "darkPurple": Dark purple 
+      "purple": Purple 
+      "lightPurple": Light purple 
+      "blueishDarkest": Darkest gray-blue
+      "blueishDarker": Darker gray-blue
+      "blueishDark": Dark gray-blue 
+      "blueish": Gray-blue
+      "lightBlueish": Light gray-blue
+    facialHair(map):
+      "darkerBrown": Darker brown
+      "darkBrown": Dark brown
+      "brown": Brown
+      "darkRed": Dark red
+      "red": Red
+      "darkBlue": Dark blue
+      "blue": Blue
+      "lightBlue": Light blue
+      "darkGreen": Dark green
+      "green": Green
+      "lightGreen": Light green
+      "darkMagenta": Dark magenta
+      "magenta": Magenta
+      "lightMagenta": Light magenta
+      "darkBrownish": Dark gray-brown
+      "brownish": Gray-brown
+      "lightBrownish": Light gray-brown
+      "dark": Dark
+      "gray": Gray
+      "lightGray": Light gray
+      "darkGinger": Dark ginger
+      "ginger": Ginger
+      "lightGinger": Light ginger
+      "darkPurple": Dark purple 
+      "purple": Purple 
+      "lightPurple": Light purple 
+      "blueishDarkest": Darkest gray-blue
+      "blueishDarker": Darker gray-blue
+      "blueishDark": Dark gray-blue
+      "blueish": Gray-blue 
+      "lightBlueish": Light gray-blue
+    eyebrows(map):
+      "black": Black
+      "dark": Dark
+      "gray": Gray
+      "lightGray": Light gray
+      "darkestBrown": Darkest brown
+      "darkBrown": Dark brown
+      "brown": Brown
+      "lightBrown": Light brown
+      "darkestRed": Darkest red
+      "darkRed": Dark red
+      "red": Red
+      "lightRed": Light red
+      "darkerBlue": Darker blue
+      "blue": Blue
+      "lightBlue": Light blue
+      "darkestGreen": Darkest green
+      "darkGreen": Dark green
+      "green": Green
+      "lightGreen": Light green
+      "darkestMagenta": Darkest magenta
+      "darkMagenta": Dark magenta
+      "magenta": Magenta
+      "lightMagenta": Light magenta
+      "darkestBrownish": Darkest gray-brown
+      "darkBrownish": Dark gray-brown
+      "brownish": Gray-brown
+      "lightBrownish": Light gray-brown
+      "darkGinger": Dark ginger
+      "ginger": Ginger
+      "lightGinger": Light ginger 
+      "darkPurple": Dark purple 
+      "purple": Purple 
+      "lightPurple": Light purple 
+      "blueishDarkest": Darkest gray-blue 
+      "blueishDarker": Darker gray-blue 
+      "blueishDark": Dark gray-blue 
+      "blueish": Gray-blue 
+      "lightBlueish": Light gray-blue 
+    facepaint(map):
+      "darkBrown": Dark brown
+      "brown": Brown
+      "lightBrown": Light brown
+      "darkRed": Dark red
+      "red": Red
+      "lightRed": Light red
+      "darkerBlue": Darker blue
+      "blue": Blue
+      "lightBlue": Light blue
+      "darkGreen": Dark green
+      "green": Green
+      "lightGreen": Light green
+      "darkMagenta": Dark magenta
+      "magenta": Magenta
+      "lightMagenta": Light magenta
+      "darkBrownish": Dark gray-brown
+      "brownish": Gray-brown
+      "lightBrownish": Light gray-brown
+      "darkGrey": Dark gray
+      "grey": Gray
+      "lightGrey": Light gray
+      "white": White
+      "ginger": Ginger
+      "lightGinger": Light ginger
+      "purple": Purple
+      "lightPurple": Light purple
+      "darkBlueish": Dark gray-blue
+      "blueish": Gray-blue
+      "lightBlueish": Light gray-blue

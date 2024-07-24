@@ -1,0 +1,13 @@
+singulars:
+  customRewards:
+    adventurersGuild:
+      title: Adventurers' Guild
+      text: Unlock access to Adventurers' Guild.
+maps:
+  rewardTypes(map):
+    "none": None
+    "lootTable": Random loot
+    "item": Item
+    "skillXp": Skill experience
+    "pfpOption": Cosmetic
+    "achievementPoint": Achievement point

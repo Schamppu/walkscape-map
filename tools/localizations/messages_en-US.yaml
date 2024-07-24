@@ -1,0 +1,91 @@
+singulars:
+  popups:
+    inactiveSteps:
+      stepsWhileInactive: Steps gained while the game was inactive
+    achievementUnlocked:
+      achievementUnlocked: ${achievement} achievement unlocked
+      requirements: Requirements
+      rewards: Rewards
+      achievementPoints: ${points} achievement points
+    characterLevelUp:
+      characterLevelUp: Character level up
+      unlocks: Unlocks
+      noNewUnlocks: No new unlocks for this level.
+    skillLevel:
+      skillLevelUp: ${skillName} level up
+      unlocks: Unlocks
+      noNewUnlocks: No new unlocks for this level.
+      newActivity: <chip><stext><c>New activity</c></stext></chip> <c>${activityName}</c> unlocked.
+      newItem: <chip><stext><c>Item unlocked</c></stext></chip> <item id="${item}"/> can be equipped.
+      newRecipe: <chip><stext><c i="0">New recipe</c></stext></chip> <c i="1">${recipeName}</c> unlocked.
+      newDrop: <chip><stext><c i="0">New drop</c></stext></chip> <c i="1">${itemName}</c> can now be obtained from <c>${activityName}</c>.
+      newRoute: <chip><stext><c i="0">New traveling route</c></stext></chip> <c i="1"><location id="${fromID}" /><c>${from}</c>-<location id="${toID}" /><c>${to}</c> unlocked.
+    idleSteps:
+      stepsWhileAway: Steps gained while the game was closed
+      whileYouWereAway: While you were away...
+      nothingHappened: Nothing remarkable happened.
+      gainedExperience: <skill skill="$skill" /> gained <c>+${exp}</c> experience.
+      skillLeveledUp: <skill skill="${skill}" /> leveled up from <c i="0">${from}</c> to <c i="1">${to}</c>.
+      gainedItem: Gained <c>+${amount}</c> <item id="${item}" />
+      craftedItem: Crafted <c>+${amount}</c> <item id="${item}" />
+      gainedMoney: Gained <c i="0">+${amount}</c> <c i="1">coins</c>
+      characterGained: Character gained <c>+${amount}</c> experience />
+      arrivedAt: Arrived at <location /> <c>${location}</c>.
+      characterLeveledUpFrom: Character leveled up from <c i="0">${from}</c> to <c i="1">${to}</c>.
+  messages:
+    comingSoon:
+      title: Coming soon
+      text: This content <hl>is not available</hl> in the current version of WalkScape.
+    disabled:
+      title: Disabled
+      text: This feature has been <hl>temporarily disabled</hl>. Check Portal, Reddit or Discord for more information.
+    saveSuccesful:
+      title: Save successful!
+      text: Your changes have been saved successfully.
+    saveUnsuccesfullLootTables:
+      title: Save unsuccessful.
+      text: Loot table contains row(s) that don't have an item associated with it.
+  errors:
+    characterValidation:
+      nameContainsleadingTrailingSpaces: Leading or trailing spaces are not allowed.
+      nameContaintsConsecutiveSpaces: Consecutive spaces are not allowed.
+      nameTooShort: The character name must be at least 3 letters long.
+      nameTooShortWithSpacesRemoved: With spaces removed, the character name must be more than three letters long.
+      nameContainsSpecialCharacters: The character name contains special characters. Only letters, numbers and spaces are allowed.
+    fatalError:
+      error: Sorry about the error. Remember that the game is a closed beta, and all player saves are backed up to the cloud daily.
+    serverError:
+      noClosedBetaAccess:
+        title: No closed beta access
+        text: You have no access to the closed beta. Either your limited access has expired, or you have never got access in the first place.
+      newClientUpdate:
+        title: New client update available
+        text: Your game is outdated, and there is a new version of the game available. Please download the latest version of the game to continue playing.
+      noInternetConnection:
+        title: No internet connection
+        text: You have no active internet connection, which is required to validate your client with the server. Please try again when you have internet connection.
+      serverOffline:
+        title: WalkScape server is offline
+        text: The game server is currently offline. This might be due to a maintenance, or a problem with the game server. Please try again later.
+      serverMaintenance:
+        title: WalkScape server is in maintenance
+      newUpdate:
+        title: New update
+        text: The game has been updated. Please restart the game to download the new update.
+      unknownError:
+        title: Unknown error.
+        text: Unknown error.
+      failureToUpdateContent:
+        title: Failed to update content
+        text: The game client failed to update the content. Please report this to the developers on Discord with details of your error and device. You can also try opening the game again to see if the content would download succesfully.
+plurals:
+  dialogs:
+    deleteClass:
+      title: Are you sure you want to delete?
+      text:
+        zero: '-'
+        one: 'Deleting objects is not reversable. The object is referenced in other objects $n time.'
+        two: '-'
+        few: '-'
+        many: '-'
+        other: 'Deleting objects is not reversable. The object is referenced in other objects $n times.'

@@ -1,0 +1,103 @@
+singulars:
+  placeholder:
+    placeholder: Placeholder
+  items:
+    gearTypes:
+      agility: Agility tool
+      back: BAck
+      cape: Cape
+      chest: Chest
+      cooking: Cooking tool
+      feet: Feet
+      fishing: Fishing tool
+      foraging: Foraging tool
+      head: Head
+      legs: Legs
+      mining: Mining tool
+      neck: Neck
+      hands: Hands
+      ring: Ring
+      primary: Primary
+      secondary: Secondary
+      woodcutting: Woodcutting Tool
+    itemTypes:
+      material: Material
+      crafted: Crafted
+      loot: Loot
+      consumable: Consumable
+      container: Container
+      quest: Quest
+      collectible: Collectible
+      other: Other
+    itemTags:
+      fine: Fine
+  requirements:
+    skills:
+      level: Requires <skill skill="${skill}" level="${level}"" isRequirement="true"/> level.
+  intro:
+    welcome: Welcome to Arenum, stranger. Seems like you've appeared just outside of <hl>Kallaheim</hl>, a major city in the north.
+    whereAreYouFrom: May I ask, where you are from?
+  commonPhrases:
+    noActivity: No activity.
+    allSkills: All skills
+    lookingForInternet: Looking for internet...
+maps:
+  items:
+    qualities(map):
+      "0": Normal
+      "1": Good
+      "2": Great
+      "3": Excellent
+      "4": Perfect
+      "5": Eternal
+    rarities(map):
+      "0": Common
+      "1": Uncommon
+      "2": Rare
+      "3": Epic
+      "4": Legendary
+      "5": Ethereal
+  realms(map):
+    "jarvonia": Jarvonia
+    "gdte": Grand Duchy of Trellin-Erdwise
+    "wallisia": Wallisia
+    "galeforge": Galeforge
+    "wrentmark": Wrentmark
+    "ewerethien": Ewerethien
+    "braemercia": Braemercia
+    "ridraddak": Rid Raddak
+    "painfulislands": Painful Islands
+    "ethereal": Ethereal
+  realmDescriptions(map):
+    "jarvonia": \t\t Jarvonia, <c>a land of ice and darkness</c>, ruled by a powerful religious brotherhood, is an independent realm of hardy people united by their unwavering <c>faith</c> and <c>fierce determination</c> to survive.\n\n\t\t Despite the harsh winters and isolation, they find strength and protection through their religion, their <c>hearts burning bright against the cold</c>.
+    "gdte": \t\t The Grand Duchy of Trellin-Erdwise, divided <c>in facing a current crisis</c>, is a land of diverse natural <c>beauty</c> and <c>challenges</c>.\n\n\t\t The marshlands of Trellin and the coastal ports in Erdwise are both sources of beauty and danger. The people of the Grand Duchy are defined by their <c>pride and greed</c>.
+    "wallisia": \t\t Wallisia, a land of abundance and power. <c>The Empress</c>, a descendant of a great warrior, commands an army that has <c>conquered the continent</c>, leaving only Jarvonia untouched.\n\n\t\t The green grasslands are <c>the heart of the whole continent</c>, providing bountiful harvests as well as resources that fuel <c>the empire's</c> industrial and military capacities. The empire boasts the largest population in the continent, and the people are <c>proud of their strength and power</c>.
+    "galeforge": \t\t Galeforge is a city of <c>innovation and progress</c>, conquered by the mighty Empire of Wallisia. Nestled between Wallisia and <c>the archipelago</c>, it is a place where technology and industry flourish.\n\n\t\t The people of Galeforge are <c>ambitious and driven</c>, constantly pushing boundaries of what's possible. The city is a bustling metropolis, <c>where factories hum with activity</c> and the streets are lined with merchants selling the latest innovations.
+    "wrentmark": \t\t Wrentmark is <c>a realm forged by fire</c>, where the scorching sun beats down upon <c>the desert sands</c>. The people of Wrentmark are a <c>proud and hardy lot</c>, who have thrived in this harsh environment for ages.\n\n\t\t Wrentmark is a land of untold riches, where <c>precious gems and minerals</c> are mined from the earth and traded across the land. The people of Wrentmark are <c>master merchants</c>, their skills honed through centuries of commerce.
+    "ewerethien": Ewerethien
+    "braemercia": Braemercia
+    "ridraddak": Rid Raddak
+    "painfulislands": Painful Islands
+    "ethereal": Ethereal
+  realmMottos(map):
+    "jarvonia": Through the cold, our hearts burn bright
+    "gdte": Bound by the tides and the reeds
+    "wallisia": Where the crops grow tall, so do we
+    "galeforge": Forge the future, and fear nothing
+    "wrentmark": Our gold burns brighter than the sun
+    "ewerethien": Ewerethien
+    "braemercia": Braemercia
+    "ridraddak": Rid Raddak
+    "painfulislands": Painful Islands
+    "ethereal": Ethereal
+  raceDescriptions(map):
+    "human": \t\t In the vast and enchanted expanse of <c>Arenum</c>, humans have staked their claim within <c>the Western Continent</c>. These formidable lands, cloaked in <c>untamed wilderness</c> and <c>majestic landscapes</c>, have become the heartland of human civilization.\n\n\t\t Yet, beneath the surface of beauty and prosperity, <c>a tempestuous current flows</c>. The Western Continent has borne witness to a relentless saga of <c>strife</c> and <c>conflict</c>, as humans have engaged in perpetual battles for dominance and power. \n\n\t\t Rivalries and feuds, ancient and new, <c>have cast shadows across the Western Continent</c>.
+plurals:
+  items:
+      money(param=amount):
+        zero: '-'
+        one: coin
+        two: '-'
+        few: '-'
+        many: '-'
+        other: coins

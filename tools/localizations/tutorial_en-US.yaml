@@ -1,0 +1,196 @@
+singulars:
+  welcomeMessage:
+    pages:
+      p0:
+        title: Welcome to WalkScape!
+        sections:
+          s0: >
+              I'm very happy to see you join WalkScape's Closed Beta, <c><player/><c/>.
+
+
+              As you may know, the game is still under development, and the game you see here is only the core of the game.
+              The game is still very limited in terms of features and content, and we are expanding the game continuously throughout the beta.
+
+
+              There might also be issues: bugs, exploits and unbalanced content found in the game. Some of these might result in needing to either
+              roll back or restart the server - both of which we want to avoid as much as possible, but important to keep in mind that they're a possibility.
+
+
+              With all of that out of the way, thank you for joining us, and helping to test the game. You can continue this tutorial by either pressing <hl>NEXT</hl>
+              at the bottom of the page, or pressing to quit the tutorial. I highly recommend to play through the tutorial, as the game is quite different.
+      p1:
+        title: Basic navigation
+        sections:
+          s0: >
+              The basic navigation of the game might be slightly different from typical applications and games, especially for iOS users. Here are some good things to remember:
+              
+
+              <li>Some game views have no back buttons such as crafting and inventory. You can navigate back from views by doing a "back swipe" by swiping the edge of either left or right side of the screen.</li>
+
+
+              <li>Most of the game views, including the main view and inventory, are also navigateable by swiping left or right between the different tabs.</li>
+
+
+              <li>The <hl>hamburger button</hl> at the main view bottom right corner opens up options to navigate to different menus, such as leaderboard.</li>
+
+
+              <li>Your character's profile picture at the top left corner can be pressed, and opens your character information.</li>
+
+
+              <li>The inventory counter, green crafting symbol and minimap can be pressed to open inventory, crafting or world map respectively. World map is used for traveling.</li>
+        imageTexts:
+          i0: >
+              You can open more game menu options by pressing the <hl>hamburger button</hl> at the main game view.
+      p2:
+        title: Activities and actions
+        sections:
+          s0: >
+              The core of the game is that you select an activity for your character, and complete actions by walking in real life. Each activity takes a certain number of steps
+              to complete an action. The number of steps needed can be brought down via gear and items.
+              
+
+              <li>You can see information about your current location by swiping left. From world map, you can find information about other locations that you've previously visited by tapping locations and swiping right.</li>
+
+
+              <li>Gathering activities are unlimited - they repeat infinitely. Crafting and traveling activities are limited, meaning that when you arrive at your destination
+              or run out of crafting materials, the activity ends.</li>
+
+
+              <li>If you walk while your character has no activity selected, your steps will go towards <hl>Saved Steps</hl>. Saved steps are consumed on future activities,
+              so you practically can never waste steps in WalkScape.</li>
+
+
+              <li>If you change your activity, the current activity ends. Any steps that were already contributed towards the current action will be refunded to your <hl>Saved Steps</hl></li>
+      p3:
+        title: Begin your journey
+        sections:
+          s0: >
+              Those are the basics of the game! You'll see these tutorial messages pop up while you interact with new things in the game, if you decide not to skip the tutorial.
+
+
+              <box>As your first thing, you should swipe left to the Location page, and scroll down to <hl>Visit Helpful Herbert's Hut</hl>. Press the Help-option there, and he will give you
+              a gift to help you get started in WalkScape.</box>
+
+
+              I hope you enjoy the game! We also have a Wiki for WalkScape with a new player guide.
+  locationView:
+    pages:
+      p0:
+        title: Selecting activities
+        sections:
+          s0: >
+              Selecting activities for your character to complete is the most important way for progressing in the game. Activities reward you with items and experience when you complete
+              <hl>actions</hl>.
+
+              
+              You can find the activities below the location image. On smaller screens, you might need to scroll slightly to find the activities listed. The activity listing shows buttons
+              for different skills that have possible activities available at the location. The number below the button indicates how many options are available.
+        imageTexts:
+          i0: >
+              Opening and starting activities can be done in the location view and alternatively in activity view if you have no current activity selected.
+      p1:
+        title: Visiting buildings
+        sections:
+          s0: >
+              Another important thing that you can do in some locations is visiting buildings. Not every location has buildings.
+
+
+              The most important buildings are definitely shops and banks. You can use NPC shops for buying and selling your items. Banks are useful when you want to store items for later use. You can quickly deposit items 
+              from your inventory if your location has a bank when long tapping an item and choosing the option from bottom right.
+
+
+              <box>While in Disenchanted Forest, the starting location, you should <hl>Visit Helpful Herbert's Hut</hl>. He will give you some items to get you started.</box>
+        imageTexts:
+          i0: >
+              Some locations have buildings that you can visit.
+      p2:
+        title: Using services
+        sections:
+          s0: >
+              Some locations - especially cities and towns - also have services. You need services in order to craft certain items. Here are the most commonly needed services during early game:
+
+
+              <li><hl>Forges</hl>. Forges are necessary when you want to do smithing, like smelting bars or creating armor. You can find the nearest forge in Kallaheim.</li>
+
+
+              <li><hl>Sawmills</hl>. Sawmills are necessary when you want to do carpentry, like creating planks out of logs. You can find the nearest sawmill in Kallaheim.</li>
+
+
+              <li><hl>Kitchens</hl>. Kitchens are necessary when you want to do cooking, like creating consumables that give temporary buffs. You can find the nearest kitchen in Kallaheim.</li>
+
+
+              <li><hl>Workshops</hl>. Workshops are necessary when you want to do crafting, like creating tools such as pickaxes and fishing rods. You can find the nearest workshop in Frusenholm, east of Kallaheim. Basic tools have no service requirements.</li>
+        imageTexts:
+          i0: >
+              Some locations have services that you can use for crafting purposes.
+      p3:
+        title: Visiting Helpful Herbert's Hut
+        sections:
+          s0: >
+              <box>As your first thing, you should pay a visit to Herbert. He's located in Disenchanted Forest, and helps you to get started in the game.</box>
+        imageTexts:
+          i0: >
+              Visit Herbert by scrolling down the location view the location view in Disenchanted Forest and pressing <hl>Visit</hl>.
+  tutorialCabin:
+    pages:
+      p0:
+        title: Choose a starting skill
+        sections:
+          s0: >
+              Well now, <player/>! There's a lot you can do around here. I can give you something to get you started. What would you be interested in?
+      p1:
+        title: Getting started
+        sections:
+          s0: >
+              I also have some sticks and stones gathered here if you want to make some basic tools yourself. Check them out if you like to make more tools.
+          s1: >
+              <box>You can get free stones and sticks from Herbert by pressing <hl>Buy items</hl> button while visiting his hut. If you want to build other tools, this is a useful option. You can long press the <hl>+ button</hl> to select all while in shops or banks.</box>
+maps:
+  skills(map):
+    'woodcutting': >
+                  <c>Woodcutting</c> is essential skill for building things: many tools require planks, which can only be made out of logs. <c>Woodcutting</c> is important
+                  for <skill skill="carpentry"/>.
+
+
+                  <li><hl>Starting Location</hl>: You can start <c>woodcutting</c> here in Disenchanted Forest.</li>
+
+
+                  <li><hl>Where to find</hl>: Forest locations usually contain <c>woodcutting</c> activities.</li>
+
+
+                  <li><hl>Used for</hl>: Gaining logs, which are useful for <skill skill="carpentry"/>.</li>
+    'mining': >
+                  <c>Mining</c> is essential skill for making things out of metal: armor, weapons and tools require metals, which can be gained from mining ores. <c>Mining</c> is important
+                  for <skill skill="smithing"/>.
+
+
+                  <li><hl>Starting Location</hl>: You can start <c>mining</c> in Beach of Woes, west from Disenchanted Forest.</li>
+
+
+                  <li><hl>Where to find</hl>: Mountain and hill locations usually contain <c>mining</c> activities.</li>
+
+
+                  <li><hl>Used for</hl>: Gaining ores, which are useful for <skill skill="smithing"/>.</li>
+    'foraging': >
+                  <c>Foraging</c> is essential skill for finding plants: plants are used in many skills. This makes <c>foraging</c> great for a lot of things, like <skill skill="crafting"/> and <skill skill="cooking"/>.
+
+
+                  <li><hl>Starting Location</hl>: You can start <c>foraging</c> here in Disenchanted Forest.</li>
+
+
+                  <li><hl>Where to find</hl>: All nature locations (plains, forests, hills, mountains, beaches) can contain <c>foraging</c> activities.</li>
+
+
+                  <li><hl>Used for</hl>: Gaining plants, which are useful for many skills.</li>
+    'fishing': >
+                  <c>Fishing</c> is essential skill for catching raw fish: fish can be cooked, and even some more complex cooking recipes use fish. <c>Fishing</c> is important
+                  for <skill skill="cooking"/>.
+
+
+                  <li><hl>Starting Location</hl>: You can start <c>fishing</c> in Beach of Woes, west from Disenchanted Forest.</li>
+
+
+                  <li><hl>Where to find</hl>: Water locations (beaches, coasts, lakes, rivers) usually contain <c>fishing</c> activities.</li>
+
+
+                  <li><hl>Used for</hl>: Gaining fish, which are useful for <skill skill="cooking"/>.</li>

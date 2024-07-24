@@ -1,8 +1,8 @@
 [
   {
     "id": "cut_pine_trees",
-    "name": "Cut Pine Trees",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Pine_Trees",
+    "name": "Cut pine trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_pine_trees",
     "icon": {
       "url": "activities/woodcutting/pine.png"
     },
@@ -18,8 +18,8 @@
   },
   {
     "id": "dobby_is..._free",
-    "name": "Forest Foraging",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Forest_Foraging",
+    "name": "Forest foraging",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Forest_foraging",
     "icon": {
       "url": "activities/foraging/winter_foraging_forest.png"
     },
@@ -33,8 +33,8 @@
   },
   {
     "id": "cut_birch_trees",
-    "name": "Cut Birch Trees",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Birch_Trees",
+    "name": "Cut birch trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_birch_trees",
     "icon": {
       "url": "activities/woodcutting/birch.png"
     },
@@ -50,8 +50,8 @@
   },
   {
     "id": "litter_looting",
-    "name": "Litter Looting",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Litter_Looting",
+    "name": "Litter looting",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Litter_looting",
     "icon": {
       "url": "activities/foraging/litter_looting.png"
     },
@@ -65,8 +65,8 @@
   },
   {
     "id": "cut_spruce_trees",
-    "name": "Cut Spruce Trees",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Spruce_Trees",
+    "name": "Cut spruce trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_spruce_trees",
     "icon": {
       "url": "activities/woodcutting/spruce.png"
     },
@@ -82,8 +82,8 @@
   },
   {
     "id": "mine_copper_ore",
-    "name": "Mine Copper Ore",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_Copper_Ore",
+    "name": "Mine copper ore",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_copper_ore",
     "icon": {
       "url": "activities/mining/copper.png"
     },
@@ -99,8 +99,8 @@
   },
   {
     "id": "mine_tin_ore",
-    "name": "Mine Tin Ore",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_Tin_Ore",
+    "name": "Mine tin ore",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_tin_ore",
     "icon": {
       "url": "activities/mining/tin.png"
     },
@@ -116,8 +116,8 @@
   },
   {
     "id": "mine_iron_ore",
-    "name": "Mine Iron Ore",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_Iron_Ore",
+    "name": "Mine iron ore",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_iron_ore",
     "icon": {
       "url": "activities/mining/iron.png"
     },
@@ -133,8 +133,8 @@
   },
   {
     "id": "mine_coal",
-    "name": "Mine Coal",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_Coal",
+    "name": "Mine coal",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_coal",
     "icon": {
       "url": "activities/mining/coal.png"
     },
@@ -150,8 +150,8 @@
   },
   {
     "id": "cliff_foraging",
-    "name": "Cliff Foraging",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Cliff_Foraging",
+    "name": "Cliff foraging",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cliff_foraging",
     "icon": {
       "url": "activities/foraging/winter_foraging_mountains.png"
     },
@@ -167,8 +167,8 @@
   },
   {
     "id": "pond_fishing",
-    "name": "Pond Fishing",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Pond_Fishing",
+    "name": "Pond fishing",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Pond_fishing",
     "icon": {
       "url": "activities/fishing/winter_fishing_pond.png"
     },
@@ -184,8 +184,8 @@
   },
   {
     "id": "sea_fishing",
-    "name": "Sea Fishing (net)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_Fishing_(net)",
+    "name": "Sea fishing (net)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_fishing_(net)",
     "icon": {
       "url": "activities/fishing/winter_fishing_sea.png"
     },
@@ -201,8 +201,8 @@
   },
   {
     "id": "plains_foraging",
-    "name": "Plains Foraging",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Plains_Foraging",
+    "name": "Plains foraging",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Plains_foraging",
     "icon": {
       "url": "activities/foraging/winter_foraging_plains.png"
     },
@@ -216,8 +216,8 @@
   },
   {
     "id": "lake_fishing",
-    "name": "Lake Fishing",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Lake_Fishing",
+    "name": "Lake fishing",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Lake_fishing",
     "icon": {
       "url": "activities/fishing/winter_fishing_lake.png"
     },
@@ -233,8 +233,8 @@
   },
   {
     "id": "sandcastle_building",
-    "name": "Sandcastle Building",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Sandcastle_Building",
+    "name": "Sandcastle building",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sandcastle_building",
     "icon": {
       "url": "activities/carpentry/sandcastle_building.png"
     },
@@ -248,8 +248,8 @@
   },
   {
     "id": "cut_oak_trees",
-    "name": "Cut Oak Trees",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Oak_Trees",
+    "name": "Cut oak trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_oak_trees",
     "icon": {
       "url": "activities/woodcutting/oak.png"
     },
@@ -265,8 +265,8 @@
   },
   {
     "id": "cut_maple_trees",
-    "name": "Cut Maple Trees",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Maple_Trees",
+    "name": "Cut maple trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_maple_trees",
     "icon": {
       "url": "activities/woodcutting/maple.png"
     },
@@ -282,8 +282,8 @@
   },
   {
     "id": "teak_logs",
-    "name": "Teak Logs",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Teak_Logs",
+    "name": "Cut teak trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_teak_trees",
     "icon": {
       "url": "activities/woodcutting/teak.png"
     },
@@ -299,8 +299,8 @@
   },
   {
     "id": "cut_willow_trees",
-    "name": "Cut Willow Trees",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Willow_Trees",
+    "name": "Cut willow trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_willow_trees",
     "icon": {
       "url": "activities/woodcutting/willow.png"
     },
@@ -316,8 +316,8 @@
   },
   {
     "id": "cut_mangrove_trees",
-    "name": "Cut Mangrove Trees",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_Mangrove_Trees",
+    "name": "Cut mangrove trees",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cut_mangrove_trees",
     "icon": {
       "url": "activities/woodcutting/mangrove.png"
     },
@@ -333,8 +333,8 @@
   },
   {
     "id": "seashell_searching",
-    "name": "Seashell Searching",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Seashell_Searching",
+    "name": "Seashell searching",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Seashell_searching",
     "icon": {
       "url": "activities/foraging/winter_foraging_coast.png"
     },
@@ -348,8 +348,8 @@
   },
   {
     "id": "mine_tarsilium_ore",
-    "name": "Mine Tarsilium Ore",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_Tarsilium_Ore",
+    "name": "Mine tarsilium ore",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_tarsilium_ore",
     "icon": {
       "url": "activities/mining/tarsilium.png"
     },
@@ -365,8 +365,8 @@
   },
   {
     "id": "mine_farganite_ore",
-    "name": "Mine Farganite Ore",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_Farganite_Ore",
+    "name": "Mine farganite ore",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_farganite_ore",
     "icon": {
       "url": "activities/mining/farganite.png"
     },
@@ -382,8 +382,8 @@
   },
   {
     "id": "sea_fishing_(rod)",
-    "name": "Sea Fishing (rod)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_Fishing_(rod)",
+    "name": "Sea fishing (rod)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_fishing_(rod)",
     "icon": {
       "url": "activities/fishing/winter_fishing_sea.png"
     },
@@ -399,8 +399,8 @@
   },
   {
     "id": "frisbee_golfing_(beginner)",
-    "name": "Frisbee Golfing (Beginner)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Frisbee_Golfing_(Beginner)",
+    "name": "Frisbee golfing (Beginner)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Frisbee_golfing_(Beginner)",
     "icon": {
       "url": "activities/agility/frisbee.png"
     },
@@ -416,8 +416,8 @@
   },
   {
     "id": "frisbee_golfing_(intermediate)",
-    "name": "Frisbee Golfing (intermediate)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Frisbee_Golfing_(intermediate)",
+    "name": "Frisbee golfing (Intermediate)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Frisbee_golfing_(Intermediate)",
     "icon": {
       "url": "activities/agility/frisbee.png"
     },
@@ -433,8 +433,8 @@
   },
   {
     "id": "cross-country_skiing_(beginner)",
-    "name": "Cross-Country Skiing (beginner)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Cross-Country_Skiing_(beginner)",
+    "name": "Cross-country skiing (Beginner)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cross-country_skiing_(Beginner)",
     "icon": {
       "url": "activities/agility/coss_country_skiing.png"
     },
@@ -450,8 +450,8 @@
   },
   {
     "id": "cross-country_skiing_(intermediate)",
-    "name": "Cross-Country Skiing (intermediate)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Cross-Country_Skiing_(intermediate)",
+    "name": "Cross-country skiing (Intermediate)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cross-country_skiing_(Intermediate)",
     "icon": {
       "url": "activities/agility/coss_country_skiing.png"
     },
@@ -467,8 +467,8 @@
   },
   {
     "id": "soup_kitchen_volunteering",
-    "name": "Soup Kitchen Volunteering",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Soup_Kitchen_Volunteering",
+    "name": "Soup kitchen volunteering",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Soup_kitchen_volunteering",
     "icon": {
       "url": "activities/cooking/soup_kitchen_work.png"
     },
@@ -482,8 +482,8 @@
   },
   {
     "id": "wine_grape_stomping",
-    "name": "Wine Grape Stomping",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Wine_Grape_Stomping",
+    "name": "Wine grape Stomping",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Wine_grape_Stomping",
     "icon": {
       "url": "activities/cooking/wine_grape_stomping.png"
     },
@@ -499,8 +499,8 @@
   },
   {
     "id": "gold_panning",
-    "name": "Gold Panning",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Gold_Panning",
+    "name": "Gold panning",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Gold_panning",
     "icon": {
       "url": "activities/mining/gold_panning.png"
     },
@@ -538,8 +538,8 @@
   },
   {
     "id": "surface_salt_mining",
-    "name": "Surface Salt Mining",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Surface_Salt_Mining",
+    "name": "Surface salt mining",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Surface_salt_mining",
     "icon": {
       "url": "activities/mining/salt.png"
     },
@@ -555,27 +555,8 @@
   },
   {
     "id": "magnet_fishing",
-    "name": "Magnet Fishing",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Magnet_Fishing",
-    "icon": {
-      "url": "activities/fishing/magnet_fishing.png"
-    },
-    "skills": [
-      "fishing",
-      "foraging"
-    ],
-    "levelRequirements": {
-      "fishing": 40,
-      "foraging": 30
-    },
-    "requiredKeywords": [
-      "magnetic"
-    ]
-  },
-  {
-    "id": "magnet_fishing",
-    "name": "Magnet Fishing",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Magnet_Fishing",
+    "name": "Magnet fishing",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Magnet_fishing",
     "icon": {
       "url": "activities/fishing/magnet_fishing.png"
     },
@@ -593,8 +574,8 @@
   },
   {
     "id": "glacier_foraging",
-    "name": "Glacier Foraging",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Glacier_Foraging",
+    "name": "Glacier foraging",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Glacier_foraging",
     "icon": {
       "url": "activities/foraging/glacier_foraging.png"
     },
@@ -610,8 +591,8 @@
   },
   {
     "id": "butterfly_catching",
-    "name": "Butterfly Catching",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Butterfly_Catching",
+    "name": "Butterfly catching",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Butterfly_catching",
     "icon": {
       "url": "activities/foraging/butterfly_catching.png"
     },
@@ -629,8 +610,8 @@
   },
   {
     "id": "dumpster_diving",
-    "name": "Dumpster Diving",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Dumpster_Diving",
+    "name": "Trellin dumpster diving",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Trellin_dumpster_diving",
     "icon": {
       "url": "activities/foraging/dumpster_diving.png"
     },
@@ -646,8 +627,8 @@
   },
   {
     "id": "dumpster_diving",
-    "name": "Dumpster Diving",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Dumpster_Diving",
+    "name": "Erdwise dumpster diving",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Erdwise_dumpster_diving",
     "icon": {
       "url": "activities/foraging/dumpster_diving.png"
     },
@@ -663,8 +644,8 @@
   },
   {
     "id": "firewood_making",
-    "name": "Firewood Making",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Firewood_Making",
+    "name": "Firewood making",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Firewood_making",
     "icon": {
       "url": "activities/woodcutting/firewood_making.png"
     },
@@ -682,8 +663,8 @@
   },
   {
     "id": "horseshoe_making",
-    "name": "Horseshoe Making",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Horseshoe_Making",
+    "name": "Horseshoe making",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Horseshoe_making",
     "icon": {
       "url": "activities/smithing/horseshoe_making.png"
     },
@@ -699,8 +680,8 @@
   },
   {
     "id": "mountain_climbing_(beginner)",
-    "name": "Mountain Climbing (Beginner)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Mountain_Climbing_(Beginner)",
+    "name": "Mountain climbing (Beginner)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mountain_climbing_(Beginner)",
     "icon": {
       "url": "activities/agility/mountain_climbing_beginner.png"
     },
@@ -716,8 +697,8 @@
   },
   {
     "id": "mountain_climbing_(intermediate)",
-    "name": "Mountain Climbing (intermediate)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Mountain_Climbing_(intermediate)",
+    "name": "Mountain climbing (Intermediate)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mountain_climbing_(Intermediate)",
     "icon": {
       "url": "activities/agility/mountain_climbing_intermediater.png"
     },
@@ -750,8 +731,8 @@
   },
   {
     "id": "rooftop_jumping",
-    "name": "Rooftop Jumping (beginner)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Rooftop_Jumping_(beginner)",
+    "name": "Rooftop jumping (Beginner)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Rooftop_jumping_(Beginner)",
     "icon": {
       "url": "activities/agility/rooftop_jumping_beginner.png"
     },
@@ -765,8 +746,8 @@
   },
   {
     "id": "rooftop_jumping_(intermediate)",
-    "name": "Rooftop Jumping (intermediate)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Rooftop_Jumping_(intermediate)",
+    "name": "Rooftop jumping (Intermediate)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Rooftop_jumping_(Intermediate)",
     "icon": {
       "url": "activities/agility/rooftop_jumping_intermediate.png"
     },
@@ -780,8 +761,8 @@
   },
   {
     "id": "swimming_(beginner)",
-    "name": "Swimming (beginner)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Swimming_(beginner)",
+    "name": "Swimming (Beginner)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Swimming_(Beginner)",
     "icon": {
       "url": "activities/agility/swimming.png"
     },
@@ -795,8 +776,8 @@
   },
   {
     "id": "swimming_(intermediate)",
-    "name": "Swimming (intermediate)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Swimming_(intermediate)",
+    "name": "Swimming (Intermediate)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Swimming_(Intermediate)",
     "icon": {
       "url": "activities/agility/swimming.png"
     },
@@ -810,8 +791,8 @@
   },
   {
     "id": "ship_repair_(beginner)",
-    "name": "Ship Repair (beginner)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Ship_Repair_(beginner)",
+    "name": "Ship repair (Beginner)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Ship_repair_(Beginner)",
     "icon": {
       "url": "activities/carpentry/ship_repair_beginner.png"
     },
@@ -829,8 +810,8 @@
   },
   {
     "id": "ship_repair_(intermediate)",
-    "name": "Ship Repair (intermediate)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Ship_Repair_(intermediate)",
+    "name": "Ship repair (Intermediate)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Ship_repair_(Intermediate)",
     "icon": {
       "url": "activities/carpentry/ship_repair_intermediate.png"
     },
@@ -848,8 +829,8 @@
   },
   {
     "id": "wood_carving",
-    "name": "Wood Carving",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Wood_Carving",
+    "name": "Wood carving",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Wood_carving",
     "icon": {
       "url": "activities/carpentry/wood_carving.png"
     },
@@ -865,8 +846,8 @@
   },
   {
     "id": "ice_sculpting",
-    "name": "Ice Sculpting",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Ice_Sculpting",
+    "name": "Ice sculpting",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Ice_sculpting",
     "icon": {
       "url": "activities/crafting/ice_sculpting.png"
     },
@@ -901,8 +882,8 @@
   },
   {
     "id": "cave_foraging",
-    "name": "Cave Foraging",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Cave_Foraging",
+    "name": "Cave foraging",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cave_foraging",
     "icon": {
       "url": "activities/foraging/cave_foraging.png"
     },
@@ -918,8 +899,8 @@
   },
   {
     "id": "sea_fishing_(cage)",
-    "name": "Sea Fishing (Cage)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_Fishing_(Cage)",
+    "name": "Sea fishing (cage)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_fishing_(cage)",
     "icon": {
       "url": "activities/fishing/sea_fishing_cage.png"
     },
@@ -935,8 +916,8 @@
   },
   {
     "id": "horn_of_respite_treasure_hunt",
-    "name": "Treasure Hunt",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Treasure_Hunt",
+    "name": "Treasure hunt",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Treasure_hunt",
     "icon": {
       "url": "activities/foraging/treasure_hunting.png"
     },
@@ -950,8 +931,8 @@
   },
   {
     "id": "black_eye_peak_search_team",
-    "name": "Search Team",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Search_Team",
+    "name": "Search team",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Search_team",
     "icon": {
       "url": "activities/agility/search_team.png"
     },
@@ -965,8 +946,8 @@
   },
   {
     "id": "black_eye_peak_rescue_team",
-    "name": "Rescue Team",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Rescue_Team",
+    "name": "Rescue team",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Rescue_team",
     "icon": {
       "url": "activities/agility/rescue_team.png"
     },
@@ -983,8 +964,8 @@
   },
   {
     "id": "stone_quarrying",
-    "name": "Stone Quarrying",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Stone_Quarrying",
+    "name": "Stone quarrying",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Stone_quarrying",
     "icon": {
       "url": "activities/mining/stone_quarrying.png"
     },
@@ -998,8 +979,8 @@
   },
   {
     "id": "branch_trimming",
-    "name": "Branch Trimming",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Branch_Trimming",
+    "name": "Branch trimming",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Branch_trimming",
     "icon": {
       "url": "activities/woodcutting/branch_trimming.png"
     },
