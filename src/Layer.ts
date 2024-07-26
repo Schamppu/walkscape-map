@@ -116,15 +116,17 @@ export class Layer extends LayerGroup {
 
     json.markers.forEach((m) => {
       if (WSMarker.isRouteJson(m)) {
-        const route = this.createRoute(m);
-        layer.addLayer(route);
+        const routes = this.createRoute(m);
+        routes.forEach((r) => {
+          layer.addLayer(r);
+        });
       }
     });
 
     return layer;
   }
 
-  private static createRoute(json: Schema.Route) {
+  private static createRoute(json: Schema.Route): Polyline[] {
     const colors: Record<string, string> = {
       jarvonia: "#abddff",
       wallisia: "#ff9b74",
@@ -138,11 +140,29 @@ export class Layer extends LayerGroup {
       ethereal: "#ff608c",
     };
 
-    return new Polyline(json.pathpoints, {
+    const lineOptions = {
       color: colors[json.realm],
-      opacity: 0.8,
-      weight: 5,
-    });
+      opacity: 1,
+      weight: 4,
+      dashOffset: "40",
+      dashArray: "1,30",
+    };
+
+    const lines: Polyline[] = [];
+    const weight_start = 20
+    const weight_offset = -3
+    const used_colors = ["white", "gray", "black", colors[json.realm]]
+
+    for (var i = 0; i < used_colors.length; i++) {
+      lines.push(
+        new Polyline(json.pathpoints, {
+          ...lineOptions,
+          weight: weight_start + i*weight_offset,
+          color: used_colors[i],
+        })
+      );
+    }
+    return lines;
   }
 
   public forceShow(): void {
