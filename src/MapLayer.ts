@@ -40,6 +40,7 @@ export class MapLayer extends LayerGroup {
     if (!this.hasLayer(this.markerLayer)) {
       this.addLayer(this.markerLayer);
     }
+    this.updateZoom(this.map.getZoom());
   }
 
   public hide(): void {
@@ -103,6 +104,7 @@ export class MapLayer extends LayerGroup {
   }
 
   public updateZoom(zoom: number): void {
+    if (!this.isVisible()) return;
     this.currentZoom = zoom;
     const bounds = this.map.getBounds().pad(0.2);
     for (const layer of Object.values(this.categories)) {
@@ -130,10 +132,12 @@ export class MapLayer extends LayerGroup {
     layer: Layer,
     bounds: LatLngBounds
   ): void {
+    if (!this.isVisible()) return;
     layer.updateMarkerVisibility(bounds);
   }
 
   private updateLayerVisibility(layer: Layer): void {
+    if (!this.isVisible()) return;
     if (this.currentZoom >= layer.labelMinZoom) {
       layer.showLabels();
     } else {
