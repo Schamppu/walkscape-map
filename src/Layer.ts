@@ -1,5 +1,5 @@
 import * as Schema from "./Interfaces/JSONSchema";
-import { LayerGroup, LatLngBounds } from "leaflet";
+import { LayerGroup, LatLngBounds, Polyline } from "leaflet";
 import { WSMarker } from "./Markers/WSMarker";
 import { WSLocationMarker } from "./Markers/WSLocationMarker";
 import { DataPoint } from "./Interfaces/DataPoint";
@@ -98,17 +98,51 @@ export class Layer extends LayerGroup {
     layer.labelMinZoom =
       json.labelMinZoom != undefined ? json.labelMinZoom : layer.minZoom;
 
-    layer.markers = json.markers.map((m) => {
-      if (WSMarker.isLocationJson(m))
-        return WSLocationMarker.fromJson(
-          this.matchDataPointsToJson(m, data),
-          layer
-        );
-      if (WSMarker.isRealmJson(m)) return WSRealmMarker.fromJson(m, layer);
-      return WSMarker.fromJson(m, layer);
+    layer.markers = json.markers
+      .filter(
+        (m) =>
+          (WSMarker.isLocationJson(m) || WSMarker.isRealmJson(m)) &&
+          !WSMarker.isRouteJson(m)
+      )
+      .map((m) => {
+        if (WSMarker.isLocationJson(m))
+          return WSLocationMarker.fromJson(
+            this.matchDataPointsToJson(m, data),
+            layer
+          );
+        if (WSMarker.isRealmJson(m)) return WSRealmMarker.fromJson(m, layer);
+        return WSMarker.fromJson(m, layer);
+      });
+
+    json.markers.forEach((m) => {
+      if (WSMarker.isRouteJson(m)) {
+        const route = this.createRoute(m);
+        layer.addLayer(route);
+      }
     });
 
     return layer;
+  }
+
+  private static createRoute(json: Schema.Route) {
+    const colors: Record<string, string> = {
+      jarvonia: "#abddff",
+      wallisia: "#ff9b74",
+      gdte: "#a9ff6a",
+      galeforge: "#fbaaff",
+      wrentmark: "#f8ff9f",
+      painful_islands: "#ff2f15",
+      ewerethien: "#d4b4ff",
+      braemercia: "#ffa25f",
+      rid_raddak: "#c3ff1f",
+      ethereal: "#ff608c",
+    };
+
+    return new Polyline(json.pathpoints, {
+      color: colors[json.realm],
+      opacity: 0.8,
+      weight: 5,
+    });
   }
 
   public forceShow(): void {

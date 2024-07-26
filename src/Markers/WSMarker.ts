@@ -131,6 +131,12 @@ export class WSMarker extends Marker {
     return Object.keys(marker).includes("realm");
   }
 
+  public static isRouteJson(
+    marker: Schema.Marker | Schema.Route
+  ): marker is Schema.Route {
+    return Object.keys(marker).includes("pathpoints");
+  }
+
   public static isRealm(marker: WSMarker): marker is WSRealmMarker {
     return Object.keys(marker).includes("motto");
   }
