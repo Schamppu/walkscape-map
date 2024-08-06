@@ -1,0 +1,21 @@
+.ws-route-popup {
+  .title-wrapper {
+    .title {
+      white-space: nowrap;
+    }
+  }
+
+  .route-popup-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .distance {    
+      display: flex;
+    }
+  }
+
+  p {
+    color: $txLighter;
+  }
+}

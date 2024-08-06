@@ -4,6 +4,7 @@ import { WSMarker } from "./Markers/WSMarker";
 import { WSLocationMarker } from "./Markers/WSLocationMarker";
 import { DataPoint } from "./Interfaces/DataPoint";
 import { WSRealmMarker } from "./Markers/WSRealmMarker";
+import { RoutePopup } from "./Popups/RoutePopup";
 
 export enum Visibility {
   Off,
@@ -149,18 +150,25 @@ export class Layer extends LayerGroup {
     };
 
     const lines: Polyline[] = [];
-    const weight_start = 20
-    const weight_offset = -3
-    const used_colors = ["white", "gray", "black", colors[json.realm]]
+    const weight_start = 20;
+    const weight_offset = -3;
+    const used_colors = ["white", "gray", "black", colors[json.realm]];
+
+    const popup = RoutePopup.create(json);
 
     for (var i = 0; i < used_colors.length; i++) {
-      lines.push(
-        new Polyline(json.pathpoints, {
-          ...lineOptions,
-          weight: weight_start + i*weight_offset,
-          color: used_colors[i],
-        })
-      );
+      const route = new Polyline(json.pathpoints, {
+        ...lineOptions,
+        weight: weight_start + i * weight_offset,
+        color: used_colors[i],
+      });
+      route.bindPopup(popup);
+      route.on("click", (e) => {
+        const clickedLatLng = e.latlng;
+        const popupContent = popup.getPopupContent();
+        route.setPopupContent(popupContent).openPopup(clickedLatLng);
+      });
+      lines.push(route);
     }
     return lines;
   }
