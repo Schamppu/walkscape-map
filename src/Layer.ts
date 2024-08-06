@@ -5,12 +5,7 @@ import { WSLocationMarker } from "./Markers/WSLocationMarker";
 import { DataPoint } from "./Interfaces/DataPoint";
 import { WSRealmMarker } from "./Markers/WSRealmMarker";
 import { RoutePopup } from "./Popups/RoutePopup";
-
-export enum Visibility {
-  Off,
-  On,
-  Default,
-}
+import { Visibility } from "./Interfaces/Visibility";
 
 export class Layer extends LayerGroup {
   public minZoom = 0;
@@ -171,6 +166,10 @@ export class Layer extends LayerGroup {
       lines.push(route);
     }
     return lines;
+  }
+
+  public resetVisibility(): void {
+    this.setVisibility(Visibility.Default);
   }
 
   public forceShow(): void {

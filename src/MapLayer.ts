@@ -1,6 +1,7 @@
 import { LatLngBounds, LayerGroup, TileLayer } from "leaflet";
 import { WSMap } from "./WSMap";
-import { Layer, Visibility } from "./Layer";
+import { Layer } from "./Layer";
+import { Visibility } from "./Interfaces/Visibility";
 import { WSMarker } from "./Markers/WSMarker";
 
 export class MapLayer extends LayerGroup {
@@ -100,6 +101,20 @@ export class MapLayer extends LayerGroup {
       }
     }
     this.updateMarkersVisibility();
+  }
+
+  public filterRoutes(shownValues: string[]) {
+    if ("Routes" in this.categories) {
+      const routeLayer = this.categories["Routes"];
+      const showRoutes = shownValues.includes("route");
+      console.log(routeLayer, showRoutes);
+      if (showRoutes) {
+        routeLayer.resetVisibility();
+      } else {
+        routeLayer.forceHide();
+      }
+      this.updateLayerVisibility(routeLayer);
+    }
   }
 
   public updateZoom(zoom: number): void {

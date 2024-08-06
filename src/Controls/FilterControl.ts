@@ -120,6 +120,7 @@ export class FilterControl extends ControlPane {
         this.enableFilter({ category, li });
       }
       this.filterLocations();
+      this.filterRoutes();
     });
   }
 
@@ -140,6 +141,7 @@ export class FilterControl extends ControlPane {
       this.showAll();
     }
     this.filterLocations();
+    this.filterRoutes();
   }
 
   private enableFilter(item: LegendItem, urlUpdate = true) {
@@ -155,6 +157,11 @@ export class FilterControl extends ControlPane {
     }
     DomUtil.removeClass(this.none, "selected");
     this.filterLocations();
+    this.filterRoutes();
+  }
+
+  private filterRoutes(): void {
+    this.mapLayers.forEach((l) => l.filterRoutes(this.shownValues));
   }
 
   private filterLocations(): void {
@@ -171,6 +178,7 @@ export class FilterControl extends ControlPane {
       });
     }
     this.mapLayers.forEach((l) => {
+      l.filterRoutes(this.shownValues);
       l.filterLocations(this.shownValues);
       l.resetMarkerVisibility();
     });
@@ -186,7 +194,10 @@ export class FilterControl extends ControlPane {
         DomUtil.removeClass(c.li, "selected");
       });
     }
-    this.mapLayers.forEach((l) => l.filterLocations(this.shownValues));
+    this.mapLayers.forEach((l) => {
+      l.filterRoutes(this.shownValues);
+      l.filterLocations(this.shownValues);
+    });
     URLResolver.updateFilterURL("None", true);
   }
 

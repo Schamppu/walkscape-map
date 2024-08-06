@@ -1,6 +1,7 @@
 import * as Schema from "../Interfaces/JSONSchema";
 import { Marker, LatLngExpression, LatLngBounds, DomUtil } from "leaflet";
-import { Layer, Visibility } from "../Layer";
+import { Layer } from "../Layer";
+import { Visibility } from "../Interfaces/Visibility";
 import { MarkerDivIcon } from "./MarkerDivIcon";
 import { WSLocationMarker } from "./WSLocationMarker";
 import { WSRealmMarker } from "./WSRealmMarker";

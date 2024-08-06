@@ -1,5 +1,5 @@
 import { WSPopup, WSPopupOptions } from "./WSPopup";
-import { DomUtil, Point } from "leaflet";
+import { DomUtil } from "leaflet";
 
 export interface RoutePopupOptions extends WSPopupOptions {
   realm: string;

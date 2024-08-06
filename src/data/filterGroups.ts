@@ -127,5 +127,10 @@ export const filterGroups = {
       values: ["realm"],
       iconUrl: iconUrl("coatofarms/jarvonia"),
     },
+    {
+      name: "Routes",
+      values: ["route"],
+      iconUrl: iconUrl("activities/agility/traveling"),
+    }
   ],
 };
