@@ -3,6 +3,7 @@ import { ControlPane } from "./ControlPane";
 import { MapLayer } from "../MapLayer";
 import { FilterCategory } from "../Interfaces/FilterCategory";
 import { URLResolver } from "../URLResolver";
+import { Visibility } from "../Interfaces/Visibility";
 
 interface LegendItem {
   category: FilterCategory;
@@ -24,7 +25,7 @@ export class FilterControl extends ControlPane {
   private categoryList: HTMLElement;
   private categories = <LegendItem[]>[];
   private groupList = <GroupItem[]>[];
-  private shownValues: string[] = [];
+  private shownValues: { [key: string]: Visibility } = {};
 
   public constructor(private mapLayers: MapLayer[]) {
     super({
@@ -111,7 +112,10 @@ export class FilterControl extends ControlPane {
     icon.style.height = iconSize + "px";
 
     this.categories.push({ category, li });
-    this.shownValues.push(...category.values);
+
+    category.values.forEach(
+      (name) => (this.shownValues[name] = Visibility.Default)
+    );
 
     DomEvent.addListener(li, "click", () => {
       if (DomUtil.hasClass(li, "selected")) {
@@ -131,12 +135,13 @@ export class FilterControl extends ControlPane {
   private disableFilter(item: LegendItem) {
     const { category, li } = item;
     DomUtil.removeClass(li, "selected");
-    this.shownValues = this.shownValues.filter(
-      (el) => !category.values.includes(el)
+    category.values.forEach(
+      (value) => (this.shownValues[value] = Visibility.Off)
     );
     URLResolver.updateFilterURL(category.name, false);
 
     // select "All" if no others are selected
+    console.log(this.categories.every((c) => !DomUtil.hasClass(c.li, "selected")));
     if (this.categories.every((c) => !DomUtil.hasClass(c.li, "selected"))) {
       this.showAll();
     }
@@ -147,13 +152,18 @@ export class FilterControl extends ControlPane {
   private enableFilter(item: LegendItem, urlUpdate = true) {
     const { category, li } = item;
     DomUtil.addClass(li, "selected");
-    this.shownValues.push(...category.values);
+    category.values.forEach(
+      (value) => (this.shownValues[value] = Visibility.On)
+    );
     if (urlUpdate) URLResolver.updateFilterURL(category.name, true);
 
     // hide the others
     if (DomUtil.hasClass(this.all, "selected")) {
       DomUtil.removeClass(this.all, "selected");
-      this.shownValues = [...category.values];
+      Object.keys(this.shownValues).forEach((key) => {
+        if (category.values.includes(key))
+          this.shownValues[key] = Visibility.Off;
+      });
     }
     DomUtil.removeClass(this.none, "selected");
     this.filterLocations();
@@ -169,16 +179,20 @@ export class FilterControl extends ControlPane {
   }
 
   private showAll(): void {
+    console.log("showAll")
     if (!DomUtil.hasClass(this.all, "selected")) {
       DomUtil.addClass(this.all, "selected");
       DomUtil.removeClass(this.none, "selected");
+      Object.keys(this.shownValues).forEach((key) => {
+        this.shownValues[key] = Visibility.Default;
+      });
+
       this.categories.forEach((c) => {
-        this.shownValues.push(...c.category.values);
         DomUtil.removeClass(c.li, "selected");
       });
     }
     this.mapLayers.forEach((l) => {
-      l.filterRoutes(this.shownValues);
+      // l.filterRoutes(this.shownValues);
       l.filterLocations(this.shownValues);
       l.resetMarkerVisibility();
     });
@@ -189,7 +203,9 @@ export class FilterControl extends ControlPane {
     if (!DomUtil.hasClass(this.none, "selected")) {
       DomUtil.addClass(this.none, "selected");
       DomUtil.removeClass(this.all, "selected");
-      this.shownValues = [];
+      Object.keys(this.shownValues).forEach((key) => {
+        this.shownValues[key] = Visibility.Off;
+      });
       this.categories.forEach((c) => {
         DomUtil.removeClass(c.li, "selected");
       });

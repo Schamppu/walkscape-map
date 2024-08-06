@@ -88,14 +88,17 @@ export class MapLayer extends LayerGroup {
     }
   }
 
-  public filterLocations(shownValues: string[]) {
+  public filterLocations(shownValues: { [key: string]: Visibility }) {
     const locations = this.getMarkers();
     for (const loc of locations) {
-      const filteredArray = shownValues.filter((value) =>
-        loc.getKeywords().includes(value)
-      );
-      if (filteredArray.length > 0) {
+      const visibilities = loc.getKeywords().map((kw) => shownValues[kw]);
+      const visOn = visibilities.some((v) => v === Visibility.On);
+      const visDefault = visibilities.some((v) => v === Visibility.On);
+
+      if (visOn) {
         loc.forceShow();
+      } else if (visDefault) {
+        loc.resetVisibility();
       } else {
         loc.forceHide();
       }
@@ -103,12 +106,14 @@ export class MapLayer extends LayerGroup {
     this.updateMarkersVisibility();
   }
 
-  public filterRoutes(shownValues: string[]) {
+  public filterRoutes(shownValues: { [key: string]: Visibility }) {
     if ("Routes" in this.categories) {
       const routeLayer = this.categories["Routes"];
-      const showRoutes = shownValues.includes("route");
-      console.log(routeLayer, showRoutes);
-      if (showRoutes) {
+      const routeVisiblity = shownValues["route"];
+
+      if (routeVisiblity === Visibility.On) {
+        routeLayer.forceShow();
+      } else if (routeVisiblity === Visibility.Default) {
         routeLayer.resetVisibility();
       } else {
         routeLayer.forceHide();
