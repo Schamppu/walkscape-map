@@ -195,7 +195,7 @@ def get_terrain_modifier_name(id):
     terrain_localizations = {
         "jarvonian_border_check": "Requires Jarvonian letter of passage",
         "challenging_wilderness_terrain": "Requires Level 30 Agility",
-        "glacier_map_requirement": "Requiers Mysterious northern map",
+        "glacier_map_requirement": "Requires Mysterious northern map",
         "black_eye_peak_wilderness_permit": "Requires Black eye peak wilderness permit"
     }
     assert id in terrain_localizations.keys(), f"No such terrain modifier {id}"
