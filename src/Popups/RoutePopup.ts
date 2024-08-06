@@ -10,10 +10,12 @@ export interface RoutePopupOptions extends WSPopupOptions {
 export class RoutePopup extends WSPopup {
   private realm: string;
   private distance: number;
+  private terrainModifiers: string;
   private constructor(options: RoutePopupOptions) {
     super(options);
     this.realm = options.realm;
     this.distance = options.distance;
+    this.terrainModifiers = options.terrainModifiers;
 
     this.container = DomUtil.create("div", "ws-route-popup");
     this.setContent(this.container);
@@ -50,6 +52,12 @@ export class RoutePopup extends WSPopup {
 
     const p2 = DomUtil.create("p", "distance-text", distance);
     p2.innerText = `${this.distance}`;
+
+    if (this.terrainModifiers) {
+      const modifiers = DomUtil.create("div", "modifiers", body);
+      const p = DomUtil.create("p", "modifiers-text", modifiers);
+      p.innerText = this.terrainModifiers;
+    }
   }
 
   public static override create(options: RoutePopupOptions) {

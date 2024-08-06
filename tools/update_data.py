@@ -191,6 +191,16 @@ def calculate_distance(distance, modifier):
         base = distances[distance]
     return int(base * modifier)
 
+def get_terrain_modifier_name(id):
+    terrain_localizations = {
+        "jarvonian_border_check": "Requires Jarvonian letter of passage",
+        "challenging_wilderness_terrain": "Requires Level 30 Agility",
+        "glacier_map_requirement": "Requiers Mysterious northern map",
+        "black_eye_peak_wilderness_permit": "Requires Black eye peak wilderness permit"
+    }
+    assert id in terrain_localizations.keys(), f"No such terrain modifier {id}"
+    return terrain_localizations[id]
+
 
 def update_routes(filename, map_layer_name):
     data_path = f'../public/data/{filename}'
@@ -225,6 +235,7 @@ def update_routes(filename, map_layer_name):
         name = f"{location_0['name']} to {location_1['name']}"
         realm = location_1['realm']
 
+        terrain = [get_terrain_modifier_name(get_id(i)) for i in src_route['terrainModifiers']]
         route = {
             'id': id,
             'name': name,
@@ -232,7 +243,7 @@ def update_routes(filename, map_layer_name):
             'coords': middle,
             'distance': calculate_distance(src_route['distance'], src_route['distanceModifier']),
             'pathpoints': pathpoints,
-            'terrainModifiers': [get_id(i) for i in src_route['terrainModifiers']],
+            'terrainModifiers': terrain,
         }
         routes.append(route)
 

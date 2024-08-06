@@ -781,7 +781,7 @@
               ]
             ],
             "terrainModifiers": [
-              "jarvonian_border_check"
+              "Requires Jarvonian letter of passage"
             ]
           },
           {
@@ -1448,7 +1448,7 @@
               ]
             ],
             "terrainModifiers": [
-              "challenging_wilderness_terrain"
+              "Requires Level 30 Agility"
             ]
           },
           {
@@ -1503,7 +1503,7 @@
               ]
             ],
             "terrainModifiers": [
-              "glacier_map_requirement"
+              "Requiers Mysterious northern map"
             ]
           },
           {
@@ -1644,7 +1644,7 @@
               ]
             ],
             "terrainModifiers": [
-              "black_eye_peak_wilderness_permit"
+              "Requires Black eye peak wilderness permit"
             ]
           },
           {
