@@ -174,6 +174,24 @@ def update_services(filename):
         services.append(service)
     write_json(data_path, services)
 
+def calculate_distance(distance, modifier):
+    distances = { 
+        'veryShort': 450, 
+        'short': 550, 
+        'extremelyNear': 160, 
+        'veryNear': 280, 
+        'near': 390, 
+        'lowModerate': 650, 
+        'moderate': 800, 
+        'moderateHigh': 1000, 
+        'lowHigh': 1300,
+    }
+    base = 1000 
+    if distance in distances:
+        base = distances[distance]
+    return int(base * modifier)
+
+
 def update_routes(filename, map_layer_name):
     data_path = f'../public/data/{filename}'
     data_full, src_data = read_data(data_path, f'./data/{filename}')
@@ -212,8 +230,7 @@ def update_routes(filename, map_layer_name):
             'name': name,
             'realm': realm,
             'coords': middle,
-            'distance': src_route['distance'],
-            'distanceModifier': src_route['distanceModifier'],
+            'distance': calculate_distance(src_route['distance'], src_route['distanceModifier']),
             'pathpoints': pathpoints,
             'terrainModifiers': [get_id(i) for i in src_route['terrainModifiers']],
         }

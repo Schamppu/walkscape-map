@@ -72,8 +72,7 @@ export interface Service extends DataPoint {
 
 export interface Route extends Marker {
   realm: string;
-  distance: string;
-  distanceModifier: number;
+  distance: number;
   pathpoints: LatLngTuple[];
   terrainModifiers: string;
 }

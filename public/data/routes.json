@@ -6,7 +6,7 @@
         "mapLayers": [
           "beta-277"
         ],
-        "minZoom": 2,
+        "minZoom": 3,
         "maxZoom": 4,
         "markers": [
           {
@@ -17,8 +17,7 @@
               425.09182845274813,
               575.1226970605869
             ],
-            "distance": "veryShort",
-            "distanceModifier": 1.0,
+            "distance": 450,
             "pathpoints": [
               [
                 369.0,
@@ -51,8 +50,7 @@
               423.07188476193375,
               502.58878538595076
             ],
-            "distance": "extremelyNear",
-            "distanceModifier": 1.0,
+            "distance": 160,
             "pathpoints": [
               [
                 369.0,
@@ -85,8 +83,7 @@
               401.66302157737226,
               840.3302293445051
             ],
-            "distance": "moderate",
-            "distanceModifier": 1.05,
+            "distance": 840,
             "pathpoints": [
               [
                 408.0,
@@ -155,8 +152,7 @@
               344.4939316461549,
               817.7045238536266
             ],
-            "distance": "moderateHigh",
-            "distanceModifier": 0.87,
+            "distance": 870,
             "pathpoints": [
               [
                 408.0,
@@ -209,8 +205,7 @@
               305.01539488617516,
               899.5611360204299
             ],
-            "distance": "moderate",
-            "distanceModifier": 1.09,
+            "distance": 872,
             "pathpoints": [
               [
                 463.0,
@@ -247,8 +242,7 @@
               241.30299223947787,
               733.9312131422093
             ],
-            "distance": "lowModerate",
-            "distanceModifier": 1.0,
+            "distance": 650,
             "pathpoints": [
               [
                 247.0,
@@ -285,8 +279,7 @@
               640.6759487831558,
               791.7964782793103
             ],
-            "distance": "lowModerate",
-            "distanceModifier": 0.95,
+            "distance": 617,
             "pathpoints": [
               [
                 463.0,
@@ -343,8 +336,7 @@
               805.1126774127165,
               866.9397773478901
             ],
-            "distance": "veryNear",
-            "distanceModifier": 1.0,
+            "distance": 280,
             "pathpoints": [
               [
                 678.0,
@@ -373,8 +365,7 @@
               837.4864578956972,
               706.5600402081532
             ],
-            "distance": "near",
-            "distanceModifier": 0.92,
+            "distance": 358,
             "pathpoints": [
               [
                 752.0,
@@ -411,8 +402,7 @@
               767.9847801280006,
               524.332204336567
             ],
-            "distance": "veryNear",
-            "distanceModifier": 1.22,
+            "distance": 341,
             "pathpoints": [
               [
                 795.0,
@@ -453,8 +443,7 @@
               888.4670150066768,
               991.4128321840652
             ],
-            "distance": "short",
-            "distanceModifier": 1.0,
+            "distance": 550,
             "pathpoints": [
               [
                 678.0,
@@ -503,8 +492,7 @@
               615.1272433934681,
               1089.8945842652204
             ],
-            "distance": "lowModerate",
-            "distanceModifier": 1.07,
+            "distance": 695,
             "pathpoints": [
               [
                 678.0,
@@ -561,8 +549,7 @@
               1039.099012431024,
               1112.551750506313
             ],
-            "distance": "near",
-            "distanceModifier": 0.91,
+            "distance": 354,
             "pathpoints": [
               [
                 946.0,
@@ -603,8 +590,7 @@
               1009.0029676116857,
               888.1289333642238
             ],
-            "distance": "near",
-            "distanceModifier": 0.95,
+            "distance": 370,
             "pathpoints": [
               [
                 1003.0,
@@ -665,8 +651,7 @@
               1009.2667127599643,
               888.2555470685419
             ],
-            "distance": "moderate",
-            "distanceModifier": 1.0,
+            "distance": 800,
             "pathpoints": [
               [
                 678.0,
@@ -723,8 +708,7 @@
               984.130794249494,
               945.8185222730305
             ],
-            "distance": "lowModerate",
-            "distanceModifier": 1.0,
+            "distance": 650,
             "pathpoints": [
               [
                 678.0,
@@ -769,8 +753,7 @@
               522.3057463237665,
               1308.6879038071947
             ],
-            "distance": "veryNear",
-            "distanceModifier": 0.82,
+            "distance": 229,
             "pathpoints": [
               [
                 578.3,
@@ -809,8 +792,7 @@
               456.70005009363086,
               1455.1133488219537
             ],
-            "distance": "lowModerate",
-            "distanceModifier": 0.9,
+            "distance": 585,
             "pathpoints": [
               [
                 499.0,
@@ -843,8 +825,7 @@
               675.0459920286283,
               1685.7609251819995
             ],
-            "distance": "moderateHigh",
-            "distanceModifier": 0.91,
+            "distance": 910,
             "pathpoints": [
               [
                 398.0,
@@ -905,8 +886,7 @@
               453.92015517395066,
               1634.999683856085
             ],
-            "distance": "near",
-            "distanceModifier": 0.77,
+            "distance": 300,
             "pathpoints": [
               [
                 369.0,
@@ -939,8 +919,7 @@
               294.36556392614807,
               1666.4914681751973
             ],
-            "distance": "veryShort",
-            "distanceModifier": 1.0,
+            "distance": 450,
             "pathpoints": [
               [
                 369.0,
@@ -977,8 +956,7 @@
               455.4787115986432,
               1985.3738400741986
             ],
-            "distance": "moderate",
-            "distanceModifier": 1.16,
+            "distance": 927,
             "pathpoints": [
               [
                 369.0,
@@ -1055,8 +1033,7 @@
               392.46894525421385,
               2205.5210156871262
             ],
-            "distance": "lowModerate",
-            "distanceModifier": 1.13,
+            "distance": 734,
             "pathpoints": [
               [
                 306.0,
@@ -1109,8 +1086,7 @@
               593.52505926386,
               2231.671220485232
             ],
-            "distance": "moderateHigh",
-            "distanceModifier": 1.06,
+            "distance": 1060,
             "pathpoints": [
               [
                 437.0,
@@ -1163,8 +1139,7 @@
               888.0251278472084,
               2136.0413342918046
             ],
-            "distance": "veryShort",
-            "distanceModifier": 1.0,
+            "distance": 450,
             "pathpoints": [
               [
                 786.0,
@@ -1213,8 +1188,7 @@
               889.5881646499683,
               2135.2114295279894
             ],
-            "distance": "near",
-            "distanceModifier": 1.0,
+            "distance": 390,
             "pathpoints": [
               [
                 913.0,
@@ -1255,8 +1229,7 @@
               913.8678305217313,
               2135.2640320825367
             ],
-            "distance": "short",
-            "distanceModifier": 1.0,
+            "distance": 550,
             "pathpoints": [
               [
                 786.0,
@@ -1301,8 +1274,7 @@
               908.1085776252222,
               1959.0742587523907
             ],
-            "distance": "near",
-            "distanceModifier": 1.0,
+            "distance": 390,
             "pathpoints": [
               [
                 913.0,
@@ -1339,8 +1311,7 @@
               633.3162056232804,
               1778.054571022504
             ],
-            "distance": "moderate",
-            "distanceModifier": 1.18,
+            "distance": 944,
             "pathpoints": [
               [
                 753.0,
@@ -1417,8 +1388,7 @@
               297.86636259020327,
               657.836656892345
             ],
-            "distance": "moderateHigh",
-            "distanceModifier": 0.89,
+            "distance": 890,
             "pathpoints": [
               [
                 408.0,
@@ -1489,8 +1459,7 @@
               180.22537421265673,
               871.60518257575
             ],
-            "distance": "moderate",
-            "distanceModifier": 1.35,
+            "distance": 1080,
             "pathpoints": [
               [
                 247.0,
@@ -1545,8 +1514,7 @@
               1102.1569532019082,
               1057.1677079048097
             ],
-            "distance": "short",
-            "distanceModifier": 1.14,
+            "distance": 627,
             "pathpoints": [
               [
                 1003.0,
@@ -1595,8 +1563,7 @@
               1237.7359962504424,
               941.4074183117981
             ],
-            "distance": "moderateHigh",
-            "distanceModifier": 0.95,
+            "distance": 950,
             "pathpoints": [
               [
                 1193.3434455860745,
@@ -1641,8 +1608,7 @@
               1357.6233119564924,
               886.9325808849854
             ],
-            "distance": "lowHigh",
-            "distanceModifier": 1.0,
+            "distance": 1300,
             "pathpoints": [
               [
                 1278.0,
@@ -1689,8 +1655,7 @@
               1509.2011232521966,
               902.3588033503571
             ],
-            "distance": "lowModerate",
-            "distanceModifier": 0.87,
+            "distance": 565,
             "pathpoints": [
               [
                 1419.015064680928,
