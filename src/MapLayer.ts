@@ -93,7 +93,7 @@ export class MapLayer extends LayerGroup {
     for (const loc of locations) {
       const visibilities = loc.getKeywords().map((kw) => shownValues[kw]);
       const visOn = visibilities.some((v) => v === Visibility.On);
-      const visDefault = visibilities.some((v) => v === Visibility.On);
+      const visDefault = visibilities.some((v) => v === Visibility.Default);
 
       if (visOn) {
         loc.forceShow();
@@ -111,13 +111,12 @@ export class MapLayer extends LayerGroup {
       const routeLayer = this.categories["Routes"];
       const routeVisiblity = shownValues["route"];
 
-      if (routeVisiblity === Visibility.On) {
-        routeLayer.forceShow();
-      } else if (routeVisiblity === Visibility.Default) {
-        routeLayer.resetVisibility();
-      } else {
+      if (routeVisiblity === Visibility.Off) {
         routeLayer.forceHide();
+      } else {
+        routeLayer.resetVisibility();
       }
+
       this.updateLayerVisibility(routeLayer);
     }
   }

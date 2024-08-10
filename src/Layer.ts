@@ -189,7 +189,6 @@ export class Layer extends LayerGroup {
   }
 
   public updateMarkerVisibility(bounds: LatLngBounds): void {
-    console.log(this.name, 'updateMarkerVisibility')
     this.markers.forEach((m) => m.updateVisibility(bounds));
   }
 

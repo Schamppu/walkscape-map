@@ -141,7 +141,6 @@ export class FilterControl extends ControlPane {
     URLResolver.updateFilterURL(category.name, false);
 
     // select "All" if no others are selected
-    console.log(this.categories.every((c) => !DomUtil.hasClass(c.li, "selected")));
     if (this.categories.every((c) => !DomUtil.hasClass(c.li, "selected"))) {
       this.showAll();
     }
@@ -161,7 +160,7 @@ export class FilterControl extends ControlPane {
     if (DomUtil.hasClass(this.all, "selected")) {
       DomUtil.removeClass(this.all, "selected");
       Object.keys(this.shownValues).forEach((key) => {
-        if (category.values.includes(key))
+        if (!category.values.includes(key))
           this.shownValues[key] = Visibility.Off;
       });
     }
@@ -179,7 +178,6 @@ export class FilterControl extends ControlPane {
   }
 
   private showAll(): void {
-    console.log("showAll")
     if (!DomUtil.hasClass(this.all, "selected")) {
       DomUtil.addClass(this.all, "selected");
       DomUtil.removeClass(this.none, "selected");
@@ -192,7 +190,7 @@ export class FilterControl extends ControlPane {
       });
     }
     this.mapLayers.forEach((l) => {
-      // l.filterRoutes(this.shownValues);
+      l.filterRoutes(this.shownValues);
       l.filterLocations(this.shownValues);
       l.resetMarkerVisibility();
     });
