@@ -6,7 +6,7 @@
         "mapLayers": [
           "beta-277"
         ],
-        "minZoom": 3,
+        "minZoom": 2,
         "maxZoom": 4,
         "markers": [
           {
