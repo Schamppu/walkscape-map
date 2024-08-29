@@ -34,8 +34,12 @@ def get_name(key):
     parts = key.split('.')
     localization_file = f"localizations/{parts[0]}_en-US.yaml"
     data = read_yaml(localization_file)
-    for key in parts[1:]:
-        data = data[key]
+    try:
+        for key in parts[1:]:
+            data = data[key]
+    except:
+        print(f"error with key {".".join(parts)}: {key}")
+
     return data
 
 def find(list, id):
@@ -65,6 +69,13 @@ def getRealm(official_obj):
         return official_obj['realm']
     if 'realmName' in official_obj:
         return official_obj['realmName']
+    if 'faction' in official_obj:
+        special = {
+            'grand_duchy_of_trellin-erdwise': 'gdte'
+        }
+        id = get_id(official_obj['faction'])
+        return_value = special[id] if id in special else id
+        return return_value
     return 'Jarvonia'
 
 def update_locations(filename, map_layer_name):
@@ -235,7 +246,9 @@ def update_routes(filename, map_layer_name):
         name = f"{location_0['name']} to {location_1['name']}"
         realm = location_1['realm']
 
-        terrain = [get_terrain_modifier_name(get_id(i)) for i in src_route['terrainModifiers']]
+        terrain = []
+        if 'terrainModifiers' in src_route:
+            terrain = [get_terrain_modifier_name(get_id(i)) for i in src_route['terrainModifiers']]
         route = {
             'id': id,
             'name': name,
@@ -257,11 +270,11 @@ def update_routes(filename, map_layer_name):
     write_json(data_path, data_full)
 
 def main():
-    map_layer_name = 'beta-277'
-    # update_locations('locations.json', map_layer_name)
-    # update_activities('activities.json')
-    # update_buildings('buildings.json')
-    # update_services('services.json')
+    map_layer_name = 'beta-322'
+    update_locations('locations.json', map_layer_name)
+    update_activities('activities.json')
+    update_buildings('buildings.json')
+    update_services('services.json')
     update_routes('routes.json', map_layer_name)
 
 if __name__ == '__main__':
