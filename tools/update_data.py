@@ -196,6 +196,7 @@ def calculate_distance(distance, modifier):
         'moderate': 800, 
         'moderateHigh': 1000, 
         'lowHigh': 1300,
+        'veryHigh': 2000,
     }
     base = 1000 
     if distance in distances:
