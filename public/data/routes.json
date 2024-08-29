@@ -2488,7 +2488,9 @@
                 1347.0
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires Jarvonian letter of passage"
+            ]
           },
           {
             "id": "noiseless_pass-mangrove_forest",
@@ -3185,7 +3187,9 @@
                 729.0
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires Level 25 Agility & Skis equipped"
+            ]
           },
           {
             "id": "norsack_plains-winter_waves_glacier",
@@ -3238,7 +3242,9 @@
                 879.5341621359416
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires Mysterious northern map"
+            ]
           },
           {
             "id": "coldington-horn_of_respite",
@@ -3381,7 +3387,9 @@
                 920.0486527612546
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires Black eye peak wilderness permit"
+            ]
           },
           {
             "id": "black_eye_peak-winter's_end",
@@ -3463,7 +3471,9 @@
                 1194.0
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires 3 diving gear equipped"
+            ]
           },
           {
             "id": "casbrants_grave-vastalume",
@@ -3504,7 +3514,9 @@
                 1334.0
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires 3 diving gear equipped"
+            ]
           },
           {
             "id": "vastalume-kelp_forest",
@@ -3545,7 +3557,9 @@
                 1477.0
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires 3 diving gear equipped"
+            ]
           },
           {
             "id": "vastalume-dark_depths",
@@ -3654,7 +3668,9 @@
                 1246.5189119443678
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires 3 Expert diving gear equipped"
+            ]
           },
           {
             "id": "vastalume-fertile_shallows",
@@ -3715,7 +3731,9 @@
                 1334.0
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires 3 diving gear equipped"
+            ]
           },
           {
             "id": "kelp_forest-granfiddich_shores",
@@ -3756,7 +3774,9 @@
                 1559.0
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires 3 diving gear equipped"
+            ]
           },
           {
             "id": "granfiddich_shores-granfiddich",
@@ -3858,7 +3878,9 @@
                 1345.0
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires 3 Advanced diving gear equipped"
+            ]
           },
           {
             "id": "kallaheim-nurturing_nook_springs",
@@ -3919,7 +3941,9 @@
                 714.5767809329855
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires Level 25 Agility & Skis equipped"
+            ]
           },
           {
             "id": "nurturing_nook_springs-casbrant_fields",
@@ -3968,7 +3992,9 @@
                 821.0
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires Level 25 Agility & Skis equipped"
+            ]
           },
           {
             "id": "frusenholm-fort_of_permafrost",
@@ -4029,7 +4055,9 @@
                 1167.5932288753793
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires Level 25 Agility & Skis equipped"
+            ]
           },
           {
             "id": "casbrant_fields-azurazera",
@@ -4106,7 +4134,9 @@
                 827.0
               ]
             ],
-            "terrainModifiers": []
+            "terrainModifiers": [
+              "Requires Level 25 Agility & Skis equipped"
+            ]
           },
           {
             "id": "centaham-nurturing_nook_springs",
