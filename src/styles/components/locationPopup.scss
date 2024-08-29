@@ -128,15 +128,11 @@
     }
   }
 
-  .buildings {
+  .services, .buildings {
+    width: fit-content;
+    gap: 4px;
     .subdiv-content {
-      width: 135px;
-    }
-  }
-
-  .services {
-    .subdiv-content {
-      width: 100px;
+      white-space: no-wrap;
     }
   }
 }
