@@ -134,6 +134,7 @@ export class Layer extends LayerGroup {
       braemercia: "#ffa25f",
       rid_raddak: "#c3ff1f",
       ethereal: "#ff608c",
+      syrenthia: "#9d84eb",
     };
 
     const lineOptions = {

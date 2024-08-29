@@ -30,6 +30,7 @@ $realm-colors: (
   "braemercia": #ffa25f,
   "rid_raddak": #c3ff1f,
   "ethereal": #ff608c,
+  "syrenthia": #9d84eb,
 );
 
 @each $name, $color in $realm-colors {
@@ -49,6 +50,7 @@ $realm-highlight-colors: (
   "braemercia": #f5d6ee,
   "rid_raddak": #7ff5ff,
   "ethereal": #d8758b,
+  "syrenthia": #c4e7e9,
 );
 
 @each $name, $color in $realm-highlight-colors {
