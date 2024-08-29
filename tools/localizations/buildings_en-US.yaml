@@ -77,8 +77,33 @@ singulars:
       quagmireCouture:
         name: Quagmire Couture
         desc: Quagmire Couture is a fashion boutique in Salsfirth that specializes in swamp-inspired clothing. Browse through a collection of stylish garments that are perfect for any occasion.
+    syrenthia:
+      vastalumeTavern:
+        name: Pearl of the Sea
+        desc: The whole floor is covered in sand. Behind the bar, there's an orange octopus mixing drinks and filling cups. In the corner of the room sits the largest pearl you've ever seen.
+      vastalumeBank:
+        name: Thalassa Wave Bank
+        desc: A large, bright yellow snake slithers along the sandy floor. In the underwater rock walls, there is a circular door with an enormous sized keyhole leading to a safe.
+      vastalumeGeneralStore:
+        name: Sunken Anchor
+        desc: A rusty anchor lies in the sand. The small shop has a few shelves and barrels of goods. Bubbles are rising from holes and crevasses in the walls. You think you recognize the mountains depicted in the painting on the wall.
+      vastalumeBarber:
+        name: Go with the Flow Barbershop
+        desc: His tightly packed barbershop features multiple hair cutting stations. The constant flow of customers coming and going suggests that it's a popular place to get a haircut in Vastalume.
+      vastalumeSpecializedStore:
+        name: Undercurrent
+        desc: A banner of Syrenthia is placed right at the entrance signifying that only those trusted by Syrenthians are allowed here. In here is a little bit of everything - a lounge area, tools mounted on the wall and even an underwater bonsai tree.
+      vastalumeClothingShop:
+        name: Fin-tastic Fashion
+        desc: Many Syrenthians prefers outfits made from seashells, so this place is quite empty. Few fabrics and outfits are found in the shop. Most visitors are here after the famous merfolk dancing dress.
+      throneOfTheNeverdrown:
+        name: Throne of the Neverdrown
+        desc: An observant octopus guards the entrance. A royal blue carpet leads up to the throne, which is adorned with several moving tentacles. The entire throne room exudes an eerie atmosphere, and it feels as though even the harmless crab is watching you.
+      casbrantsSunkenShip:
+        name: Casbrant's Sunken Ship
+        desc: The entire mainmast of the ship has broken off. The shipwreck is riddled with holes and broken boards from which numerous small air bubbles are rising. It feels as if another presence is here, watching and waiting.
 maps:
-  buildingTypes(map):
+  buildingTypes:
     "bank": Bank
     "generalStore": General store
     "fishingStore": Fishing store
@@ -92,7 +117,7 @@ maps:
     "barber": Barber
     "clothingShop": Clothing shop
     "outpost": Outpost
-  buildingActions(map):
+  buildingActions:
     "buy": Buy items
     "sell": Sell items
     "deposit": Deposit
