@@ -51,7 +51,11 @@ window.onload = async () => {
     .then((r) => r.json())
     .then(addJson);
 
-  await Promise.allSettled([locations]);
+    const routes = fetch("data/routes.json")
+    .then((r) => r.json())
+    .then(addJson);
+
+  await Promise.allSettled([locations, routes]);
   map.addRealmKeywords();
   map.resolveURL();
 };

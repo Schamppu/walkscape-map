@@ -184,10 +184,10 @@
   },
   {
     "id": "sea_fishing",
-    "name": "Sea fishing (net)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_fishing_(net)",
+    "name": "Sea fishing (Net)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_fishing_(Net)",
     "icon": {
-      "url": "activities/fishing/winter_fishing_sea.png"
+      "url": "activities/fishing/summer_fishing_sea.png"
     },
     "skills": [
       "fishing"
@@ -382,8 +382,8 @@
   },
   {
     "id": "sea_fishing_(rod)",
-    "name": "Sea fishing (rod)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_fishing_(rod)",
+    "name": "Sea fishing (Rod)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_fishing_(Rod)",
     "icon": {
       "url": "activities/fishing/winter_fishing_sea.png"
     },
@@ -482,8 +482,8 @@
   },
   {
     "id": "wine_grape_stomping",
-    "name": "Wine grape Stomping",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Wine_grape_Stomping",
+    "name": "Wine grape stomping",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Wine_grape_stomping",
     "icon": {
       "url": "activities/cooking/wine_grape_stomping.png"
     },
@@ -899,8 +899,8 @@
   },
   {
     "id": "sea_fishing_(cage)",
-    "name": "Sea fishing (cage)",
-    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_fishing_(cage)",
+    "name": "Sea fishing (Cage)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_fishing_(Cage)",
     "icon": {
       "url": "activities/fishing/sea_fishing_cage.png"
     },
@@ -991,5 +991,255 @@
       "woodcutting": 1
     },
     "requiredKeywords": []
+  },
+  {
+    "id": "merfolk_dancing",
+    "name": "Merfolk dancing",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Merfolk_dancing",
+    "icon": {
+      "url": "activities/merfolk_dancing.png"
+    },
+    "skills": [
+      "agility"
+    ],
+    "levelRequirements": {
+      "agility": 30
+    },
+    "requiredKeywords": []
+  },
+  {
+    "id": "wreck_diving",
+    "name": "Wreck diving",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Wreck_diving",
+    "icon": {
+      "url": "activities/wreck_diving.png"
+    },
+    "skills": [
+      "foraging",
+      "agility"
+    ],
+    "levelRequirements": {
+      "foraging": 35,
+      "agility": 35
+    },
+    "requiredKeywords": []
+  },
+  {
+    "id": "sea_fishing_(spear)",
+    "name": "Sea fishing (Spear)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sea_fishing_(Spear)",
+    "icon": {
+      "url": "activities/spear_fishing_sea.png"
+    },
+    "skills": [
+      "fishing"
+    ],
+    "levelRequirements": {
+      "fishing": 30
+    },
+    "requiredKeywords": [
+      "fishingSpear"
+    ]
+  },
+  {
+    "id": "kelp_foraging",
+    "name": "Kelp foraging",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Kelp_foraging",
+    "icon": {
+      "url": "activities/kelp_foraging.png"
+    },
+    "skills": [
+      "foraging",
+      "woodcutting"
+    ],
+    "levelRequirements": {
+      "foraging": 35,
+      "woodcutting": 35
+    },
+    "requiredKeywords": []
+  },
+  {
+    "id": "coral_cutting",
+    "name": "Coral cutting",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Coral_cutting",
+    "icon": {
+      "url": "activities/coral.png"
+    },
+    "skills": [
+      "woodcutting"
+    ],
+    "levelRequirements": {
+      "woodcutting": 45
+    },
+    "requiredKeywords": [
+      "woodcuttingHatchet"
+    ]
+  },
+  {
+    "id": "underwater_basket_weaving",
+    "name": "Underwater basket weaving",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Underwater_basket_weaving",
+    "icon": {
+      "url": "activities/underwater_basket_weaving.png"
+    },
+    "skills": [
+      "crafting"
+    ],
+    "levelRequirements": {
+      "crafting": 40
+    },
+    "requiredKeywords": []
+  },
+  {
+    "id": "cave_diving",
+    "name": "Cave diving",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Cave_diving",
+    "icon": {
+      "url": "activities/cave_diving.png"
+    },
+    "skills": [
+      "mining",
+      "agility",
+      "foraging"
+    ],
+    "levelRequirements": {
+      "mining": 55,
+      "agility": 55,
+      "foraging": 55
+    },
+    "requiredKeywords": [
+      "pickaxe",
+      "lightSource"
+    ]
+  },
+  {
+    "id": "mine_volcanic_rock",
+    "name": "Mine volcanic rock",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_volcanic_rock",
+    "icon": {
+      "url": "activities/volcanic_rock.png"
+    },
+    "skills": [
+      "mining"
+    ],
+    "levelRequirements": {
+      "mining": 45
+    },
+    "requiredKeywords": [
+      "pickaxe"
+    ]
+  },
+  {
+    "id": "fossil_mining",
+    "name": "Fossil mining",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Fossil_mining",
+    "icon": {
+      "url": "activities/fossil_mining.png"
+    },
+    "skills": [
+      "mining"
+    ],
+    "levelRequirements": {
+      "mining": 35
+    },
+    "requiredKeywords": [
+      "pickaxe",
+      "lightSource"
+    ]
+  },
+  {
+    "id": "predator_hunting_(spear)",
+    "name": "Predator hunting (Spear)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Predator_hunting_(Spear)",
+    "icon": {
+      "url": "activities/predator_hunting.png"
+    },
+    "skills": [
+      "fishing"
+    ],
+    "levelRequirements": {
+      "fishing": 55
+    },
+    "requiredKeywords": [
+      "fishingSpear",
+      "lightSource"
+    ]
+  },
+  {
+    "id": "merfolk_farm_foraging",
+    "name": "Merfolk farm foraging",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Merfolk_farm_foraging",
+    "icon": {
+      "url": "activities/merfolk_farm_foraging.png"
+    },
+    "skills": [
+      "foraging"
+    ],
+    "levelRequirements": {
+      "foraging": 40
+    },
+    "requiredKeywords": []
+  },
+  {
+    "id": "swimming_(expert)",
+    "name": "Swimming (Expert)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Swimming_(Expert)",
+    "icon": {
+      "url": "activities/agility/swimming.png"
+    },
+    "skills": [
+      "agility"
+    ],
+    "levelRequirements": {
+      "agility": 50
+    },
+    "requiredKeywords": []
+  },
+  {
+    "id": "emergency_swim_escape",
+    "name": "Emergency swim escape",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Emergency_swim_escape",
+    "icon": {
+      "url": "activities/agility/swimming.png"
+    },
+    "skills": [
+      "agility"
+    ],
+    "levelRequirements": {
+      "agility": 1
+    },
+    "requiredKeywords": []
+  },
+  {
+    "id": "sledding",
+    "name": "Sledding",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sledding",
+    "icon": {
+      "url": "activities/agility/sledding.png"
+    },
+    "skills": [
+      "agility"
+    ],
+    "levelRequirements": {
+      "agility": 20
+    },
+    "requiredKeywords": []
+  },
+  {
+    "id": "mine_tarsilium_ore_(underwater)",
+    "name": "Mine tarsilium ore (underwater)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Mine_tarsilium_ore_(underwater)",
+    "icon": {
+      "url": "activities/mining/tarsilium.png"
+    },
+    "skills": [
+      "mining"
+    ],
+    "levelRequirements": {
+      "mining": 40
+    },
+    "requiredKeywords": [
+      "pickaxe"
+    ]
   }
 ]

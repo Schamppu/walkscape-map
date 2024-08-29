@@ -2,99 +2,123 @@ singulars:
   jarvonia:
     disenchantedForest:
       name: Disenchanted Forest
-      desc: The Disenchanted Forest is a wintry woodland veiled in snow and cold. The trees are knotted and icy, and the air is crisp with a touch of mystery. It looks like a good place to chop trees.
+      desc: "The Disenchanted Forest is a wintry woodland veiled in snow and cold. The trees are knotted and icy, and the air is crisp with a touch of mystery. It looks like a good place to chop trees."
     kallaheim:
       name: Kallaheim
-      desc: Kallaheim is the capital of the northern realm of Jarvonia, known for its cold and snowy climate. Despite the harsh weather conditions, the city is a bustling hub of activity, with a thriving market, renowned blacksmiths, and skilled woodworkers. The city is the political capital of Jarvonia, whereas Azurazera is the religious capital.
+      desc: "Kallaheim is the capital of the northern realm of Jarvonia, known for its cold and snowy climate. Despite the harsh weather conditions, the city is a bustling hub of activity, with a thriving market, renowned blacksmiths, and skilled woodworkers. The city is the political capital of Jarvonia, whereas Azurazera is the religious capital."
     frusenholm:
       name: Frusenholm
-      desc: A town tucked along one of the many roads. The mountains behind this town "sing" with the laborers of Frusenholm's work songs echo along the base. Many people come here to trade songs and goods.
+      desc: A town tucked along one of the many roads. The mountains behind this town sing with the laborers of Frusenholm's work songs echo along the base. Many people come here to trade songs and goods.
     norsackPlains:
       name: Norsack Plains
-      desc: A mix of grass lined rivers and frozen peaks, though the cold often passes over the deep valley. Leaving those within untouched by an icy grasp.
+      desc: "A mix of grass lined rivers and frozen peaks, though the cold often passes over the deep valley. Leaving those within untouched by an icy grasp."
     centaham:
       name: Centaham
-      desc: The first town within Jarvonia many people come across, it has grown since it first formed. Buildings grown around the set roads that connect all of the cities within this cold land. Traders and merchants often stop here to do business.
+      desc: "The first town within Jarvonia many people come across, it has grown since it first formed. Buildings grown around the set roads that connect all of the cities within this cold land. Traders and merchants often stop here to do business."
     barbantok:
       name: Barbantok
-      desc: Tucked away within a forest lies this town, carved out of the forest that encloses it. Fertile farmland and a chapel are noted when approaching. Many tree stumps are present on the edge of the woods.
+      desc: "Tucked away within a forest lies this town, carved out of the forest that encloses it. Fertile farmland and a chapel are noted when approaching. Many tree stumps are present on the edge of the woods."
     nomadWoods:
       name: Nomad Woods
       desc: A dense forest. Sheltering any who wander in from the cool winds of open areas. The snow upon branches trap the sound of the outside world. Serene and silent.
     azurazera:
       name: Azurazera
-      desc: A massive wall is not enough to hide the large and magical building of this city. Merchant stalls line street corners, and magic seems to be common in this place. Mutterings of magical words only barely grace one's mind before the bustle of the city drowns it out.
+      desc: "A massive wall is not enough to hide the large and magical building of this city. Merchant stalls line street corners, and magic seems to be common in this place. Mutterings of magical words only barely grace one's mind before the bustle of the city drowns it out."
     noiselessPass:
       name: Noiseless Pass
-      desc: A long, hill filled pass. The mountains on both sides shield most of the harsh winds. But the snow drifts often bring with them the sweet embrace of frost. An eerie silence fills this road, not even the sound of wind seems to reach the bottom.
+      desc: "A long, hill filled pass. The mountains on both sides shield most of the harsh winds. But the snow drifts often bring with them the sweet embrace of frost. An eerie silence fills this road, not even the sound of wind seems to reach the bottom."
     coldington:
       name: Coldington
-      desc: A small chapel is the main building of this humble town. Hymns of music echo softly throughout the streets. The people of this town may be cold, but their souls are warmed with hope and enlightenment.
+      desc: "A small chapel is the main building of this humble town. Hymns of music echo softly throughout the streets. The people of this town may be cold, but their souls are warmed with hope and enlightenment."
     portSkildar:
       name: Port Skildar
-      desc: Hearty people claim this port, wearing thick clothing and furs. The town's roads are always cleared or packed down with plenty of footfalls or shovels. The one outstanding feature is a towering lighthouse, of which guides seafarers back to land.
+      desc: "Hearty people claim this port, wearing thick clothing and furs. The town's roads are always cleared or packed down with plenty of footfalls or shovels. The one outstanding feature is a towering lighthouse, of which guides seafarers back to land."
     sanguineHills:
       name: Sanguine Hills
-      desc: A large mountain range, some tips capped with snow. The wind whistles, blowing any loose snow and warmth from the sun away on gusts of thick wind.
+      desc: "A large mountain range, some tips capped with snow. The wind whistles, blowing any loose snow and warmth from the sun away on gusts of thick wind."
     casbrantFields:
       name: Casbrant Fields
-      desc: Gigantic bones, a Watch Tower, and winding roads make up the stretching fields. Pockets of greenery peek out from a quilt of snow. The wind is nearly nonexistent here, save for the occasional gust.
+      desc: "Gigantic bones, a Watch Tower, and winding roads make up the stretching fields. Pockets of greenery peek out from a quilt of snow. The wind is nearly nonexistent here, save for the occasional gust."
     frostbiteMountain:
       name: Frostbite Mountain
-      desc: One mountain stands taller than any other, a beacon in Jarvonia. Thick red rocks peek out of their blankets of snow. Any who enter the land are unable to resist standing in awe at the mountain that touches the sky.
+      desc: "One mountain stands taller than any other, a beacon in Jarvonia. Thick red rocks peek out of their blankets of snow. Any who enter the land are unable to resist standing in awe at the mountain that touches the sky."
     fortOfPermafrost:
       name: Fort of Permafrost
-      desc: A large bridge, as cold as the earth surrounding it. The fort ahead whistles softly, holding strong its icy armor and powerful aura as a testament to those who built it.
+      desc: "A large bridge, as cold as the earth surrounding it. The fort ahead whistles softly, holding strong its icy armor and powerful aura as a testament to those who built it."
     solitudeRock:
       name: Solitude Rock
-      desc: A small island covered in snow, and a small yet thick forest. Despite being isolated, there is a level of serenity and comfort found here.
+      desc: "A small island covered in snow, and a small yet thick forest. Despite being isolated, there is a level of serenity and comfort found here."
     beachOfWoes:
       name: Beach of Woes
-      desc: The rocky beach is blanketed in snow. Cold waves crash against the coast, creating a soothing sound. The salty breeze adds an invigorating touch.
+      desc: "The rocky beach is blanketed in snow. Cold waves crash against the coast, creating a soothing sound. The salty breeze adds an invigorating touch."
     winterWavesGlacier:
       name: Winter Waves Glacier
       desc: This glacier is home to penguins that inhabit it. An igloo can be seen in the distance. Many adventurers journey here in search of the legendary treasure rumored to lie within the endless ice field.
     hornOfRespite:
       name: Horn of Respite
-      desc: An old, well-built wooden cabin sits on the coast of this snowy peninsula. Its windows emanate a warm light, and from its chimney, white smoke rises into the air. The surrounding air is crisp and cold.
+      desc: "An old, well-built wooden cabin sits on the coast of this snowy peninsula. Its windows emanate a warm light, and from its chimney, white smoke rises into the air. The surrounding air is crisp and cold."
     blackEyePeak:
       name: Black Eye Peak
-      desc: At the heart of these treacherous mountains lies the mouth of an ancient volcano. Its days of activity are long forgotten, now it's completely frozen over. The dark pit feels disturbingly inviting.
+      desc: "At the heart of these treacherous mountains lies the mouth of an ancient volcano. Its days of activity are long forgotten, now it's completely frozen over. The dark pit feels disturbingly inviting."
     wintersEnd:
       name: Winter's End
-      desc: The strong scent of spring flowers in full bloom fills the air. An old tower, marking southernmost place of Jarvonia, stands atop the looming cliffs. Looking out across the ocean, one can see the silhouette of Wallisia in the distance.
+      desc: "The strong scent of spring flowers in full bloom fills the air. An old tower, marking southernmost place of Jarvonia, stands atop the looming cliffs. Looking out across the ocean, one can see the silhouette of Wallisia in the distance."
+    nurturingNookSprings:
+      name: Nurturing Nook Springs
+      desc: "The water shimmers a vibrant blue, surrounding the area in a muggy sulfur-scented vapor. The springs are currently undergoing repairs and will be reopening soon!"
   gdte:
     farsandCoast:
       name: Farsand Coast
-      desc: Many rivers pierce the edge of this coast, flowing slowly into the ocean. The nearby forest is thick with trees and wildlife, only the waves that lap against the beach seem to be coming and going at a much slower pace than the rest of the world.
+      desc: "Many rivers pierce the edge of this coast, flowing slowly into the ocean. The nearby forest is thick with trees and wildlife, only the waves that lap against the beach seem to be coming and going at a much slower pace than the rest of the world."
     salsfirth:
       name: Salsfirth
-      desc: A steady town, filled with farmers and traders alike. The buildings are made of thick stone, the red tiled roofing on many of the buildings is strong and hearty. Much like the people of this humble and peaceful city.
+      desc: "A steady town, filled with farmers and traders alike. The buildings are made of thick stone, the red tiled roofing on many of the buildings is strong and hearty. Much like the people of this humble and peaceful city."
     everhaven:
       name: Everhaven
-      desc: A peninsula city, not cut off by a stone wall or any forests. Instead a massive castle rests at the back of the city. This city seems far more calm than most others. Citizens go about their day, trading and working in near silence.
+      desc: "A peninsula city, not cut off by a stone wall or any forests. Instead a massive castle rests at the back of the city. This city seems far more calm than most others. Citizens go about their day, trading and working in near silence."
     bilgemontPort:
       name: Bilgemont Port
-      desc: Often this port uses the Red Crossing to trade with another city nearby, though being closer to the ocean seems to permeate the town with salty air of the fresh waves slowly flowing south.
+      desc: "Often this port uses the Red Crossing to trade with another city nearby, though being closer to the ocean seems to permeate the town with salty air of the fresh waves slowly flowing south."
     granfiddich:
       name: Granfiddich
-      desc: A large wall and castle show that this town is prosperous within its endeavors. A bustling market filled with cheerful faces, hymns echoing from the church can be heard every morning after the bell's final toll.
+      desc: "A large wall and castle show that this town is prosperous within its endeavors. A bustling market filled with cheerful faces, hymns echoing from the church can be heard every morning after the bell's final toll."
     blackspellPort:
       name: Blackspell Port
-      desc: A small island holding a lighthouse rests just beyond the docks.The people of this city seem to be very dedicated to their port and the trading of goods, many crates of goods can be found lining the docks in the early mornings.
+      desc: "A small island holding a lighthouse rests just beyond the docks.The people of this city seem to be very dedicated to their port and the trading of goods, many crates of goods can be found lining the docks in the early mornings."
     oldArenaRuins:
       name: Old Arena Ruins
-      desc: The bouts of violence are written within the arena's stone floor. Nature has reclaimed this area. It is said that when the wind blows just right, the echoes of past fights are able to be heard.
+      desc: "The bouts of violence are written within the arena's stone floor. Nature has reclaimed this area. It is said that when the wind blows just right, the echoes of past fights are able to be heard."
     halflingCampgrounds:
       name: Halfling Campgrounds
-      desc: Within the tangle of the Forest lays a humble camp, small and nearly unobtrusive to the nature of the location. Fires burn, food is cooked, and merrymaking seems to happen when the sun falls beneath the canopy's line.
+      desc: "Within the tangle of the Forest lays a humble camp, small and nearly unobtrusive to the nature of the location. Fires burn, food is cooked, and merrymaking seems to happen when the sun falls beneath the canopy's line."
     mangroveForest:
       name: Mangrove Forest
-      desc: Rivers feed into this large abundance of trees, though there is an eerie silence befalling this location. Thick roots choke out any grass or other vegetation, birds do not sing, and the breeze does not rattle a single leaf.
+      desc: "Rivers feed into this large abundance of trees, though there is an eerie silence befalling this location. Thick roots choke out any grass or other vegetation, birds do not sing, and the breeze does not rattle a single leaf."
     redCoast:
       name: Red Coast
       desc: Large swells of seawater beat down upon the sand of the coast. The salty air free to blow along the small hills of dry sand is a testament to the freedom of the sea itself. Ever changing but always present.
     warrenField:
       name: Warrenfield
-      desc: A flowing river, edged by overgrown reeds and grass. The sound of frogs and crickets is nearly overwhelming in the evening hours. Many whisper about even being blinded by the amount of stars to be seen in the night.
-    
+      desc: "A flowing river, edged by overgrown reeds and grass. The sound of frogs and crickets is nearly overwhelming in the evening hours. Many whisper about even being blinded by the amount of stars to be seen in the night."
+    granfiddichShores:
+      name: Granfiddich Shores
+      desc: "The large beach burns under the bright sun, full of halflings and humans alike."
+  syrenthia:
+    kelpForest:
+      name: Kelp Forest
+      desc: The seabed is abundant with kelp in many different shapes and sizes. Small fish are constantly shifting through the kelp fields looking to nibble on smaller plants or fish.
+    casbrantsGrave:
+      name: Casbrant's Grave
+      desc: "A massive shipwreck lies in the sand. Who knows how long it's been here? Some fish and other creatures have taken it as their home. Colorful underwater plants grow on the shipwreck and around it, creating a spectacular sight. Its largest mast is still intact."
+    vastalumeCity:
+      name: Vastalume
+      desc: Various buildings have been built into the underwater rocky valley. In the middle of the valley floats a large rock with a palace on top. Bridges connect it to the rest of the city. Fish and merfolk alike swim through the bustling underwater city.
+    underwaterCave:
+      name: Underwater Cave
+      desc: "The underwater cave has a large opening filled with precious ores and rocks. Beautiful underwater plants grow along the cave's walls. Many paths lead deeper into the caves, but exploring them is dangerous."
+    darkDepths:
+      name: Darktide Trench
+      desc: "Descending into a trench beyond the borders of Vastalume, the ocean grows dark. What could be hidden in the depths below?"
+    fertileShallows:
+      name: Elara's Lagoon
+      desc: "In the shallows, the sun allows life to flourish. Will you swim in the inviting currents, or volunteer on the merfolk farm?"

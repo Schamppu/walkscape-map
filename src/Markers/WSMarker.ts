@@ -1,6 +1,7 @@
 import * as Schema from "../Interfaces/JSONSchema";
 import { Marker, LatLngExpression, LatLngBounds, DomUtil } from "leaflet";
-import { Layer, Visibility } from "../Layer";
+import { Layer } from "../Layer";
+import { Visibility } from "../Interfaces/Visibility";
 import { MarkerDivIcon } from "./MarkerDivIcon";
 import { WSLocationMarker } from "./WSLocationMarker";
 import { WSRealmMarker } from "./WSRealmMarker";
@@ -129,6 +130,12 @@ export class WSMarker extends Marker {
     marker: Schema.Marker | Schema.Location
   ): marker is Schema.Location {
     return Object.keys(marker).includes("realm");
+  }
+
+  public static isRouteJson(
+    marker: Schema.Marker | Schema.Route
+  ): marker is Schema.Route {
+    return Object.keys(marker).includes("pathpoints");
   }
 
   public static isRealm(marker: WSMarker): marker is WSRealmMarker {

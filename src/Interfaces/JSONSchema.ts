@@ -69,3 +69,10 @@ export interface Building extends DataPoint {
 export interface Service extends DataPoint {
   skills: string[];
 }
+
+export interface Route extends Marker {
+  realm: string;
+  distance: number;
+  pathpoints: LatLngTuple[];
+  terrainModifiers: string;
+}

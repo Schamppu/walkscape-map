@@ -248,5 +248,85 @@
     },
     "type": "clothingShop",
     "shop": "quagmire_coutur"
+  },
+  {
+    "id": "casbrants_sunken_ship",
+    "name": "Casbrant's Sunken Ship",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Casbrant's_Sunken_Ship",
+    "icon": {
+      "url": "buildings/fishing_shop.png"
+    },
+    "type": "fishingStore",
+    "shop": "casbrants_sunken_ship"
+  },
+  {
+    "id": "vastalume_bank",
+    "name": "Thalassa Wave Bank",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Thalassa_Wave_Bank",
+    "icon": {
+      "url": "buildings/bank.png"
+    },
+    "type": "bank",
+    "shop": "kallaheim_general_store"
+  },
+  {
+    "id": "vastalume_tavern",
+    "name": "Pearl of the Sea",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Pearl_of_the_Sea",
+    "icon": {
+      "url": "buildings/tavern.png"
+    },
+    "type": "tavern",
+    "shop": "vastalume_tavern"
+  },
+  {
+    "id": "vastalume_general_store",
+    "name": "Sunken Anchor",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Sunken_Anchor",
+    "icon": {
+      "url": "buildings/general_store.png"
+    },
+    "type": "generalStore",
+    "shop": "vastalume_general_store"
+  },
+  {
+    "id": "vastalume_tavern",
+    "name": "Go with the Flow Barbershop",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Go_with_the_Flow_Barber_Shop",
+    "icon": {
+      "url": "buildings/barber.png"
+    },
+    "type": "barber",
+    "shop": null
+  },
+  {
+    "id": "vastalume_specialized_store",
+    "name": "Undercurrent",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Undercurrent",
+    "icon": {
+      "url": "buildings/general_store.png"
+    },
+    "type": "generalStore",
+    "shop": "vastalume_specialized_shop"
+  },
+  {
+    "id": "vastalume_clothing_shop",
+    "name": "Fin-tastic Fashion",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Fin-tastic_Fashion",
+    "icon": {
+      "url": "buildings/clothing_shop.png"
+    },
+    "type": "clothingShop",
+    "shop": "fintastic_fashion"
+  },
+  {
+    "id": "throne_of_the_neverdrown",
+    "name": "Throne of the Neverdrown",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Throne_of_the_Neverdrown",
+    "icon": {
+      "url": "buildings/castle.png"
+    },
+    "type": "castle",
+    "shop": null
   }
 ]

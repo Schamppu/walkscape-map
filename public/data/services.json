@@ -109,13 +109,68 @@
   },
   {
     "id": "sawmill_of_barbantok",
-    "name": "Sawmill of Barbantok",
+    "name": "Sawmill of Barbantok (Basic)",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Sawmill_of_Barbantok",
     "icon": {
       "url": "services/sawmill.png"
     },
     "skills": [
       "carpentry"
+    ]
+  },
+  {
+    "id": "tidal_workshop",
+    "name": "Tidal Workshop (Advanced)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Services#Advanced_Workshops",
+    "icon": {
+      "url": "services/workshop_tidal.png"
+    },
+    "skills": [
+      "crafting"
+    ]
+  },
+  {
+    "id": "underwater_kitchen",
+    "name": "Underwater Kitchen (Basic)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Services#Basic_Kitchens",
+    "icon": {
+      "url": "services/kitchen.png"
+    },
+    "skills": [
+      "cooking"
+    ]
+  },
+  {
+    "id": "underwater_forge",
+    "name": "Underwater Forge (Basic)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Services#Basic_Forges",
+    "icon": {
+      "url": "services/forge.png"
+    },
+    "skills": [
+      "smithing"
+    ]
+  },
+  {
+    "id": "underwater_sawmill",
+    "name": "Underwater Sawmill (Basic)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Services#Basic_Sawmills",
+    "icon": {
+      "url": "services/sawmill.png"
+    },
+    "skills": [
+      "carpentry"
+    ]
+  },
+  {
+    "id": "eberhart_mansion_kitchen",
+    "name": "Eberhart Mansion Kitchen (Advanced)",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Services#Advanced_Kitchen",
+    "icon": {
+      "url": "services/kitchen_advanced.png"
+    },
+    "skills": [
+      "cooking"
     ]
   }
 ]

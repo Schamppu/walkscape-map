@@ -1,6 +1,7 @@
 import { LatLngBounds, LayerGroup, TileLayer } from "leaflet";
 import { WSMap } from "./WSMap";
-import { Layer, Visibility } from "./Layer";
+import { Layer } from "./Layer";
+import { Visibility } from "./Interfaces/Visibility";
 import { WSMarker } from "./Markers/WSMarker";
 
 export class MapLayer extends LayerGroup {
@@ -40,6 +41,7 @@ export class MapLayer extends LayerGroup {
     if (!this.hasLayer(this.markerLayer)) {
       this.addLayer(this.markerLayer);
     }
+    this.updateZoom(this.map.getZoom());
   }
 
   public hide(): void {
@@ -87,14 +89,17 @@ export class MapLayer extends LayerGroup {
     }
   }
 
-  public filterLocations(shownValues: string[]) {
+  public filterLocations(shownValues: { [key: string]: Visibility }) {
     const locations = this.getMarkers();
     for (const loc of locations) {
-      const filteredArray = shownValues.filter((value) =>
-        loc.getKeywords().includes(value)
-      );
-      if (filteredArray.length > 0) {
+      const visibilities = loc.getKeywords().map((kw) => shownValues[kw]);
+      const visOn = visibilities.some((v) => v === Visibility.On);
+      const visDefault = visibilities.some((v) => v === Visibility.Default);
+
+      if (visOn) {
         loc.forceShow();
+      } else if (visDefault) {
+        loc.resetVisibility();
       } else {
         loc.forceHide();
       }
@@ -102,7 +107,23 @@ export class MapLayer extends LayerGroup {
     this.updateMarkersVisibility();
   }
 
+  public filterRoutes(shownValues: { [key: string]: Visibility }) {
+    if ("Routes" in this.categories) {
+      const routeLayer = this.categories["Routes"];
+      const routeVisiblity = shownValues["route"];
+
+      if (routeVisiblity === Visibility.Off) {
+        routeLayer.forceHide();
+      } else {
+        routeLayer.resetVisibility();
+      }
+
+      this.updateLayerVisibility(routeLayer);
+    }
+  }
+
   public updateZoom(zoom: number): void {
+    if (!this.isVisible()) return;
     this.currentZoom = zoom;
     const bounds = this.map.getBounds().pad(0.2);
     for (const layer of Object.values(this.categories)) {
@@ -130,10 +151,12 @@ export class MapLayer extends LayerGroup {
     layer: Layer,
     bounds: LatLngBounds
   ): void {
+    if (!this.isVisible()) return;
     layer.updateMarkerVisibility(bounds);
   }
 
   private updateLayerVisibility(layer: Layer): void {
+    if (!this.isVisible()) return;
     if (this.currentZoom >= layer.labelMinZoom) {
       layer.showLabels();
     } else {

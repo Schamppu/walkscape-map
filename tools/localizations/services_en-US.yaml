@@ -9,6 +9,9 @@ singulars:
     frozenForge:
       name: Frozen Forge
       desc: A forge made out of ice with small carvings of penguins all over it.
+    underwaterForge:
+      name: Underwater Forge (Basic)
+      desc: <Placeholder>
   cooking:
     basicKitchen:
       name: Basic Kitchen
@@ -16,6 +19,12 @@ singulars:
     advancedKitchen:
       name: Advanced Kitchen
       desc: A well-equipped kitchen, suitable for gourmet cooking and culinary experiments.
+    underwaterKitchen:
+      name: Underwater Kitchen (Basic)
+      desc: <Placeholder>
+    eberhartMansionKitchen:
+      name: Eberhart Mansion Kitchen (Advanced)
+      desc: The Eberhart family gives to those who give to others. Proof of your dedication to the local soup kitchen is more than enough reason for them to open their doors and let you use their shared kitchen space.
   crafting:
     basicWorkshop:
       name: Basic Workshop
@@ -23,6 +32,9 @@ singulars:
     advancedWorkshop:
       name: Advanced Workshop
       desc: An advanced workshop, equipped for crafting complex and versatile creations.
+    tidalWorkshop:
+      name: Tidal Workshop (Advanced)
+      desc: <Placeholder>
   carpentry:
     basicSawmill:
       name: Basic Sawmill
@@ -31,8 +43,11 @@ singulars:
       name: Advanced Sawmill
       desc: An advanced timber processing mill, capable of producing higher-quality lumber with precision and efficiency.
     barbantokSawmill:
-      name: Sawmill of Barbantok
+      name: Sawmill of Barbantok (Basic)
       desc: A sawmill that is said to be haunted by the ghost of Barbantok, a legendary carpenter who was known for his exceptional craftsmanship.
+    underwaterSawmill:
+      name: Underwater Sawmill (Basic)
+      desc: <Placeholder>
   cosmetics:
     barber:
       name: Barber
@@ -41,7 +56,7 @@ singulars:
       name: Wardrobe
       desc: Access to your wardrobe, so you can change your looks to any cosmetics you might own.
 maps:
-  tiers(map):
+  tiers:
     "basic": Basic
     "advanced": Advanced
     "legendary": Legendary

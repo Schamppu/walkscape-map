@@ -170,7 +170,7 @@ export class LocationPopup extends WSPopup {
     ) => {
       data.forEach((d) => {
         const dataDiv = DomUtil.create("div", "subdiv-content", parent);
-        const img = new Image(d.icon.width ?? 32, d.icon.height ?? 32);
+        const img = new Image(d.icon.width ?? 16, d.icon.height ?? 16);
         img.src = `icons/${d.icon.url}`;
         dataDiv.appendChild(img);
 

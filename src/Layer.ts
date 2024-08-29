@@ -1,15 +1,11 @@
 import * as Schema from "./Interfaces/JSONSchema";
-import { LayerGroup, LatLngBounds } from "leaflet";
+import { LayerGroup, LatLngBounds, Polyline } from "leaflet";
 import { WSMarker } from "./Markers/WSMarker";
 import { WSLocationMarker } from "./Markers/WSLocationMarker";
 import { DataPoint } from "./Interfaces/DataPoint";
 import { WSRealmMarker } from "./Markers/WSRealmMarker";
-
-export enum Visibility {
-  Off,
-  On,
-  Default,
-}
+import { RoutePopup } from "./Popups/RoutePopup";
+import { Visibility } from "./Interfaces/Visibility";
 
 export class Layer extends LayerGroup {
   public minZoom = 0;
@@ -98,17 +94,83 @@ export class Layer extends LayerGroup {
     layer.labelMinZoom =
       json.labelMinZoom != undefined ? json.labelMinZoom : layer.minZoom;
 
-    layer.markers = json.markers.map((m) => {
-      if (WSMarker.isLocationJson(m))
-        return WSLocationMarker.fromJson(
-          this.matchDataPointsToJson(m, data),
-          layer
-        );
-      if (WSMarker.isRealmJson(m)) return WSRealmMarker.fromJson(m, layer);
-      return WSMarker.fromJson(m, layer);
+    layer.markers = json.markers
+      .filter(
+        (m) =>
+          (WSMarker.isLocationJson(m) || WSMarker.isRealmJson(m)) &&
+          !WSMarker.isRouteJson(m)
+      )
+      .map((m) => {
+        if (WSMarker.isLocationJson(m))
+          return WSLocationMarker.fromJson(
+            this.matchDataPointsToJson(m, data),
+            layer
+          );
+        if (WSMarker.isRealmJson(m)) return WSRealmMarker.fromJson(m, layer);
+        return WSMarker.fromJson(m, layer);
+      });
+
+    json.markers.forEach((m) => {
+      if (WSMarker.isRouteJson(m)) {
+        const routes = this.createRoute(m);
+        routes.forEach((r) => {
+          layer.addLayer(r);
+        });
+      }
     });
 
     return layer;
+  }
+
+  private static createRoute(json: Schema.Route): Polyline[] {
+    const colors: Record<string, string> = {
+      jarvonia: "#abddff",
+      wallisia: "#ff9b74",
+      gdte: "#a9ff6a",
+      galeforge: "#fbaaff",
+      wrentmark: "#f8ff9f",
+      painful_islands: "#ff2f15",
+      ewerethien: "#d4b4ff",
+      braemercia: "#ffa25f",
+      rid_raddak: "#c3ff1f",
+      ethereal: "#ff608c",
+      syrenthia: "#9d84eb",
+    };
+
+    const lineOptions = {
+      color: colors[json.realm],
+      opacity: 1,
+      weight: 4,
+      dashOffset: "40",
+      dashArray: "1,30",
+    };
+
+    const lines: Polyline[] = [];
+    const weight_start = 20;
+    const weight_offset = -3;
+    const used_colors = ["white", "gray", "black", colors[json.realm]];
+
+    const popup = RoutePopup.create(json);
+
+    for (var i = 0; i < used_colors.length; i++) {
+      const route = new Polyline(json.pathpoints, {
+        ...lineOptions,
+        weight: weight_start + i * weight_offset,
+        color: used_colors[i],
+      });
+      route.bindPopup(popup);
+      route.on("click", (e) => {
+        const clickedLatLng = e.latlng;
+        const popupContent = popup.getPopupContent();
+        route.setPopupContent(popupContent).openPopup(clickedLatLng);
+      });
+      lines.push(route);
+    }
+    return lines;
+  }
+
+  public resetVisibility(): void {
+    this.setVisibility(Visibility.Default);
   }
 
   public forceShow(): void {
