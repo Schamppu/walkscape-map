@@ -1,5 +1,4 @@
 import json
-import re
 import os
 import copy
 import yaml
@@ -29,8 +28,7 @@ def get_id(string):
     return '-'.join(split[1:len(split) - 5])
 
 def get_name(key):
-    if not key:
-        return
+    assert len(key)
     parts = key.split('.')
     localization_file = f"localizations/{parts[0]}_en-US.yaml"
     data = read_yaml(localization_file)
@@ -53,9 +51,6 @@ def read_data(data_path, src_path):
 def get_common_info(official_obj, old_data, icon_key=None):
     id = get_id(official_obj['id'])
     old_obj = find(old_data, id)
-    exists = len(old_obj)
-
-    # keep fixed capitalizations from old data if it exists
     name = get_name(official_obj['name'])
     if icon_key and icon_key in official_obj:
         icon_path = official_obj[icon_key].replace('assets/icons/', '')
@@ -275,13 +270,34 @@ def update_routes(filename, map_layer_name):
         data_full[0]['layers'].append(layer)
     write_json(data_path, data_full)
 
+def edit_locations():
+    data_path = f'../public/data/locations.json'
+    activity_data = read_json('./data/activities.json')
+    id_map = { get_id(i['id']): i['id'] for i in activity_data }
+
+    def get_act_id(key):
+        if key not in id_map:
+            return key
+        return id_map[key]
+
+    full_locations_data = read_json(data_path)
+    locations = full_locations_data[1]
+    for loc_i, layer in enumerate(locations["layers"]):
+        for mrk_i, marker in enumerate(layer["markers"]):
+            new_activity_ids = [get_act_id(act_id) for act_id in marker['activities']]
+            marker['activities'] = new_activity_ids
+            layer['markers'][mrk_i] = marker
+        locations['layers'][loc_i] = layer
+    write_json(data_path, full_locations_data)
+
 def main():
     map_layer_name = 'beta-322'
+    # edit_locations()
     update_locations('locations.json', map_layer_name)
     update_activities('activities.json')
-    # update_buildings('buildings.json')
-    # update_services('services.json')
-    # update_routes('routes.json', map_layer_name)
+    update_buildings('buildings.json')
+    update_services('services.json')
+    update_routes('routes.json', map_layer_name)
 
 if __name__ == '__main__':
     main()
