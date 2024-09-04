@@ -172,5 +172,41 @@
     "skills": [
       "cooking"
     ]
+  },
+  {
+    "id": "azurazera_job_board",
+    "name": "Job Board",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Jarvonia_Job_Boards",
+    "icon": {
+      "url": "services/job_boards.png"
+    },
+    "skills": []
+  },
+  {
+    "id": "kallaheim_job_board",
+    "name": "Job Board",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Jarvonia_Job_Boards",
+    "icon": {
+      "url": "services/job_boards.png"
+    },
+    "skills": []
+  },
+  {
+    "id": "vastalume_job_board",
+    "name": "Job Board",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/Syrenthia_Job_Boards",
+    "icon": {
+      "url": "services/job_boards.png"
+    },
+    "skills": []
+  },
+  {
+    "id": "granfiddich_job_board",
+    "name": "Job Board",
+    "wikiUrl": "https://wiki.walkscape.app/wiki/GDTE_Job_Boards",
+    "icon": {
+      "url": "services/job_boards.png"
+    },
+    "skills": []
   }
 ]

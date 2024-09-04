@@ -656,9 +656,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_pine_trees",
-              "cut_birch_trees",
-              "dobby_is..._free"
+              "activity-cut_pine_trees-53a11a23-24d6-4d5c-9dc8-28c702189a29",
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-dobby_is..._free-7a57ddaf-4970-4f88-bcb2-09d4a7fca50f"
             ],
             "services": [],
             "buildings": [
@@ -679,8 +679,8 @@
             },
             "hidden": false,
             "activities": [
-              "lake_fishing",
-              "soup_kitchen_volunteering"
+              "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743",
+              "activity-soup_kitchen_volunteering-013f92cc-ee30-42c5-9f57-436bb57cb76a"
             ],
             "services": [],
             "buildings": [
@@ -701,7 +701,7 @@
             },
             "hidden": false,
             "activities": [
-              "litter_looting"
+              "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156"
             ],
             "services": [
               "basic_forge",
@@ -728,8 +728,8 @@
             },
             "hidden": false,
             "activities": [
-              "lake_fishing",
-              "ice_sculpting"
+              "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743",
+              "activity-ice_sculpting-2b0be0f5-69d5-4205-922d-c5a02c056cab"
             ],
             "services": [
               "basic_workshop"
@@ -752,9 +752,9 @@
             },
             "hidden": false,
             "activities": [
-              "frisbee_golfing_(beginner)",
-              "wood_carving",
-              "tinkering"
+              "activity-frisbee_golfing_(beginner)-0fb41f4d-f46b-4a6d-acdf-f2525654c714",
+              "activity-wood_carving-af675674-c972-4e2e-80fe-1501b972e353",
+              "activity-tinkering-cb2a8773-06d0-4661-9708-2bef5768119e"
             ],
             "services": [
               "basic_sawmill"
@@ -796,9 +796,9 @@
             },
             "hidden": false,
             "activities": [
-              "sea_fishing_(rod)",
-              "horseshoe_making",
-              "ship_repair_(beginner)"
+              "activity-sea_fishing_(rod)-e6b9acb3-6450-499d-80ac-3a8153351ac6",
+              "activity-horseshoe_making-c4b0dda4-2f2a-4aea-989a-144d0b738f10",
+              "activity-ship_repair_(beginner)-0870997e-fee1-465b-ab4a-a9f668bd16b0"
             ],
             "services": [],
             "buildings": [
@@ -819,8 +819,8 @@
             },
             "hidden": false,
             "activities": [
-              "firewood_making",
-              "rooftop_jumping"
+              "activity-firewood_making-407263a4-4ee1-4383-a624-2a7ed70c4b10",
+              "activity-rooftop_jumping-ebf1dd67-a070-40ad-87cf-608a1857fabc"
             ],
             "services": [
               "basic_kitchen"
@@ -841,12 +841,12 @@
             },
             "hidden": false,
             "activities": [
-              "cliff_foraging",
-              "mine_coal",
-              "mine_tarsilium_ore",
-              "mine_farganite_ore",
-              "spelunking",
-              "mountain_climbing_(intermediate)"
+              "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34",
+              "activity-mine_coal-766ceeb7-30f2-4e41-b487-a89345273413",
+              "activity-mine_tarsilium_ore-03bf04ba-e66c-4f80-9068-0cfa24533ca6",
+              "activity-mine_farganite_ore-a41979f2-c46f-4b84-ad50-01a5f90d38de",
+              "activity-spelunking-45b8d041-f27e-434e-8bdc-bbd6d5c9eec8",
+              "activity-mountain_climbing_(intermediate)-812aa739-645f-4ff3-ac6e-61b0153b9351"
             ],
             "services": [],
             "buildings": []
@@ -865,9 +865,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_birch_trees",
-              "cut_spruce_trees",
-              "cut_oak_trees"
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cut_oak_trees-5dc3bb43-4600-45ed-ad5f-a99f8a68248b"
             ],
             "services": [],
             "buildings": [
@@ -888,9 +888,9 @@
             },
             "hidden": false,
             "activities": [
-              "plains_foraging",
-              "cut_spruce_trees",
-              "cross-country_skiing_(beginner)"
+              "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c",
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cross-country_skiing_(beginner)-fc421940-d63a-402f-aa50-26cc2efea4d3"
             ],
             "services": [],
             "buildings": []
@@ -926,8 +926,8 @@
             },
             "hidden": false,
             "activities": [
-              "plains_foraging",
-              "gold_panning"
+              "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c",
+              "activity-gold_panning-86072e6b-4e46-413f-9407-caf0ca8b077f"
             ],
             "services": [],
             "buildings": []
@@ -946,12 +946,12 @@
             },
             "hidden": false,
             "activities": [
-              "mine_copper_ore",
-              "mine_tin_ore",
-              "mine_iron_ore",
-              "cliff_foraging",
-              "mine_coal",
-              "mountain_climbing_(beginner)"
+              "activity-mine_copper_ore-cc886e82-54a0-4b04-b822-3ce79f00ae2d",
+              "activity-mine_tin_ore-2e1a6c3e-f46e-4fdf-97d8-be6eec6944a8",
+              "activity-mine_iron_ore-60e5869c-dfde-448b-8ec7-b546dfd9b3be",
+              "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34",
+              "activity-mine_coal-766ceeb7-30f2-4e41-b487-a89345273413",
+              "activity-mountain_climbing_(beginner)-2020f2b7-5365-4f5c-8b17-3d8164a13643"
             ],
             "services": [],
             "buildings": []
@@ -970,9 +970,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_spruce_trees",
-              "cut_oak_trees",
-              "cross-country_skiing_(intermediate)"
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cut_oak_trees-5dc3bb43-4600-45ed-ad5f-a99f8a68248b",
+              "activity-cross-country_skiing_(intermediate)-42788047-6cc3-4711-88be-999e9504fc2a"
             ],
             "services": [],
             "buildings": []
@@ -1010,9 +1010,9 @@
             },
             "hidden": false,
             "activities": [
-              "teak_logs",
-              "seashell_searching",
-              "swimming_(beginner)"
+              "activity-teak_logs-a8011147-3b4b-4e3f-ae4e-5a12db5d92b4",
+              "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79",
+              "activity-swimming_(beginner)-1ccee641-01d9-4bcb-8dd7-9df9c61142f2"
             ],
             "services": [],
             "buildings": []
@@ -1054,7 +1054,7 @@
             },
             "hidden": false,
             "activities": [
-              "rooftop_jumping_(intermediate)"
+              "activity-rooftop_jumping_(intermediate)-d0178a77-1163-4ae1-af09-c5314ef3427d"
             ],
             "services": [
               "basic_sawmill",
@@ -1078,7 +1078,7 @@
             },
             "hidden": false,
             "activities": [
-              "frisbee_golfing_(intermediate)"
+              "activity-frisbee_golfing_(intermediate)-ecbf8887-6555-4d43-b044-e8e05eac556c"
             ],
             "services": [
               "basic_forge"
@@ -1102,10 +1102,10 @@
             },
             "hidden": false,
             "activities": [
-              "litter_looting",
-              "soup_kitchen_volunteering",
-              "wine_grape_stomping",
-              "dumpster_diving"
+              "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156",
+              "activity-soup_kitchen_volunteering-013f92cc-ee30-42c5-9f57-436bb57cb76a",
+              "activity-wine_grape_stomping-d86f36a3-e612-48b8-825d-17a885e9b3f1",
+              "activity-dumpster_diving-ec967851-8cee-44a6-bf25-1e70be61fda7"
             ],
             "services": [
               "basic_forge"
@@ -1130,8 +1130,8 @@
             },
             "hidden": false,
             "activities": [
-              "dumpster_diving",
-              "ship_repair_(intermediate)"
+              "activity-dumpster_diving-ec967851-8cee-44a6-bf25-1e70be61fda7",
+              "activity-ship_repair_(intermediate)-44f2f2e7-bef1-437f-ac35-bf64b97cc249"
             ],
             "services": [
               "basic_kitchen"
@@ -1152,8 +1152,8 @@
             },
             "hidden": false,
             "activities": [
-              "magnet_fishing",
-              "kayaking"
+              "activity-magnet_fishing-abeba70d-d8f6-48cc-8161-f9dea7a49d44",
+              "activity-kayaking-72c1d122-8796-40c0-bbbb-32fdd741e528"
             ],
             "services": [],
             "buildings": []
@@ -1172,7 +1172,7 @@
             },
             "hidden": true,
             "activities": [
-              "cut_mangrove_trees"
+              "activity-cut_mangrove_trees-8a4cf464-0574-408b-9263-43df9cb0fefc"
             ],
             "services": [],
             "buildings": []
@@ -1191,9 +1191,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_maple_trees",
-              "cut_mangrove_trees",
-              "cut_willow_trees"
+              "activity-cut_maple_trees-de7a517e-98e7-4ddc-8a05-aa841ec7e67e",
+              "activity-cut_mangrove_trees-8a4cf464-0574-408b-9263-43df9cb0fefc",
+              "activity-cut_willow_trees-0e66e2f0-fd3d-40d8-9050-b4e5c1b24357"
             ],
             "services": [],
             "buildings": []
@@ -1212,7 +1212,7 @@
             },
             "hidden": false,
             "activities": [
-              "swimming_(intermediate)"
+              "activity-swimming_(intermediate)-37f761f4-f6fd-49a5-8389-5816388e0cf9"
             ],
             "services": [],
             "buildings": []
@@ -1231,8 +1231,8 @@
             },
             "hidden": false,
             "activities": [
-              "cut_willow_trees",
-              "butterfly_catching"
+              "activity-cut_willow_trees-0e66e2f0-fd3d-40d8-9050-b4e5c1b24357",
+              "activity-butterfly_catching-ddef8fc5-a61e-4689-bacb-e49ee89f09c8"
             ],
             "services": [],
             "buildings": []
@@ -1251,10 +1251,10 @@
             },
             "hidden": false,
             "activities": [
-              "sea_fishing",
-              "sandcastle_building",
-              "seashell_searching",
-              "surface_salt_mining"
+              "activity-sea_fishing-3a8d6c40-e6f0-4127-a4df-a4d4ff148d50",
+              "activity-sandcastle_building-3273bc4a-f394-423f-96f9-3fcc93d1f44d",
+              "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79",
+              "activity-surface_salt_mining-2210ab8b-4c54-47ed-a7a4-ae0d62328c30"
             ],
             "services": [],
             "buildings": []
@@ -1273,7 +1273,7 @@
             },
             "hidden": false,
             "activities": [
-              "glacier_foraging"
+              "activity-glacier_foraging-dfdd59cc-e38b-48fc-9a0e-439163abac12"
             ],
             "services": [
               "frozen_forge"
@@ -1304,9 +1304,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_pine_trees",
-              "cut_birch_trees",
-              "dobby_is..._free"
+              "activity-cut_pine_trees-53a11a23-24d6-4d5c-9dc8-28c702189a29",
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-dobby_is..._free-7a57ddaf-4970-4f88-bcb2-09d4a7fca50f"
             ],
             "services": [],
             "buildings": [
@@ -1327,7 +1327,7 @@
             },
             "hidden": false,
             "activities": [
-              "lake_fishing"
+              "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743"
             ],
             "services": [],
             "buildings": [
@@ -1348,7 +1348,7 @@
             },
             "hidden": false,
             "activities": [
-              "litter_looting"
+              "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156"
             ],
             "services": [
               "basic_forge",
@@ -1375,7 +1375,7 @@
             },
             "hidden": false,
             "activities": [
-              "lake_fishing"
+              "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743"
             ],
             "services": [
               "basic_workshop"
@@ -1398,7 +1398,7 @@
             },
             "hidden": false,
             "activities": [
-              "frisbee_golfing_(beginner)"
+              "activity-frisbee_golfing_(beginner)-0fb41f4d-f46b-4a6d-acdf-f2525654c714"
             ],
             "services": [
               "basic_sawmill"
@@ -1440,7 +1440,7 @@
             },
             "hidden": false,
             "activities": [
-              "sea_fishing_(rod)"
+              "activity-sea_fishing_(rod)-e6b9acb3-6450-499d-80ac-3a8153351ac6"
             ],
             "services": [],
             "buildings": [
@@ -1480,10 +1480,10 @@
             },
             "hidden": false,
             "activities": [
-              "cliff_foraging",
-              "mine_coal",
-              "mine_tarsilium_ore",
-              "mine_farganite_ore"
+              "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34",
+              "activity-mine_coal-766ceeb7-30f2-4e41-b487-a89345273413",
+              "activity-mine_tarsilium_ore-03bf04ba-e66c-4f80-9068-0cfa24533ca6",
+              "activity-mine_farganite_ore-a41979f2-c46f-4b84-ad50-01a5f90d38de"
             ],
             "services": [],
             "buildings": []
@@ -1502,9 +1502,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_birch_trees",
-              "cut_spruce_trees",
-              "cut_oak_trees"
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cut_oak_trees-5dc3bb43-4600-45ed-ad5f-a99f8a68248b"
             ],
             "services": [],
             "buildings": [
@@ -1525,9 +1525,9 @@
             },
             "hidden": false,
             "activities": [
-              "plains_foraging",
-              "cut_spruce_trees",
-              "cross-country_skiing_(beginner)"
+              "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c",
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cross-country_skiing_(beginner)-fc421940-d63a-402f-aa50-26cc2efea4d3"
             ],
             "services": [],
             "buildings": []
@@ -1563,7 +1563,7 @@
             },
             "hidden": false,
             "activities": [
-              "plains_foraging"
+              "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c"
             ],
             "services": [],
             "buildings": []
@@ -1582,11 +1582,11 @@
             },
             "hidden": false,
             "activities": [
-              "mine_copper_ore",
-              "mine_tin_ore",
-              "mine_iron_ore",
-              "cliff_foraging",
-              "mine_coal"
+              "activity-mine_copper_ore-cc886e82-54a0-4b04-b822-3ce79f00ae2d",
+              "activity-mine_tin_ore-2e1a6c3e-f46e-4fdf-97d8-be6eec6944a8",
+              "activity-mine_iron_ore-60e5869c-dfde-448b-8ec7-b546dfd9b3be",
+              "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34",
+              "activity-mine_coal-766ceeb7-30f2-4e41-b487-a89345273413"
             ],
             "services": [],
             "buildings": []
@@ -1605,9 +1605,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_spruce_trees",
-              "cut_oak_trees",
-              "cross-country_skiing_(intermediate)"
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cut_oak_trees-5dc3bb43-4600-45ed-ad5f-a99f8a68248b",
+              "activity-cross-country_skiing_(intermediate)-42788047-6cc3-4711-88be-999e9504fc2a"
             ],
             "services": [],
             "buildings": []
@@ -1645,8 +1645,8 @@
             },
             "hidden": false,
             "activities": [
-              "teak_logs",
-              "seashell_searching"
+              "activity-teak_logs-a8011147-3b4b-4e3f-ae4e-5a12db5d92b4",
+              "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79"
             ],
             "services": [],
             "buildings": []
@@ -1710,7 +1710,7 @@
             },
             "hidden": false,
             "activities": [
-              "frisbee_golfing_(intermediate)"
+              "activity-frisbee_golfing_(intermediate)-ecbf8887-6555-4d43-b044-e8e05eac556c"
             ],
             "services": [
               "basic_forge"
@@ -1734,7 +1734,7 @@
             },
             "hidden": false,
             "activities": [
-              "litter_looting"
+              "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156"
             ],
             "services": [
               "basic_forge"
@@ -1795,7 +1795,7 @@
             },
             "hidden": true,
             "activities": [
-              "cut_mangrove_trees"
+              "activity-cut_mangrove_trees-8a4cf464-0574-408b-9263-43df9cb0fefc"
             ],
             "services": [],
             "buildings": []
@@ -1814,9 +1814,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_maple_trees",
-              "cut_mangrove_trees",
-              "cut_willow_trees"
+              "activity-cut_maple_trees-de7a517e-98e7-4ddc-8a05-aa841ec7e67e",
+              "activity-cut_mangrove_trees-8a4cf464-0574-408b-9263-43df9cb0fefc",
+              "activity-cut_willow_trees-0e66e2f0-fd3d-40d8-9050-b4e5c1b24357"
             ],
             "services": [],
             "buildings": []
@@ -1852,7 +1852,7 @@
             },
             "hidden": false,
             "activities": [
-              "cut_willow_trees"
+              "activity-cut_willow_trees-0e66e2f0-fd3d-40d8-9050-b4e5c1b24357"
             ],
             "services": [],
             "buildings": []
@@ -1871,9 +1871,9 @@
             },
             "hidden": false,
             "activities": [
-              "sea_fishing",
-              "sandcastle_building",
-              "seashell_searching"
+              "activity-sea_fishing-3a8d6c40-e6f0-4127-a4df-a4d4ff148d50",
+              "activity-sandcastle_building-3273bc4a-f394-423f-96f9-3fcc93d1f44d",
+              "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79"
             ],
             "services": [],
             "buildings": []
@@ -1902,9 +1902,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_pine_trees",
-              "cut_birch_trees",
-              "dobby_is..._free"
+              "activity-cut_pine_trees-53a11a23-24d6-4d5c-9dc8-28c702189a29",
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-dobby_is..._free-7a57ddaf-4970-4f88-bcb2-09d4a7fca50f"
             ],
             "services": [],
             "buildings": [
@@ -1925,7 +1925,7 @@
             },
             "hidden": false,
             "activities": [
-              "lake_fishing"
+              "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743"
             ],
             "services": [],
             "buildings": [
@@ -1946,7 +1946,7 @@
             },
             "hidden": false,
             "activities": [
-              "litter_looting"
+              "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156"
             ],
             "services": [
               "basic_forge",
@@ -1973,7 +1973,7 @@
             },
             "hidden": false,
             "activities": [
-              "lake_fishing"
+              "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743"
             ],
             "services": [
               "basic_workshop"
@@ -2036,7 +2036,7 @@
             },
             "hidden": false,
             "activities": [
-              "sea_fishing"
+              "activity-sea_fishing-3a8d6c40-e6f0-4127-a4df-a4d4ff148d50"
             ],
             "services": [],
             "buildings": [
@@ -2076,10 +2076,10 @@
             },
             "hidden": false,
             "activities": [
-              "cliff_foraging",
-              "mine_coal",
-              "mine_tarsilium_ore",
-              "mine_farganite_ore"
+              "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34",
+              "activity-mine_coal-766ceeb7-30f2-4e41-b487-a89345273413",
+              "activity-mine_tarsilium_ore-03bf04ba-e66c-4f80-9068-0cfa24533ca6",
+              "activity-mine_farganite_ore-a41979f2-c46f-4b84-ad50-01a5f90d38de"
             ],
             "services": [],
             "buildings": []
@@ -2098,9 +2098,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_birch_trees",
-              "cut_spruce_trees",
-              "cut_oak_trees"
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cut_oak_trees-5dc3bb43-4600-45ed-ad5f-a99f8a68248b"
             ],
             "services": [],
             "buildings": [
@@ -2121,8 +2121,8 @@
             },
             "hidden": false,
             "activities": [
-              "plains_foraging",
-              "cut_spruce_trees"
+              "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c",
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5"
             ],
             "services": [],
             "buildings": []
@@ -2158,7 +2158,7 @@
             },
             "hidden": false,
             "activities": [
-              "plains_foraging"
+              "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c"
             ],
             "services": [],
             "buildings": []
@@ -2177,11 +2177,11 @@
             },
             "hidden": false,
             "activities": [
-              "mine_copper_ore",
-              "mine_tin_ore",
-              "mine_iron_ore",
-              "cliff_foraging",
-              "mine_coal"
+              "activity-mine_copper_ore-cc886e82-54a0-4b04-b822-3ce79f00ae2d",
+              "activity-mine_tin_ore-2e1a6c3e-f46e-4fdf-97d8-be6eec6944a8",
+              "activity-mine_iron_ore-60e5869c-dfde-448b-8ec7-b546dfd9b3be",
+              "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34",
+              "activity-mine_coal-766ceeb7-30f2-4e41-b487-a89345273413"
             ],
             "services": [],
             "buildings": []
@@ -2200,8 +2200,8 @@
             },
             "hidden": false,
             "activities": [
-              "cut_spruce_trees",
-              "cut_oak_trees"
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cut_oak_trees-5dc3bb43-4600-45ed-ad5f-a99f8a68248b"
             ],
             "services": [],
             "buildings": []
@@ -2239,8 +2239,8 @@
             },
             "hidden": false,
             "activities": [
-              "teak_logs",
-              "seashell_searching"
+              "activity-teak_logs-a8011147-3b4b-4e3f-ae4e-5a12db5d92b4",
+              "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79"
             ],
             "services": [],
             "buildings": []
@@ -2325,7 +2325,7 @@
             },
             "hidden": false,
             "activities": [
-              "litter_looting"
+              "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156"
             ],
             "services": [
               "basic_forge"
@@ -2386,7 +2386,7 @@
             },
             "hidden": true,
             "activities": [
-              "cut_mangrove_trees"
+              "activity-cut_mangrove_trees-8a4cf464-0574-408b-9263-43df9cb0fefc"
             ],
             "services": [],
             "buildings": []
@@ -2405,9 +2405,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_maple_trees",
-              "teak_logs",
-              "cut_mangrove_trees"
+              "activity-cut_maple_trees-de7a517e-98e7-4ddc-8a05-aa841ec7e67e",
+              "activity-teak_logs-a8011147-3b4b-4e3f-ae4e-5a12db5d92b4",
+              "activity-cut_mangrove_trees-8a4cf464-0574-408b-9263-43df9cb0fefc"
             ],
             "services": [],
             "buildings": []
@@ -2443,7 +2443,7 @@
             },
             "hidden": false,
             "activities": [
-              "cut_willow_trees"
+              "activity-cut_willow_trees-0e66e2f0-fd3d-40d8-9050-b4e5c1b24357"
             ],
             "services": [],
             "buildings": []
@@ -2462,9 +2462,9 @@
             },
             "hidden": false,
             "activities": [
-              "sea_fishing",
-              "sandcastle_building",
-              "seashell_searching"
+              "activity-sea_fishing-3a8d6c40-e6f0-4127-a4df-a4d4ff148d50",
+              "activity-sandcastle_building-3273bc4a-f394-423f-96f9-3fcc93d1f44d",
+              "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79"
             ],
             "services": [],
             "buildings": []
@@ -2493,9 +2493,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_pine_trees",
-              "cut_birch_trees",
-              "dobby_is..._free"
+              "activity-cut_pine_trees-53a11a23-24d6-4d5c-9dc8-28c702189a29",
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-dobby_is..._free-7a57ddaf-4970-4f88-bcb2-09d4a7fca50f"
             ],
             "services": [],
             "buildings": []
@@ -2514,7 +2514,7 @@
             },
             "hidden": false,
             "activities": [
-              "lake_fishing"
+              "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743"
             ],
             "services": [],
             "buildings": [
@@ -2535,7 +2535,7 @@
             },
             "hidden": false,
             "activities": [
-              "litter_looting"
+              "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156"
             ],
             "services": [
               "basic_forge",
@@ -2562,7 +2562,7 @@
             },
             "hidden": false,
             "activities": [
-              "lake_fishing"
+              "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743"
             ],
             "services": [
               "basic_workshop"
@@ -2619,7 +2619,7 @@
             },
             "hidden": false,
             "activities": [
-              "sea_fishing"
+              "activity-sea_fishing-3a8d6c40-e6f0-4127-a4df-a4d4ff148d50"
             ],
             "services": [],
             "buildings": [
@@ -2676,8 +2676,8 @@
             },
             "hidden": false,
             "activities": [
-              "cut_birch_trees",
-              "cut_spruce_trees"
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5"
             ],
             "services": [],
             "buildings": []
@@ -2696,7 +2696,7 @@
             },
             "hidden": false,
             "activities": [
-              "plains_foraging"
+              "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c"
             ],
             "services": [],
             "buildings": []
@@ -2732,7 +2732,7 @@
             },
             "hidden": false,
             "activities": [
-              "plains_foraging"
+              "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c"
             ],
             "services": [],
             "buildings": []
@@ -2751,10 +2751,10 @@
             },
             "hidden": false,
             "activities": [
-              "mine_copper_ore",
-              "mine_tin_ore",
-              "mine_iron_ore",
-              "cliff_foraging"
+              "activity-mine_copper_ore-cc886e82-54a0-4b04-b822-3ce79f00ae2d",
+              "activity-mine_tin_ore-2e1a6c3e-f46e-4fdf-97d8-be6eec6944a8",
+              "activity-mine_iron_ore-60e5869c-dfde-448b-8ec7-b546dfd9b3be",
+              "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34"
             ],
             "services": [],
             "buildings": []
@@ -2875,7 +2875,7 @@
             },
             "hidden": false,
             "activities": [
-              "litter_looting"
+              "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156"
             ],
             "services": [],
             "buildings": []
@@ -2996,8 +2996,8 @@
             },
             "hidden": false,
             "activities": [
-              "sea_fishing",
-              "sandcastle_building"
+              "activity-sea_fishing-3a8d6c40-e6f0-4127-a4df-a4d4ff148d50",
+              "activity-sandcastle_building-3273bc4a-f394-423f-96f9-3fcc93d1f44d"
             ],
             "services": [],
             "buildings": []
@@ -3026,9 +3026,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_pine_trees",
-              "cut_birch_trees",
-              "dobby_is..._free"
+              "activity-cut_pine_trees-53a11a23-24d6-4d5c-9dc8-28c702189a29",
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-dobby_is..._free-7a57ddaf-4970-4f88-bcb2-09d4a7fca50f"
             ],
             "services": [],
             "buildings": []
@@ -3499,9 +3499,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_pine_trees",
-              "cut_birch_trees",
-              "dobby_is..._free"
+              "activity-cut_pine_trees-53a11a23-24d6-4d5c-9dc8-28c702189a29",
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-dobby_is..._free-7a57ddaf-4970-4f88-bcb2-09d4a7fca50f"
             ],
             "services": [],
             "buildings": []
@@ -3537,9 +3537,9 @@
             },
             "hidden": false,
             "activities": [
-              "cut_pine_trees",
-              "dobby_is..._free",
-              "cut_birch_trees"
+              "activity-cut_pine_trees-53a11a23-24d6-4d5c-9dc8-28c702189a29",
+              "activity-dobby_is..._free-7a57ddaf-4970-4f88-bcb2-09d4a7fca50f",
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8"
             ],
             "services": [],
             "buildings": []
@@ -3567,9 +3567,9 @@
               "url": "locations/forest_white.png"
             },
             "activities": [
-              "cut_pine_trees",
-              "cut_birch_trees",
-              "dobby_is..._free"
+              "activity-cut_pine_trees-53a11a23-24d6-4d5c-9dc8-28c702189a29",
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-dobby_is..._free-7a57ddaf-4970-4f88-bcb2-09d4a7fca50f"
             ],
             "services": [],
             "buildings": [
@@ -3589,8 +3589,8 @@
               "url": "locations/castle_white.png"
             },
             "activities": [
-              "lake_fishing",
-              "soup_kitchen_volunteering"
+              "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743",
+              "activity-soup_kitchen_volunteering-013f92cc-ee30-42c5-9f57-436bb57cb76a"
             ],
             "services": [
               "wardrobe"
@@ -3614,7 +3614,7 @@
               "url": "locations/castle_white.png"
             },
             "activities": [
-              "litter_looting"
+              "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156"
             ],
             "services": [
               "basic_forge",
@@ -3641,8 +3641,8 @@
               "url": "locations/town_white.png"
             },
             "activities": [
-              "lake_fishing",
-              "ice_sculpting"
+              "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743",
+              "activity-ice_sculpting-2b0be0f5-69d5-4205-922d-c5a02c056cab"
             ],
             "services": [
               "basic_workshop"
@@ -3664,9 +3664,9 @@
               "url": "locations/town_white.png"
             },
             "activities": [
-              "frisbee_golfing_(beginner)",
-              "wood_carving",
-              "tinkering"
+              "activity-frisbee_golfing_(beginner)-0fb41f4d-f46b-4a6d-acdf-f2525654c714",
+              "activity-wood_carving-af675674-c972-4e2e-80fe-1501b972e353",
+              "activity-tinkering-cb2a8773-06d0-4661-9708-2bef5768119e"
             ],
             "services": [
               "sawmill_of_barbantok"
@@ -3706,9 +3706,9 @@
               "url": "locations/port_white.png"
             },
             "activities": [
-              "sea_fishing_(rod)",
-              "horseshoe_making",
-              "ship_repair_(beginner)"
+              "activity-sea_fishing_(rod)-e6b9acb3-6450-499d-80ac-3a8153351ac6",
+              "activity-horseshoe_making-c4b0dda4-2f2a-4aea-989a-144d0b738f10",
+              "activity-ship_repair_(beginner)-0870997e-fee1-465b-ab4a-a9f668bd16b0"
             ],
             "services": [],
             "buildings": [
@@ -3728,9 +3728,9 @@
               "url": "locations/city_white.png"
             },
             "activities": [
-              "firewood_making",
-              "rooftop_jumping",
-              "branch_trimming"
+              "activity-firewood_making-407263a4-4ee1-4383-a624-2a7ed70c4b10",
+              "activity-rooftop_jumping-ebf1dd67-a070-40ad-87cf-608a1857fabc",
+              "activity-branch_trimming-dfd57187-c791-47ae-9e74-dc4acb9b7952"
             ],
             "services": [
               "basic_kitchen"
@@ -3750,10 +3750,10 @@
               "url": "locations/hills_white.png"
             },
             "activities": [
-              "mine_coal",
-              "mine_tarsilium_ore",
-              "cliff_foraging",
-              "stone_quarrying"
+              "activity-mine_coal-766ceeb7-30f2-4e41-b487-a89345273413",
+              "activity-mine_tarsilium_ore-03bf04ba-e66c-4f80-9068-0cfa24533ca6",
+              "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34",
+              "activity-stone_quarrying-4bc45151-91d0-44fd-8839-ef418eafe876"
             ],
             "services": [],
             "buildings": []
@@ -3771,9 +3771,9 @@
               "url": "locations/forest_white.png"
             },
             "activities": [
-              "cut_birch_trees",
-              "cut_spruce_trees",
-              "cut_oak_trees"
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cut_oak_trees-5dc3bb43-4600-45ed-ad5f-a99f8a68248b"
             ],
             "services": [],
             "buildings": [
@@ -3793,9 +3793,9 @@
               "url": "locations/plains_white.png"
             },
             "activities": [
-              "plains_foraging",
-              "cut_spruce_trees",
-              "cross-country_skiing_(beginner)"
+              "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c",
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cross-country_skiing_(beginner)-fc421940-d63a-402f-aa50-26cc2efea4d3"
             ],
             "services": [],
             "buildings": []
@@ -3813,8 +3813,8 @@
               "url": "locations/plains_white.png"
             },
             "activities": [
-              "plains_foraging",
-              "gold_panning"
+              "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c",
+              "activity-gold_panning-86072e6b-4e46-413f-9407-caf0ca8b077f"
             ],
             "services": [],
             "buildings": []
@@ -3832,12 +3832,12 @@
               "url": "locations/mountains.png"
             },
             "activities": [
-              "mine_copper_ore",
-              "mine_tin_ore",
-              "mine_iron_ore",
-              "cliff_foraging",
-              "mine_coal",
-              "mountain_climbing_(beginner)"
+              "activity-mine_copper_ore-cc886e82-54a0-4b04-b822-3ce79f00ae2d",
+              "activity-mine_tin_ore-2e1a6c3e-f46e-4fdf-97d8-be6eec6944a8",
+              "activity-mine_iron_ore-60e5869c-dfde-448b-8ec7-b546dfd9b3be",
+              "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34",
+              "activity-mine_coal-766ceeb7-30f2-4e41-b487-a89345273413",
+              "activity-mountain_climbing_(beginner)-2020f2b7-5365-4f5c-8b17-3d8164a13643"
             ],
             "services": [],
             "buildings": []
@@ -3855,9 +3855,9 @@
               "url": "locations/plains_white.png"
             },
             "activities": [
-              "cut_spruce_trees",
-              "cut_oak_trees",
-              "cross-country_skiing_(intermediate)"
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cut_oak_trees-5dc3bb43-4600-45ed-ad5f-a99f8a68248b",
+              "activity-cross-country_skiing_(intermediate)-42788047-6cc3-4711-88be-999e9504fc2a"
             ],
             "services": [],
             "buildings": []
@@ -3893,9 +3893,9 @@
               "url": "locations/coast_green.png"
             },
             "activities": [
-              "teak_logs",
-              "seashell_searching",
-              "swimming_(beginner)"
+              "activity-teak_logs-a8011147-3b4b-4e3f-ae4e-5a12db5d92b4",
+              "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79",
+              "activity-swimming_(beginner)-1ccee641-01d9-4bcb-8dd7-9df9c61142f2"
             ],
             "services": [],
             "buildings": []
@@ -3938,7 +3938,7 @@
               "url": "locations/castle_green.png"
             },
             "activities": [
-              "rooftop_jumping_(intermediate)"
+              "activity-rooftop_jumping_(intermediate)-d0178a77-1163-4ae1-af09-c5314ef3427d"
             ],
             "services": [
               "basic_sawmill",
@@ -3962,7 +3962,7 @@
               "url": "locations/port_green.png"
             },
             "activities": [
-              "frisbee_golfing_(intermediate)"
+              "activity-frisbee_golfing_(intermediate)-ecbf8887-6555-4d43-b044-e8e05eac556c"
             ],
             "services": [
               "basic_forge",
@@ -3986,10 +3986,10 @@
               "url": "locations/city_green.png"
             },
             "activities": [
-              "litter_looting",
-              "soup_kitchen_volunteering",
-              "wine_grape_stomping",
-              "dumpster_diving"
+              "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156",
+              "activity-soup_kitchen_volunteering-013f92cc-ee30-42c5-9f57-436bb57cb76a",
+              "activity-wine_grape_stomping-d86f36a3-e612-48b8-825d-17a885e9b3f1",
+              "activity-dumpster_diving-ec967851-8cee-44a6-bf25-1e70be61fda7"
             ],
             "services": [
               "basic_forge",
@@ -4014,8 +4014,8 @@
               "url": "locations/port_green.png"
             },
             "activities": [
-              "dumpster_diving",
-              "ship_repair_(intermediate)"
+              "activity-dumpster_diving-ec967851-8cee-44a6-bf25-1e70be61fda7",
+              "activity-ship_repair_(intermediate)-44f2f2e7-bef1-437f-ac35-bf64b97cc249"
             ],
             "services": [
               "basic_kitchen",
@@ -4036,8 +4036,8 @@
               "url": "locations/arena_green.png"
             },
             "activities": [
-              "magnet_fishing",
-              "kayaking"
+              "activity-magnet_fishing-abeba70d-d8f6-48cc-8161-f9dea7a49d44",
+              "activity-kayaking-72c1d122-8796-40c0-bbbb-32fdd741e528"
             ],
             "services": [],
             "buildings": []
@@ -4055,10 +4055,10 @@
               "url": "locations/forest_green.png"
             },
             "activities": [
-              "cut_maple_trees",
-              "cut_mangrove_trees",
-              "cut_willow_trees",
-              "branch_trimming"
+              "activity-cut_maple_trees-de7a517e-98e7-4ddc-8a05-aa841ec7e67e",
+              "activity-cut_mangrove_trees-8a4cf464-0574-408b-9263-43df9cb0fefc",
+              "activity-cut_willow_trees-0e66e2f0-fd3d-40d8-9050-b4e5c1b24357",
+              "activity-branch_trimming-dfd57187-c791-47ae-9e74-dc4acb9b7952"
             ],
             "services": [],
             "buildings": []
@@ -4076,7 +4076,7 @@
               "url": "locations/coast_green.png"
             },
             "activities": [
-              "swimming_(intermediate)"
+              "activity-swimming_(intermediate)-37f761f4-f6fd-49a5-8389-5816388e0cf9"
             ],
             "services": [],
             "buildings": []
@@ -4094,8 +4094,8 @@
               "url": "locations/plains_green.png"
             },
             "activities": [
-              "cut_willow_trees",
-              "butterfly_catching"
+              "activity-cut_willow_trees-0e66e2f0-fd3d-40d8-9050-b4e5c1b24357",
+              "activity-butterfly_catching-ddef8fc5-a61e-4689-bacb-e49ee89f09c8"
             ],
             "services": [],
             "buildings": []
@@ -4113,10 +4113,10 @@
               "url": "locations/coast_white.png"
             },
             "activities": [
-              "sea_fishing",
-              "sandcastle_building",
-              "seashell_searching",
-              "surface_salt_mining"
+              "activity-sea_fishing-3a8d6c40-e6f0-4127-a4df-a4d4ff148d50",
+              "activity-sandcastle_building-3273bc4a-f394-423f-96f9-3fcc93d1f44d",
+              "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79",
+              "activity-surface_salt_mining-2210ab8b-4c54-47ed-a7a4-ae0d62328c30"
             ],
             "services": [],
             "buildings": []
@@ -4134,7 +4134,7 @@
               "url": "locations/glacier.png"
             },
             "activities": [
-              "glacier_foraging"
+              "activity-glacier_foraging-dfdd59cc-e38b-48fc-9a0e-439163abac12"
             ],
             "services": [
               "frozen_forge"
@@ -4154,12 +4154,12 @@
               "url": "locations/horn_of_respite.png"
             },
             "activities": [
-              "dobby_is..._free",
-              "cut_pine_trees",
-              "horn_of_respite_treasure_hunt",
-              "black_eye_peak_search_team",
-              "black_eye_peak_rescue_team",
-              "branch_trimming"
+              "activity-dobby_is..._free-7a57ddaf-4970-4f88-bcb2-09d4a7fca50f",
+              "activity-cut_pine_trees-53a11a23-24d6-4d5c-9dc8-28c702189a29",
+              "activity-horn_of_respite_treasure_hunt-5e83ae40-970b-491b-9474-134a180bdd49",
+              "activity-black_eye_peak_search_team-d1ad835f-0898-4fc7-8f0a-4b0626d95306",
+              "activity-black_eye_peak_rescue_team-a2a57ab7-ae6b-427c-9983-197b5480d457",
+              "activity-branch_trimming-dfd57187-c791-47ae-9e74-dc4acb9b7952"
             ],
             "services": [],
             "buildings": [
@@ -4179,9 +4179,9 @@
               "url": "locations/mountains.png"
             },
             "activities": [
-              "mountain_climbing_(intermediate)",
-              "mine_farganite_ore",
-              "spelunking"
+              "activity-mountain_climbing_(intermediate)-812aa739-645f-4ff3-ac6e-61b0153b9351",
+              "activity-mine_farganite_ore-a41979f2-c46f-4b84-ad50-01a5f90d38de",
+              "activity-spelunking-45b8d041-f27e-434e-8bdc-bbd6d5c9eec8"
             ],
             "services": [],
             "buildings": []
@@ -4199,8 +4199,8 @@
               "url": "locations/winters_end.png"
             },
             "activities": [
-              "cave_foraging",
-              "sea_fishing_(cage)"
+              "activity-cave_foraging-c6030aeb-c9b9-45ef-a470-411f7654c210",
+              "activity-sea_fishing_(cage)-e12c5bb4-85d8-4a8f-855e-534b256e90b9"
             ],
             "services": [],
             "buildings": []
@@ -4228,9 +4228,9 @@
               "url": "locations/forest_white.png"
             },
             "activities": [
-              "cut_pine_trees",
-              "cut_birch_trees",
-              "dobby_is..._free"
+              "activity-cut_pine_trees-53a11a23-24d6-4d5c-9dc8-28c702189a29",
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-dobby_is..._free-7a57ddaf-4970-4f88-bcb2-09d4a7fca50f"
             ],
             "services": [],
             "buildings": [
@@ -4250,10 +4250,11 @@
               "url": "locations/castle_white.png"
             },
             "activities": [
-              "lake_fishing",
-              "soup_kitchen_volunteering"
+              "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743",
+              "activity-soup_kitchen_volunteering-013f92cc-ee30-42c5-9f57-436bb57cb76a"
             ],
             "services": [
+              "azurazera_job_board",
               "wardrobe"
             ],
             "buildings": [
@@ -4275,9 +4276,10 @@
               "url": "locations/castle_white.png"
             },
             "activities": [
-              "litter_looting"
+              "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156"
             ],
             "services": [
+              "kallaheim_job_board",
               "basic_forge",
               "basic_kitchen",
               "basic_sawmill",
@@ -4302,8 +4304,8 @@
               "url": "locations/town_white.png"
             },
             "activities": [
-              "lake_fishing",
-              "ice_sculpting"
+              "activity-lake_fishing-4fc334f3-1bfd-48a0-bad2-803fb73fa743",
+              "activity-ice_sculpting-2b0be0f5-69d5-4205-922d-c5a02c056cab"
             ],
             "services": [
               "basic_workshop"
@@ -4325,9 +4327,9 @@
               "url": "locations/town_white.png"
             },
             "activities": [
-              "frisbee_golfing_(beginner)",
-              "wood_carving",
-              "tinkering"
+              "activity-frisbee_golfing_(beginner)-0fb41f4d-f46b-4a6d-acdf-f2525654c714",
+              "activity-wood_carving-af675674-c972-4e2e-80fe-1501b972e353",
+              "activity-tinkering-cb2a8773-06d0-4661-9708-2bef5768119e"
             ],
             "services": [
               "sawmill_of_barbantok"
@@ -4367,9 +4369,9 @@
               "url": "locations/port_white.png"
             },
             "activities": [
-              "sea_fishing_(rod)",
-              "horseshoe_making",
-              "ship_repair_(beginner)"
+              "activity-sea_fishing_(rod)-e6b9acb3-6450-499d-80ac-3a8153351ac6",
+              "activity-horseshoe_making-c4b0dda4-2f2a-4aea-989a-144d0b738f10",
+              "activity-ship_repair_(beginner)-0870997e-fee1-465b-ab4a-a9f668bd16b0"
             ],
             "services": [],
             "buildings": [
@@ -4389,9 +4391,9 @@
               "url": "locations/city_white.png"
             },
             "activities": [
-              "firewood_making",
-              "rooftop_jumping",
-              "branch_trimming"
+              "activity-firewood_making-407263a4-4ee1-4383-a624-2a7ed70c4b10",
+              "activity-rooftop_jumping-ebf1dd67-a070-40ad-87cf-608a1857fabc",
+              "activity-branch_trimming-dfd57187-c791-47ae-9e74-dc4acb9b7952"
             ],
             "services": [
               "basic_kitchen"
@@ -4411,10 +4413,10 @@
               "url": "locations/hills_white.png"
             },
             "activities": [
-              "mine_coal",
-              "mine_tarsilium_ore",
-              "cliff_foraging",
-              "stone_quarrying"
+              "activity-mine_coal-766ceeb7-30f2-4e41-b487-a89345273413",
+              "activity-mine_tarsilium_ore-03bf04ba-e66c-4f80-9068-0cfa24533ca6",
+              "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34",
+              "activity-stone_quarrying-4bc45151-91d0-44fd-8839-ef418eafe876"
             ],
             "services": [],
             "buildings": []
@@ -4432,9 +4434,9 @@
               "url": "locations/forest_white.png"
             },
             "activities": [
-              "cut_birch_trees",
-              "cut_spruce_trees",
-              "cut_oak_trees"
+              "activity-cut_birch_trees-b3fda01f-6d26-41ff-8374-311de159b0f8",
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cut_oak_trees-5dc3bb43-4600-45ed-ad5f-a99f8a68248b"
             ],
             "services": [],
             "buildings": [
@@ -4454,9 +4456,9 @@
               "url": "locations/plains_white.png"
             },
             "activities": [
-              "plains_foraging",
-              "cut_spruce_trees",
-              "cross-country_skiing_(beginner)"
+              "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c",
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cross-country_skiing_(beginner)-fc421940-d63a-402f-aa50-26cc2efea4d3"
             ],
             "services": [],
             "buildings": []
@@ -4474,8 +4476,8 @@
               "url": "locations/plains_white.png"
             },
             "activities": [
-              "plains_foraging",
-              "gold_panning"
+              "activity-plains_foraging-8e8e3d96-8428-4f0f-9397-a4261426325c",
+              "activity-gold_panning-86072e6b-4e46-413f-9407-caf0ca8b077f"
             ],
             "services": [],
             "buildings": []
@@ -4493,12 +4495,12 @@
               "url": "locations/mountains.png"
             },
             "activities": [
-              "mine_copper_ore",
-              "mine_tin_ore",
-              "mine_iron_ore",
-              "cliff_foraging",
-              "mine_coal",
-              "mountain_climbing_(beginner)"
+              "activity-mine_copper_ore-cc886e82-54a0-4b04-b822-3ce79f00ae2d",
+              "activity-mine_tin_ore-2e1a6c3e-f46e-4fdf-97d8-be6eec6944a8",
+              "activity-mine_iron_ore-60e5869c-dfde-448b-8ec7-b546dfd9b3be",
+              "activity-cliff_foraging-38b1ebbe-c54a-452f-b2ab-b06db196fd34",
+              "activity-mine_coal-766ceeb7-30f2-4e41-b487-a89345273413",
+              "activity-mountain_climbing_(beginner)-2020f2b7-5365-4f5c-8b17-3d8164a13643"
             ],
             "services": [],
             "buildings": []
@@ -4516,9 +4518,9 @@
               "url": "locations/plains_white.png"
             },
             "activities": [
-              "cut_spruce_trees",
-              "cut_oak_trees",
-              "cross-country_skiing_(intermediate)"
+              "activity-cut_spruce_trees-f20dc34f-580d-49cf-b2e2-c27a204e04f5",
+              "activity-cut_oak_trees-5dc3bb43-4600-45ed-ad5f-a99f8a68248b",
+              "activity-cross-country_skiing_(intermediate)-42788047-6cc3-4711-88be-999e9504fc2a"
             ],
             "services": [],
             "buildings": []
@@ -4554,9 +4556,9 @@
               "url": "locations/coast_green.png"
             },
             "activities": [
-              "teak_logs",
-              "seashell_searching",
-              "swimming_(beginner)"
+              "activity-teak_logs-a8011147-3b4b-4e3f-ae4e-5a12db5d92b4",
+              "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79",
+              "activity-swimming_(beginner)-1ccee641-01d9-4bcb-8dd7-9df9c61142f2"
             ],
             "services": [],
             "buildings": []
@@ -4599,7 +4601,7 @@
               "url": "locations/castle_green.png"
             },
             "activities": [
-              "rooftop_jumping_(intermediate)"
+              "activity-rooftop_jumping_(intermediate)-d0178a77-1163-4ae1-af09-c5314ef3427d"
             ],
             "services": [
               "basic_sawmill",
@@ -4623,7 +4625,7 @@
               "url": "locations/port_green.png"
             },
             "activities": [
-              "frisbee_golfing_(intermediate)"
+              "activity-frisbee_golfing_(intermediate)-ecbf8887-6555-4d43-b044-e8e05eac556c"
             ],
             "services": [
               "basic_forge",
@@ -4647,12 +4649,13 @@
               "url": "locations/city_green.png"
             },
             "activities": [
-              "litter_looting",
-              "soup_kitchen_volunteering",
-              "wine_grape_stomping",
-              "dumpster_diving"
+              "activity-litter_looting-41fbf4b2-2e61-405e-beb1-c223d22ac156",
+              "activity-soup_kitchen_volunteering-013f92cc-ee30-42c5-9f57-436bb57cb76a",
+              "activity-wine_grape_stomping-d86f36a3-e612-48b8-825d-17a885e9b3f1",
+              "activity-dumpster_diving-d087c88a-d857-4d91-83ac-fc77e3956886"
             ],
             "services": [
+              "granfiddich_job_board",
               "basic_forge",
               "wardrobe",
               "eberhart_mansion_kitchen"
@@ -4676,8 +4679,8 @@
               "url": "locations/port_green.png"
             },
             "activities": [
-              "dumpster_diving",
-              "ship_repair_(intermediate)"
+              "activity-dumpster_diving-ec967851-8cee-44a6-bf25-1e70be61fda7",
+              "activity-ship_repair_(intermediate)-44f2f2e7-bef1-437f-ac35-bf64b97cc249"
             ],
             "services": [
               "basic_kitchen",
@@ -4698,8 +4701,8 @@
               "url": "locations/arena_green.png"
             },
             "activities": [
-              "magnet_fishing",
-              "kayaking"
+              "activity-magnet_fishing-abeba70d-d8f6-48cc-8161-f9dea7a49d44",
+              "activity-kayaking-72c1d122-8796-40c0-bbbb-32fdd741e528"
             ],
             "services": [],
             "buildings": []
@@ -4717,10 +4720,10 @@
               "url": "locations/forest_green.png"
             },
             "activities": [
-              "cut_maple_trees",
-              "cut_mangrove_trees",
-              "cut_willow_trees",
-              "branch_trimming"
+              "activity-cut_maple_trees-de7a517e-98e7-4ddc-8a05-aa841ec7e67e",
+              "activity-cut_mangrove_trees-8a4cf464-0574-408b-9263-43df9cb0fefc",
+              "activity-cut_willow_trees-0e66e2f0-fd3d-40d8-9050-b4e5c1b24357",
+              "activity-branch_trimming-dfd57187-c791-47ae-9e74-dc4acb9b7952"
             ],
             "services": [],
             "buildings": []
@@ -4738,7 +4741,7 @@
               "url": "locations/coast_green.png"
             },
             "activities": [
-              "swimming_(intermediate)"
+              "activity-swimming_(intermediate)-37f761f4-f6fd-49a5-8389-5816388e0cf9"
             ],
             "services": [],
             "buildings": []
@@ -4756,8 +4759,8 @@
               "url": "locations/plains_green.png"
             },
             "activities": [
-              "cut_willow_trees",
-              "butterfly_catching"
+              "activity-cut_willow_trees-0e66e2f0-fd3d-40d8-9050-b4e5c1b24357",
+              "activity-butterfly_catching-ddef8fc5-a61e-4689-bacb-e49ee89f09c8"
             ],
             "services": [],
             "buildings": []
@@ -4775,10 +4778,10 @@
               "url": "locations/coast_white.png"
             },
             "activities": [
-              "sea_fishing",
-              "sandcastle_building",
-              "seashell_searching",
-              "surface_salt_mining"
+              "activity-sea_fishing-3a8d6c40-e6f0-4127-a4df-a4d4ff148d50",
+              "activity-sandcastle_building-3273bc4a-f394-423f-96f9-3fcc93d1f44d",
+              "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79",
+              "activity-surface_salt_mining-2210ab8b-4c54-47ed-a7a4-ae0d62328c30"
             ],
             "services": [],
             "buildings": []
@@ -4796,7 +4799,7 @@
               "url": "locations/glacier.png"
             },
             "activities": [
-              "glacier_foraging"
+              "activity-glacier_foraging-dfdd59cc-e38b-48fc-9a0e-439163abac12"
             ],
             "services": [
               "frozen_forge"
@@ -4816,12 +4819,12 @@
               "url": "locations/horn_of_respite.png"
             },
             "activities": [
-              "dobby_is..._free",
-              "cut_pine_trees",
-              "horn_of_respite_treasure_hunt",
-              "black_eye_peak_search_team",
-              "black_eye_peak_rescue_team",
-              "branch_trimming"
+              "activity-dobby_is..._free-7a57ddaf-4970-4f88-bcb2-09d4a7fca50f",
+              "activity-cut_pine_trees-53a11a23-24d6-4d5c-9dc8-28c702189a29",
+              "activity-horn_of_respite_treasure_hunt-5e83ae40-970b-491b-9474-134a180bdd49",
+              "activity-black_eye_peak_search_team-d1ad835f-0898-4fc7-8f0a-4b0626d95306",
+              "activity-black_eye_peak_rescue_team-a2a57ab7-ae6b-427c-9983-197b5480d457",
+              "activity-branch_trimming-dfd57187-c791-47ae-9e74-dc4acb9b7952"
             ],
             "services": [],
             "buildings": [
@@ -4841,9 +4844,9 @@
               "url": "locations/mountains.png"
             },
             "activities": [
-              "mountain_climbing_(intermediate)",
-              "mine_farganite_ore",
-              "spelunking"
+              "activity-mountain_climbing_(intermediate)-812aa739-645f-4ff3-ac6e-61b0153b9351",
+              "activity-mine_farganite_ore-a41979f2-c46f-4b84-ad50-01a5f90d38de",
+              "activity-spelunking-45b8d041-f27e-434e-8bdc-bbd6d5c9eec8"
             ],
             "services": [],
             "buildings": []
@@ -4861,8 +4864,8 @@
               "url": "locations/winters_end.png"
             },
             "activities": [
-              "cave_foraging",
-              "sea_fishing_(cage)"
+              "activity-cave_foraging-c6030aeb-c9b9-45ef-a470-411f7654c210",
+              "activity-sea_fishing_(cage)-e12c5bb4-85d8-4a8f-855e-534b256e90b9"
             ],
             "services": [],
             "buildings": []
@@ -4880,9 +4883,9 @@
               "url": "locations/casbrants_grave.png"
             },
             "activities": [
-              "wreck_diving",
-              "sea_fishing_(spear)",
-              "emergency_swim_escape"
+              "activity-wreck_diving-12e980cd-058a-42c4-8358-ba7afe1c319c",
+              "activity-sea_fishing_(spear)-6009b27e-0508-4612-a742-ca6da67cc4a5",
+              "activity-emergency_swim_escape-769b2bb5-a526-467d-9ba7-b3e59dfb30dc"
             ],
             "services": [],
             "buildings": [
@@ -4902,10 +4905,11 @@
               "url": "locations/Vastalume.png"
             },
             "activities": [
-              "merfolk_dancing",
-              "emergency_swim_escape"
+              "activity-merfolk_dancing-7973376d-80f3-4680-aca6-14cc0d1873c3",
+              "activity-emergency_swim_escape-769b2bb5-a526-467d-9ba7-b3e59dfb30dc"
             ],
             "services": [
+              "vastalume_job_board",
               "tidal_workshop",
               "underwater_kitchen",
               "underwater_forge",
@@ -4935,9 +4939,9 @@
               "url": "locations/kelp_firest.png"
             },
             "activities": [
-              "kelp_foraging",
-              "coral_cutting",
-              "emergency_swim_escape"
+              "activity-kelp_foraging-c10960b3-e454-4ecf-8841-04762073b7e5",
+              "activity-coral_cutting-c0579ce9-a26d-47b6-8db3-26c88f0501ce",
+              "activity-emergency_swim_escape-769b2bb5-a526-467d-9ba7-b3e59dfb30dc"
             ],
             "services": [],
             "buildings": []
@@ -4955,10 +4959,10 @@
               "url": "locations/underwater_cave.png"
             },
             "activities": [
-              "cave_diving",
-              "mine_volcanic_rock",
-              "emergency_swim_escape",
-              "mine_tarsilium_ore_(underwater)"
+              "activity-cave_diving-b5adce12-f5aa-4393-8613-42c64faf8de3",
+              "activity-mine_volcanic_rock-41892e21-7851-4f19-9992-e45902bcde3a",
+              "activity-emergency_swim_escape-769b2bb5-a526-467d-9ba7-b3e59dfb30dc",
+              "activity-mine_tarsilium_ore_(underwater)-29586a9a-6e73-4998-a6aa-ac3d5e310456"
             ],
             "services": [],
             "buildings": []
@@ -4976,9 +4980,9 @@
               "url": "locations/darktide_trench.png"
             },
             "activities": [
-              "fossil_mining",
-              "predator_hunting_(spear)",
-              "emergency_swim_escape"
+              "activity-fossil_mining-f0cbd3f2-8ec3-4df9-8ead-931c2e1de2e1",
+              "activity-predator_hunting_(spear)-377098e8-6c9c-45f7-b48a-407577e699d0",
+              "activity-emergency_swim_escape-769b2bb5-a526-467d-9ba7-b3e59dfb30dc"
             ],
             "services": [],
             "buildings": []
@@ -4996,10 +5000,10 @@
               "url": "locations/elaras_lagoon.png"
             },
             "activities": [
-              "merfolk_farm_foraging",
-              "swimming_(expert)",
-              "underwater_basket_weaving",
-              "emergency_swim_escape"
+              "activity-merfolk_farm_foraging-26387cae-10c8-46e1-918c-2b5fd163797a",
+              "activity-swimming_(expert)-95a78afb-79f0-431c-b7aa-062659d9ec87",
+              "activity-underwater_basket_weaving-7ba725a2-d147-437c-98bf-5a9f58d68b65",
+              "activity-emergency_swim_escape-769b2bb5-a526-467d-9ba7-b3e59dfb30dc"
             ],
             "services": [],
             "buildings": []
@@ -5017,10 +5021,10 @@
               "url": "locations/coast_green.png"
             },
             "activities": [
-              "swimming_(beginner)",
-              "sea_fishing",
-              "seashell_searching",
-              "sea_fishing_(rod)"
+              "activity-swimming_(beginner)-1ccee641-01d9-4bcb-8dd7-9df9c61142f2",
+              "activity-sea_fishing-3a8d6c40-e6f0-4127-a4df-a4d4ff148d50",
+              "activity-seashell_searching-b260fba2-9d78-4550-9e1b-22611be6fa79",
+              "activity-sea_fishing_(rod)-e6b9acb3-6450-499d-80ac-3a8153351ac6"
             ],
             "services": [],
             "buildings": []
@@ -5038,7 +5042,7 @@
               "url": "locations/hot_springs.png"
             },
             "activities": [
-              "sledding"
+              "activity-sledding-290bfd6c-3bb1-47c6-bf60-880c1d4a5148"
             ],
             "services": [
               "basic_kitchen"

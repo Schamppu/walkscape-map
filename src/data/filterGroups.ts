@@ -115,6 +115,16 @@ export const filterGroups = {
       values: ["wardrobe"],
       iconUrl: iconUrl("services/wardrobe"),
     },
+    {
+      name: "Job Boards",
+      values: [
+        "azurazera_job_board",
+        "kallaheim_job_board",
+        "vastalume_job_board",
+        "granfiddich_job_board",
+      ],
+      iconUrl: iconUrl("services/job_boards"),
+    },
   ],
   "Points of Interest": [
     {
