@@ -180,7 +180,7 @@
     "icon": {
       "url": "services/job_boards.png"
     },
-    "skills": ["jobs"]
+    "skills": []
   },
   {
     "id": "kallaheim_job_board",
@@ -189,7 +189,7 @@
     "icon": {
       "url": "services/job_boards.png"
     },
-    "skills": ["jobs"]
+    "skills": []
   },
   {
     "id": "vastalume_job_board",
@@ -198,7 +198,7 @@
     "icon": {
       "url": "services/job_boards.png"
     },
-    "skills": ["jobs"]
+    "skills": []
   },
   {
     "id": "granfiddich_job_board",
@@ -207,6 +207,6 @@
     "icon": {
       "url": "services/job_boards.png"
     },
-    "skills": ["jobs"]
+    "skills": []
   }
 ]
