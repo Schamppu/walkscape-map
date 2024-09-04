@@ -97,6 +97,7 @@ def update_locations(filename, map_layer_name):
         # hidden = False if 'hidden' not in old_loc[0] else old_loc[0]['hidden']
         realm = getRealm(src_location)
         buildings = list(map(get_id, src_location['buildingList'])) if 'buildingList' in src_location else []
+        job_boards = list(map(get_id, src_location['jobBoards']))
 
         loc = {
             'id': id,
@@ -106,8 +107,8 @@ def update_locations(filename, map_layer_name):
             'coords': src_location['locationPosition'][::-1],
             'icon': { 'url': icon_path },
             # 'hidden': hidden,
-            'activities': list(map(get_id, src_location['activityList'])),
-            'services': list(map(get_id, src_location['serviceList'])),
+            'activities': src_location['activityList'],
+            'services': job_boards + list(map(get_id, src_location['serviceList'])),
             'buildings': buildings,
         }
         locations.append(loc)
@@ -129,7 +130,8 @@ def update_activities(filename):
 
     activities = []
     for src_activity in src_data:
-        id, name, icon_path, _ = get_common_info(src_activity, data, 'activityIcon')
+        _, name, icon_path, _ = get_common_info(src_activity, data, 'activityIcon')
+        id = src_activity['id']
 
         level_requirements = src_activity['levelRequirementsMap']
         skills = [i for i in level_requirements.keys()]
@@ -277,9 +279,9 @@ def main():
     map_layer_name = 'beta-322'
     update_locations('locations.json', map_layer_name)
     update_activities('activities.json')
-    update_buildings('buildings.json')
-    update_services('services.json')
-    update_routes('routes.json', map_layer_name)
+    # update_buildings('buildings.json')
+    # update_services('services.json')
+    # update_routes('routes.json', map_layer_name)
 
 if __name__ == '__main__':
     main()
