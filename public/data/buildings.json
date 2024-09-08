@@ -1,6 +1,6 @@
 [
   {
-    "id": "temple_of_azurazera",
+    "id": "building-temple_of_azurazera-127f2eba-0e5b-4622-aea6-396ae6c1ecf7",
     "name": "Temple of Azurazera",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Temple_of_Azurazera",
     "icon": {
@@ -10,7 +10,7 @@
     "shop": null
   },
   {
-    "id": "frosthook_emporium",
+    "id": "building-frosthook_emporium-01ead99d-4e1e-4a12-b6ff-bcf8fc54ff67",
     "name": "Frosthook Emporium",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Frosthook_Emporium",
     "icon": {
@@ -20,7 +20,7 @@
     "shop": "frosthook_emporium"
   },
   {
-    "id": "kallaheim's_frosty_finds",
+    "id": "building-kallaheim's_frosty_finds-71388909-1af6-47dc-8558-86236d0d03b8",
     "name": "Kallaheim's Frosty Finds",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Kallaheim's_Frosty_Finds",
     "icon": {
@@ -30,7 +30,7 @@
     "shop": "kallaheim_general_store"
   },
   {
-    "id": "frozen_capital_bank",
+    "id": "building-frozen_capital_bank-4e697937-2df0-4fab-b09d-9512240e3d63",
     "name": "Frozen Capital Bank",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Frozen_Capital_Bank",
     "icon": {
@@ -40,7 +40,7 @@
     "shop": null
   },
   {
-    "id": "the_icy_goblet",
+    "id": "building-the_icy_goblet-7d3ca75d-e0b5-44b3-a7f4-f0b17cea8dad",
     "name": "The Icy Goblet",
     "wikiUrl": "https://wiki.walkscape.app/wiki/The_Icy_Goblet",
     "icon": {
@@ -50,7 +50,7 @@
     "shop": "kallaheim_tavern"
   },
   {
-    "id": "helpful_herbert's_hut",
+    "id": "building-helpful_herbert's_hut-0ed43eaa-cf25-4452-b915-c07e4f4eac86",
     "name": "Helpful Herbert's Hut",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Helpful_Herbert's_Hut",
     "icon": {
@@ -60,7 +60,7 @@
     "shop": "tutorial_cabin"
   },
   {
-    "id": "woodcutter's_cabin",
+    "id": "building-woodcutter's_cabin-fee965c9-41d4-458a-9e06-09813a610ee4",
     "name": "Woodcutter's Cabin",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Woodcutter's_Cabin",
     "icon": {
@@ -70,7 +70,7 @@
     "shop": "woodcutters_cabin"
   },
   {
-    "id": "northstar_mercantile",
+    "id": "building-northstar_mercantile-e8b93e0c-50d9-4a57-9882-6cc53899e156",
     "name": "Northstar Mercantile",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Northstar_Mercantile",
     "icon": {
@@ -80,7 +80,7 @@
     "shop": "northstar_mercantile"
   },
   {
-    "id": "jarvojoy",
+    "id": "building-jarvojoy-7046d172-c527-453e-ab11-15c831c7d158",
     "name": "JarvoJoy",
     "wikiUrl": "https://wiki.walkscape.app/wiki/JarvoJoy",
     "icon": {
@@ -90,7 +90,7 @@
     "shop": "jarvojoy"
   },
   {
-    "id": "fort_of_permafrost",
+    "id": "building-fort_of_permafrost-d17d446e-c176-442b-ac47-a5490bfa0f26",
     "name": "Fort of Permafrost",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Fort_of_Permafrost",
     "icon": {
@@ -100,7 +100,7 @@
     "shop": "fort_of_permafrost"
   },
   {
-    "id": "bilgemont_castle",
+    "id": "building-bilgemont_castle-0eab0540-f6fd-4c46-86f5-f02f92b377f3",
     "name": "Bilgemont Castle",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Bilgemont_Castle",
     "icon": {
@@ -110,7 +110,7 @@
     "shop": null
   },
   {
-    "id": "bureau_of_moss",
+    "id": "building-bureau_of_moss-69287433-a3f7-443f-b844-a455cdcc6f83",
     "name": "Bureau of Moss",
     "wikiUrl": "",
     "icon": {
@@ -120,7 +120,7 @@
     "shop": null
   },
   {
-    "id": "paws_are_us",
+    "id": "building-paws_are_us-61e1d784-d7a7-4684-a195-0fe608288018",
     "name": "Paws are Us",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Paws_are_Us",
     "icon": {
@@ -130,7 +130,7 @@
     "shop": "animal_shelter"
   },
   {
-    "id": "fish_market_stall",
+    "id": "building-fish_market_stall-a566cbe4-a93a-4ae5-aaa2-40dadecea8eb",
     "name": "Fish Market Stall",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Fish_Market_Stall",
     "icon": {
@@ -140,7 +140,7 @@
     "shop": "granfiddich_fish_stall"
   },
   {
-    "id": "food_market_stall",
+    "id": "building-food_market_stall-38b7f92b-4236-4cc2-8f4c-70c0caafb83a",
     "name": "Food Market Stall",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Food_Market_Stall",
     "icon": {
@@ -150,7 +150,7 @@
     "shop": "granfiddich_food_stall"
   },
   {
-    "id": "tool_market_stall",
+    "id": "building-tool_market_stall-b269d7bb-1c71-4406-b926-cbf4f3825dbe",
     "name": "Tool Market Stall",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Tool_Market_Stall",
     "icon": {
@@ -160,7 +160,7 @@
     "shop": "granfiddich_tool_stall"
   },
   {
-    "id": "mossy_merchant's_breeze_mart",
+    "id": "building-mossy_merchant's_breeze_mart-4357aac1-9fd0-4a0b-96a7-d65bbb70e00c",
     "name": "Mossy Merchant's Breeze Mart",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Mossy_Merchant's_Breeze_Mart",
     "icon": {
@@ -170,7 +170,7 @@
     "shop": "mossy_merchants_breeze_mart"
   },
   {
-    "id": "bogside_bank_of_prosperity",
+    "id": "building-bogside_bank_of_prosperity-e18e2916-d399-4054-a7e8-e9838e53834c",
     "name": "Bogside Bank of Prosperity",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Bogside_Bank_of_Prosperity",
     "icon": {
@@ -180,7 +180,7 @@
     "shop": null
   },
   {
-    "id": "maritime_fortune_bank",
+    "id": "building-maritime_fortune_bank-40ecf29a-039f-4338-a420-20b79f65a289",
     "name": "Maritime Fortune Bank",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Maritime_Fortune_Bank",
     "icon": {
@@ -190,7 +190,7 @@
     "shop": null
   },
   {
-    "id": "bigloo",
+    "id": "building-bigloo-2990bbbc-b4a0-41e2-a0a0-0ef8089c44b4",
     "name": "Bigloo",
     "wikiUrl": "",
     "icon": {
@@ -200,7 +200,7 @@
     "shop": "bigloo"
   },
   {
-    "id": "polar_pruning",
+    "id": "building-polar_pruning-4a0c2993-94f3-4bcf-bd49-6855a3b77db1",
     "name": "Polar Pruning",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Polar_Pruning",
     "icon": {
@@ -210,7 +210,7 @@
     "shop": null
   },
   {
-    "id": "tundra_trends",
+    "id": "building-tundra_trends-25aa74db-271b-4dc3-ac09-d45b99206515",
     "name": "Tundra Trends",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Tundra_Trends",
     "icon": {
@@ -220,7 +220,7 @@
     "shop": "tundra_trends"
   },
   {
-    "id": "horn_of_respite_adventurer's_guild_outpost",
+    "id": "building-horn_of_respite_adventurer's_guild_outpost-6e9349e7-116a-4da0-a21b-80a30d575490",
     "name": "Adventurers' Guild Outpost",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Adventurers'_Guild_Outpost",
     "icon": {
@@ -230,7 +230,7 @@
     "shop": "adventurers_guild_cabin_outpost"
   },
   {
-    "id": "bog_&_blade",
+    "id": "building-bog_&_blade-20f27322-3d2e-46bd-ad64-5e6172595b9f",
     "name": "Bog & Blade",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Bog_&_Blade",
     "icon": {
@@ -240,7 +240,7 @@
     "shop": null
   },
   {
-    "id": "quagmire_couture",
+    "id": "building-quagmire_couture-88c90344-a8a8-4ba4-b1b7-85fd18b4a4da",
     "name": "Quagmire Couture",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Quagmire_Couture",
     "icon": {
@@ -250,7 +250,7 @@
     "shop": "quagmire_coutur"
   },
   {
-    "id": "casbrants_sunken_ship",
+    "id": "building-casbrants_sunken_ship-7aeeff93-b694-468a-b02d-5ba1faafba25",
     "name": "Casbrant's Sunken Ship",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Casbrant's_Sunken_Ship",
     "icon": {
@@ -260,7 +260,7 @@
     "shop": "casbrants_sunken_ship"
   },
   {
-    "id": "vastalume_bank",
+    "id": "building-vastalume_bank-30257108-66e0-4f25-9906-76f6e0a41d03",
     "name": "Thalassa Wave Bank",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Thalassa_Wave_Bank",
     "icon": {
@@ -270,7 +270,7 @@
     "shop": "kallaheim_general_store"
   },
   {
-    "id": "vastalume_tavern",
+    "id": "building-vastalume_tavern-a15607bf-cf03-4fce-bdf1-867c5608a5f5",
     "name": "Pearl of the Sea",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Pearl_of_the_Sea",
     "icon": {
@@ -280,7 +280,7 @@
     "shop": "vastalume_tavern"
   },
   {
-    "id": "vastalume_general_store",
+    "id": "building-vastalume_general_store-b36ce620-fe5a-46be-9b2e-ed7b47b52c7e",
     "name": "Sunken Anchor",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Sunken_Anchor",
     "icon": {
@@ -290,7 +290,7 @@
     "shop": "vastalume_general_store"
   },
   {
-    "id": "vastalume_tavern",
+    "id": "building-vastalume_tavern-0fb9b8b4-4a09-4da7-8a27-1880e96f259b",
     "name": "Go with the Flow Barbershop",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Go_with_the_Flow_Barber_Shop",
     "icon": {
@@ -300,7 +300,7 @@
     "shop": null
   },
   {
-    "id": "vastalume_specialized_store",
+    "id": "building-vastalume_specialized_store-9e67b8d2-ec5d-484d-93d7-72f5bafe1e42",
     "name": "Undercurrent",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Undercurrent",
     "icon": {
@@ -310,7 +310,7 @@
     "shop": "vastalume_specialized_shop"
   },
   {
-    "id": "vastalume_clothing_shop",
+    "id": "building-vastalume_clothing_shop-3b023cc3-fa43-4800-858b-16fbffcab6cb",
     "name": "Fin-tastic Fashion",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Fin-tastic_Fashion",
     "icon": {
@@ -320,7 +320,7 @@
     "shop": "fintastic_fashion"
   },
   {
-    "id": "throne_of_the_neverdrown",
+    "id": "building-throne_of_the_neverdrown-53518f64-3c36-4363-88e7-59ebdf195f38",
     "name": "Throne of the Neverdrown",
     "wikiUrl": "https://wiki.walkscape.app/wiki/Throne_of_the_Neverdrown",
     "icon": {
