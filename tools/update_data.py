@@ -94,9 +94,11 @@ def update_buildings(filename):
 
     buildings = []
     for src_building in src_data:
-        id, _, name, icon_path, old_data = get_common_info(src_building, data)
+        _, id, name, icon_path, old_data = get_common_info(src_building, data)
         wiki_url = (
-            old_data[0]["wikiUrl"] if "wikiUrl" in old_data[0] else get_wiki_url(name)
+            old_data[0]["wikiUrl"]
+            if len(old_data) and "wikiUrl" in old_data[0]
+            else get_wiki_url(name)
         )
 
         building = {
@@ -120,7 +122,9 @@ def update_services(filename):
         id, _, name, icon_path, old_data = get_common_info(src_service, data)
         skills = src_service["relatedSkills"]
         wiki_url = (
-            old_data[0]["wikiUrl"] if "wikiUrl" in old_data[0] else get_wiki_url(name)
+            old_data[0]["wikiUrl"]
+            if len(old_data) and "wikiUrl" in old_data[0]
+            else get_wiki_url(name)
         )
 
         service = {
@@ -207,9 +211,10 @@ def update_routes(filename, map_layer_name):
 def edit_locations():
     data_path = f"../public/data/locations.json"
     activity_data = read_json("./data/activities.json")
-    id_map = {get_short_id(i["id"]): i["id"] for i in activity_data}
+    building_data = read_json("./data/buildings.json")
+    id_map = {get_short_id(i["id"]): i["id"] for i in building_data}
 
-    def get_act_id(key):
+    def get_id(key):
         if key not in id_map:
             return key
         return id_map[key]
@@ -218,8 +223,11 @@ def edit_locations():
     locations = full_locations_data[1]
     for loc_i, layer in enumerate(locations["layers"]):
         for mrk_i, marker in enumerate(layer["markers"]):
-            new_activity_ids = [get_act_id(act_id) for act_id in marker["activities"]]
-            marker["activities"] = new_activity_ids
+            # new_activity_ids = [get_id(act_id) for act_id in marker["activities"]]
+            # marker["activities"] = new_activity_ids
+            new_building_ids = [get_id(bui_id) for bui_id in marker["buildings"]]
+            marker["buildings"] = new_building_ids
+
             layer["markers"][mrk_i] = marker
         locations["layers"][loc_i] = layer
     write_json(data_path, full_locations_data)
