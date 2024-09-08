@@ -183,17 +183,23 @@ def update_services(filename):
     write_json(data_path, services)
 
 def calculate_distance(distance, modifier):
-    distances = { 
-        'veryShort': 450, 
-        'short': 550, 
-        'extremelyNear': 160, 
-        'veryNear': 280, 
-        'near': 390, 
-        'lowModerate': 650, 
-        'moderate': 800, 
-        'moderateHigh': 1000, 
+    distances = {
+        'none': 0,
+        'extremelyNear': 160,
+        'veryNear': 280,
+        'near': 390,
+        'veryShort': 450,
+        'short': 550,
+        'lowModerate': 650,
+        'moderate': 800,
+        'moderateHigh': 1000,
         'lowHigh': 1300,
+        'high': 1600, 
         'veryHigh': 2000,
+        'extensive': 3000,
+        'veryExtensive': 4500,
+        'extreme': 6000,
+        'endless': 10000,
     }
     base = 1000 
     if distance in distances:
