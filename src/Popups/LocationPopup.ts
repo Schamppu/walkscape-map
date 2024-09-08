@@ -97,11 +97,6 @@ export class LocationPopup extends WSPopup {
 
     const body = DomUtil.create("div", "", this.container);
 
-    const subContentDivs = ["activities", "services", "buildings"].map((v) => {
-      const [, subContentDiv] = createSubDiv(v, body);
-      return subContentDiv;
-    });
-
     const createActivityContent = (
       parent: HTMLElement,
       data: Schema.Activity[]
@@ -186,8 +181,17 @@ export class LocationPopup extends WSPopup {
       });
     };
 
-    createActivityContent(subContentDivs[0], this.activities);
-    createSubContent(subContentDivs[1], this.services);
-    createSubContent(subContentDivs[2], this.buildings);
+    if (this.activities.length > 0) {
+      const [, subContentDiv] = createSubDiv("activities", body);
+      createActivityContent(subContentDiv, this.activities);
+    }
+    if (this.services.length > 0) {
+      const [, subContentDiv] = createSubDiv("services", body);
+      createSubContent(subContentDiv, this.services);
+    }
+    if (this.buildings.length > 0) {
+      const [, subContentDiv] = createSubDiv("buildings", body);
+      createSubContent(subContentDiv, this.buildings);
+    }
   }
 }
