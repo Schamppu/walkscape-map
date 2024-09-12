@@ -92,22 +92,37 @@ export const filterGroups = {
   Services: [
     {
       name: "Forge",
-      values: ["basic_forge", "advanced_forge", "frozen_forge"],
+      values: [
+        "basic_forge",
+        "advanced_forge",
+        "frozen_forge",
+        "underwater_forge",
+      ],
       iconUrl: iconUrl("services/forge"),
     },
     {
       name: "Kitchen",
-      values: ["basic_kitchen", "advanced_kitchen"],
+      values: [
+        "basic_kitchen",
+        "advanced_kitchen",
+        "underwater_kitchen",
+        "eberhart_mansion_kitchen",
+      ],
       iconUrl: iconUrl("services/kitchen"),
     },
     {
       name: "Sawmill",
-      values: ["basic_sawmill", "advanced_sawmill"],
+      values: [
+        "basic_sawmill",
+        "advanced_sawmill",
+        "sawmill_of_barbantok",
+        "underwater_sawmill",
+      ],
       iconUrl: iconUrl("services/sawmill"),
     },
     {
       name: "Workshop",
-      values: ["basic_workshop", "advanced_workshop"],
+      values: ["basic_workshop", "advanced_workshop", "tidal_workshop"],
       iconUrl: iconUrl("services/workshop"),
     },
     {
@@ -141,6 +156,6 @@ export const filterGroups = {
       name: "Routes",
       values: ["route"],
       iconUrl: iconUrl("activities/agility/traveling"),
-    }
+    },
   ],
 };
