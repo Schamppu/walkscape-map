@@ -3,15 +3,12 @@ import "./styles/main.scss";
 import "./styles/globals/typography.scss";
 import "./styles/globals/tailorings.scss";
 
-import { inject } from "@vercel/analytics";
 import { WSMap } from "./WSMap";
 import * as Schema from "./Interfaces/JSONSchema";
 import { mapLayers } from "./data/mapLayers";
 import { filterGroups } from "./data/filterGroups";
 
 window.onload = async () => {
-  inject();
-
   function returnValue(arr: Schema.DataPoint[]) {
     return arr;
   }
