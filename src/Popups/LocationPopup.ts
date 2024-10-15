@@ -72,6 +72,8 @@ export class LocationPopup extends WSPopup {
       titleLink.innerText = this.name;
       titleLink.href = this.wikiUrl;
       titleLink.target = "_blank";
+      titleLink.onclick = () =>
+        window._paq.push(["trackEvent", "Wiki link", "Location", this.name]);
     } else {
       const title = DomUtil.create("h2", `title color-${this.realm}`, titleDiv);
       title.innerText = this.name;
@@ -121,6 +123,8 @@ export class LocationPopup extends WSPopup {
           link.innerText = d.name;
           link.href = d.wikiUrl;
           link.target = "_blank";
+          link.onclick = () =>
+            window._paq.push(["trackEvent", "Wiki link", "Activity", d.name]);
         } else {
           text.innerText = d.name;
         }
@@ -175,6 +179,13 @@ export class LocationPopup extends WSPopup {
           link.innerText = d.name;
           link.href = d.wikiUrl;
           link.target = "_blank";
+          link.onclick = () =>
+            window._paq.push([
+              "trackEvent",
+              "Wiki link",
+              "Building/Service",
+              d.name,
+            ]);
         } else {
           text.innerText = d.name;
         }
