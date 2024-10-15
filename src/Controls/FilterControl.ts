@@ -153,7 +153,7 @@ export class FilterControl extends ControlPane {
 
   private enableFilter(item: LegendItem, urlUpdate = true) {
     const { category, li } = item;
-    window._paq.push(["trackEvent", "Filter", "Hide", category.name]);
+    window._paq.push(["trackEvent", "Filter", "Show", category.name]);
     DomUtil.addClass(li, "selected");
     category.values.forEach(
       (value) => (this.shownValues[value] = Visibility.On)
