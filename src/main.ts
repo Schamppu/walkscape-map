@@ -8,6 +8,8 @@ import * as Schema from "./Interfaces/JSONSchema";
 import { mapLayers } from "./data/mapLayers";
 import { filterGroups } from "./data/filterGroups";
 
+window._paq = window._paq || [];
+
 window.onload = async () => {
   function returnValue(arr: Schema.DataPoint[]) {
     return arr;

@@ -44,10 +44,12 @@ export class FilterControl extends ControlPane {
     DomUtil.addClass(this.all, "selected");
 
     DomEvent.addListener(this.all, "click", () => {
+      window._paq.push(["trackEvent", "Filter", "Show", "All"]);
       this.showAll();
     });
 
     DomEvent.addListener(this.none, "click", () => {
+      window._paq.push(["trackEvent", "Filter", "Hide", "All"]);
       this.showNone();
     });
 
@@ -134,6 +136,7 @@ export class FilterControl extends ControlPane {
 
   private disableFilter(item: LegendItem) {
     const { category, li } = item;
+    window._paq.push(["trackEvent", "Filter", "Hide", category.name]);
     DomUtil.removeClass(li, "selected");
     category.values.forEach(
       (value) => (this.shownValues[value] = Visibility.Off)
@@ -150,6 +153,7 @@ export class FilterControl extends ControlPane {
 
   private enableFilter(item: LegendItem, urlUpdate = true) {
     const { category, li } = item;
+    window._paq.push(["trackEvent", "Filter", "Hide", category.name]);
     DomUtil.addClass(li, "selected");
     category.values.forEach(
       (value) => (this.shownValues[value] = Visibility.On)
