@@ -22,10 +22,10 @@
         var siteId;
 
         // Set the siteId based on the environment variable
-        if (window.location.hostname === 'https://map.walkscape.app/') {
-          siteId = "2"; // prod siteId
-        } else {
+        if (window.location.hostname === 'map.dev.walkscape.app') {
           siteId = "6"; // dev siteId
+        } else {
+          siteId = "2"; // prod siteId
         }
 
         _paq.push(["setTrackerUrl", u + "matomo.php"]);
