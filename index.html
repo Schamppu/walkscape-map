@@ -19,8 +19,17 @@
       _paq.push(["enableLinkTracking"]);
       (function () {
         var u = "https://matomo.tools.walkscape.app/";
+        var siteId;
+
+        // Set the siteId based on the environment variable
+        if (window.location.hostname === 'https://map.walkscape.app/') {
+          siteId = "2"; // prod siteId
+        } else {
+          siteId = "6"; // dev siteId
+        }
+
         _paq.push(["setTrackerUrl", u + "matomo.php"]);
-        _paq.push(["setSiteId", "2"]);
+        _paq.push(["setSiteId", siteId]);
         var d = document,
           g = d.createElement("script"),
           s = d.getElementsByTagName("script")[0];
