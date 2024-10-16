@@ -76,7 +76,6 @@ export class LocationPopup extends WSPopup {
       titleLink.onclick = () =>
         window._paq.push([
           "trackEvent",
-          "Popup",
           "Open wiki link",
           "Location",
           capitalize(this.name),
@@ -133,7 +132,6 @@ export class LocationPopup extends WSPopup {
           link.onclick = () =>
             window._paq.push([
               "trackEvent",
-              "Popup",
               "Open wiki link",
               "Activity",
               capitalize(d.name),
@@ -195,7 +193,6 @@ export class LocationPopup extends WSPopup {
           link.onclick = () =>
             window._paq.push([
               "trackEvent",
-              "Popup",
               "Open wiki link",
               "Building/Service",
               capitalize(d.name),

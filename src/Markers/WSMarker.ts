@@ -46,7 +46,7 @@ export class WSMarker extends Marker {
         const popupContent = this.popup.getPopupContent();
         this.setPopupContent(popupContent).openPopup();
         URLResolver.UpdateLocationURL(this.id, true);
-        window._paq.push(["trackEvent", "Map", "Click", capitalize(this.keywords[0]), capitalize(this.id)]);
+        window._paq.push(["trackEvent", "Map", "Click", `${capitalize(this.keywords[0])}  - ${capitalize(this.id)}`]);
       }
     });
 
