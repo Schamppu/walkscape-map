@@ -7,6 +7,7 @@ import { WSLocationMarker } from "./WSLocationMarker";
 import { WSRealmMarker } from "./WSRealmMarker";
 import { WSPopup } from "../Popups/WSPopup";
 import { URLResolver } from "../URLResolver";
+import { capitalize } from "../utils/utils";
 
 export class WSMarker extends Marker {
   protected popup?: WSPopup;
@@ -45,7 +46,7 @@ export class WSMarker extends Marker {
         const popupContent = this.popup.getPopupContent();
         this.setPopupContent(popupContent).openPopup();
         URLResolver.UpdateLocationURL(this.id, true);
-        window._paq.push(['trackEvent', 'popup open', this.id]);
+        window._paq.push(["trackEvent", "Map", "Click", capitalize(this.keywords[0]), capitalize(this.id)]);
       }
     });
 
