@@ -91,7 +91,7 @@ export class LayersControl extends ControlPane {
   private addClickHandler(layerItem: LayerItem) {
     const { li, name } = layerItem;
     DomEvent.addListener(li, "click", () => {
-      window._paq.push(["trackEvent", "Layers", "Show", name]);
+      window._paq.push(["trackEvent", "Control", "Layers", `show ${name}`]);
       if (!DomUtil.hasClass(li, "selected")) {
         this.enableLayer(layerItem);
       }

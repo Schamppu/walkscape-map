@@ -1,6 +1,7 @@
 import * as Schema from "../Interfaces/JSONSchema";
 import { DomUtil, Point } from "leaflet";
 import { WSPopup, WSPopupOptions } from "./WSPopup";
+import { capitalize } from "../utils/utils";
 
 export interface LocationPopupOptions extends WSPopupOptions {
   realm: string;
@@ -73,7 +74,12 @@ export class LocationPopup extends WSPopup {
       titleLink.href = this.wikiUrl;
       titleLink.target = "_blank";
       titleLink.onclick = () =>
-        window._paq.push(["trackEvent", "Wiki link", "Location", this.name]);
+        window._paq.push([
+          "trackEvent",
+          "Open wiki link",
+          "Location",
+          capitalize(this.name),
+        ]);
     } else {
       const title = DomUtil.create("h2", `title color-${this.realm}`, titleDiv);
       title.innerText = this.name;
@@ -124,7 +130,12 @@ export class LocationPopup extends WSPopup {
           link.href = d.wikiUrl;
           link.target = "_blank";
           link.onclick = () =>
-            window._paq.push(["trackEvent", "Wiki link", "Activity", d.name]);
+            window._paq.push([
+              "trackEvent",
+              "Open wiki link",
+              "Activity",
+              capitalize(d.name),
+            ]);
         } else {
           text.innerText = d.name;
         }
@@ -182,9 +193,9 @@ export class LocationPopup extends WSPopup {
           link.onclick = () =>
             window._paq.push([
               "trackEvent",
-              "Wiki link",
+              "Open wiki link",
               "Building/Service",
-              d.name,
+              capitalize(d.name),
             ]);
         } else {
           text.innerText = d.name;
